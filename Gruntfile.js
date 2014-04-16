@@ -326,6 +326,24 @@ module.exports = function (grunt) {
                     cwd: '.',
                     src: ['bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/*.*'],
                     dest: '<%= config.dist %>'
+                }, {
+                    expand: true,
+                    dot: true,
+                    cwd: 'bower_components/bootstrap/dist',
+                    src: ['fonts/*.*'],
+                    dest: '<%= config.dist %>'
+                }, {
+                    expand: true,
+                    dot: true,
+                    cwd: 'bower_components/respond/dest',
+                    src: ['*.js'],
+                    dest: '<%= config.dist %>/scripts/respond/'
+                }, {
+                    expand: true,
+                    dot: true,
+                    cwd: 'bower_components/html5shiv/dist',
+                    src: ['*.js'],
+                    dest: '<%= config.dist %>/scripts/html5shiv/'
                 }]
             },
             styles: {
