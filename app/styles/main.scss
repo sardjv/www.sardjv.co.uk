@@ -71,7 +71,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 730px;
+        max-width: 1050px;
     }
 
     /* Remove the padding we set earlier */
@@ -92,3 +92,22 @@ body {
         border-bottom: 0;
     }
 }
+
+
+// KM Edits
+
+.navbar-inverse .navbar-nav {
+  font-size: $font-size-small;
+}
+
+.navbar2 {
+  top:30px;
+  background: url('../images/construction/60_percent_black_transparent.png') repeat;
+  min-height: 4*30px;
+  .navbar-brand {
+    height:90px;
+    line-height:120px;
+    padding:0px $navbar-padding-horizontal;
+  }
+}
+

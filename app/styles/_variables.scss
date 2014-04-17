@@ -29,7 +29,7 @@ $brand-danger:          #d9534f !default;
 // ## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #aff !default;
+$body-bg:               #fff !default;
 //** Global text color on `<body>`.
 $text-color:            $gray-dark !default;
 
@@ -295,7 +295,7 @@ $screen-md-max:              ($screen-lg-min - 1) !default;
 //## Define your custom responsive grid.
 
 //** Number of columns in the grid.
-$grid-columns:              12 !default;
+$grid-columns:              17 !default;
 //** Padding between columns. Gets divided in half for the left and right.
 $grid-gutter-width:         30px !default;
 // Navbar collapse
@@ -330,7 +330,7 @@ $container-lg:                 $container-large-desktop !default;
 //##
 
 // Basics of a navbar
-$navbar-height:                    50px !default;
+$navbar-height:                    30px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
 $navbar-border-radius:             $border-radius-base !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
@@ -363,8 +363,8 @@ $navbar-default-toggle-border-color:       #ddd !default;
 
 // Inverted navbar
 // Reset inverted navbar basics
-$navbar-inverse-color:                      $gray-light !default;
-$navbar-inverse-bg:                         #222 !default;
+$navbar-inverse-color:                      #eae9e8 !default;
+$navbar-inverse-bg:                         #201c18 !default;
 $navbar-inverse-border:                     darken($navbar-inverse-bg, 10%) !default;
 
 // Inverted navbar links
