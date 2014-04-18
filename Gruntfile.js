@@ -344,6 +344,18 @@ module.exports = function (grunt) {
                     cwd: 'bower_components/html5shiv/dist',
                     src: ['*.js'],
                     dest: '<%= config.dist %>/scripts/html5shiv/'
+                }, {
+                    expand: true,
+                    dot: true,
+                    cwd: 'bower_components/video.js/dist/cdn',
+                    src: ['video.js', 'video-js.swf'],
+                    dest: '<%= config.dist %>/scripts/videojs/'
+                }, {
+                    expand: true,
+                    dot: true,
+                    cwd: 'bower_components/video.js/dist/cdn',
+                    src: ['video-js.css'],
+                    dest: '<%= config.dist %>/styles/videojs/'
                 }]
             },
             styles: {

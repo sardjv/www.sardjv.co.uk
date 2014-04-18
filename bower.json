@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "respond": "~1.4.2",
-    "html5shiv": "~3.7.0"
+    "html5shiv": "~3.7.0",
+    "video.js": "https://github.com/videojs/video.js.git#~4.5.2"
   }
 }
