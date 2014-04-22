@@ -318,6 +318,7 @@ module.exports = function (grunt) {
                         '.htaccess',
                         'images/{,*/}*.webp',
                         '{,*/}*.html',
+                        'CNAME',
                         'styles/fonts/{,*/}*.*'
                     ]
                 }, {
@@ -347,13 +348,13 @@ module.exports = function (grunt) {
                 }, {
                     expand: true,
                     dot: true,
-                    cwd: 'bower_components/video.js/dist/cdn',
+                    cwd: 'bower_components/video.js/dist/video-js',
                     src: ['video.js', 'video-js.swf'],
                     dest: '<%= config.dist %>/scripts/videojs/'
                 }, {
                     expand: true,
                     dot: true,
-                    cwd: 'bower_components/video.js/dist/cdn',
+                    cwd: 'bower_components/video.js/dist/video-js',
                     src: ['video-js.css'],
                     dest: '<%= config.dist %>/styles/videojs/'
                 }]
@@ -368,13 +369,13 @@ module.exports = function (grunt) {
                 }, {
                     expand: true,
                     dot: true,
-                    cwd: 'bower_components/video.js/dist/cdn',
+                    cwd: 'bower_components/video.js/dist/video-js',
                     src: ['video.js', 'video-js.swf'],
                     dest: '.tmp/scripts/videojs/'
                 }, {
                     expand: true,
                     dot: true,
-                    cwd: 'bower_components/video.js/dist/cdn',
+                    cwd: 'bower_components/video.js/dist/video-js',
                     src: ['video-js.css'],
                     dest: '.tmp/styles/videojs/'
                 }]

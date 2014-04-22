@@ -132,14 +132,14 @@ body {
   z-index: 1029;
   .navbar-right a {
     width: 120px;
-    &.why {background: url('../images/simon_web/NAV_Roundel_WHY_Wht.png') no-repeat center;}
-    &.how {background: url('../images/simon_web/NAV_Roundel_HOW_Wht.png') no-repeat center;}
-    &.what {background: url('../images/simon_web/NAV_Roundel_WHAT_Wht.png') no-repeat center;}
+    &.why {background: url('../images/simon_web/Nav_Roundel_WHY_Wht.png') no-repeat center;}
+    &.how {background: url('../images/simon_web/Nav_Roundel_HOW_Wht.png') no-repeat center;}
+    &.what {background: url('../images/simon_web/Nav_Roundel_WHAT_Wht.png') no-repeat center;}
     
     &.active {
-      &.why {background: url('../images/simon_web/NAV_Roundel_WHY_Orange.png') no-repeat center;}
-      &.how {background: url('../images/simon_web/NAV_Roundel_HOW_SBlue.png') no-repeat center;}
-      &.what {background: url('../images/simon_web/NAV_Roundel_WHAT_Purple.png') no-repeat center;}
+      &.why {background: url('../images/simon_web/Nav_Roundel_WHY_Orange.png') no-repeat center;}
+      &.how {background: url('../images/simon_web/Nav_Roundel_HOW_SBlue.png') no-repeat center;}
+      &.what {background: url('../images/simon_web/Nav_Roundel_WHAT_Purple.png') no-repeat center;}
     }
   }
   
