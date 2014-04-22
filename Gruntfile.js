@@ -359,7 +359,7 @@ module.exports = function (grunt) {
                 }]
             },
             styles: {
-              files:[{
+                files:[{
                     expand: true,
                     dot: true,
                     cwd: '<%= config.app %>/styles',
@@ -377,7 +377,7 @@ module.exports = function (grunt) {
                     cwd: 'bower_components/video.js/dist/cdn',
                     src: ['video-js.css'],
                     dest: '.tmp/styles/videojs/'
-                }] 
+                }]
             }
         },
 

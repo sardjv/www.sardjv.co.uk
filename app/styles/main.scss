@@ -68,30 +68,30 @@ body {
     }
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 730px;
-    }
-
-    /* Remove the padding we set earlier */
-    .header,
-    .marketing,
-    .footer {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    /* Space out the masthead */
-    .header {
-        margin-bottom: 30px;
-    }
-
-    /* Remove the bottom border on the jumbotron for visual effect */
-    .jumbotron {
-        border-bottom: 0;
-    }
-}
+///* Responsive: Portrait tablets and up */
+//@media screen and (min-width: 768px) {
+//    .container {
+//        max-width: 730px;
+//    }
+//
+//    /* Remove the padding we set earlier */
+//    .header,
+//    .marketing,
+//    .footer {
+//        padding-left: 0;
+//        padding-right: 0;
+//    }
+//
+//    /* Space out the masthead */
+//    .header {
+//        margin-bottom: 30px;
+//    }
+//
+//    /* Remove the bottom border on the jumbotron for visual effect */
+//    .jumbotron {
+//        border-bottom: 0;
+//    }
+//}
 
 
 // KM Edits
@@ -100,14 +100,53 @@ body {
   font-size: $font-size-small;
 }
 
+.navbar1 {
+  .navbar-nav {
+    // Uncollapse the nav
+    float: left;
+    margin: 0;
+
+    > li {
+      float: left;
+      > a {
+        padding-top:    $navbar-padding-vertical;
+        padding-bottom: $navbar-padding-vertical;
+      }
+    }
+
+    &.navbar-right:last-child {
+      margin-right: -$navbar-padding-horizontal;
+    }
+  }
+}
+
 .navbar2 {
   top:30px;
   background: url('../images/construction/60_percent_black_transparent.png') repeat;
-  min-height: 4*30px;
+  a {min-height: 4*30px;}
   .navbar-brand {
-    height:90px;
     line-height:120px;
     padding:0px $navbar-padding-horizontal;
+    &.sard-logo {height: 30px; width: ($navbar-padding-horizontal*2) + 389; background: url('../images/simon_web/SARD_Logo_Wht_389x90.png') no-repeat center $navbar-padding-horizontal;}
   }
+  z-index: 1029;
+  .navbar-right a {
+    width: 120px;
+    &.why {background: url('../images/simon_web/NAV_Roundel_WHY_Wht.png') no-repeat center;}
+    &.how {background: url('../images/simon_web/NAV_Roundel_HOW_Wht.png') no-repeat center;}
+    &.what {background: url('../images/simon_web/NAV_Roundel_WHAT_Wht.png') no-repeat center;}
+    
+    &.active {
+      &.why {background: url('../images/simon_web/NAV_Roundel_WHY_Orange.png') no-repeat center;}
+      &.how {background: url('../images/simon_web/NAV_Roundel_HOW_SBlue.png') no-repeat center;}
+      &.what {background: url('../images/simon_web/NAV_Roundel_WHAT_Purple.png') no-repeat center;}
+    }
+  }
+  
+  @media (max-width: $grid-float-breakpoint) {
+    a {min-height: 30px;}
+    .navbar-right {float:right; li {float:left; a{width: 90px;}}}
+    .navbar-brand.sard-logo {width: ($navbar-padding-horizontal*2) + 78; background: url('../images/simon_web/SARD_Logo_Wht_78x18.png') no-repeat $navbar-padding-horizontal;}
+  }  
 }
 
