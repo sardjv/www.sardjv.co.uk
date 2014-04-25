@@ -99,6 +99,14 @@ body {
 
 // KM Edits
 
+// KM mixins
+
+@mixin narrow-navbar() {
+    a {min-height: 30px;}
+    .navbar-right {float:right; li {float:left; a{width: 90px;}}}
+    .navbar-brand.sard-logo {width: ($navbar-padding-horizontal*2) + 78; background: url('../images/simon_web/SARD_Logo_Wht_78x18.png') no-repeat $navbar-padding-horizontal;}
+}
+
 .navbar-inverse .navbar-nav {
   font-size: $font-size-small;
 }
@@ -147,9 +155,11 @@ body {
   }
   
   @media (max-width: $grid-float-breakpoint) {
-    a {min-height: 30px;}
-    .navbar-right {float:right; li {float:left; a{width: 90px;}}}
-    .navbar-brand.sard-logo {width: ($navbar-padding-horizontal*2) + 78; background: url('../images/simon_web/SARD_Logo_Wht_78x18.png') no-repeat $navbar-padding-horizontal;}
-  }  
+      @include narrow-navbar;
+  }
+  &.narrow {
+      @include narrow-navbar;
+  }
+    
 }
 
