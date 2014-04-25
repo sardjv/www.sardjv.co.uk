@@ -1,0 +1,115 @@
+// There is a path to Startup framework
+@startup-basePath: "../../../";
+
+@import '@{startup-basePath}flat-ui/less/variables.less';
+@import '@{startup-basePath}flat-ui/less/mixins.less';
+
+@import '@{startup-basePath}common-files/less/mixins.less';
+@import '@{startup-basePath}common-files/less/common.less';
+@import '@{startup-basePath}common-files/less/navbar.less';
+@import '@{startup-basePath}common-files/less/helper.less';
+
+/* header */
+@import '@{startup-basePath}ui-kit/ui-kit-header/less/header-3.less';
+
+/* content */
+@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-2.less';
+@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-9.less';
+@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-12.less';
+@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-28.less';
+@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-30.less';
+
+/* footer */
+@import '@{startup-basePath}ui-kit/ui-kit-footer/less/footer-4.less';
+
+body > section, footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    @media (max-width: 768px) {
+        padding-top: 105px;
+        padding-bottom: 105px;
+    }
+}
+.content-30 {
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.content-2 {
+    padding-top: 120px;
+    padding-bottom: 130px;
+    @media (max-width: 768px) {
+        padding-top: 105px;
+        padding-bottom: 105px;
+    }
+}
+.content-28 {
+    background-color: #f4f5f6;
+    @media (max-width: 767px) {
+        padding-top: 105px;
+        padding-bottom: 0;
+    }
+}
+.content-9 {
+    padding-top: 130px;
+    padding-bottom: 0;
+    @media (max-width: 767px) {
+        padding-top: 105px;
+        padding-bottom: 0;
+        .hidden-phone{
+          margin-top: 40px;
+        }
+    }
+}
+.content-12 {
+    padding-bottom: 0;
+    padding-top: 130px;
+    @media (max-width: 768px) {
+        padding-top: 105px;
+        padding-bottom: 0;
+    }
+}
+.tpl-6-section-1 {
+    position:relative;
+    .tpl-6-mask {
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        .opacity(50);
+    }
+    overflow:hidden;
+    background-image: url('../img/NY_001.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 265px;
+    padding-bottom: 265px;
+    text-align: center;
+    .background-size(cover);
+    @media (max-width: 768px) {
+        .background-size(auto 200%);
+        padding-top: 105px;
+        padding-bottom: 105px;
+    }
+    h3 {
+        .font(30px, white);
+        font-family:@font-family-demo;
+        margin-bottom:20px;
+    }
+    .container > img {
+        margin-bottom: 50px;
+    }
+    .lead {
+        .font(15px, @brand-secondary);
+        font-family:@font-family-demo;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    @media (max-width: 480px) {
+        padding-top: 105px;
+        padding-bottom: 105px;
+        background-attachment: scroll;
+        background-position: 50% 50%!important;
+    }
+}

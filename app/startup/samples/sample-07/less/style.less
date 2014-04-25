@@ -1,0 +1,155 @@
+// There is a path to Startup framework
+@startup-basePath: "../../../";
+
+@import '@{startup-basePath}flat-ui/less/variables.less';
+@import '@{startup-basePath}flat-ui/less/mixins.less';
+
+@import '@{startup-basePath}common-files/less/mixins.less';
+@import '@{startup-basePath}common-files/less/common.less';
+@import '@{startup-basePath}common-files/less/navbar.less';
+@import '@{startup-basePath}common-files/less/helper.less';
+
+/* header */
+@import "@{startup-basePath}ui-kit/ui-kit-header/less/header-18.less";
+
+.header-18 .header-18-sub .header-18-section.s2 {
+    .img {
+        display: inline-block;
+        position: relative;
+        img {
+            .transition(.4s);
+        }
+        img[src*="/twitter-2@2x"] {
+            position: absolute;
+            width: 85%;
+            top: 16%;
+            left: 0;
+            .backface-visibility(visible);
+        }
+        img:first-child {
+            visibility: hidden;
+        }
+        &:hover {
+            img[src*="/twitter-2@2x"] {
+                -webkit-transform: rotateY(180deg);
+                -moz-transform: rotateY(180deg);
+                -ms-transform: rotateY(180deg);
+                -o-transform: rotateY(180deg);
+                transform: rotateY(180deg);
+            }
+        }
+    }
+    .signup-form {
+        form {
+            margin: 20px 0;
+            .controls-row .fool {
+                display: table-cell;
+                width: 100%;
+                float:left;
+                .box-sizing(border-box);
+                input {
+                    width: 100%;
+                    .box-sizing(border-box);
+                    height: 41px;
+                }
+            }
+            .controls-row:first-child + .controls-row {
+                display: table;
+                width: 100%;
+                > div {
+                    display: table-cell;
+                    width: 50%;
+                    .box-sizing(border-box);
+                    padding-left: 5px;
+                    @media (max-width: 767px) {
+                        padding-left: 9px;
+                    }
+                    &:first-child {
+                        padding-left: 0;
+                        padding-right: 5px;
+                        @media (max-width: 767px) {
+                            padding-right: 9px;
+                        }
+                    }
+                }
+                input {
+                    width: 100%;
+                    .box-sizing(border-box);
+                    height: 41px;
+                }
+            }
+            input[type="text"], input[type="password"] {
+                border-color: #fff;
+            }
+            .btn {
+                color: #c0392b;
+                font-weight: 500;
+                font-size: 17px;
+                @media (max-width: 767px) {
+                    margin: 9px 0;
+                }
+            }
+        }
+        @media (max-width: 480px) {
+            form {
+                margin-bottom: 4px;
+            }
+        }
+    }
+}
+.header-18 .header-18-sub .pt-page-current .header-18-section .img img[src*="/twitter-1@2x"] {
+    visibility: visible;
+}
+.signup-form {
+  form {
+    font-family:@font-family-demo;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    .form-group:first-child + .form-group {
+      display: table;
+      width: 100%;
+      > div {
+        display: table-cell;
+        width: 50%;
+        padding-left: 5px;
+        @media (max-width: 767px) {
+          padding-left: 9px;
+        }
+        &:first-child {
+          padding-left: 0;
+          padding-right: 5px;
+          @media (max-width: 767px) {
+            padding-right: 9px;
+          }
+        }
+      }
+      input {
+        width: 100%;
+      }
+    }
+    .btn {
+      @media (max-width: 767px) {
+        margin: 9px 0;
+      }
+      &.btn-info {
+        &:hover, &:focus {
+          background-color: @btn-primary-active-bg;
+        }
+        &:active, &.active {
+          background-color: mix(@btn-primary-active-bg, black, 85%);
+        }
+      }
+    }
+    input[type="text"], input[type="password"] {
+      border-color: white!important;
+      @media (max-width: 767px) {
+        height: 41px;
+      }
+    }
+  }
+  @media (max-width: 480px) {
+    form {
+      margin-top: 25px;
+    }
+  }
+}

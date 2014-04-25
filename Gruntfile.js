@@ -51,6 +51,10 @@ module.exports = function (grunt) {
                 files: ['<%= config.app %>/styles/{,*/}*.{scss,sass}'],
                 tasks: ['sass:server', 'autoprefixer']
             },
+            less: {
+                files: ['<%= config.app %>/styles/{,*/}*.less'],
+                tasks: ['less:server', 'autoprefixer']
+            },
             styles: {
                 files: ['<%= config.app %>/styles/{,*/}*.css'],
                 tasks: ['newer:copy:styles', 'autoprefixer']
@@ -175,6 +179,32 @@ module.exports = function (grunt) {
             }
         },
 
+        less: {
+            options: {
+                includePaths: [
+                    'bower_components'
+                ]
+            },
+            dist: {
+                files: [{
+                    expand: true,
+                    cwd: '<%= config.app %>/styles',
+                    src: ['*.less'],
+                    dest: '.tmp/styles',
+                    ext: '.css'
+                }]
+            },
+            server: {
+                files: [{
+                    expand: true,
+                    cwd: '<%= config.app %>/styles',
+                    src: ['*.less'],
+                    dest: '.tmp/styles',
+                    ext: '.css'
+                }]
+            }
+        },
+
         // Add vendor prefixed styles
         autoprefixer: {
             options: {
@@ -198,6 +228,9 @@ module.exports = function (grunt) {
             },
             sass: {
                 src: ['<%= config.app %>/styles/{,*/}*.{scss,sass}']
+            },
+            less: {
+                src: ['<%= config.app %>/styles/{,*/}*.less']
             }
         },
 
@@ -232,7 +265,7 @@ module.exports = function (grunt) {
                 assetsDirs: ['<%= config.dist %>', '<%= config.dist %>/images']
             },
             html: ['<%= config.dist %>/{,*/}*.html'],
-            css: ['<%= config.dist %>/styles/{,*/}*.css']
+            css: ['<%= config.dist %>/styles/{,*/}*.css','<%= config.dist %>/styles/{,*/}*.css']
         },
 
         // The following *-min tasks produce minified files in the dist folder
@@ -403,6 +436,7 @@ module.exports = function (grunt) {
         concurrent: {
             server: [
                 'sass:server',
+                'less:server',
                 'copy:styles'
             ],
             test: [
@@ -410,6 +444,7 @@ module.exports = function (grunt) {
             ],
             dist: [
                 'sass',
+                'less',
                 'copy:styles',
                 'imagemin',
                 'svgmin'

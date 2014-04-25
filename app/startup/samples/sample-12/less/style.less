@@ -1,0 +1,148 @@
+// There is a path to Startup framework
+@startup-basePath: "../../../";
+
+@import '@{startup-basePath}flat-ui/less/variables.less';
+@import '@{startup-basePath}flat-ui/less/mixins.less';
+
+@import '@{startup-basePath}common-files/less/mixins.less';
+@import '@{startup-basePath}common-files/less/common.less';
+@import '@{startup-basePath}common-files/less/navbar.less';
+@import '@{startup-basePath}common-files/less/helper.less';
+
+/* header */
+@import '@{startup-basePath}ui-kit/ui-kit-header/less/header-20.less';
+
+/* contents */
+@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-10.less';
+
+/* footer */
+@import '@{startup-basePath}ui-kit/ui-kit-footer/less/footer-11.less';
+
+body > section {
+    padding-top: 98px;
+    padding-bottom: 98px;
+}
+body > section, footer {
+    border-top: 2px solid #ecf0f1;
+}
+.content-10 {
+    padding-top: 98px;
+    padding-bottom: 98px;
+    overflow:hidden;
+    .features .box {
+        border:0 none;
+        margin-top:0;
+    }
+    > img {
+        bottom: 0;
+        max-width: none;
+        position: absolute;
+        right: -100px;
+        height: 100%;
+        .opacity(0);
+        &.ani-processed {
+            .transition(~'.8s right, 1.2s opacity');
+            right: 0;
+            .opacity(100);
+        }
+    }
+    .box {
+        left: -15%;
+        .opacity(0);
+        &.ani-processed {
+            .transition(~'.8s left, 1.2s opacity');
+            left: 0;
+            .opacity(100);
+        }
+    }
+    @media (max-width: 480px) {
+        > img {
+            display: none;
+        }
+    }
+}
+.footer-11 {
+    padding-top: 40px;
+    nav ul li a {
+        .a-color(@peter-river, @silver);
+    }
+}
+.tpl-12-section-1 {
+  padding:93px 0 95px;
+  border-top: 2px solid #ecf0f1;
+    h3 {
+        .font(30px, @text-color-heading);
+        font-weight: 300;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    p {
+        margin-top: 33px;
+        margin-bottom: 0;
+        .font(16px);
+        font-family: @font-family-demo;
+    }
+    .logos {
+        margin-top: 33px;
+        display: table;
+        width: 100%;
+        > div {
+            display: table-cell;
+            text-align: left;
+        }
+        @media (max-width: 480px) {
+            display: none;
+        }
+    }
+}
+.tpl-12-section-2 {
+    border-top: 0;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    @media (max-width: 767px) {
+        padding-top: 108px;
+        padding-bottom: 108px;
+    }
+    h3 {
+        .font(30px, @text-color-heading);
+        font-weight:300;
+        margin: 0 0 38px;
+        text-align: center;
+    }
+    .signup-form {
+        form {
+            margin: 30px auto 0;
+            input {
+                border: 2px solid #dee1e3;
+            }
+            input, button {
+                float: left;
+                width: 21.8%;
+                margin: 0 0 0 2.3%;
+                @media (min-width: 1200px) {
+                    width: 22%;
+                }
+                @media (max-width: 979px) and (min-width: 768px) {
+                    width: 21.4%;
+                }
+                @media (max-width: 767px) {
+                    width: 23.2%;
+                }
+                @media (max-width: 480px) {
+                    width: 100%;
+                    margin: 10px 0 0;
+                    display: block;
+                    float: none;
+                    height: 41px;
+                    .box-sizing(border-box);
+                }
+                &:first-child {
+                    margin: 0;
+                }
+            }
+            input:focus {
+                border-color: @brand-info!important;
+            }
+        }
+    }
+}

@@ -1,0 +1,113 @@
+// There is a path to Startup framework
+@startup-basePath: "../../../";
+
+@import '@{startup-basePath}flat-ui/less/variables.less';
+@import '@{startup-basePath}flat-ui/less/mixins.less';
+
+@import '@{startup-basePath}common-files/less/mixins.less';
+@import '@{startup-basePath}common-files/less/common.less';
+@import '@{startup-basePath}common-files/less/navbar.less';
+@import '@{startup-basePath}common-files/less/helper.less';
+
+/* header */
+@import '@{startup-basePath}ui-kit/ui-kit-header/less/header-22.less';
+
+/* contents */
+@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-2.less';
+@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-7.less';
+@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-11.less';
+@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-15.less';
+
+body > section {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    @media (max-width: 480px) {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+.content-2 {
+    background: url("../img/map.jpg") no-repeat scroll 50% 50% #EBEDEE;
+    .background-size(cover);
+    border-top: 11px solid #95A5A6;
+    padding-bottom: 150px;
+    padding-top: 140px;
+    .btn.btn-clear {
+        .box-sizing(border-box);
+        padding: 7px 26px 8px;
+        background: none;
+        border: 2px solid @brand-danger;
+        .font(14px, @brand-danger);
+        font-family: @font-family-demo;
+        font-weight: 500;
+        &:hover, &:focus {
+            background: @brand-danger;
+            color: #fff;
+        }
+        &:active, &.active {
+            border-color: @btn-danger-active-bg;
+            background: @btn-danger-active-bg;
+            color: rgba(255, 255, 255, 0.75);
+        }
+    }
+    .btn.btn-large {
+        padding-left: 26px;
+        padding-right: 26px;
+        .font(14px, @brand-danger);
+        font-family: @font-family-demo;
+        font-weight: bold;
+    }
+    .btn.btn-large.btn-clear {
+        padding: 11px 26px 12px;
+    }
+    @media (max-width: 480px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+.content-2.first {
+    background: none repeat scroll 0 0 #EBEDEE;
+    border-top: 11px solid #95A5A6;
+    padding-bottom: 140px;
+    padding-top: 135px;
+    @media (max-width: 480px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+.content-11 {
+    background: none repeat scroll 0 0 #EBEDEE;
+    border-top: 11px solid #95A5A6;
+    .font(30px, #2C3E50);
+    font-family: @font-family-demo;
+    padding-bottom: 50px;
+    font-weight: 300;
+    padding-top: 50px;
+    text-align: center;
+    .btn {
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+}
+.header-22-sub {
+    padding-bottom: 230px;
+    @media (max-width: 480px) {
+        padding-bottom: 50px;
+    }
+}
+.content-15 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    @media (max-width: 480px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+.content-7 {
+    padding-top: 140px;
+    padding-bottom: 150px;
+    @media (max-width: 480px) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}

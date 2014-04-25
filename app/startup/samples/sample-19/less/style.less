@@ -1,0 +1,58 @@
+// There is a path to Startup framework
+@startup-basePath: "../../../";
+
+@import '@{startup-basePath}flat-ui/less/variables.less';
+@import '@{startup-basePath}flat-ui/less/mixins.less';
+
+@import '@{startup-basePath}common-files/less/mixins.less';
+@import '@{startup-basePath}common-files/less/common.less';
+@import '@{startup-basePath}common-files/less/navbar.less';
+@import '@{startup-basePath}common-files/less/helper.less';
+
+/* header */
+@import '@{startup-basePath}ui-kit/ui-kit-header/less/header-15.less';
+
+/* content */
+@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-3.less';
+
+/* footer */
+@import '@{startup-basePath}ui-kit/ui-kit-footer/less/footer-14.less';
+
+body > section, header, footer {
+    .box-sizing(border-box);
+    position: relative;
+    @media (max-width: 767px) {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+body {
+    background-color: #222527;
+    @media (max-width: 767px) {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+.page-wrapper {
+    border-left: 8px solid #171717;
+    border-right: 8px solid #171717;
+}
+body > section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.content-3 {
+    padding-top: 100px;
+    padding-bottom: 110px;
+    background-color: #fff;
+    @media (max-width: 767px) {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+}
+.footer-14 {
+    background-color: #171717;
+    a {
+        .a-color(#bdc3c7, @alizarin);
+    }
+}
