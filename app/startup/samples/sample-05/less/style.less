@@ -1,0 +1,53 @@
+// There is a path to Startup framework
+@startup-basePath: "../../../";
+
+@import '@{startup-basePath}flat-ui/less/variables.less';
+@import '@{startup-basePath}flat-ui/less/mixins.less';
+
+@import '@{startup-basePath}common-files/less/mixins.less';
+@import '@{startup-basePath}common-files/less/common.less';
+@import '@{startup-basePath}common-files/less/navbar.less';
+@import '@{startup-basePath}common-files/less/helper.less';
+
+/* header */
+@import '@{startup-basePath}ui-kit/ui-kit-header/less/header-17.less';
+
+/* content */
+@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-1.less';
+@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-5.less';
+@import '@{startup-basePath}ui-kit/ui-kit-content/less/content-13.less';
+
+/* footer */
+@import '@{startup-basePath}ui-kit/ui-kit-footer/less/footer-8.less';
+
+body > section, .footer-8 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.content-5 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    @media (max-width: 480px) {
+        padding-bottom: 40px;
+    }
+}
+.content-1 {
+    padding-top: 100px;
+    padding-bottom:0;
+    .container {
+        padding-bottom:100px;
+        border-bottom:2px #ecf0f1 solid;
+    }
+}
+.content-13 {
+  &.subscribe-form form input[type="text"], input[type="email"] {
+    .placeholder(@wet-asphalt);
+    color: @wet-asphalt;
+  }
+}
+.footer-8 {
+    @media (max-width: 480px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}

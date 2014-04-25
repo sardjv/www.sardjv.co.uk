@@ -1,0 +1,106 @@
+// There is a path to Startup framework
+@startup-basePath: "../../../";
+
+@import '@{startup-basePath}flat-ui/less/variables.less';
+@import '@{startup-basePath}flat-ui/less/mixins.less';
+
+@import '@{startup-basePath}common-files/less/mixins.less';
+@import '@{startup-basePath}common-files/less/common.less';
+@import '@{startup-basePath}common-files/less/navbar.less';
+@import '@{startup-basePath}common-files/less/helper.less';
+
+@import '@{startup-basePath}ui-kit/ui-kit-projects/less/project-common.less';
+@import '@{startup-basePath}ui-kit/ui-kit-projects/less/project-2.less';
+
+.header-custom {
+    padding:0;
+    height:80px;
+    z-index:100;
+    background:transparent;
+    position:absolute;
+    width:100%;
+    @import 'navbar';
+    .navbar {
+        padding-left:20px;
+        padding-right: 20px;
+    }
+}
+.header-custom-sub {
+    position: relative;
+    background-color: #1b1b1b;
+    min-height: 360px;
+    .v-center;
+    height:100%;
+    color: white;
+    text-align: center;
+    @media (max-width: 480px) {
+        padding-bottom: 20px;
+    }
+    >.container {
+        height:100%;
+    }
+    .background {
+        background-image:url("../img/NY_001.jpg");
+        .opacity(50);
+    }
+    .hero-unit {
+        padding:60px 0;
+        background:transparent;
+        .headline {
+            display:inline-block;
+            margin: 0;
+            line-height:0;
+            border:7px solid white;
+            span:first-child {
+                .font(40px, white);
+                font-family:@font-family-demo;
+                font-weight: 600;
+                border-right:7px solid white;
+                .line-height(48px);
+                padding: 25px;
+            }
+            span {
+                .font(13px, white);
+                font-weight: 500;
+                .line-height(21px);
+                padding:25px 30px;
+                display:inline-block;
+                text-align:left;
+            }
+        }
+    }
+}
+@media (max-width: 767px) {
+    .header-custom-sub .hero-unit {
+        .box-sizing(border-box);
+    }
+    .projects-2 {
+        padding: 0;
+    }
+    .header-custom-sub .v-center {
+        padding-left:0;
+        padding-right: 0;
+    }
+}
+@media (max-width: 565px) {
+    .header-custom-sub .hero-unit .headline {
+      span:first-child {
+        .font(37px, white);
+        font-family: @font-family-demo;
+        font-weight: 600;
+        border: 3px solid white;
+        border-bottom: 7px solid white;
+        padding: 27px 15px;
+      }
+      span {
+        display: block;
+        .font(16px, white);
+        font-weight: 600;
+        line-height: 32px;
+        text-align: center;
+        border: 3px solid white;
+        padding: 15px;
+      }
+    }
+}
+

@@ -1,0 +1,76 @@
+// There is a path to Startup framework
+@startup-basePath: "../../../";
+
+@import '@{startup-basePath}flat-ui/less/variables.less';
+@import '@{startup-basePath}flat-ui/less/mixins.less';
+
+@import '@{startup-basePath}common-files/less/mixins.less';
+@import '@{startup-basePath}common-files/less/common.less';
+@import '@{startup-basePath}common-files/less/navbar.less';
+@import '@{startup-basePath}common-files/less/helper.less';
+
+/* header */
+@import "@{startup-basePath}ui-kit/ui-kit-header/less/header-4.less";
+
+/* contents */
+@import "@{startup-basePath}ui-kit/ui-kit-content/less/content-20.less";
+@import "@{startup-basePath}ui-kit/ui-kit-content/less/content-3.less";
+
+/* price */
+@import "@{startup-basePath}ui-kit/ui-kit-price/less/price-common.less";
+@import "@{startup-basePath}ui-kit/ui-kit-price/less/price-1.less";
+
+body > section {
+    &.v-center {
+        > div {
+            padding-top: 200px;
+            padding-bottom: 200px;
+            @media (max-width: 768px) {
+                padding-top: 90px;
+                padding-bottom: 90px;
+            }
+        }
+    }
+}
+.content-3 {
+  padding-top: 198px;
+  padding-bottom: 200px;
+}
+.header-4,
+.content-20 {
+    padding: 0;
+}
+.header-4 .background{
+  background-attachment: fixed;
+}
+.header-4 .container{
+  padding: 15px;
+}
+.price-1 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.price-1 > div {
+    padding-top: 198px;
+    padding-bottom: 200px;
+    @media (max-width: 768px) {
+        padding-top: 98px;
+        padding-bottom: 98px;
+    }
+}
+.price-1 h3 {
+    .font(30px, @text-color-heading);
+    font-family:@font-family-demo;
+    margin:0 0 63px 0;
+}
+.content-3.bg-clouds .delimiter {
+    border-color: rgba(189, 195, 199, 0.4);
+}
+.content-20 {
+    background-color: #1F2225;
+    padding-top: 198px;
+    padding-bottom: 200px;
+    .btn-huge {
+        background-color: #14ddb3;
+    }
+}
