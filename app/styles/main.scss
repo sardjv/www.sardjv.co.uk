@@ -101,11 +101,6 @@ body {
 
 // KM mixins
 
-@mixin narrow-navbar() {
-    a {min-height: 30px;}
-    .navbar-right {float:right; li {float:left; a{width: 90px;}}}
-    .navbar-brand.sard-logo {width: ($navbar-padding-horizontal*2) + 78; background: url('../images/simon_web/SARD_Logo_Wht_78x18.png') no-repeat $navbar-padding-horizontal;}
-}
 
 .navbar-inverse .navbar-nav {
   font-size: $font-size-small;
@@ -134,32 +129,5 @@ body {
 .navbar2 {
   top:30px;
   background: url('../images/construction/60_percent_black_transparent.png') repeat;
-  a {min-height: 4*30px;}
-  .navbar-brand {
-    line-height:120px;
-    padding:0px $navbar-padding-horizontal;
-    &.sard-logo {height: 30px; width: ($navbar-padding-horizontal*2) + 389; background: url('../images/simon_web/SARD_Logo_Wht_389x90.png') no-repeat center $navbar-padding-horizontal;}
-  }
-  z-index: 1029;
-  .navbar-right a {
-    width: 120px;
-    &.why {background: url('../images/simon_web/Nav_Roundel_WHY_Wht.png') no-repeat center;}
-    &.how {background: url('../images/simon_web/Nav_Roundel_HOW_Wht.png') no-repeat center;}
-    &.what {background: url('../images/simon_web/Nav_Roundel_WHAT_Wht.png') no-repeat center;}
-    
-    &.active {
-      &.why {background: url('../images/simon_web/Nav_Roundel_WHY_Orange.png') no-repeat center;}
-      &.how {background: url('../images/simon_web/Nav_Roundel_HOW_SBlue.png') no-repeat center;}
-      &.what {background: url('../images/simon_web/Nav_Roundel_WHAT_Purple.png') no-repeat center;}
-    }
-  }
-  
-  @media (max-width: $grid-float-breakpoint) {
-      @include narrow-navbar;
-  }
-  &.narrow {
-      @include narrow-navbar;
-  }
-    
 }
 
