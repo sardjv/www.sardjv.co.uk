@@ -1,6 +1,7 @@
 $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
 
 @import 'variables';
+
 // bower:scss
 @import "../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
 // endbower
@@ -130,4 +131,6 @@ body {
   top:30px;
   background: url('../images/construction/60_percent_black_transparent.png') repeat;
 }
+
+@import "stylish";
 
