@@ -107,7 +107,7 @@ body {
   font-size: $font-size-small;
 }
 
-.navbar1 {
+#navbar1 {
   .navbar-nav {
     // Uncollapse the nav
     float: left;
@@ -127,7 +127,7 @@ body {
   }
 }
 
-.navbar2 {
+#navbar2 {
   top:30px;
   background: url('../images/construction/60_percent_black_transparent.png') repeat;
 }
