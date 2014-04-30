@@ -9,6 +9,12 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 //@import "startup/common-files/less/mixins.less";
 //@import "startup/ui-kit/ui-kit-content/less/content-23.less";
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -103,34 +109,9 @@ body {
 // KM mixins
 
 
-.navbar-inverse .navbar-nav {
-  font-size: $font-size-small;
-}
-
-#navbar1 {
-  .navbar-nav {
-    // Uncollapse the nav
-    float: left;
-    margin: 0;
-
-    > li {
-      float: left;
-      > a {
-        padding-top:    $navbar-padding-vertical;
-        padding-bottom: $navbar-padding-vertical;
-      }
-    }
-
-    &.navbar-right:last-child {
-      margin-right: -$navbar-padding-horizontal;
-    }
-  }
-}
-
-#navbar2 {
-  top:30px;
-  background: url('../images/construction/60_percent_black_transparent.png') repeat;
-}
-
+@import "navbar";
 @import "stylish";
+
+// Individual Page styling
+@import "home";
 

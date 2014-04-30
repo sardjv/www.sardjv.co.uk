@@ -1,0 +1,24 @@
+.navbar-inverse .navbar-nav {
+  font-size: $font-size-small;
+}
+
+#navbar1 {
+  p.telephone {float:left;}
+}
+
+#navbar2 {
+  top:30px;
+  line-height: 120px;
+  z-index: 1029;
+  background: url('../images/construction/60_percent_black_transparent.png') repeat;
+  
+  .visible-xs {
+    line-height:30px;
+    p {margin: 0px}
+    p.navbar-left{float: left !important;}
+    p.navbar-right{
+      float: right !important;
+      a img {width: 55px;}
+    }
+  }
+}
