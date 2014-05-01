@@ -16,13 +16,27 @@
       border-radius: 0px 0px 10px 10px;
       background: #201d18;
       padding: 15px;
-      height: 120px;
+      height: 130px;
+//      @media screen and (min-width: 768px) {height: 180px;}
       color: white;
       position: relative;
       h3 {font-weight: 100;}
-      h3, h4 {margin: 0px;}
+      h3, h4 {margin: 0px;  font-size: 1.2em;}
       p.bio-links {position: absolute; bottom: 15px; left:15px; margin: 0px;}
       p.bio-links a img {display: inline; width:20px; height: 20px;}
     }
   }
+}
+
+#footer-logo {
+  padding: 60px 0px !important;
+  margin:0px;
+  img {display: block; margin: 0 auto;}
+}
+
+#footer-final {
+  color: white;
+  background: #201d18;
+  padding: 15px 0px !important;
+  margin: 0px !important;
 }
