@@ -2,7 +2,10 @@
   font-size: $font-size-small;
 }
 
+.navbar-inverse .dropdown-menu .navbar-text {color: #201d18;}
+
 #navbar1 {
+  background: #201d18;
   p.telephone {float:left;}
 }
 

@@ -1,3 +1,6 @@
+#why .header {background: url(../images/apr_14_shoot/london_skyline.jpg) no-repeat;}
+#how .header {background: url(../images/video_stills/aerial.jpg) top right no-repeat;}
+
 .header {
   display: table;
   width: 100%;
@@ -5,7 +8,7 @@
   position: relative;
 //  background: url(../images/apr_14_shoot/transmitter.jpg) no-repeat;
 //  background: url(../images/apr_14_shoot/electro_pop_sard.jpg) no-repeat;
-  background: url(../images/apr_14_shoot/london_skyline.jpg) no-repeat;
+//  background: url(../images/apr_14_shoot/london_skyline.jpg) no-repeat;
   border: 0px;
   // Two options
 //  // Fixed attachment OR...
@@ -21,7 +24,7 @@
   // Alternative is scroll and cover
   height: 450px;
   background-attachment: scroll;
-  background-position: center bottom;
+//  background-position: center bottom;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

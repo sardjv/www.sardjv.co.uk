@@ -80,6 +80,9 @@ h1, h2 {font-weight: 100;}
     }
 }
 
+section {
+  padding: 30px 0px;
+}
 ///* Responsive: Portrait tablets and up */
 //@media screen and (min-width: 768px) {
 //    .container {
@@ -112,8 +115,8 @@ h1, h2 {font-weight: 100;}
 
 
 @import "navbar";
-@import "stylish";
+@import "header";
 
 // Individual Page styling
-@import "home";
-
+@import "why";
+@import "how";
