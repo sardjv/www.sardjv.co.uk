@@ -1,0 +1,26 @@
+.thumbnail {
+  padding: 0px;
+  border: none;
+
+  a.portrait img {border-radius: 10px 10px 0px 0px;}
+  .caption {
+    border-radius: 0px 0px 10px 10px;
+    background: #201d18;
+    padding: 15px;
+    height: 130px;
+//      @media screen and (min-width: 768px) {height: 180px;}
+    color: white;
+    position: relative;
+    h3 {font-weight: 100;}
+    h3, h4 {margin: 0px;  font-size: 1.2em;}
+    p.bio-links {position: absolute; bottom: 15px; left:15px; margin: 0px;}
+    p.bio-links a img {display: inline; width:20px; height: 20px;}
+  }
+}
+
+#news {
+  .row {padding-top: 15px; padding-bottom: 15px; border-bottom: 1px solid lightgray;}
+  h1, h2 {color: #00b2bc;}
+  h2 {margin-top: 0px; font-size: 1.8em;}
+  p.lead {margin-bottom: 0px;}
+}

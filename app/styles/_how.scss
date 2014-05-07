@@ -11,4 +11,24 @@
   #asking-why {
     background: #ebeae5;
   }
+  
+  #fixed-photo {
+    overflow: hidden;
+    position: relative;
+    background: url(../images/apr_14_shoot/transmitter.jpg) no-repeat bottom left;
+    height: 200px;
+  }
+  
+  #fixed-photo-2 {
+    overflow: hidden;
+    position: relative;
+    background: url(../images/apr_14_shoot/dinosaur_neck.jpg) no-repeat bottom right;
+    height: 200px;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: 100% auto;
+  }
+  
+  #blogs .row {margin-bottom: 15px;}
 }
