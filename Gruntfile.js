@@ -30,24 +30,24 @@ module.exports = function (grunt) {
 
 
         jekyll: {                             // Task
-          options: {                          // Universal options
-            bundleExec: true,
-            src : '<%= config.jekyll %>',
-            dest : '<%= config.app %>'
-          },
-          dist: {                             // Target
-            options: {                        // Target options
-              dest: '<%= config.app %>',
-              config: '<%= config.jekyll %>/_config.yml'
-              // config: '<%= config.jekyll %>/_config.yml,<%= config.jekyll %>/_config.build.yml'
+            options: {                          // Universal options
+                bundleExec: true,
+                src : '<%= config.jekyll %>',
+                dest : '<%= config.app %>'
+            },
+            dist: {                             // Target
+                options: {                        // Target options
+                    dest: '<%= config.app %>',
+                    config: '<%= config.jekyll %>/_config.yml'
+                    // config: '<%= config.jekyll %>/_config.yml,<%= config.jekyll %>/_config.build.yml'
+                }
+            },
+            serve: {                            // Another target
+                options: {
+                    dest: '.jekyll',
+                    drafts: true
+                }
             }
-          },
-          serve: {                            // Another target
-            options: {
-              dest: '.jekyll',
-              drafts: true
-            }
-          }
         },
 
 
