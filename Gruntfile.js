@@ -32,7 +32,7 @@ module.exports = function (grunt) {
         jekyll: {                             // Task
           options: {                          // Universal options
             bundleExec: true,
-            src : '<%= config.jekyll %>/src',
+            src : '<%= config.jekyll %>',
             dest : '<%= config.app %>'
           },
           dist: {                             // Target
