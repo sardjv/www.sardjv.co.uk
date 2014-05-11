@@ -18,7 +18,8 @@ module.exports = function (grunt) {
     // Configurable paths
     var config = {
         app: 'app',
-        dist: 'dist'
+        dist: 'dist',
+        jekyll: 'jekyll'
     };
 
     // Define the configuration for all the tasks
@@ -26,6 +27,29 @@ module.exports = function (grunt) {
 
         // Project settings
         config: config,
+
+
+        jekyll: {                             // Task
+          options: {                          // Universal options
+            bundleExec: true,
+            src : '<%= config.jekyll %>/src',
+            dest : '<%= config.app %>'
+          },
+          dist: {                             // Target
+            options: {                        // Target options
+              dest: '<%= config.app %>',
+              config: '<%= config.jekyll %>/_config.yml'
+              // config: '<%= config.jekyll %>/_config.yml,<%= config.jekyll %>/_config.build.yml'
+            }
+          },
+          serve: {                            // Another target
+            options: {
+              dest: '.jekyll',
+              drafts: true
+            }
+          }
+        },
+
 
         // Watches files for changes and runs tasks based on the changed files
         watch: {
@@ -121,7 +145,8 @@ module.exports = function (grunt) {
                     src: [
                         '.tmp',
                         '<%= config.dist %>/*',
-                        '!<%= config.dist %>/.git*'
+                        '!<%= config.dist %>/.git*',
+                        '<%= config.app %>/*'
                     ]
                 }]
             },
@@ -489,6 +514,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('build', [
         'clean:dist',
+        'jekyll:dist',
         'useminPrepare',
         'concurrent:dist',
         'autoprefixer',
