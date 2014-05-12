@@ -53,6 +53,10 @@ module.exports = function (grunt) {
 
         // Watches files for changes and runs tasks based on the changed files
         watch: {
+            jekyll: {
+                files: ['<%= config.jekyll %>/{,*/}*.{html,md,scss,css}'],
+                tasks: ['jekyll:dist']
+            },
             bower: {
                 files: ['bower.json'],
                 tasks: ['bowerInstall']

@@ -24,3 +24,23 @@
   h2 {margin-top: 0px; font-size: 1.8em;}
   p.lead {margin-bottom: 0px;}
 }
+
+.what-menu {
+  background: $gray-darker;
+  .section-name {
+    @include make-xs-column(12);
+    @include make-sm-column(4);
+    @include make-lg-column(2);
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 10px 15px;
+  }
+  #section-name-1 {background: $sard-dark-blue;}
+  #section-name-2 {background: $sard-yellow;}
+  #section-name-3 {background: $sard-red;}
+  #section-name-4 {background: $sard-turquoise;}
+  #section-name-5 {background: $sard-orange;}
+  #section-name-6 {background: $sard-pink;}
+}
+

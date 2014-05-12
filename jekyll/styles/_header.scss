@@ -1,7 +1,10 @@
-#why .header {background: url(../images/apr_14_shoot/london_skyline.jpg) no-repeat;}
-#how .header {background: url(../images/video_stills/aerial.jpg) top right no-repeat;}
+// Default header image is london skyline
+.full-width-image {background: url(/images/apr_14_shoot/london_skyline.jpg) no-repeat;}
+#why .full-width-image {background: url(/images/apr_14_shoot/london_skyline.jpg) no-repeat;}
+#how .full-width-image {background: url(/images/video_stills/aerial.jpg) top right no-repeat;}
+#what .full-width-image {background: url(/images/video_stills/code_testing.jpg) top right no-repeat;}
 
-.header {
+.full-width-image {
   display: table;
   width: 100%;
   overflow: hidden;
@@ -20,7 +23,6 @@
 //  background-size: auto 1200px;
 //  background-position: 40% -300px;
 //  background-attachment: fixed; 
-  
   // Alternative is scroll and cover
   height: 450px;
   background-attachment: scroll;
@@ -37,7 +39,7 @@
   text-align: center;
   margin: 10px;
   span.highlighted {
-      background: url('../images/construction/60_percent_black_transparent.png') repeat;
+      background: url('/images/construction/60_percent_black_transparent.png') repeat;
     //  border: 8px solid white;
       margin: 0 auto;
       padding: 6px 16px;
