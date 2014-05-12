@@ -1,8 +1,12 @@
 <!-- Full Page Image Header Area -->
-<div class="full-width-image" style="background: url({{ include.image_path }}) no-repeat; height: {{ include.image_height }}px;">
+<div id="{{include.image_id}}" class="full-width-image" style="height: {{ include.image_height }}px;">
     <div class="vert-text">
+      {% if include.h1_text %}
         <h1><span class="highlighted">{{ include.h1_text }}</span></h1>
+      {% endif %}
+      {% if include.h3_text %}
         <h3><span class="highlighted">{{ include.h3_text }}<span></h3>
+      {% endif %}
     </div>
 </div>
 <!-- /Full Page Image Header Area -->
