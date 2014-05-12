@@ -1,6 +1,5 @@
 'use strict';
 
-//console.log('\'Allo \'Allo!');
 $(document).ready(function(){
     $(this).scroll(function(){
         if ($(this).scrollTop() > 30) {
