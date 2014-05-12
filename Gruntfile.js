@@ -28,6 +28,19 @@ module.exports = function (grunt) {
         // Project settings
         config: config,
 
+        bowercopy: {
+            options: {
+                srcPrefix: 'bower_components'
+            },
+            dist: {
+                options: {
+                    destPrefix: '<%= config.app %>/bower_components'
+                },
+                files: {
+                    'jquery/dist/jquery.js': 'jquery/dist/jquery.js'
+                }
+            }
+        },
 
         jekyll: {                             // Task
             options: {                          // Universal options
@@ -519,6 +532,7 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'clean:dist',
         'jekyll:dist',
+        'bowercopy:dist',
         'useminPrepare',
         'concurrent:dist',
         'autoprefixer',
