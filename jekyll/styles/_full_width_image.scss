@@ -7,7 +7,7 @@
   overflow: hidden;
   position: relative;
   
-  background-image: url(/images/apr_14_shoot/london_skyline.jpg);
+  background-image: url(../images/apr_14_shoot/london_skyline.jpg);
   background-repeat: no-repeat;
   background-position: 0% 0%;
   background-size: auto auto;
@@ -20,32 +20,32 @@
   background-size: cover;
 }
 
-#london_skyline.full-width-image {background-image: url(/images/apr_14_shoot/london_skyline.jpg);}
+#london_skyline.full-width-image {background-image: url(../images/apr_14_shoot/london_skyline.jpg);}
 #transmitter.full-width-image {
-  background-image: url(/images/apr_14_shoot/transmitter.jpg);
+  background-image: url(../images/apr_14_shoot/transmitter.jpg);
   background-position: center bottom;
 }
-#aerial.full-width-image {background-image: url(/images/video_stills/aerial.jpg);}
+#aerial.full-width-image {background-image: url(../images/video_stills/aerial.jpg);}
 #dinosaur-neck {
-  background-image: url(/images/apr_14_shoot/dinosaur_neck.jpg);
+  background-image: url(../images/apr_14_shoot/dinosaur_neck.jpg);
   background-position: center 40%;
 }
 #code-testing {
-  background-image: url(/images/video_stills/code_testing.jpg);
+  background-image: url(../images/video_stills/code_testing.jpg);
 }
-#sophie-and-kevin-in-office { background-image: url(/images/video_stills/sophie_and_kevin_in_office.jpg); }
-#phil-at-window { background-image: url(/images/video_stills/phil_at_window.jpg); }
-#timer { background-image: url(/images/video_stills/timer.jpg); }
-#dig-chewing-pen { background-image: url(/images/video_stills/dig.jpg); }
+#sophie-and-kevin-in-office { background-image: url(../images/video_stills/sophie_and_kevin_in_office.jpg); }
+#phil-at-window { background-image: url(../images/video_stills/phil_at_window.jpg); }
+#timer { background-image: url(../images/video_stills/timer.jpg); }
+#dig-chewing-pen { background-image: url(../images/video_stills/dig.jpg); }
 #nsc-pyramids1 {
-  background-image: url(/images/apr_14_shoot/nsc_pyramids1.jpg);
+  background-image: url(../images/apr_14_shoot/nsc_pyramids1.jpg);
   background-position: center 40%;
 }
 
 
 
 
-//#what .full-width-image {background: url(/images/video_stills/code_testing.jpg) top right no-repeat;}
+//#what .full-width-image {background: url(../images/video_stills/code_testing.jpg) top right no-repeat;}
 
 
 .vert-text {
@@ -54,7 +54,7 @@
   text-align: center;
   margin: 10px;
   span.highlighted {
-      background: url('/images/construction/60_percent_black_transparent.png') repeat;
+//      background: url(../images/construction/60_percent_black_transparent.png) repeat;
     //  border: 8px solid white;
       margin: 0 auto;
       padding: 6px 16px;

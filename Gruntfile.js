@@ -391,47 +391,12 @@ module.exports = function (grunt) {
                     src: [
                         '*.{ico,png,txt}',
                         '.htaccess',
+                        './bower_components/**/*',
                         'images/{,*/}*.webp',
                         '{,*/}*.html',
                         'CNAME',
                         'styles/fonts/{,*/}*.*'
                     ]
-                }, {
-                    expand: true,
-                    dot: true,
-                    cwd: '.',
-                    src: ['bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/*.*'],
-                    dest: '<%= config.dist %>'
-                }, {
-                    expand: true,
-                    dot: true,
-                    cwd: 'bower_components/bootstrap/dist',
-                    src: ['fonts/*.*'],
-                    dest: '<%= config.dist %>'
-                }, {
-                    expand: true,
-                    dot: true,
-                    cwd: 'bower_components/respond/dest',
-                    src: ['*.js'],
-                    dest: '<%= config.dist %>/scripts/respond/'
-                }, {
-                    expand: true,
-                    dot: true,
-                    cwd: 'bower_components/html5shiv/dist',
-                    src: ['*.js'],
-                    dest: '<%= config.dist %>/scripts/html5shiv/'
-                }, {
-                    expand: true,
-                    dot: true,
-                    cwd: 'bower_components/video.js/dist/video-js',
-                    src: ['video.js', 'video-js.swf'],
-                    dest: '<%= config.dist %>/scripts/videojs/'
-                }, {
-                    expand: true,
-                    dot: true,
-                    cwd: 'bower_components/video.js/dist/video-js',
-                    src: ['video-js.css'],
-                    dest: '<%= config.dist %>/styles/videojs/'
                 }]
             },
             styles: {
@@ -532,7 +497,7 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'clean:dist',
         'jekyll:dist',
-        'bowercopy:dist',
+        // 'bowercopy:dist',
         'useminPrepare',
         'concurrent:dist',
         'autoprefixer',
