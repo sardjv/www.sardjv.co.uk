@@ -1,8 +1,12 @@
 ---
-layout: kevin_blog_post
-title:  "Example Blog Post"
-date:   2014-05-22 14:48:00
-categories: blog kevin
+layout: blog_post
+title:  Example Blog Post
+nav_title:  Example Blog Post
+categories:
+  - blog
+  - kevin
+  
+author: kevin
 ---
 
 This is a test blog post.

@@ -1,83 +1,17 @@
-<!doctype html>
-<html class="no-js">
-    <head>
-        <meta charset="utf-8">
-        <title>SARD JV - How</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <link rel="shortcut icon" href="./favicon.ico">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
-        <!-- endbuild -->
-        <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="../bower_components/modernizr/modernizr.js"></script>
-        <!-- endbuild -->
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-          <script src="scripts/html5shiv/html5shiv.js"></script>
-          <script src="scripts/respond/respond.min.js"></script>
-        <![endif]-->
-        
-        <link href="styles/videojs/video-js.css" rel="stylesheet">
-        <script src="scripts/videojs/video.js"></script>
-        <script>
-          videojs.options.flash.swf = "scripts/videojs/video-js.swf"
-        </script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+---
+# Predefined Global Variables
+layout: default
+published: true 
+categories:
+  - static
 
-<nav class="navbar navbar-default navbar-inverse navbar-fixed-top navbar1" role="navigation">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
+#Custom Variables
+title: News
+nav_title: News
+why_how_what: 'how'
+---
 
-    </div>
-    <ul class="nav navbar-nav">
-      <li><a href="#">0844 585 2395</a></li>
-      <li><a href="#">Chat</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">Doctor Login</a></li>
-    </ul>
-  </div><!-- /.container-fluid -->
-</nav>
-
-<nav class="navbar navbar-default navbar-inverse navbar-fixed-top navbar2" role="navigation">
-  <div class="container">
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-    </div><!-- /.navbar-collapse -->
-    <a class="navbar-brand sard-logo" href="#">&nbsp;</a>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a class="navbar-brand why" href="index.html">&nbsp;</a></li>
-      <li><a class="navbar-brand how active" href="how.html">&nbsp;</a></li>
-      <li><a class="navbar-brand what" href="what.html">&nbsp;</a></li>
-    </ul>
-  </div><!-- /.container-fluid -->
-</nav>
-
-
-
-<!-- <video
-  id="home_video"
-  class="video-js vjs-default-skin vjs-big-play-centered"
-  controls preload="auto"
-  poster="https://zencoder-temp-storage-us-east-1.s3.amazonaws.com/t/20140419/eb37ceb033a4218b5d57a1ee9bf0715b/frame_0000.png?AWSAccessKeyId=AKIAI456JQ76GBU7FECA&Signature=swdZsEh7APLt3R6VAQaYFb0ksnk%3D&Expires=1398032225"
-  data-setup='{"loop":true, "autoplay": true, "preload": "auto", "controls": false}'>
- <source src="https://sardjv-www.s3.amazonaws.com/videos/home_video/home_video_preview.mp4" type='video/mp4' />
- <!-- <source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
- <source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' /> -->
-</video> -->
+{% include full_width_image.html image_id="london_skyline" image_height="450" %}
 
   <div class="container">
 
@@ -142,63 +76,10 @@ Our most recent partnerships include:</p>
 Ludovic Dogbe, Job Planning and Revalidation Manager - King's College Hospital NHS Foundation Trust</p>
 						
 				<h4>News Story</h4>
-				<p>Add Text</P>
+				<p>Add Text
         </div>
 	    </div>
     </div>
   </div>
 
 
-
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="../bower_components/jquery/dist/jquery.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-
-        <!-- build:js scripts/plugins.js -->
-        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/affix.js"></script>
-        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/alert.js"></script>
-        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/dropdown.js"></script>
-        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tooltip.js"></script>
-        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/modal.js"></script>
-        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/transition.js"></script>
-        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/button.js"></script>
-        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/popover.js"></script>
-        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/carousel.js"></script>
-        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js"></script>
-        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js"></script>
-        <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js"></script>
-        <!-- endbuild -->
-
-        <!-- build:js({app,.tmp}) scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
-        <script>
-        videojs("home_video", {"height":"auto", "width":"auto"}).ready(function(){
-            var myPlayer = this;    // Store the video object
-            var aspectRatio = 360/720; // Make up an aspect ratio
-
-            function resizeVideoJS(){
-              // Get the parent element's actual width
-              var width = document.getElementById(myPlayer.id()).parentElement.offsetWidth;
-              // Set width to fill parent element, Set height
-              myPlayer.width(width).height( width * aspectRatio );
-            }
-
-            resizeVideoJS(); // Initialize the function
-            window.onresize = resizeVideoJS; // Call the function on resize
-        });
-        </script>
-</body>
-</html>

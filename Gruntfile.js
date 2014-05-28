@@ -28,17 +28,29 @@ module.exports = function (grunt) {
         // Project settings
         config: config,
 
-        bowercopy: {
-            options: {
-                srcPrefix: 'bower_components'
-            },
-            dist: {
-                options: {
-                    destPrefix: '<%= config.app %>/bower_components'
-                },
-                files: {
-                    'jquery/dist/jquery.js': 'jquery/dist/jquery.js'
-                }
+        // grunt-bower-install has changed its name to Wiredep
+        // See https://github.com/stephenplusplus/grunt-wiredep
+        wiredep: {
+            target: {
+                // Point to the files that should be updated when
+                // you run `grunt wiredep`
+                src: [
+                    '<%= config.app %>/**/*.html',
+                    
+                  // 'app/**/*.html',   // .html support...
+                  // 'app/styles/main.scss',  // .scss & .sass support...
+                  // 'app/config.yml'         // and .yml & .yaml support out of the box!
+                ],
+
+                // // Optional:
+                // // ---------
+                // cwd: '',
+                // dependencies: true,
+                // devDependencies: false,
+                // exclude: [],
+                // fileTypes: {},
+                // ignorePath: '',
+                // overrides: {}
             }
         },
 
@@ -63,12 +75,12 @@ module.exports = function (grunt) {
             }
         },
 
-
         // Watches files for changes and runs tasks based on the changed files
         watch: {
+            
             jekyll: {
                 files: ['<%= config.jekyll %>/{,*/}*.{html,md,scss,css}'],
-                tasks: ['jekyll:dist']
+                tasks: ['jekyll:dist', 'wiredep']
             },
             bower: {
                 files: ['bower.json'],
@@ -167,7 +179,7 @@ module.exports = function (grunt) {
                     ]
                 }]
             },
-            server: '.tmp'
+            server: ['.tmp', '<%= config.app %>']
         },
 
         // Make sure code styles are up to par and there are no obvious mistakes
@@ -354,32 +366,6 @@ module.exports = function (grunt) {
             }
         },
 
-        // By default, your `index.html`'s <!-- Usemin block --> will take care of
-        // minification. These next options are pre-configured if you do not wish
-        // to use the Usemin blocks.
-        // cssmin: {
-        //     dist: {
-        //         files: {
-        //             '<%= config.dist %>/styles/main.css': [
-        //                 '.tmp/styles/{,*/}*.css',
-        //                 '<%= config.app %>/styles/{,*/}*.css'
-        //             ]
-        //         }
-        //     }
-        // },
-        // uglify: {
-        //     dist: {
-        //         files: {
-        //             '<%= config.dist %>/scripts/scripts.js': [
-        //                 '<%= config.dist %>/scripts/scripts.js'
-        //             ]
-        //         }
-        //     }
-        // },
-        // concat: {
-        //     dist: {}
-        // },
-
         // Copies remaining files to places other tasks can use
         copy: {
             dist: {
@@ -467,6 +453,8 @@ module.exports = function (grunt) {
 
         grunt.task.run([
             'clean:server',
+            'jekyll:dist',
+            'wiredep',
             'concurrent:server',
             'autoprefixer',
             'connect:livereload',
@@ -497,7 +485,6 @@ module.exports = function (grunt) {
     grunt.registerTask('build', [
         'clean:dist',
         'jekyll:dist',
-        // 'bowercopy:dist',
         'useminPrepare',
         'concurrent:dist',
         'autoprefixer',

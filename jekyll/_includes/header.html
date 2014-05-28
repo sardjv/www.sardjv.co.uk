@@ -1,3 +1,6 @@
+{% assign lvl = page.url | append:'X' | split:'/' | size %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+
 <!--[if lt IE 7]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
@@ -16,28 +19,59 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="how.html#news">News</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products<b class="caret"></b></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            About Us<b class="caret"></b>
+          </a>
           <ul class="dropdown-menu">
-            <li><p class="navbar-text">Doctor</p></li>
-            <li><a href="#">Appraisal</a></li>
-            <li><a href="#">Revalidation</a></li>
-            <li><a href="#">Multi-source feedback</a></li>
-            <li><a href="#">Job Planning</a></li>
-            <li class="divider"></li>
-            <li><p class="navbar-text">Nurse</p></li>
-            <li><a href="#">Appraisal</a></li>
-            <li><a href="#">Revalidation</a></li>
-            <li><a href="#">Multi-source feedback</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Appraisal for all</a></li>
+            <li><a href="{{ relative }}about-us/meet-the-team.html">Meet The Team</a></li>
+            <li><a href="{{ relative }}about-us/contact-us.html">Contact Us</a></li>
+            <li><a href="{{ relative }}testimonials.html">Testimonials</a></li>
           </ul>
         </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            Tour<b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            {% for each_page in site.pages %}
+              {% if each_page.categories contains 'Medical Revalidation Tour' %}
+                <li><a href="{{each_page.url}}">
+                  {{each_page.nav_title}}
+                </a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="{{relative}}/news.html" class="dropdown-toggle" data-toggle="dropdown">
+            News<b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            {% for post in site.categories.news %}
+              <li>
+                <a href="{{ post.url }}">{{ post.nav_title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="{{relative}}/blogs.html" class="dropdown-toggle" data-toggle="dropdown">
+            Blogs<b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            {% for post in site.categories.blog %}
+              <li>
+                <a href="{{ post.url }}">{{ post.nav_title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li><a href="{{ relative }}faq-s.html">FAQs</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Chat</a></li>
-        <li><a href="./client-list.html">Doctor Login</a></li>
+        <li><a href="{{ relative }}client-list.html">Doctor Login</a></li>
       </ul>
     </div>
   </div>
@@ -47,56 +81,56 @@
   <div class="container">
     <div class="desktop hidden-xs">
       <p class="navbar-text navbar-left">
-        <img src="./images/simon_web/sard_logo_wht_389x90.png"/>
+        <img src="{{ relative }}images/simon_web/sard_logo_wht_389x90.png"/>
       </p>
       <p class="navbar-text navbar-right">
-          <a href="./index.html" class="navbar-link">
+          <a href="{{ relative }}index.html" class="navbar-link">
             {% if page.why_how_what == 'why' %}
-              <img src="./images/simon_web/nav_roundel_why_orange.png"/>
+              <img src="{{ relative }}images/simon_web/nav_roundel_why_orange.png"/>
             {% else %}
-              <img src="./images/simon_web/nav_roundel_why_wht.png"/>
+              <img src="{{ relative }}images/simon_web/nav_roundel_why_wht.png"/>
             {% endif %}
           </a>
-          <a href="./how.html" class="navbar-link">
+          <a href="{{ relative }}how.html" class="navbar-link">
             {% if page.why_how_what == 'how' %}
-              <img src="./images/simon_web/nav_roundel_how_sblue.png"/>
+              <img src="{{ relative }}images/simon_web/nav_roundel_how_sblue.png"/>
             {% else %}
-              <img src="./images/simon_web/nav_roundel_how_wht.png"/>
+              <img src="{{ relative }}images/simon_web/nav_roundel_how_wht.png"/>
             {% endif %}
           </a>
-          <a href="./what.html" class="navbar-link">
+          <a href="{{ relative }}what.html" class="navbar-link">
             {% if page.why_how_what == 'what' %}
-              <img src="./images/simon_web/nav_roundel_what_purple.png"/>
+              <img src="{{ relative }}images/simon_web/nav_roundel_what_purple.png"/>
             {% else %}
-              <img src="./images/simon_web/nav_roundel_what_wht.png"/>
+              <img src="{{ relative }}images/simon_web/nav_roundel_what_wht.png"/>
             {% endif %}
           </a>
       </p>
     </div>
     <div class="mobile visible-xs">
       <p class="navbar-text navbar-left">
-        <img src="./images/simon_web/sard_logo_wht_78x18.png"/>
+        <img src="{{ relative }}images/simon_web/sard_logo_wht_78x18.png"/>
       </p>
       <p class="navbar-text navbar-right">
-        <a href="./index.html" class="navbar-link">
+        <a href="{{ relative }}index.html" class="navbar-link">
           {% if page.why_how_what == 'why' %}
-            <img src="./images/simon_web/nav_roundel_why_orange_xs.png"/>
+            <img src="{{ relative }}images/simon_web/nav_roundel_why_orange_xs.png"/>
           {% else %}
-            <img src="./images/simon_web/nav_roundel_why_wht_xs.png"/>
+            <img src="{{ relative }}images/simon_web/nav_roundel_why_wht_xs.png"/>
           {% endif %}
         </a>
-        <a href="./how.html" class="navbar-link">
+        <a href="{{ relative }}how.html" class="navbar-link">
           {% if page.why_how_what == 'how' %}
-            <img src="./images/simon_web/nav_roundel_how_sblue_xs.png"/>
+            <img src="{{ relative }}images/simon_web/nav_roundel_how_sblue_xs.png"/>
           {% else %}
-            <img src="./images/simon_web/nav_roundel_how_wht_xs.png"/>
+            <img src="{{ relative }}images/simon_web/nav_roundel_how_wht_xs.png"/>
           {% endif %}
         </a>
-        <a href="./what.html" class="navbar-link">
+        <a href="{{ relative }}what.html" class="navbar-link">
           {% if page.why_how_what == 'what' %}
-            <img src="./images/simon_web/nav_roundel_what_purple_xs.png"/>
+            <img src="{{ relative }}images/simon_web/nav_roundel_what_purple_xs.png"/>
           {% else %}
-            <img src="./images/simon_web/nav_roundel_what_wht_xs.png"/>
+            <img src="{{ relative }}images/simon_web/nav_roundel_what_wht_xs.png"/>
           {% endif %}
         </a>
       </p>

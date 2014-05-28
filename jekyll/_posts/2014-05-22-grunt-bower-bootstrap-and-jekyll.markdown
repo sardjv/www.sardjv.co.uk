@@ -1,8 +1,12 @@
 ---
-layout: kevin_blog_post
-title:  "Grunt, Bower, Bootstrap and Jekyll"
-date:   2014-05-22 16:55:00
-categories: blog kevin
+layout: blog_post
+title:  Grunt, Bower and Jekyll
+nav_title:  Grunt work
+categories:
+  - blog
+  - kevin
+  
+author: kevin
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

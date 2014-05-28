@@ -1,8 +1,12 @@
 ---
-layout: phil_blog_post
-title:  "Nurse Appraisal Conference"
-date:   2014-05-22 17:05:00
-categories: blog phil
+layout: blog_post
+title:  Nurse Appraisal Conference
+nav_title:  Nurse Appraisal
+categories:
+  - blog
+  - philip
+  
+author: philip
 ---
 
 Something about the nurse conference here.
