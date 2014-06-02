@@ -1,9 +1,12 @@
 ---
 layout: testimonial
-organisation: Leicestershire Partnership NHS Trust
-testifier: Angela Salmen
-role: Senior Medical Staffing Manager
-author: kevin
+organisation: Guys and St Thomas' NHS Foundation Trust
+testifier: Dr Kate Langford
+role: Deputy Medical Director
+author: Phil
 ---
 
-We have been managing our medical appraisal and revalidation process through SARD JV since July 2013.  The system is easy to use, can be easily adapted and we've had some really positive feedback from our doctors using it.  The team at SARD JV are very helpful, responsive and dedicated to providing a system fit for purpose.  I would happily recommend SARD JV to any Trust looking for an e-system to manage its appraisal and revalidation process.
+Beyond the technical and support aspects, we have found the SARD JV team to be very easy to work with. They are dedicated to providing us with good service and are proactive in meeting our needs. At every phase, from contract negotiations to information governance, they have provided the highest standard of service.
+
+SARD JV is an organisation that we are delighted to be working with and they have a system we would happily recommend to any other NHS Trusts or designated bodies based on our experience to date.
+
