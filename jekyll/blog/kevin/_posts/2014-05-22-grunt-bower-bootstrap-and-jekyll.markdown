@@ -2,10 +2,12 @@
 layout: blog_post
 title:  Grunt, Bower and Jekyll
 nav_title:  Grunt work
-categories:
-  - blog
-  - kevin
   
+tags:
+  - grunt
+  - bower
+  - jekyll
+  - technology
 author: kevin
 ---
 

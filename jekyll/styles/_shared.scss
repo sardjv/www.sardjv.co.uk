@@ -44,9 +44,22 @@
   #section-name-6 {background: $sard-pink;}
 }
 
-.orange {
+.white-on-orange {
   background: #e97b00;
-  color: #e97b00;
+  color: white;
   p {color:black;}
   h1, h2 {color: white;}
 }
+
+.orange-on-white {
+  h1, h2 {color: #e97b00;}
+  &.top-divider {border-top: 6px solid #e97b00;}
+}
+
+.testimonial {
+  @include make-xs-column(12);
+  @include make-sm-column(6);
+  @include make-md-column(4);
+}
+
+

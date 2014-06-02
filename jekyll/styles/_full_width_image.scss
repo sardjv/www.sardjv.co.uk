@@ -20,7 +20,10 @@
   background-size: cover;
 }
 
-#london_skyline.full-width-image {background-image: url(../images/apr_14_shoot/london_skyline.jpg);}
+#london_skyline.full-width-image {
+  background-image: url(../images/apr_14_shoot/london_skyline.jpg);
+  background-position: right bottom;
+}
 #transmitter.full-width-image {
   background-image: url(../images/apr_14_shoot/transmitter.jpg);
   background-position: center bottom;

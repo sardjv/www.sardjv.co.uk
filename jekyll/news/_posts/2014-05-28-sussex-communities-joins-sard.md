@@ -1,16 +1,14 @@
 ---
-layout: blog_post
+layout: news_item
 title:  Sussex Communities joins SARD
 nav_title:  Sussex joins SARD
-categories:
-  - news
+
 tags:
-  - new clients
+  - new-clients
   
 author: kevin
 ---
 
 Sussex Communities joins SARD
-=============================
 
 Some information about this.

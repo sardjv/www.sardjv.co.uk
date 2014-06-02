@@ -2,18 +2,27 @@ sophie:
   first_name: Sophie
   last_name: Buijsen
   email: sophie@sardjv.co.uk
+  image400x: images/people/sophie400x.jpg
+  profile_page: people/sophie.html
 
 nicholas:
   first_name: Nicholas
   last_name: Cooke
   email: nicholas@sardjv.co.uk
+  image400x: images/people/dig400x.jpg
+  profile_page: people/nicholas.html
 
 kevin:
   first_name: Kevin
   last_name: Monk
   email: kevin@sardjv.co.uk
+  image400x: images/people/kevin400x.jpg
+  profile_page: people/kevin.html
 
 philip:
   first_name: Philip
   last_name: Bottle
   email: philip@sardjv.co.uk
+  image400x: images/people/phil400x.jpg
+  profile_page: people/philip.html
+  

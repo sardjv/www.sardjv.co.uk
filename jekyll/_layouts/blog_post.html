@@ -4,23 +4,43 @@ layout: default
 permalink: /:categories/:year/:month/:title.html
 ---
 {% assign author = site.data.people[page.author] %}
+{% assign lvl = page.url | append:'X' | split:'/' | size %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 
 {% include full_width_image.html image_id="london_skyline" image_height="450" %}
 
-<section class="post">
+<section>
   <div class="container">
     <div class="row">
-      <div class="col-xs-12">
-
-        <header class="post-header">
-          <h1>{{author.first_name}}:{{ page.title }}</h1>
-          <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-        </header>
-
-        <article class="post-content">
+      <div class="col-xs-2">
+        <img src="{{ relative }}{{author.image400x}}" class="img-thumbnail">
+      </div>
+      <div class="col-xs-6">
+        <h2>{{ page.title }}</h2>
+        <p>
+          Written by 
+          <a href="{{relative}}{{author.profile_page}}">
+            {{ author.first_name }} {{ author.last_name }}
+          </a>
+          on {{ post.date | date: "%b %-d, %Y" }}<br>
+          Tags: 
+          {% for tag in page.tags %}
+            <a href="{{relative}}tags.html#{{tag}}">{{tag}}</a>
+            {% unless tag ==  page.tags.last %},&nbsp;{% endunless %}
+          {% endfor %}
+        </p>
         {{ content }}
-        </article>
+      </div>
+      <div class="col-xs-4">
+        <h3>Recent Posts</h3>
+        <ul>
+        {% for post in site.categories[page.author] %}
+        <li><a href="{{post.url}}">{{post.title}}</a></li>
+        {% endfor %}
+        </ul>
+        
       </div>
     </div>
   </div>
 </section>
+

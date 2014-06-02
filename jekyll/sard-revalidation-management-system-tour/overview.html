@@ -15,6 +15,16 @@ why_how_what: what
 
 {% include full_width_image.html image_id="london_skyline" image_height="450" %}
 
+<ul>
+  {% for each_page in site.pages %}
+    {% if each_page.categories contains 'Medical Revalidation Tour' %}
+      <li><a href="{{each_page.url}}">
+        {{each_page.nav_title}}
+      </a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
   <div class="container">
 	  <div class="jumbotron">
 		                

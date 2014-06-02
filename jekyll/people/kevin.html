@@ -1,0 +1,30 @@
+---
+# Predefined Global Variables
+layout: default
+published: true 
+categories:
+  - static
+  - profile
+
+#Custom Variables
+title: Kevin Monk
+nav_title: Kevin Monk
+why_how_what: 'how'
+---
+
+{% include full_width_image.html image_id="london_skyline" image_height="300" %}
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Kevin Monk</h1>
+        <h2>Blog Posts</h2>
+        {% for post in site.categories.kevin %}
+          {% include blog_excerpt.html %}
+        {% endfor %}
+      </div>
+    </div> 
+  </div>
+</section>
+

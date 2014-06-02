@@ -27,19 +27,19 @@
             <li><a href="{{ relative }}about-us/meet-the-team.html">Meet The Team</a></li>
             <li><a href="{{ relative }}about-us/contact-us.html">Contact Us</a></li>
             <li><a href="{{ relative }}testimonials.html">Testimonials</a></li>
+            <li><a href="{{ relative }}faq-s.html">FAQs</a></li>
+            <li><a href="{{ relative }}sard-revalidation-management-system-tour/overview.html">Product Tour</a></li>
           </ul>
         </li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            Tour<b class="caret"></b>
+          <a href="{{relative}}/events.html" class="dropdown-toggle" data-toggle="dropdown">
+            Events<b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
-            {% for each_page in site.pages %}
-              {% if each_page.categories contains 'Medical Revalidation Tour' %}
-                <li><a href="{{each_page.url}}">
-                  {{each_page.nav_title}}
-                </a></li>
-              {% endif %}
+            {% for post in site.categories.events limit:5 %}
+              <li>
+                <a href="{{ post.url }}">{{ post.nav_title || post.title}}</a>
+              </li>
             {% endfor %}
           </ul>
         </li>
@@ -48,7 +48,7 @@
             News<b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
-            {% for post in site.categories.news %}
+            {% for post in site.categories.news limit:5 %}
               <li>
                 <a href="{{ post.url }}">{{ post.nav_title }}</a>
               </li>
@@ -60,16 +60,13 @@
             Blogs<b class="caret"></b>
           </a>
           <ul class="dropdown-menu">
-            {% for post in site.categories.blog %}
+            {% for post in site.categories.blog limit:5 %}
               <li>
                 <a href="{{ post.url }}">{{ post.nav_title }}</a>
               </li>
             {% endfor %}
           </ul>
         </li>
-        <li><a href="{{ relative }}faq-s.html">FAQs</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Chat</a></li>
         <li><a href="{{ relative }}client-list.html">Doctor Login</a></li>
       </ul>
