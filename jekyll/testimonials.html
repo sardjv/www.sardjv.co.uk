@@ -17,19 +17,17 @@ why_how_what: 'why'
 {% include full_width_image.html image_id="code-testing" image_height="450" %}
 
 
-<section id="our-solutions">
+<section id="our-solutions" class="orange-on-white">
   <div class="container">
     <div class="col-xs-12">
       <h1>Testimonials</h1>
       <p class="lead">SARD JV focused primarily on providing systems solutions to healthcare organisations for Revalidation. In fact it was these solutions that led to the creation of the company in the first place. So far we have the following solutions...</p>
     </div>
   </div>
-</section>
-
-<section>
   <div class="container">
     <div class="row">
-      {% for post in site.categories.testimonials %}
+      {% assign testimonials = site.categories.testimonials | sort: 'order' %}
+      {% for post in testimonials %}
         {% include testimonial_excerpt.html %}
       {% endfor %}
     </div>

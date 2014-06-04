@@ -11,35 +11,35 @@ layout: default
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-xs-2">
-        <img src="{{ relative }}{{author.image400x}}" class="img-thumbnail">
+      <div class="testimonial testimonial-testifier">
+        <img class="img-responsive img-thumbnail logo" src="{{relative}}{{page.testifier-image}}">
+        <h3>{{ page.testifier }}</h3>
+        <h4>{{ page.role }}</h4>
+        <h5>{{ page.organisation }}</h5>
+        <img class="img-responsive logo" src="{{relative}}{{page.logo}}">
       </div>
-      <div class="col-xs-6">
-        <h2>{{ page.title }}</h2>
-        <p>
-          Written by 
-          <a href="{{relative}}{{author.profile_page}}">
-            {{ author.first_name }} {{ author.last_name }}
-          </a>
-          on {{ post.date | date: "%b %-d, %Y" }}<br>
-          Tags: 
-          {% for tag in page.tags %}
-            <a href="{{relative}}tags.html#{{tag}}">{{tag}}</a>
-            {% unless tag ==  page.tags.last %},&nbsp;{% endunless %}
-          {% endfor %}
-        </p>
-        {{ content }}
-      </div>
-      <div class="col-xs-4">
-        <h3>Recent Posts</h3>
-        <ul>
-        {% for post in site.categories[page.author] %}
-        <li><a href="{{post.url}}">{{post.title}}</a></li>
-        {% endfor %}
-        </ul>
+      <blockquote class="testimonial testimonial-full">
         
-      </div>
+        <img class="open-quote" width="40" src="{{ relative }}images/construction/quote_open_orange08.png">
+          {{ content }}
+        <img class="close-quote" width="40" src="{{ relative }}images/construction/quote_close_orange08.png">
+        <footer>
+          {{ page.testifier }}<br>
+          {{ page.role }}<br>
+          <b><cite title="{{ post.organisation }}">{{ page.organisation }}</cite></b>
+        </footer>
+      </blockquote>
+    </div>
+    <hr>
+    <div class="row">
+      <h2>More Testimonials</h2>
+      {% assign testimonials = site.categories.testimonials | sort: 'order' %}
+      {% for post in testimonials %}
+        {% include testimonial_excerpt.html %}
+      {% endfor %}
     </div>
   </div>
+  <hr>
 </section>
+
 

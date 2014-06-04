@@ -36,7 +36,8 @@ why_how_what: 'why'
         <p>Making our clients happy is at the forefront of everything we do. Alongside producing the best systems, client happiness is our number one focus. But don't just take our word for it, ask the people that matter: </p>
         <h2>Testimonials</h2>  
       </div>
-      {% for post in site.categories.testimonials %}
+      {% assign testimonials = site.categories.testimonials | sort: 'order' %}
+      {% for post in testimonials %}
         {% include testimonial_excerpt.html %}
       {% endfor %}
     </div>

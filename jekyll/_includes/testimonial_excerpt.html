@@ -2,15 +2,17 @@
 {% assign lvl = page.url | append:'X' | split:'/' | size %}
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 
-<blockquote class="testimonial">
-  <img class="img-responsive logo" src="{{relative}}{{post.logo}}">
+<div class="testimonial testimonial-excerpt">
+  <p class="text-center"><img class="testifier-image img-circle logo" width="150" src="{{relative}}{{post.testifier-image}}">
+  <br><img class="img-responsive logo" src="{{relative}}{{post.logo}}"></p>
+  <p class="text-center">
+      {{ post.testifier }}<br>
+      {{ post.role }}<br>
+      <b><cite title="{{ post.organisation }}">{{ post.organisation }}</cite></b>
+  </p>
   <img class="open-quote" width="20" src="{{ relative }}images/construction/quote_open_orange08.png">
     {{ post.excerpt | truncatewords: 50}}
   <img class="close-quote" width="20" src="{{ relative }}images/construction/quote_close_orange08.png">
-  <br><a href="{{ post.url }}" class="btn btn-default btn-xs" role="button">Read More</a>
-  <footer>
-    {{ post.testifier }}<br>
-    {{ post.role }}<br>
-    <b><cite title="{{ post.organisation }}">{{ post.organisation }}</cite></b>
-  </footer>
-</blockquote>
+  <p><a href="{{ post.url }}" class="btn btn-default btn-sm" role="button">Read More</a></p>
+
+</div>

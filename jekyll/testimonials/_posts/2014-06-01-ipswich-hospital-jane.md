@@ -1,9 +1,12 @@
 ---
 layout: testimonial
-organisation: Ipswich Hospital NHS Trust
+organisation: The Ipswich Hospital NHS Trust
 testifier: Jane Clarke
 role: Appraisal & Revalidation Manager
 logo: testimonials/images/ipswich.jpg
+testifier-image: testimonials/images/ipswich-hospital.jpg
+order: 4
+
 author: kevin
 ---
 

@@ -57,13 +57,30 @@
 }
 
 .testimonial {
-  @include make-xs-column(12);
-  @include make-sm-column(6);
-  @include make-md-column(4);
   img.open-quote {float:left; margin-right: 6px;}
   img.close-quote {margin-left: 6px;}
   img.logo {margin-bottom: 6px;}
   
 }
 
+.testimonial-full {
+  @include make-xs-column(12);
+  @include make-sm-column(8);
+}
+
+.testimonial-excerpt {
+  @include make-xs-column(12);
+  @include make-sm-column(6);
+  @include make-md-column(4);
+  height: 600px;
+}
+
+.testimonial-testifier {
+  @include make-xs-column(12);
+  @include make-sm-column(4);
+}
+
+.more-links {
+  @include make-sm-column(4);
+}
 
