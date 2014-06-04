@@ -1,5 +1,13 @@
+{% assign author = site.data.people[page.author] %}
+{% assign lvl = page.url | append:'X' | split:'/' | size %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+
 <blockquote class="testimonial">
-  {{ post.excerpt }}
+  <img class="img-responsive logo" src="{{relative}}{{post.logo}}">
+  <img class="open-quote" width="20" src="{{ relative }}images/construction/quote_open_orange08.png">
+    {{ post.excerpt | truncatewords: 50}}
+  <img class="close-quote" width="20" src="{{ relative }}images/construction/quote_close_orange08.png">
+  <br><a href="{{ post.url }}" class="btn btn-default btn-xs" role="button">Read More</a>
   <footer>
     {{ post.testifier }}<br>
     {{ post.role }}<br>

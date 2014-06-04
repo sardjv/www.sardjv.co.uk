@@ -4,6 +4,8 @@ title: A Testimonial from King's College Hospital
 organisation: King's College Hospital
 testifier: Ludovic Dogbe
 role: Job Planning & Revalidation Manager
+logo: testimonials/images/kings.jpg
+
 author: kevin
 ---
 
