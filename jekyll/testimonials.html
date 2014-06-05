@@ -33,6 +33,10 @@ why_how_what: 'why'
         {% if remainder == 0 %}
           <div class="clearfix visible-md visible-lg"></div>
         {% endif %}
+        {% assign remainder2 = forloop.index | modulo:2 %}
+        {% if remainder2 == 0 %}
+          <div class="clearfix visible-sm"></div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>

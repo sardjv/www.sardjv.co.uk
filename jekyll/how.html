@@ -5,13 +5,14 @@ body_id: 'how'
 why_how_what: 'how'
 ---
 
-{% include full_width_image.html image_id="aerial" image_height="450" h1_text="Appraisal, <em>Simplified</em>" h3_text="Made in Crystal Palace, UK." %}
-
+{% include full_width_image.html image_id="aerial" image_height="450" %}
+{% assign lvl = page.url | append:'X' | split:'/' | size %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 
 <section id="how-we-work-header">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+      <div class="col-xs-12">
         <h1>How we work</h1>
         <p class="lead">In order to produce the best solutions, we follow some very clear principles. These create the foundations of how we work and get the best results for those we are working with.</p>
       </div>
@@ -21,11 +22,11 @@ why_how_what: 'how'
 
 <p>{{ page.how }}</p>
 
-<section id="how-we-work" class="marketing">  
+<section id="how-we-work">  
   <div class="container">
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2">
-        <h1><img src="./images/simon_web/howwework.png" alt="How we work" class="img-responsive"/></h1>
+        <h1><img src="{{relative}}images/simon_web/howwework.png" alt="How we work" class="img-responsive"/></h1>
       </div>
       <div class="col-xs-12">
         <p>SARD JV, started long before the joint venture was officially set up. Oxleas NHS FT and Mango Swiss had already collaborated on a number projects which went on to shape we operate now. Early on, we thought long and hard about how we could achieve the best results and found them to be surprisingly simple. First and foremost we would foster a collaborative approach to WHY we were undertaking a project. We want to understand for both ourselves and our clients what the tangible impact of our work would be and the benefits to the organisation requesting it.</p>
@@ -65,166 +66,64 @@ why_how_what: 'how'
   </div>
 </section>
 
-<section id="news" class="marketing">
+<section id="news" class="top-divider blue-on-white">
   <div class="container">
     <h1>News</h1>
-    <div class="row news-item">
-      <div class="col-xs-12 col-sm-6">
-        <a href="#" class="news/appraisal_for_all_in_development.html">
-          <img src="./images/video_stills/scrum_timer.jpg" class="img-responsive img-thumbnail" alt="Scrum timer">
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <a href="#" class="news/appraisal_for_all_in_development.html"><h2>Appraisal for all</h2></a>
-        <p class="lead">In Development - SARD announces development of Appraisal for all system</p>
-        <p><small>By Philip Bottle | Friday 2nd May 2014</small></p>
-        
-        <p> SARD are pleased to announce that it is further developing the capability of its platform to extend the system in order to cover the appraisal process for all staff. It is a logical step as we already know our revalidation and appraisal system helps thousands of doctors and we felt that our system could further support other colleagues within the NHS. Project plans have been drawn up and development is about to start. We are very excited about what we can produce and more importantly how this can help organisations to run, record and report on appraisals for all staff.</p>
-        <button type="button" class="btn btn-default">Read More</button>
-      </div>
-    </div>
-    <div class="row news-item">
-      <div class="col-xs-12 col-sm-6">
-        <a href="#" class="news/appraisal_for_all_in_development.html">
-          <img src="./images/news/sussex_community_website.jpg" class="img-responsive img-thumbnail" alt="Sussex Community Appraisal Website">
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <a href="#" class="news/appraisal_for_all_in_development.html">
-          <h2>Sussex Community choose SARD</h2>
-        </a>
-        <h4>Sussex Community sign-up to use SARD</h4>
-        <p>We are proud to announce that Sussex Community NHS Foundation Trust has just recently signed up to use the SARD Revalidation and Appraisal system. Implementation is underway and we are looking forward to this new partnership.</p>
-        <button type="button" class="btn btn-default">Read More</button>
-        
-      </div>
-    </div>
-    <div class="row news-item">
-      <div class="col-xs-12 col-sm-6">
-        <a href="#" class="news/appraisal_for_all_in_development.html">
-          <img src="./images/news/mind_in_croydon.jpg" class="img-responsive img-thumbnail" alt="Sussex Community Appraisal Website">
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <a href="#" class="news/appraisal_for_all_in_development.html">
-          <h2>Mind in Croydon</h2>
-        </a>
-        <h4>SARD launches new partnership with Mind in Croydon to promote mental health awareness</h4>
-        <p>We are delighted to be working with Mind in Croydon (link) to raise funds for people and their families living with mental health issues in our local area.</p>
-        <p>On 26 July we will be holding Gold Mind, a family treasure hunt in and around Crystal Palace. Entry will be charged at £5 per adult for teams of up to 6. Children go free. The starting line will be at Westow Park, where entrants will be able to collect their hunting packs and chat to the team from Mind in Croydon about their work.</p>
-        <p>In September we will be holding Stand Up to Stigma, a night of comedy in aid of this fantastic charity. More details to follow soon.</p>
-
-        <p>On 26 October Kevin, Phil, Sophie and Barbara from the SARD team will be taking part in the Great South Run, with all sponsorship raised also being donated to Mind in Croydon. The team can be sponsored online at www.justgiving.com/runningsard.</p>
-
-        <p>Mind in Croydon is a very active charity that works with people with mental health problems and their families in Croydon. It aims to increase understanding of the difficulties faced by those with mental health problems. Its various projects help to relieve social isolation, enable people to acquire skills for independent life and promote positive mental health.</p>
-
-        <p>More information can be be found on their website www.mindincroydon.org.uk.</p>
-
-        <p>Registered Charity number 1073880.</p>
-        <button type="button" class="btn btn-default">Read More</button>
-        
-      </div>
+    <div class="row">
+      {% for post in site.categories.news %}
+        {% include news_excerpt.html %}
+        {% assign remainder3 = forloop.index | modulo:3 %}
+        {% if remainder3 == 0 %}
+          <div class="clearfix visible-md visible-lg"></div>
+        {% endif %}
+        {% assign remainder2 = forloop.index | modulo:2 %}
+        {% if remainder2 == 0 %}
+          <div class="clearfix visible-sm"></div>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>
 
-{% include full_width_image.html image_id="transmitter" image_height="200" h1_text="Events" %}
+{% include full_width_image.html image_id="transmitter" image_height="200" %}
 
-<section id="events">
+<section id="events" class="top-divider blue-on-white">
   <div class="container">
     <h1>Events</h1>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <h4>Nursing Appraisal and Revalidation, Tuesday 20 May 2014</h4>
-      <p>Meet Phil and Nicholas/Sophie from the SARD team to chat about the development of our new nurse revalidation solution.</p>
-      <p>
-      <a href="http://www.healthcareconferencesuk.co.uk/nursing-appraisal-and-revalidation">Health Care Conferences - Nursing Appraisal and Revalidation Event on Tuesday 20th May 2014.</a></p>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <h4>Meet the team, Wednesday 4 June 2014</h4>
-      <p>The SARD team will be in Brighton for attendees of the NHS National RO Conference to meet us and chat about our range of revalidation solutions.</p>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <h4>Gold Mind, Saturday 26 July 2014</h4>
-      <p>Join us for a day of code-breaking, riddle solving and adrenaline pumping in a race to discover the lost treasure of Crystal Palace.</p>
-      <p>Entry will be charged at £5 per adult for teams of up to 6. Children go free. The starting line will be in Westow Park, where entrants will be able to collect their hunting packs and chat to the team from Mind in Croydon about their work.</p>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <h4>Stand up to Stigma, September 2014</h4>
-      <p>Our comedy fundraiser in aid of Mind in Croydon. More news to follow but you can be assured there will be some great headline acts and a great night out for a good cause.</p>
-    </div>
-    <div class="col-xs-12 col-sm-6 col-md-4">
-      <h4>The Great South Run, 26 October 2014</h4>
-      <p>Join us to cheer on SARD team members Sophie, Phil, Barbara and Kevin to the finish line. All funds raised are for Mind in Croydon and the team can be sponsored at www.justgiving.com/runningsard </p>
+    <div class="row">
+      {% for post in site.categories.events %}
+        {% include events_excerpt.html %}
+        {% assign remainder = forloop.index | modulo:3 %}
+        {% if remainder == 0 %}
+          <div class="clearfix visible-md visible-lg"></div>
+        {% endif %}
+        {% assign remainder2 = forloop.index | modulo:2 %}
+        {% if remainder2 == 0 %}
+          <div class="clearfix visible-sm"></div>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>
 
-{% include full_width_image.html image_id="dinosaur-neck" image_height="200" h1_text="Blogs" %}
+{% include full_width_image.html image_id="dinosaur-neck" image_height="200" %}
 
 
-<section id="blogs">
+<section id="blogs" class="top-divider blue-on-white">
   <div class="container">
     <h1>Blogs</h1>
     <div class="row">
-      <div class="col-xs-12">
-        <div class="row">
-          <div class="col-xs-3 col-sm-6 col-md-4">
-            <img src="./images/people/phil400x.jpg" class="img-responsive">
-          </div>
-          <div class="col-xs-9 col-sm-6 col-md-8">
-            <h2>Phil Bottle: This Week</h2>
-            <p>This week has been a very exciting week for us and for me. We have been building a new website to reflect all of the new exciting things we are doing. I have enjoyed really getting my teeth stuck into helping to build and design something that shows our current clients and potential clients what we are capable of, but more importantly why we do it. I often feel that businesses focus on a product, what they are building, but I don't think clients just look for what you can do, they want to see that you are doing it for the right reasons. For me it is about values, if we can bring our values to work and translate them in to building great things that we care about and believe in then by extension what we produce will be the best can be. I know people may question the idea of how you can care about building a system, and really what impact does it have, but to be honest the system is really the vehicle, it is believing in what you do and not just doing it because it is there. I have a firm held belief in trying to improve things, make them better and easier and that is reflected both inside and outside of work. I hope that the work we are doing with this internal website project reflects this.</p>
-            <p>The other big news we have is the future and what we are filling it with, exciting new developments, all focused on the same principles, so although I am loving this project and its challenges I can't wait to start on the next one and to see where that takes us.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-6">
-        <div class="row">
-          <div class="col-xs-3 col-sm-6">
-            <img src="./images/people/sophie400x.jpg" class="img-responsive">
-          </div>
-          <div class="col-xs-9 col-sm-6">
-            <h2>Sophie Buijsen</h2>
-            <p>Donec sit amet orci dolor. Praesent volutpat ligula condimentum est semper aliquam. Curabitur consequat elit orci, nec tempus arcu varius eget. Vivamus pretium ante a tellus pharetra, ut pulvinar metus dignissim. In hac habitasse platea dictumst. Nulla feugiat vitae neque vel iaculis. Ut hendrerit commodo ligula, non tristique quam porttitor non. Duis condimentum, lectus ac consequat iaculis, mauris augue rhoncus dui, ac accumsan enim turpis eget massa. Morbi gravida venenatis lorem eu tincidunt. Suspendisse lacus ante, dignissim quis leo a, commodo malesuada massa.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <div class="row">
-          <div class="col-xs-3 col-sm-6">
-            <img src="./images/people/francesca400x.jpg" class="img-responsive">
-          </div>
-          <div class="col-xs-9 col-sm-6">
-            <h2>Francesca Wilson</h2>
-            <p>Ut hendrerit commodo ligula, non tristique quam porttitor non. Duis condimentum, lectus ac consequat iaculis, mauris augue rhoncus dui, ac accumsan enim turpis eget massa. Morbi gravida venenatis lorem eu tincidunt. Suspendisse lacus ante, dignissim quis leo a, commodo malesuada massa.</p>
-          </div>
-        </div>
-      </div>
-      <div class="clearfix hidden-xs"></div>
-      <div class="col-xs-12 col-sm-6">
-        <div class="row">
-          <div class="col-xs-3 col-sm-6">
-            <img src="./images/people/dig400x.jpg" class="img-responsive">
-          </div>
-          <div class="col-xs-9 col-sm-6">
-            <h2>Nicholas Cooke</h2>
-            <p>Ut hendrerit commodo ligula, non tristique quam porttitor non. Duis condimentum, lectus ac consequat iaculis, mauris augue rhoncus dui, ac accumsan enim turpis eget massa. Morbi gravida venenatis lorem eu tincidunt. Suspendisse lacus ante, dignissim quis leo a, commodo malesuada massa. Ut hendrerit commodo ligula, non tristique quam porttitor non. Duis condimentum, lectus ac consequat iaculis, mauris augue rhoncus dui, ac accumsan enim turpis eget massa. Morbi gravida venenatis lorem eu tincidunt. Suspendisse lacus ante, dignissim quis leo a, commodo malesuada massa.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6">
-        <div class="row">
-          <div class="col-xs-3 col-sm-6">
-            <img src="./images/people/naomi400x.jpg" class="img-responsive">
-          </div>
-          <div class="col-xs-9 col-sm-6">
-            <h2>Naomi Liddle</h2>
-            <p>Lectus ac consequat iaculis, mauris augue rhoncus dui, ac accumsan enim turpis eget massa. Morbi gravida venenatis lorem eu tincidunt. Suspendisse lacus ante, dignissim quis leo a, commodo malesuada massa. Ut hendrerit commodo ligula, non tristique quam porttitor non. Duis condimentum, lectus ac consequat iaculis, mauris augue rhoncus dui, ac accumsan enim turpis eget massa. Morbi gravida venenatis lorem eu tincidunt. Suspendisse lacus ante, dignissim quis leo a, commodo malesuada massa.</p>
-          </div>
-        </div>
-      </div>
+      {% for post in site.categories.blog %}
+        {% include blog_excerpt.html %}
+        {% assign remainder = forloop.index | modulo:3 %}
+        {% if remainder == 0 %}
+          <div class="clearfix visible-md visible-lg"></div>
+        {% endif %}
+        {% assign remainder2 = forloop.index | modulo:2 %}
+        {% if remainder2 == 0 %}
+          <div class="clearfix visible-sm"></div>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>

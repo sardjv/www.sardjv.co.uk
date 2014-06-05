@@ -2,9 +2,11 @@
 layout: blog
 title:  Nurse Appraisal Conference
 nav_title:  Nurse Appraisal
+image: blog/philip/images/nurse_appraisal_conference.jpg
 tags:
   - nurse-appraisal
 author: philip
+excerpt: We recently attended the 'Nursing Appraisal and Revalidation' conference in London, which was a very useful and insightful event. Having a background plunged into the inner depths of medical revalidation and as a company looking to expand our systems to fulfill future requirements, this conference could not have come at a better time. I think there was a little nervousness about readiness, both from our persepctive and from those who will have to undertake this process. However this conference managed to highlight some important anxiety busters. Firstly, although things are moving quickly, no final decisions have been made, which is useful for us as we want to make sure we are part of the process and develop solutions that meet the actual need and not the percieved one. Secondly, it was clear that it was a well thought out process and the NMC were trying to ensure that Nurse revalidation met the requirements of nurses and was not just a carbon copy of revalidation for doctors.
 ---
 
 We recently attended the 'Nursing Appraisal and Revalidation' conference in London, which was a very useful and insightful event. Having a background plunged into the inner depths of medical revalidation and as a company looking to expand our systems to fulfill future requirements, this conference could not have come at a better time. I think there was a little nervousness about readiness, both from our persepctive and from those who will have to undertake this process. However this conference managed to highlight some important anxiety busters. Firstly, although things are moving quickly, no final decisions have been made, which is useful for us as we want to make sure we are part of the process and develop solutions that meet the actual need and not the percieved one. Secondly, it was clear that it was a well thought out process and the NMC were trying to ensure that Nurse revalidation met the requirements of nurses and was not just a carbon copy of revalidation for doctors. 
@@ -18,7 +20,3 @@ The other main area of interest for us was how the revalidation process may look
 - Continuing Professional Development
 - Self declaration
 - 3rd party sign off. 
-
-h3. Like this for a header?
-
-![My helpful screenshot]({{ site.url }}/images/apr_14_shoot/electro_pop_sard.jpg)

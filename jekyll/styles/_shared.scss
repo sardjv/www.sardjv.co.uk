@@ -38,6 +38,17 @@
   &.top-divider {border-top: 6px solid #e97b00;}
 }
 
+.white-on-blue {
+  background: $sard-turquoise;
+  color: white;
+  p {color:black;}
+  h1, h2 {color: white;}
+}
+.blue-on-white {
+  h1, h2, a {color: $sard-how-blue;}
+  &.top-divider {border-top: 6px solid $sard-how-blue;}
+}
+
 // Blogs 
 .blog {
   
@@ -47,7 +58,6 @@
   @include make-xs-column(12);
   @include make-sm-column(6);
   @include make-md-column(4);
-  height: 600px;
 }
 
 
