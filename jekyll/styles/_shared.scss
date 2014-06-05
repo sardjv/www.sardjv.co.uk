@@ -26,28 +26,39 @@
   #section-name-6 {background: $sard-pink;}
 }
 
-.white-on-orange {
-  background: #e97b00;
+@mixin white-on-colour($colour) {
+  background: $colour;
   color: white;
   p {color:black;}
   h1, h2 {color: white;}
 }
 
-.orange-on-white {
-  h1, h2, a {color: #e97b00;}
-  &.top-divider {border-top: 6px solid #e97b00;}
+@mixin colour-on-white($colour) {
+  h1, h2, a {color: $colour;}
+  &.top-divider {border-top: 6px solid $colour;}
 }
 
-.white-on-blue {
-  background: $sard-turquoise;
-  color: white;
-  p {color:black;}
-  h1, h2 {color: white;}
-}
-.blue-on-white {
-  h1, h2, a {color: $sard-how-blue;}
-  &.top-divider {border-top: 6px solid $sard-how-blue;}
-}
+.white-on-orange {@include white-on-colour($sard-why-orange);}
+.orange-on-white {@include colour-on-white($sard-why-orange);}
+
+.white-on-blue {@include white-on-colour($sard-how-blue);}
+.blue-on-white {@include colour-on-white($sard-how-blue);}
+
+.white-on-what-purple {@include white-on-colour($sard-what-purple);}
+.what-purple-on-white {@include colour-on-white($sard-what-purple);}
+
+.white-on-purple {@include white-on-colour($sard-purple);}
+.purple-on-white {@include colour-on-white($sard-purple);}
+
+.white-on-dark-blue {@include white-on-colour($sard-dark-blue);}
+.dark-purple-on-white {@include colour-on-white($sard-dark-blue);}
+//$sard-dark-blue:        #102d69 !default;
+//$sard-yellow:           #f8b101 !default;
+//$sard-red:              #bd111f !default;
+//$sard-turquoise:        #018e88 !default;
+//$sard-orange:           #e97b00 !default;
+//$sard-pink:             #e02b88 !default;
+//$sard-purple:           #8b277f !default;
 
 // Blogs 
 .blog {
