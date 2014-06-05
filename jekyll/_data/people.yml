@@ -1,28 +1,272 @@
-sophie:
-  first_name: Sophie
-  last_name: Buijsen
-  email: sophie@sardjv.co.uk
-  image400x: images/people/sophie400x.jpg
-  profile_page: people/sophie.html
-
-nicholas:
-  first_name: Nicholas
-  last_name: Cooke
-  email: nicholas@sardjv.co.uk
-  image400x: images/people/dig400x.jpg
-  profile_page: people/nicholas.html
-
 kevin:
   first_name: Kevin
   last_name: Monk
   email: kevin@sardjv.co.uk
+  role: Managing Director
   image400x: images/people/kevin400x.jpg
   profile_page: people/kevin.html
+  bio: |
+    <p>Kevin is both managing director of SARD JV and Mango Swiss; 
+    the software company responsible for building the SARD system. 
+    Prior to forming Mango Swiss in 2007, he was Technical Director 
+    for an international sports animation company.</p>
+    
+    <p>Having graduated as an electronic engineer in 2001, he started 
+    his career as a principal engineer at the Defense Science and 
+    Technology Laboratories before moving into private industry. 
+    He built his first website at the age of 14, before Google even 
+    existed, and has never looked back.</p>
 
 philip:
   first_name: Philip
   last_name: Bottle
   email: philip@sardjv.co.uk
+  role: Sales Director
   image400x: images/people/phil400x.jpg
   profile_page: people/philip.html
+  bio: |
+    <p>Throughout my working career, both in the NHS and outside of it,
+     it has always been a passion of mine to make things better, tobe 
+     part of something that has a positive impact. The premise is always 
+     the same, invest time in improving the things we have to do, make 
+     the small things easy to eventually make the big things easy, and 
+     working for SARD is the epitome of this.</p>
+     
+    <p>I have always felt that it is important to understand why we do 
+    things, asking the important questions and get to the real nub of 
+    the questions in order to produce the best answers. If my skills and 
+    knowledge, combined with those around me can help have a positive 
+    impact on the organisations we are working with then I have started 
+    to achieve my goals.</p> 
+    
+    <p>I have worked in both the private and the public sector over the 
+    last 16 years, and prior to working with SARD JV I spent 5 years in 
+    the NHS, creating positive change and living the day to day, 
+    challenges as well as witnessing the challenges that others faced. 
+    My last role was Head of Learning and Development at Oxleas NHS 
+    Foundation Trust, a very different role to the one I am in now.</p>  
+    
+    <p>As like many of my colleagues, I like to indulge in activities 
+    outside of work, and I am currently finishing off a number of writing 
+    projects, which I find both relaxing and rewarding. Who knows one 
+    day you may get to read some of my work when they are on the 
+    bestsellers list.
+    </p>
+
+
+sophie:
+  first_name: Sophie
+  last_name: Buijsen
+  email: sophie@sardjv.co.uk
+  role: Account Manager
+  image400x: images/people/sophie400x.jpg
+  profile_page: people/sophie.html
+  bio: |
+    <p>Hello! I'm Sophie and I am one of the account managers at 
+    SARD JV.  In fact, I was the very first account manager SARD 
+    JV ever had. When I joined the company in November 2012, SARD 
+    was on the verge of growth and it was very exciting. I was 
+    there when the first big contacts came in, when it became 
+    clear that SARD JV was not just a small player in a big field, 
+    but could actually make a difference.</p>
+    
+    <p>For me the way SARD JV is different than anywhere I've 
+    ever worked before is that our customer service is not just 
+    a meaningless slogan. No one in this company reads from 
+    scripts or waves away queries. We are all invested in our 
+    solutions and we're all invested in making sure that our 
+    clients and end users like our systems as much as we do.</p>
+    
+    <p>Before I came to SARD JV I completed an MSc in Science 
+    Communication, which is an interest I still hold dear. Which 
+    is why Kevin and I run a monthly science and technology meet-up 
+    in Crystal Palace, called the Silicon Triangle, where we get 
+    together with like minded people and talk about the projects 
+    we are working on. Listening to the enthusiasm of others is 
+    always inspiring and often helps us innovate our solutions as well.</p>
+    
+    <p>Besides this I write science stories on sciphie.wordpress.com 
+    and am the sub-editor of the zine ‘You've Got Mail' 
+    (http://gotmailzine.wordpress.com/)</p>
+
+nicholas:
+  first_name: Nicholas
+  last_name: Cooke
+  email: nicholas@sardjv.co.uk
+  role: Account Manager
+  image400x: images/people/dig400x.jpg
+  profile_page: people/nicholas.html
+  bio: |
+    <p>I am an account manager for SARD JV which gives me hands on 
+    experience with people using the system every day, whether this 
+    is improving and streamlining our system to the specific needs 
+    of a client or problem solving on our online chat feature.</p>
+    <p>As we are a relatively small company it means that we all 
+    feel a very personal stake in the companies activities, whether 
+    that is dealing with clients, testing systems or organizing 
+    charity events.</p>
+    
+    <p>Because we are very open as a company it means as employees 
+    we can each tailor our work according to our own strengths 
+    and what we most enjoy.</p>
+    
+    <p>Having studied at both Sussex University and University of 
+    East London, I spent 6 years working in the world of Optics 
+    in various different ways. This has instilled an interest in 
+    the ways different institutions and industries can collaborate 
+    and find mutual goals.</p>
+    
+    <p>I feel we are in an interesting position being a joint venture 
+    with an NHS trust, we are both part of the NHS framework but have 
+    the freedom to really get to the core of problems and provide 
+    innovative and fresh solutions.</p>
+    
+    <p>In my time away from work I run a storytelling night in 
+    Crystal Palace, I have been involved in writing and performing 
+    for many years, including participating in the Edinburgh and 
+    Brighton Fringes Festivals.</p>
+
+
+
+
+barbara:
+  first_name: Barbara
+  last_name: White
+  email: barbara@sardjv.co.uk
+  role: Lead Developer
+  image400x: images/people/barbara400x.jpg
+  profile_page: people/barbara.html
+  bio: |
+    <p>I have been working on SARD from the very first day of development, 
+    so you could say that the system is like a child to me. I was present 
+    at the first requirement gathering exercise and I hope I bring a wealth 
+    of experience to the team having worked on two previous Mango Swiss 
+    products (also deployed within NHS Trusts).</p>
+    
+    <p>I graduated with a degree in Computer Science in 1997. Since I 
+    graduated I have built up extensive knowledge and experience including 
+    working on on the C++ Java API for the Symbian Operating System for mobile 
+    phones and for the PSion range of personal organisers before joining 
+    Mango Swiss. What I love is that all of the experience of how things work 
+    well has been applied to the SARD range of systems.</p>
+    
+    <p>There is nothing I love more that problem solving and a thorough 
+    attention to detail which I dare say makes me a natural born programmer 
+    and it's starting to show in the next generation as my 8 year old son 
+    Joshua has started writing his first Ruby code. Such a proud mum.</p>
+
+francesca:
+  first_name: Francesca
+  last_name: Wilson
+  email: francesca@sardjv.co.uk
+  role: Research and Events
+  image400x: images/people/francesca400x.jpg
+  profile_page: people/francesca.html
+  bio: |
+    <p>I first started working with SARD in the earliest days when Kevin 
+    asked me to come along to a meeting to input into early research and 
+    marketing plans. I loved the atmosphere and the customer service ethos 
+    of the company and started working as permanent Head of Research and 
+    Events shortly afterwards.</p>
+    
+    <p>I have worked in HR and candidate research within both the public 
+    and private sectors and prior to joining SARD spent four years as a 
+    fundraising manager for the NSPCC, supporting their National Development 
+    Board, delivering gala fundraising events and working with major corporate 
+    partners. These varied experiences have helped provide a good 
+    understanding how large organisations work and the vital importance of 
+    providing clients with the best possible customer service.</p>
+    
+    <p>Outside of work, I am Secretary to the Board of Trustees for 
+    Beckenham Theatre and part of the founding group for Crystal Palace 
+    Primary School, a new school that parents in the local area are hoping 
+    to open in 2015.</p>
+    
+    <p>I work in the SARD office part-time and for the rest of the week I 
+    look after my lively three year old which certainly keeps me busy! I 
+    am very proud to work for SARD and excited about our future direction.</p>
+    
+naomi:
+  first_name: Naomi
+  last_name: Liddle
+  email: naomi@sardjv.co.uk
+  role: Office Manager
+  image400x: images/people/naomi400x.jpg
+  profile_page: people/naomi.html
+  bio: |
+    <p>I'm Naomi and I'm the Office Manager at SARD JV.</p>
+    
+    <p>I'm only here a few days a week - sorting out the paperwork, making 
+    sure everyone gets paid and filing whatever needs to be filed - but I 
+    always look forward to my time catching up with the team in the SARD 
+    office. Unlike so many companies, there's a real culture of ‘pitching in' 
+    here, and as well as my regular tasks I know my way around the 
+    revalidation system and often jump in to help on the LiveChats. No 
+    two days are the same, and that's part of what makes this such a dynamic 
+    and innovative company to work for.</p>
+    
+    <p>I studied Drama at university before working in theatre facilities 
+    management and then spent several years running the head office of a 
+    cocktail bar chain before landing at SARD. Industries may differ, but 
+    the core values of customer service and integrity of product are what 
+    I look for in a workplace and SARD has these in abundance.</p>
+    
+    <p>Like many of the team here, I have a creative side and I exercise this 
+    in my local theatre company and in front of my trusty sewing machine. </p>
+    
+    
+ben:
+  first_name: Ben
+  last_name: Travis
+  email: ben.travis@oxleas.nhs.uk
+  role: Board Director
+  image400x: images/people/ben400x.jpg
+  profile_page: people/ben.html
+  bio: |    
+    <p>I am one of the Directors here at SARD, and also the Director of Finance 
+    at Oxleas NHS Foundation Trust.  From the moment we started discussing the 
+    creation of Sard JV, I have been impressed by the team who have dedicated 
+    themselves to the Sard system. Not only does it look fantastic, it's also 
+    very easy to use.</p>
+    
+    <p>I've felt privileged to be involved in the setting up of this company and 
+    the journey to becoming a viable and self-sufficient business - which we now 
+    are. I put this down to a great system, a relentless focus on customer service, 
+    delivered by talented people who really care.</p>
+    
+    <p>I joined the NHS in 2005, having previously worked at Arthur Andersen 
+    and Heineken; and started at Oxleas in 2011.</p>
+    
+jonathan:
+  first_name: Jonathan
+  last_name: Wood
+  email: jonathan@sardjv.co.uk
+  role: Business Advisor
+  image400x: images/people/jonathan400x.jpg
+  profile_page: people/jonathan.html
+  bio: |
+    <p>I make a living from working with startup and early-stage businesses, so I 
+    have to choose who I work with very carefully. I chose to engage with SARD JV 
+    because I saw in its founder, Kevin Monk, a genuine passion and commitment to 
+    build a sustainable business for the long-term, and in its co-founder, Oxleas 
+    NHS Foundation Trust, then his client, a willingness to think outside the box 
+    in how to achieve their goals. We negotiated a joint-venture agreement, and 
+    have moved through the tricky start-up phase into a fully self-sustaining and 
+    rewarding business for all involved, in which the personal qualities which 
+    first attracted me are now firmly rooted in the culture of the company: SARD JV 
+    is caring, forward-looking, responsive and adaptive.</p>
+    
+    <p>With 30 years experience, spread equally over public and private sectors, 
+    I'm the gray-hair in the team, and help balance the perspectives of the 
+    stakeholders, maximise alignment of interests and avoid the common pitfalls in 
+    a growth-oriented business. Starting out as an academic theoretical chemist, 
+    my earlier career has moved through: systems programming, software development, 
+    intelligence and security services interests in technology, technology research 
+    & development programmes, government contracting, the introduction of digital 
+    television, digital convergence and regulation, and business development, 
+    finance, venture capital investment, turnaround and exit (M&amp;A/Flotation).</p>
+    
+    <p>I founded Haven Ventures in the UK in 2002, and we now operate the same model 
+    of collaborative business development, investment and turnaround services in 
+    the UK and six countries in Latin America and more recently Africa.</p>
   

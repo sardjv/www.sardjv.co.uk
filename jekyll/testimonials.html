@@ -29,6 +29,10 @@ why_how_what: 'why'
       {% assign testimonials = site.categories.testimonials | sort: 'order' %}
       {% for post in testimonials %}
         {% include testimonial_excerpt.html %}
+        {% assign remainder = forloop.index | modulo:3 %}
+        {% if remainder == 0 %}
+          <div class="clearfix visible-md visible-lg"></div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>

@@ -1,6 +1,7 @@
 ---
 # Predefined Global Variables
 layout: default
+why_how_what: 'why'
 ---
 {% assign author = site.data.people[page.author] %}
 {% assign lvl = page.url | append:'X' | split:'/' | size %}
@@ -8,7 +9,7 @@ layout: default
 
 {% include full_width_image.html image_id="london_skyline" image_height="450" %}
 
-<section>
+<section class="orange-on-white">
   <div class="container">
     <div class="row">
       <div class="testimonial testimonial-testifier">
@@ -16,10 +17,9 @@ layout: default
         <h3>{{ page.testifier }}</h3>
         <h4>{{ page.role }}</h4>
         <h5>{{ page.organisation }}</h5>
-        <img class="img-responsive logo" src="{{relative}}{{page.logo}}">
       </div>
       <blockquote class="testimonial testimonial-full">
-        
+        <p class="text-right"><img class="img-responsive logo" src="{{relative}}{{page.logo}}"></p>
         <img class="open-quote" width="40" src="{{ relative }}images/construction/quote_open_orange08.png">
           {{ content }}
         <img class="close-quote" width="40" src="{{ relative }}images/construction/quote_close_orange08.png">
@@ -36,6 +36,10 @@ layout: default
       {% assign testimonials = site.categories.testimonials | sort: 'order' %}
       {% for post in testimonials %}
         {% include testimonial_excerpt.html %}
+        {% assign remainder = forloop.index | modulo:3 %}
+        {% if remainder == 0 %}
+          <div class="clearfix visible-md visible-lg"></div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>

@@ -1,4 +1,10 @@
-<!-- Full Page Image Header Area -->
-<h3>{{post.title}}</h3>
-{{post.excerpt}}
-<!-- /Full Page Image Header Area -->
+{% assign author = site.data.people[page.author] %}
+{% assign lvl = page.url | append:'X' | split:'/' | size %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+
+<div class="blog blog-excerpt">
+  <h4>{{ post.title }}</h4>
+  <img width="150" src="{{relative}}{{post.image}}">
+  <p>{{ post.excerpt }}</p>
+  <p><a href="{{ post.url }}" class="btn btn-default btn-sm" role="button">Read More</a></p>
+</div>

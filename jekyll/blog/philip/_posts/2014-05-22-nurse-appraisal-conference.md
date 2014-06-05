@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog
 title:  Nurse Appraisal Conference
 nav_title:  Nurse Appraisal
 tags:

@@ -5,7 +5,7 @@ testifier: Andrew Forsyth
 role: Revalidation Project Manager
 logo: testimonials/images/harrogate.jpg
 testifier-image: testimonials/images/andrew-forsyth.jpg
-order: 3
+order: 4
 
 author: kevin
 ---

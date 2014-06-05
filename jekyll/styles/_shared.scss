@@ -1,22 +1,4 @@
-.thumbnail {
-  padding: 0px;
-  border: none;
 
-  a.portrait img {border-radius: 10px 10px 0px 0px;}
-  .caption {
-    border-radius: 0px 0px 10px 10px;
-    background: #201d18;
-    padding: 15px;
-    height: 130px;
-//      @media screen and (min-width: 768px) {height: 180px;}
-    color: white;
-    position: relative;
-    h3 {font-weight: 100;}
-    h3, h4 {margin: 0px;  font-size: 1.2em;}
-    p.bio-links {position: absolute; bottom: 15px; left:15px; margin: 0px;}
-    p.bio-links a img {display: inline; width:20px; height: 20px;}
-  }
-}
 
 #news {
   .row {padding-top: 15px; padding-bottom: 15px; border-bottom: 1px solid lightgray;}
@@ -52,17 +34,30 @@
 }
 
 .orange-on-white {
-  h1, h2 {color: #e97b00;}
+  h1, h2, a {color: #e97b00;}
   &.top-divider {border-top: 6px solid #e97b00;}
 }
 
+// Blogs 
+.blog {
+  
+}
+
+.blog-excerpt {
+  @include make-xs-column(12);
+  @include make-sm-column(6);
+  @include make-md-column(4);
+  height: 600px;
+}
+
+
+
+// Testimonials
 .testimonial {
   img.open-quote {float:left; margin-right: 6px;}
   img.close-quote {margin-left: 6px;}
   img.logo {margin-bottom: 6px;}
-  
 }
-
 .testimonial-full {
   @include make-xs-column(12);
   @include make-sm-column(8);
@@ -72,13 +67,36 @@
   @include make-xs-column(12);
   @include make-sm-column(6);
   @include make-md-column(4);
-  height: 600px;
 }
 
 .testimonial-testifier {
   @include make-xs-column(12);
   @include make-sm-column(4);
 }
+
+
+.person-extract{
+  @include make-xs-column(6);
+  @include make-sm-column(4);
+  @include make-md-column(3);
+  margin-bottom: 30px;
+  
+  img.portrait {border-radius: 10px 10px 0px 0px;}
+  
+  .caption {
+    @include make-xs-column(12);
+    border-radius: 0px 0px 10px 10px;
+    background: #201d18;
+    height: 130px;
+//      @media screen and (min-width: 768px) {height: 180px;}
+    color: white;
+    p.bio-links {position: absolute; bottom: 15px; left:15px; margin: 0px;}
+    p.bio-links img {display: inline-block; width:20px; height: 20px;}
+  }
+}
+
+
+
 
 .more-links {
   @include make-sm-column(4);

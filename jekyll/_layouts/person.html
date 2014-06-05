@@ -1,0 +1,31 @@
+---
+# Predefined Global Variables
+layout: default
+---
+{% assign person = site.data.people[page.person] %}
+{% assign lvl = page.url | append:'X' | split:'/' | size %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+
+{% include full_width_image.html image_id="london_skyline" image_height="450" %}
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4">
+        <img src="{{ relative }}{{person.image400x}}" class="img-thumbnail">
+      </div>
+      <div class="col-xs-8">
+        <h1>{{person.first_name}} {{person.last_name}}</h1>
+        <p>{{person.bio}}</p>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      {% for post in site.categories[page.person] %}
+        {% include blog_excerpt.html %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+

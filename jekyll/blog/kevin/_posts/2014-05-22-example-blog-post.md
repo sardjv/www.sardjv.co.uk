@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog
 title:  Example Blog Post
 nav_title:  Example Blog Post
   

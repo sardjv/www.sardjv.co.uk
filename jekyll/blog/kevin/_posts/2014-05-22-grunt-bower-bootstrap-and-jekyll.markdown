@@ -1,5 +1,5 @@
 ---
-layout: blog_post
+layout: blog
 title:  Grunt, Bower and Jekyll
 nav_title:  Grunt work
   

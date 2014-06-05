@@ -32,13 +32,26 @@ permalink: /:categories/:year/:month/:title.html
         {{ content }}
       </div>
       <div class="col-xs-4">
-        <h3>Recent Posts</h3>
+        <h4>Other posts by {{ author.first_name }}</h4>
         <ul>
         {% for post in site.categories[page.author] %}
         <li><a href="{{post.url}}">{{post.title}}</a></li>
         {% endfor %}
         </ul>
         
+        <h4>Recent posts</h4>
+        <ul>
+        {% for post in site.categories.blog limit:5 %}
+        <li><a href="{{post.url}}">{{post.title}}</a></li>
+        {% endfor %}
+        </ul>
+        
+        <h4>Authors</h4>
+        <ul>
+        {% for person in site.data.people %}
+        <li><a href="{{relative}}{{person[1].profile_page}}">{{person[1].first_name}} {{person[1].last_name}}</a></li>
+        {% endfor %}
+        </ul>
       </div>
     </div>
   </div>
