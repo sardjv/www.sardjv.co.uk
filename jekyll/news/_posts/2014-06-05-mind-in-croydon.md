@@ -13,11 +13,9 @@ tags:
 author: philip
 ---
 
-We are delighted to be working with Mind in Croydon (link) to raise funds for people and their families living with mental health issues in our local area.
+We are delighted to be working with Mind in Croydon to raise funds for people and their families living with mental health issues in our local area.
 
-On 26 July we will be holding Gold Mind, a family treasure hunt in and around Crystal Palace. Entry will be charged at £5 per adult for teams of up to 6. Children go free. The starting line will be at Westow Park, where entrants will be able to collect their hunting packs and chat to the team from Mind in Croydon about their work.
-
-In September we will be holding Stand Up to Stigma, a night of comedy in aid of this fantastic charity. More details to follow soon.
+We will be holding our Stand Up to Stigma event before the end of the year, a night of comedy in aid of this fantastic charity. More details to follow soon.
 
 On 26 October Kevin, Phil, Sophie and Barbara from the SARD team will be taking part in the Great South Run, with all sponsorship raised also being donated to Mind in Croydon. The team can be sponsored online at www.justgiving.com/runningsard.
 
