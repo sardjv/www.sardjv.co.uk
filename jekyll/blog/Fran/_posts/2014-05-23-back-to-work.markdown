@@ -2,7 +2,7 @@
 layout: blog
 title:  Back to work
 nav_title:  Back to work
-image: blog/fran/images/portugal.jpg
+image: blog/fran/portugal.jpg
   
 tags:
   - Charity

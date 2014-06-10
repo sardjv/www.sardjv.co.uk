@@ -2,7 +2,7 @@
 layout: blog
 title:  Silicon Triangle
 nav_title:  Silicon Triangle
-image: blog/sophie/images/silicon-triangle.jpg
+image: blog/sophie/silicon-triangle.jpg
   
 tags:
   - Technology
