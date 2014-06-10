@@ -12,8 +12,4 @@ tags:
 author: kevin
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-
-You can write something here.
-
-![My helpful screenshot]({{ site.url }}/images/apr_14_shoot/electro_pop_sard.jpg)
+The website here was built using jekyll, grunt and bower. This blog post really needs to be a lot more interesting but to be honest I jut don't know how at the moment.

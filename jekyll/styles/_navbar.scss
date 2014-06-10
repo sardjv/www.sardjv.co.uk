@@ -7,6 +7,7 @@
 #navbar1 {
   background: $gray-darker;
   p.telephone {float:left;}
+  height: 30px;
 }
 
 #navbar2 {
@@ -17,6 +18,7 @@
   
   .visible-xs {
     line-height:30px;
+    height: 30px;
     p {margin: 0px}
     p.navbar-left{float: left !important;}
     p.navbar-right{

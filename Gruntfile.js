@@ -47,7 +47,7 @@ module.exports = function (grunt) {
                 // cwd: '',
                 // dependencies: true,
                 // devDependencies: false,
-                // exclude: [],
+                // exclude: ['html5shiv', 'respond'],
                 // fileTypes: {},
                 // ignorePath: '',
                 // overrides: {}
@@ -82,10 +82,10 @@ module.exports = function (grunt) {
                 files: ['<%= config.jekyll %>/{,*/}*.{html,md,scss,css}'],
                 tasks: ['jekyll:dist', 'wiredep']
             },
-            bower: {
-                files: ['bower.json'],
-                tasks: ['bowerInstall']
-            },
+            // bower: {
+            //     files: ['bower.json'],
+            //     tasks: ['bowerInstall']
+            // },
             js: {
                 files: ['<%= config.app %>/scripts/{,*/}*.js'],
                 tasks: ['jshint'],
@@ -274,19 +274,19 @@ module.exports = function (grunt) {
             }
         },
 
-        // Automatically inject Bower components into the HTML file
-        bowerInstall: {
-            app: {
-                src: ['<%= config.jekyll %>/_includes/footer.html'],
-                exclude: ['bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap.js']
-            },
-            sass: {
-                src: ['<%= config.app %>/styles/{,*/}*.{scss,sass}']
-            },
-            less: {
-                src: ['<%= config.app %>/styles/{,*/}*.less']
-            }
-        },
+        // // Automatically inject Bower components into the HTML file
+        // bowerInstall: {
+        //     app: {
+        //         src: ['<%= config.jekyll %>/_includes/footer.html'],
+        //         exclude: ['bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap.js']
+        //     },
+        //     sass: {
+        //         src: ['<%= config.app %>/styles/{,*/}*.{scss,sass}']
+        //     },
+        //     less: {
+        //         src: ['<%= config.app %>/styles/{,*/}*.less']
+        //     }
+        // },
 
         // Renames files for browser caching purposes
         rev: {

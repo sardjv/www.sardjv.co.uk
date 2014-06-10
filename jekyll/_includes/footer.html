@@ -37,3 +37,7 @@
 <!-- build:js({app,.tmp}) scripts/main.js -->
 <script src="{{ relative }}scripts/main.js"></script>
 <!-- endbuild -->
+
+<script>
+  videojs.options.flash.swf = "{{ relative }}bower_components/video.js/dist/video-js/video-js.swf"
+</script>

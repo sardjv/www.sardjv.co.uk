@@ -16,7 +16,9 @@ why_how_what: 'how'
   <div class="container">
     <div class="row">
       <div class="col-xs-2">
-        <img src="{{ relative }}{{author.image400x}}" class="img-thumbnail">
+        {% if page.image %}
+          <img class="img-responsive img-thumbnail" src="{{relative}}{{page.image}}">
+        {% endif %}
       </div>
       <div class="col-xs-6">
         <h2>{{ page.title }}</h2>
