@@ -3,8 +3,8 @@ layout: testimonial
 organisation: Ipswich Hospital NHS Trust
 testifier: Dr Tony Nicholl
 role: Trust Appraiser and Consultant Anaesthetist
-logo: testimonials/images/ipswich.jpg
-testifier-image: testimonials/images/ipswich-hospital.jpg
+logo: testimonials/ipswich.jpg
+testifier-image: testimonials/ipswich-hospital.jpg
 order: 6
 author: kevin
 ---

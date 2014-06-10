@@ -3,7 +3,7 @@ kevin:
   last_name: Monk
   email: kevin@sardjv.co.uk
   role: Managing Director
-  image400x: images/people/kevin400x.jpg
+  image400x: people/kevin400x.jpg
   profile_page: people/kevin.html
   bio: |
     <p>Kevin is both managing director of SARD JV and Mango Swiss; 
@@ -22,7 +22,7 @@ philip:
   last_name: Bottle
   email: philip@sardjv.co.uk
   role: Sales Director
-  image400x: images/people/phil400x.jpg
+  image400x: people/phil400x.jpg
   profile_page: people/philip.html
   bio: |
     <p>Throughout my working career, both in the NHS and outside of it,
@@ -59,7 +59,7 @@ sophie:
   last_name: Buijsen
   email: sophie@sardjv.co.uk
   role: Account Manager
-  image400x: images/people/sophie400x.jpg
+  image400x: people/sophie400x.jpg
   profile_page: people/sophie.html
   bio: |
     <p>Hello! I'm Sophie and I am one of the account managers at 
@@ -94,7 +94,7 @@ nicholas:
   last_name: Cooke
   email: nicholas@sardjv.co.uk
   role: Account Manager
-  image400x: images/people/dig400x.jpg
+  image400x: people/dig400x.jpg
   profile_page: people/nicholas.html
   bio: |
     <p>I am an account manager for SARD JV which gives me hands on 
@@ -134,7 +134,7 @@ barbara:
   last_name: White
   email: barbara@sardjv.co.uk
   role: Lead Developer
-  image400x: images/people/barbara400x.jpg
+  image400x: people/barbara400x.jpg
   profile_page: people/barbara.html
   bio: |
     <p>I have been working on SARD from the very first day of development, 
@@ -160,7 +160,7 @@ francesca:
   last_name: Wilson
   email: francesca@sardjv.co.uk
   role: Research and Events
-  image400x: images/people/francesca400x.jpg
+  image400x: people/francesca400x.jpg
   profile_page: people/francesca.html
   bio: |
     <p>I first started working with SARD in the earliest days when Kevin 
@@ -191,7 +191,7 @@ naomi:
   last_name: Liddle
   email: naomi@sardjv.co.uk
   role: Office Manager
-  image400x: images/people/naomi400x.jpg
+  image400x: people/naomi400x.jpg
   profile_page: people/naomi.html
   bio: |
     <p>I'm Naomi and I'm the Office Manager at SARD JV.</p>
@@ -220,7 +220,7 @@ ben:
   last_name: Travis
   email: ben.travis@oxleas.nhs.uk
   role: Board Director
-  image400x: images/people/ben400x.jpg
+  image400x: people/ben400x.jpg
   profile_page: people/ben.html
   bio: |    
     <p>I am one of the Directors here at SARD, and also the Director of Finance 
@@ -242,7 +242,7 @@ jonathan:
   last_name: Wood
   email: jonathan@sardjv.co.uk
   role: Business Advisor
-  image400x: images/people/jonathan400x.jpg
+  image400x: people/jonathan400x.jpg
   profile_page: people/jonathan.html
   bio: |
     <p>I make a living from working with startup and early-stage businesses, so I 

@@ -4,7 +4,7 @@
 
 <div class="blog blog-excerpt">
   {% if post.image %}
-    <a href="{{ post.url }}"><img class="img-responsive img-thumbnail" src="{{relative}}{{post.image}}"></a>
+    <a href="{{ post.url }}"><img class="img-responsive img-thumbnail" src="{{relative}}images/{{post.image}}"></a>
   {% endif %}
   <h3><a href="{{ post.url }}">{{ post.nav_title }}</a></h3>
   {{ post.excerpt | strip_html | truncatewords:50}}

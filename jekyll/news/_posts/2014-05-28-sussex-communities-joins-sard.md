@@ -2,7 +2,7 @@
 layout: news_item
 title:  Sussex Communities joins SARD
 nav_title:  Sussex joins SARD
-image: news/images/sussex_community_website.jpg
+image: news/sussex_community_website.jpg
 tags:
   - new-clients
   - revalidation

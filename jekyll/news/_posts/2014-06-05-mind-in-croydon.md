@@ -2,7 +2,7 @@
 layout: news_item
 title:  SARD launches new partnership with Mind in Croydon
 nav_title:  Mind in Croydon
-image: news/images/mind_in_croydon.jpg
+image: news/mind_in_croydon.jpg
 tags:
   - charity
   - mind-in-croydon

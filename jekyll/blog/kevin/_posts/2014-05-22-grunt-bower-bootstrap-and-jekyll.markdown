@@ -2,7 +2,7 @@
 layout: blog
 title:  Grunt, Bower and Jekyll
 nav_title:  Grunt work
-image: blog/kevin/images/grunt-logo.jpg
+image: blog/kevin/grunt-logo.jpg
   
 tags:
   - grunt

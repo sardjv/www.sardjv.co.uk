@@ -3,7 +3,7 @@
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 
 <div class="testimonial testimonial-excerpt">
-  <p class="text-center"><img class="img-responsive logo" src="{{relative}}{{post.logo}}"></p>
+  <p class="text-center"><img class="img-responsive logo" src="{{relative}}images/{{post.logo}}"></p>
   <blockquote>
   <img class="open-quote" width="20" src="{{ relative }}images/construction/quote_open_orange08.png">
     {{ post.excerpt}}

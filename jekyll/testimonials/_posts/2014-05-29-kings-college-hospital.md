@@ -5,8 +5,8 @@ organisation: King's College Hospital
 testifier: Ludovic Dogbe
 role: Job Planning & Revalidation Manager
 order: 2
-logo: testimonials/images/kings.jpg
-testifier-image: testimonials/images/kings-arch.png
+logo: testimonials/kings.jpg
+testifier-image: testimonials/kings-arch.png
 author: kevin
 ---
 

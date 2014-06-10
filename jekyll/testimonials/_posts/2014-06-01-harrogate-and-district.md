@@ -3,8 +3,8 @@ layout: testimonial
 organisation: Harrogate and District Foundation Trust
 testifier: Andrew Forsyth
 role: Revalidation Project Manager
-logo: testimonials/images/harrogate.jpg
-testifier-image: testimonials/images/andrew-forsyth.jpg
+logo: testimonials/harrogate.jpg
+testifier-image: testimonials/andrew-forsyth.jpg
 order: 4
 
 author: kevin

@@ -3,8 +3,8 @@ layout: testimonial
 organisation: Leicestershire Partnership NHS Trust
 testifier: Angela Salmen
 role: Senior Medical Staffing Manager
-logo: testimonials/images/leicestershire.jpg
-testifier-image: testimonials/images/brandon-mental-health-unit.jpg
+logo: testimonials/leicestershire.jpg
+testifier-image: testimonials/brandon-mental-health-unit.jpg
 order: 5
 author: kevin
 ---
