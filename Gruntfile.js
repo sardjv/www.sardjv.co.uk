@@ -318,7 +318,7 @@ module.exports = function (grunt) {
             options: {
                 assetsDirs: ['<%= config.dist %>', '<%= config.dist %>/images']
             },
-            html: ['<%= config.dist %>/{,*/}*.html'],
+            html: ['<%= config.dist %>/{,**/}*.html'],
             css: ['<%= config.dist %>/styles/{,*/}*.css','<%= config.dist %>/styles/{,*/}*.css']
         },
 
@@ -379,7 +379,7 @@ module.exports = function (grunt) {
                         '.htaccess',
                         './bower_components/**/*',
                         'images/{,*/}*.webp',
-                        '{,*/}*.html',
+                        '{,**/}*.html',
                         'CNAME',
                         'styles/fonts/{,*/}*.*'
                     ]
