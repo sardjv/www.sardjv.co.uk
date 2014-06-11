@@ -87,7 +87,7 @@ module.exports = function (grunt) {
             //     tasks: ['bowerInstall']
             // },
             js: {
-                files: ['<%= config.app %>/scripts/{,*/}*.js'],
+                files: ['<%= config.app %>/scripts/{,**/}*.{js,htc}'],
                 tasks: ['jshint'],
                 options: {
                     livereload: true
@@ -109,7 +109,7 @@ module.exports = function (grunt) {
                 tasks: ['less:server', 'autoprefixer']
             },
             styles: {
-                files: ['<%= config.app %>/styles/{,*/}*.css'],
+                files: ['<%= config.app %>/styles/{,**/}*.css'],
                 tasks: ['newer:copy:styles', 'autoprefixer']
             },
             livereload: {
@@ -293,7 +293,7 @@ module.exports = function (grunt) {
             dist: {
                 files: {
                     src: [
-                        '<%= config.dist %>/scripts/{,**/}*.js',
+                        '<%= config.dist %>/scripts/{,**/}*.{js,htc}',
                         '<%= config.dist %>/styles/{,**/}*.css',
                         '<%= config.dist %>/images/{,**/}*.*',
                         '<%= config.dist %>/styles/fonts/{,**/}*.*',
@@ -381,7 +381,8 @@ module.exports = function (grunt) {
                         'images/{,*/}*.webp',
                         '{,**/}*.html',
                         'CNAME',
-                        'styles/fonts/{,**/}*.*'
+                        'styles/fonts/{,**/}*.*',
+                        'js/boxsizing.htc'
                     ]
                 }]
             },
@@ -416,7 +417,7 @@ module.exports = function (grunt) {
                 outputFile: '<%= config.dist %>/scripts/vendor/modernizr.js',
                 files: {
                     src: [
-                        '<%= config.dist %>/scripts/{,**/}*.js',
+                        '<%= config.dist %>/scripts/{,**/}*.{js,htc}',
                         '<%= config.dist %>/styles/{,**/}*.css',
                         '!<%= config.dist %>/scripts/vendor/*'
                     ]
