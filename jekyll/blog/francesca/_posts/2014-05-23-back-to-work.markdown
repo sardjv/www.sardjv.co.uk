@@ -2,13 +2,13 @@
 layout: blog
 title:  Back to work
 nav_title:  Back to work
-image: blog/fran/portugal.jpg
+image: blog/francesca/portugal.jpg
   
 tags:
-  - Charity
-  - Mental Health Awareness
-  - Nurse Revalidation
-author: Fran
+  - charity
+  - mental-health-awareness
+  - nurse-revalidation
+author: francesca
 ---
 
 Today is my first day back in the office after a week in Portugal with my family. Getting back into the swing of things can be a challenge but today I was really keen to get back and getting cracking on setting up our charity events in aid of Mind in Croydon.

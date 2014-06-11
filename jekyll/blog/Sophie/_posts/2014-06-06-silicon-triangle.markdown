@@ -5,8 +5,8 @@ nav_title:  Silicon Triangle
 image: blog/sophie/silicon-triangle.jpg
   
 tags:
-  - Technology
-author: Sophie
+  - technology
+author: sophie
 ---
 
 In the summer of 2013 Kevin and I discussed the fact that we often ran into small technical problems and we realised that there must be a wealth of technical resource in our area. Crystal Palace is historically linked to the principles of advancing through science and technology and bringing all new innovation together in one place. Kevin, as you may expect, has a keen interest in all types of technology, and I have a passion for most things science (even the bad bits are usually fascinating). From this grew the idea of the Silicon Triangle.
