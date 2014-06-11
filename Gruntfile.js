@@ -268,7 +268,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: '.tmp/styles/',
-                    src: '{,*/}*.css',
+                    src: '{,**/}*.css',
                     dest: '.tmp/styles/'
                 }]
             }
@@ -339,7 +339,7 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: '<%= config.app %>/images',
-                    src: '{,*/}*.svg',
+                    src: '{,**/}*.svg',
                     dest: '<%= config.dist %>/images'
                 }]
             }
@@ -381,7 +381,7 @@ module.exports = function (grunt) {
                         'images/{,*/}*.webp',
                         '{,**/}*.html',
                         'CNAME',
-                        'styles/fonts/{,*/}*.*'
+                        'styles/fonts/{,**/}*.*'
                     ]
                 }]
             },
@@ -391,7 +391,7 @@ module.exports = function (grunt) {
                     dot: true,
                     cwd: '<%= config.app %>/styles',
                     dest: '.tmp/styles/',
-                    src: '{,*/}*.css'
+                    src: '{,**/}*.css'
                 }, {
                     expand: true,
                     dot: true,
@@ -416,8 +416,8 @@ module.exports = function (grunt) {
                 outputFile: '<%= config.dist %>/scripts/vendor/modernizr.js',
                 files: {
                     src: [
-                        '<%= config.dist %>/scripts/{,*/}*.js',
-                        '<%= config.dist %>/styles/{,*/}*.css',
+                        '<%= config.dist %>/scripts/{,**/}*.js',
+                        '<%= config.dist %>/styles/{,**/}*.css',
                         '!<%= config.dist %>/scripts/vendor/*'
                     ]
                 },

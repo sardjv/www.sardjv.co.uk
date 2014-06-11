@@ -17,20 +17,20 @@ why_how_what: 'how'
     <div class="row">
       <div class="col-xs-2">
         {% if page.image %}
-          <img class="img-responsive img-thumbnail" src="{{relative}}images/{{page.image}}">
+          <img class="img-responsive img-thumbnail" src="/images/{{page.image}}">
         {% endif %}
       </div>
       <div class="col-xs-6">
         <h2>{{ page.title }}</h2>
         <p>
           Written by 
-          <a href="{{relative}}{{author.profile_page}}">
+          <a href="/{{author.profile_page}}">
             {{ author.first_name }} {{ author.last_name }}
           </a>
           on {{ page.date | date: "%b %-d, %Y" }}<br>
           Tags: 
           {% for tag in page.tags %}
-            <a href="{{relative}}tags.html#{{tag}}">{{tag}}</a>
+            <a href="/tags.html#{{tag}}">{{tag}}</a>
             {% unless tag ==  page.tags.last %},&nbsp;{% endunless %}
           {% endfor %}
         </p>
