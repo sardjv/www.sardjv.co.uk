@@ -16,7 +16,12 @@ There were plenty of other key points that were covered, none more so than the t
 We found out that the consultation period for deciding the actual requirements (2nd part of the overall consultation) was still underway and would continue through the summer, ending in mid august 2014. This part of the consultation would outline the draft code, which is central to revalidation, as well as discuss the range of methods avaliable and be the deciding factor with regards to the actual revalidation model that would be used. The next step would be to run a series of pilots throughout 2015 with the aim to go live towards the end of the year. 
 
 The other main area of interest for us was how the revalidation process may look. There will be 4 key areas including:
-- Hours worked (350 over a 3 year period)
-- Continuing Professional Development
-- Self declaration
-- 3rd party sign off. 
+
+* Hours worked (350 over a 3 year period)
+* Continuing Professional Development
+* Self declaration
+* 3rd party sign off. 
+
+It was obvious there there are still a lot of decisions to be made and the detail needs to poured over but it seems that everything is on the right track, and like many of you we will be listening with a keen ear to find out how it will all fit together.
+
+On the whole the conference was very useful, and we are glad that we atended. We are very excited about our development work and hope to be able to show you all the fruits of our labour in the near future. If you are interested in finding out more then please do not hesitate to contact us.
