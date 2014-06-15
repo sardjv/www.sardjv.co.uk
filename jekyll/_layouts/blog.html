@@ -15,10 +15,8 @@ why_how_what:
 <section class="top-divider blue-on-white">
   <div class="container">
     <div class="row">
-      <div class="col-xs-2">
-        <img src="/images/{{author.image400x}}" class="img-thumbnail">
-      </div>
-      <div class="col-xs-6">
+
+      <div class="col-xs-8">
         <h2>{{ page.title }}</h2>
         <p>
           Written by 
@@ -35,7 +33,8 @@ why_how_what:
         {{ content }}
       </div>
       <div class="col-xs-4">
-        <h4>Other posts by {{ author.first_name }}</h4>
+        <img src="/images/{{author.image400x}}" class="img-thumbnail">
+        <h4>Blog posts by {{ author.first_name }}</h4>
         <ul>
         {% for post in site.categories[page.author] %}
         <li><a href="{{post.url}}">{{post.title}}</a></li>

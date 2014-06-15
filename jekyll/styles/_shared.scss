@@ -10,13 +10,10 @@
 .what-menu {
   background: $gray-darker;
   .section-name {
-    @include make-xs-column(12);
-    @include make-sm-column(4);
-    @include make-lg-column(2);
     text-align: center;
-    color: white;
     margin: 0px;
-    padding: 10px 15px;
+    a {color: white;}
+    h4 {margin: 5px 0px;}
   }
   #section-name-1 {background: $sard-dark-blue;}
   #section-name-2 {background: $sard-yellow;}
@@ -66,9 +63,7 @@
 }
 
 .blog-excerpt {
-  @include make-xs-column(12);
-  @include make-sm-column(6);
-  @include make-md-column(4);
+
 }
 
 
@@ -80,32 +75,25 @@
   img.logo {margin-bottom: 6px;}
 }
 .testimonial-full {
-  @include make-xs-column(12);
-  @include make-sm-column(8);
+
 }
 
 .testimonial-excerpt {
-  @include make-xs-column(12);
-  @include make-sm-column(6);
-  @include make-md-column(4);
+
 }
 
 .testimonial-testifier {
-  @include make-xs-column(12);
-  @include make-sm-column(4);
+
 }
 
 
 .person-extract{
-  @include make-xs-column(6);
-  @include make-sm-column(4);
-  @include make-md-column(3);
+
   margin-bottom: 30px;
   
   img.portrait {border-radius: 10px 10px 0px 0px;}
   
   .caption {
-    @include make-xs-column(12);
     border-radius: 0px 0px 10px 10px;
     background: #201d18;
     height: 130px;
@@ -116,10 +104,4 @@
   }
 }
 
-
-
-
-.more-links {
-  @include make-sm-column(4);
-}
 

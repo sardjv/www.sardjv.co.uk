@@ -2,7 +2,7 @@
 {% assign lvl = page.url | append:'X' | split:'/' | size %}
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 
-<div class="blog blog-excerpt">
+<div class="blog blog-excerpt col-xs-12 col-sm-6 col-md-4">
   {% if post.image %}
     <a href="{{ post.url }}"><img class="img-responsive img-thumbnail" src="/images/{{post.image}}"></a>
   {% endif %}

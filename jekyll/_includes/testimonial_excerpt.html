@@ -2,7 +2,7 @@
 {% assign lvl = page.url | append:'X' | split:'/' | size %}
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 
-<div class="testimonial testimonial-excerpt">
+<div class="col-xs-12 col-sm-6 col-md-4 testimonial testimonial-excerpt">
   <p class="text-center"><img class="img-responsive logo" src="/images/{{post.logo}}"></p>
   <blockquote>
   <img class="open-quote" width="20" src="/images/construction/quote_open_orange08.png">

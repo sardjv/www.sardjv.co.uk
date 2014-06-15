@@ -75,13 +75,13 @@ why_how_what: 'how'
     <div class="row">
       {% for post in site.categories.news %}
         {% include news_excerpt.html %}
-        {% assign remainder3 = forloop.index | modulo:3 %}
-        {% if remainder3 == 0 %}
-          <div class="clearfix visible-md visible-lg"></div>
+        {% assign remainder = forloop.index | modulo:3 %}
+        {% if remainder == 0 %}
+          <div style="clear:both;" class="visible-md visible-lg">&nbsp;</div>
         {% endif %}
         {% assign remainder2 = forloop.index | modulo:2 %}
         {% if remainder2 == 0 %}
-          <div class="clearfix visible-sm"></div>
+          <div style="clear:both;" class="visible-sm">&nbsp;</div>
         {% endif %}
       {% endfor %}
     </div>
@@ -98,11 +98,11 @@ why_how_what: 'how'
         {% include events_excerpt.html %}
         {% assign remainder = forloop.index | modulo:3 %}
         {% if remainder == 0 %}
-          <div class="clearfix visible-md visible-lg"></div>
+          <div style="clear:both;" class="visible-md visible-lg">&nbsp;</div>
         {% endif %}
         {% assign remainder2 = forloop.index | modulo:2 %}
         {% if remainder2 == 0 %}
-          <div class="clearfix visible-sm"></div>
+          <div style="clear:both;" class="visible-sm">&nbsp;</div>
         {% endif %}
       {% endfor %}
     </div>
@@ -120,11 +120,11 @@ why_how_what: 'how'
         {% include blog_excerpt.html %}
         {% assign remainder = forloop.index | modulo:3 %}
         {% if remainder == 0 %}
-          <div class="clearfix visible-md visible-lg"></div>
+          <div style="clear:both;" class="visible-md visible-lg">&nbsp;</div>
         {% endif %}
         {% assign remainder2 = forloop.index | modulo:2 %}
         {% if remainder2 == 0 %}
-          <div class="clearfix visible-sm"></div>
+          <div style="clear:both;" class="visible-sm">&nbsp;</div>
         {% endif %}
       {% endfor %}
     </div>

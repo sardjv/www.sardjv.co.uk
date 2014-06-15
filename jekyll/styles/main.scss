@@ -28,6 +28,7 @@ body {
     padding-bottom: 20px;
 }
 
+
 h1, h2 {font-weight: 100;}
 h3, h4, h5 {font-weight: 100;}
 
@@ -113,6 +114,11 @@ section {
 
 
 // KM Edits
+
+@media (max-width: $screen-xs-max) {
+  h1 {font-size: floor(($font-size-base * 3.0));} // ~36px
+}
+
 
 // KM mixins
 
