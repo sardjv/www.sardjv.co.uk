@@ -33,7 +33,18 @@ why_how_what:
         {{ content }}
       </div>
       <div class="col-xs-4">
-        <img src="/images/{{author.image400x}}" class="img-thumbnail">
+        <p><img src="/images/{{author.image400x}}" class="img-thumbnail"></p>
+        <dl>
+          {% if author.email %}
+            <dt>Email:</dt><dd><a href="mailto:{{author.email}}">{{author.email}}</a></dd>
+          {% endif %}
+          {% if author.telephone %}
+            <dt>Telephone:</dt><dd>{{author.telephone}}</dd>
+          {% endif %}
+          {% if author.mobile %}
+            <dt>Mobile:</dt><dd>{{author.mobile}}</dd>
+          {% endif %}
+        </dl>
         <h4>Blog posts by {{ author.first_name }}</h4>
         <ul>
         {% for post in site.categories[page.author] %}

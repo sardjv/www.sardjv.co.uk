@@ -12,7 +12,18 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-xs-4">
-        <img src="/images/{{person.image400x}}" class="img-thumbnail">
+        <p><img src="/images/{{person.image400x}}" class="img-thumbnail"></p>
+        <dl>
+          {% if person.email %}
+            <dt>Email:</dt><dd><a href="mailto:{{person.email}}">{{person.email}}</a></dd>
+          {% endif %}
+          {% if person.telephone %}
+            <dt>Telephone:</dt><dd>{{person.telephone}}</dd>
+          {% endif %}
+          {% if person.mobile %}
+            <dt>Mobile:</dt><dd>{{person.mobile}}</dd>
+          {% endif %}
+        </dl>
       </div>
       <div class="col-xs-8">
         <h1>{{person.first_name}} {{person.last_name}}</h1>
@@ -20,11 +31,35 @@ layout: default
       </div>
     </div>
     <hr>
+    
     <div class="row">
-      {% for post in site.categories[page.person] %}
-        {% include blog_excerpt.html %}
-      {% endfor %}
+      <div class="col-xs-12">
+        <h2>Blog posts for {{person.first_name}}</h2>
+      </div>
+      {% if site.categories[page.person].size > 0 %}
+        {% for post in site.categories[page.person] %}
+          {% include blog_excerpt.html %}
+        {% endfor %}
+      {% else %}
+        <div class="col-xs-12">
+          <p>There are no blog posts at present</p>
+        </div>
+      {% endif %}
     </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>More of the team</h2>
+        <ul>
+        {% for person in site.data.people %}
+        <li><a href="/{{person[1].profile_page}}">{{person[1].first_name}} {{person[1].last_name}}</a></li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+    
+    
+
   </div>
 </section>
 
