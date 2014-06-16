@@ -17,23 +17,32 @@ why_how_what:
     <div class="row">
 
       <div class="col-xs-8">
-        <h2>{{ page.title }}</h2>
-        <p>
-          Written by 
-          <a href="/{{author.profile_page}}">
-            {{ author.first_name }} {{ author.last_name }}
-          </a>
-          on {{ page.date | date: "%b %-d, %Y" }}<br>
-          Tags: 
-          {% for tag in page.tags %}
-            <a href="/tags.html#{{tag}}">{{tag}}</a>
-            {% unless tag ==  page.tags.last %},&nbsp;{% endunless %}
-          {% endfor %}
-        </p>
-        {{ content }}
+        <div class="row">
+          <div class="col-xs-2">
+            <h2><a href="/{{author.profile_page}}"><img src="/images/{{author.image400x}}" class="img-thumbnail img-responsive"></a></h2>
+          </div>
+          <div class="col-xs-10">
+            <h2>{{ page.title }}</h2>
+            <p>
+              Written by 
+              <a href="/{{author.profile_page}}">
+                {{ author.first_name }} {{ author.last_name }}
+              </a>
+              on {{ page.date | date: "%b %-d, %Y" }}<br>
+              Tags: 
+              {% for tag in page.tags %}
+                <a href="/tags.html#{{tag}}">{{tag}}</a>
+                {% unless tag ==  page.tags.last %},&nbsp;{% endunless %}
+              {% endfor %}
+            </p>
+          </div>
+          <div class="col-xs-12">
+            {{ content }}
+          </div>
+        </div>
       </div>
       <div class="col-xs-4">
-        <p><img src="/images/{{author.image400x}}" class="img-thumbnail"></p>
+        <p><img src="/images/{{page.image}}" class="img-thumbnail img-responsive"></p>
         <dl>
           {% if author.email %}
             <dt>Email:</dt><dd><a href="mailto:{{author.email}}">{{author.email}}</a></dd>

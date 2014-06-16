@@ -76,15 +76,7 @@
   }
 }
 
-.vert-text h1 {
-  color: white;
-  font-size: 3em;
-  font-weight: 700;
-  line-height: 1.5em;
-
+.vert-text a h1, .vert-text a h3 {
+  color: white; text-decoration: none;
 }
 
-.vert-text h3 {
-  font-size: 1.3em;
-  color: white;
-}

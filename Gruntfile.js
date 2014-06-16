@@ -384,6 +384,9 @@ module.exports = function (grunt) {
                         'styles/fonts/{,**/}*.*',
                         'js/boxsizing.htc'
                     ]
+                }, {
+                    src: 'bower_components/video.js/dist/video-js/video-js.swf',
+                    dest: '<%= config.dist %>/swfs/video-js.swf'
                 }]
             },
             styles: {
