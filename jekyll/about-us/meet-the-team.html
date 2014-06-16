@@ -15,13 +15,17 @@ why_how_what:
 
 {% include full_width_image.html image_id="london_skyline" image_height="450" %}
 
-<section id="our-philosophy" class="orange">
+<section id="our-philosophy" class="top-divider orange-on-white">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
         <h1>Meet the Team</h1>
-            
       </div>
-    </div> 
+    </div>
+    <div class="row">
+      {% for person in site.data.people %}
+        {% include person_excerpt.html %}
+      {% endfor %}
+    </div>
   </div>
 </section>
