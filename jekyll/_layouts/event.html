@@ -15,13 +15,16 @@ why_how_what:
 <section class="top-divider blue-on-white">
   <div class="container">
     <div class="row">
-      <div class="col-xs-2">
+      <div class="hidden-xs col-sm-4">
         {% if page.image %}
           <img class="img-responsive img-thumbnail" src="/images/{{page.image}}">
         {% endif %}
       </div>
-      <div class="col-xs-6">
+      <div class="col-xs-12 col-sm-8">
         <h2>{{ page.title }}</h2>
+        {% if page.lead %}
+          <h3>{{ page.lead }}</h3>
+        {% endif %}
         <p>
           Written by 
           <a href="/{{author.profile_page}}">
@@ -36,7 +39,7 @@ why_how_what:
         </p>
         {{ content }}
       </div>
-      <div class="col-xs-4">
+      <div class="col-xs-12">
         <h4>Other events</h4>
         <ul>
         {% for post in site.categories.events %}
