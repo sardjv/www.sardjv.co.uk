@@ -297,7 +297,10 @@ module.exports = function (grunt) {
                         '<%= config.dist %>/styles/{,**/}*.css',
                         '<%= config.dist %>/images/{,**/}*.*',
                         '<%= config.dist %>/styles/fonts/{,**/}*.*',
-                        '<%= config.dist %>/*.{ico,png}'
+                        '<%= config.dist %>/*.ico',
+                        '!joint_venture_with_oxleas.gif',
+                        '!sard-jv-email-logo.gif',
+                        '!sard-transactional-email.png'
                     ]
                 }
             }
@@ -382,7 +385,10 @@ module.exports = function (grunt) {
                         '{,**/}*.html',
                         'CNAME',
                         'styles/fonts/{,**/}*.*',
-                        'js/boxsizing.htc'
+                        'js/boxsizing.htc',
+                        'joint_venture_with_oxleas.gif',
+                        'sard-jv-email-logo.gif',
+                        'sard-transactional-email.png'
                     ]
                 }, {
                     src: 'bower_components/video.js/dist/video-js/video-js.swf',
