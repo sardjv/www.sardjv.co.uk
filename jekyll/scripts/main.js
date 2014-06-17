@@ -13,7 +13,7 @@ $(document).ready(function(){
 
     videojs('home-video', {'height':'auto', 'width':'auto'}).ready(function(){
     var myPlayer = this;    // Store the video object
-        var aspectRatio = 5/12; // Make up an aspect ratio
+        var aspectRatio = 1080/1920; // Make up an aspect ratio
 
         function resizeVideoJS(){
             // Get the parent element's actual width
@@ -29,7 +29,10 @@ $(document).ready(function(){
             $('#navbar2').hide();
         });
         
-        myPlayer.on("stop", function(){
+        myPlayer.on("ended", function(){
+            $('#navbar2').show();
+        });
+        myPlayer.on("pause", function(){
             $('#navbar2').show();
         });
     });
