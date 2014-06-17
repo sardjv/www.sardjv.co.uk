@@ -7,46 +7,22 @@ why_how_what: 'why'
 
 {% include full_width_image.html image_id="london_skyline" image_height="450" %}
 
-<section>
+
+<section id="events" class="top-divider blue-on-white">
   <div class="container">
-    <div class="col-xs-12">
-      <h1>Events</h1>
-      <h2>Upcoming Events</h2>
-                    
-      <h4>Nursing Appraisal and Revalidation, Tuesday 20 May 2014</h4>
-      <p>Meet Phil and Nicholas/Sophie from the SARD team to chat about the development of our new nurse revalidation solution.
-        http://www.healthcareconferencesuk.co.uk/nursing-appraisal-and-revalidation</p>
-      <h4>Meet the team, Wednesday 4 June 2014</h4>
-      <p>The SARD team will be in Brighton for attendees of the NHS National RO Conference to meet us and chat about our range of revalidation solutions.</p>
-      <h4>Gold Mind, Saturday 26 July 2014</h4>
-      <p>Join us for a day of code-breaking, riddle solving and adrenaline pumping in a race to discover the lost treasure of Crystal Palace.Entry will be charged at £5 per adult for teams of up to 6. Children go free. The starting line will be in Westow Park, where entrants will be able to collect their hunting packs and chat to the team from Mind in Croydon about their work.</p>
-
-				<h4>Stand up to Stigma, September 2014</h4>
-				<p>Our comedy fundraiser in aid of Mind in Croydon. More news to follow but you can be assured there will be some great headline acts and a great night out for a good cause.</p>
-						
-				<h4>The Great South Run, 26 October 2014</h4>
-				<p>Join us to cheer on SARD team members Sophie, Phil, Barbara and Kevin to the finish line. All funds raised are for Mind in Croydon and the team can be sponsored at www.justgiving.com/runningsard </p>
-						
-				<h2>Previous Events</h2>
-					
-				<h4>Revalpal Event - December 2013</h4>
-				<p>Once again we would like to thank those who attended our second revalpal event in Leeds just before the festive season began. Like those involved in the day we all found it very useful and enlightening. More text.</p>
-						
-				<h4>Revalpal Event - July 2013</h4>
-				<p>A big thank you to everyone who attended our first RevalPal:WOW forum. Here are some photos of the day.
-With delegates from all over the country including NHS trusts, deaneries and NHS England. We were thrilled to see so many people discussing revalidation with such enthusiasm!</p>
-        <p>It was a great start to what we hope will become a key fixture in the revalidation calendar.</p>
- 
- 
- 
-        <p>‘‘Very well run event, thanks. Good questions and reassuring to know we’re experiencing the same issues as others’</p><h5>- Richenda Tite, Medical Staffing Lead, Sussex Community NHS Trust</h5>
- 
-        <p>‘Really good, helpful day presented in a different way which was enjoyable’<h5>- Sherri Kent, HR Advisor Revalidation, Cohester Hospital</h5>
- 
-        <p>‘Fantastic organisation and very attentive staff. Useful and excellent opportunity to network’</p><h5>- Attendee</h5>
- 
-        <p>‘Overall was a great opportunity to network and have an insight on different processes, what works and what doesn’t’</p><h5> - Attendee</h5>
-
+    <h1>Events</h1>
+    <div class="row">
+      {% for post in site.categories.events %}
+        {% include events_excerpt.html %}
+        {% assign remainder = forloop.index | modulo:3 %}
+        {% if remainder == 0 %}
+          <div style="clear:both;" class="visible-md visible-lg">&nbsp;</div>
+        {% endif %}
+        {% assign remainder2 = forloop.index | modulo:2 %}
+        {% if remainder2 == 0 %}
+          <div style="clear:both;" class="visible-sm">&nbsp;</div>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>
