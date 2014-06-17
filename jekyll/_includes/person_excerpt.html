@@ -1,26 +1,30 @@
 <div class="person-extract col-xs-12 col-sm-4 col-md-3">
   <div class="row row-portrait">
-    <div class="portrait col-xs-6 col-sm-12">
+    <div class="portrait col-xs-5 col-sm-12">
       <img src="/images/{{person[1].image400x}}" class="img-responsive" alt="Kevin Portrait Photo">
     </div>
-    <div class="caption col-xs-6 col-sm-12">
-      <h4><a href="/{{person[1].profile_page}}">{{person[1].first_name}} {{person[1].last_name}}</a><br>
-      <strong>{{person[1].role}}</strong></h4>
-      <p class="bio-links">
-        <a href="mailto:{{person[1].email}}">
-          <img src="/images/simon_web/icon_mail_wht.png" alt="Email {{person[1].first_name}} {{person[1].last_name}}"/>
-        </a>
-        {% if {{person[1].linked_in}} %}
-          <a href="{{person[1].linked_in}}">
-            <img src="/images/simon_web/icon_linkedin_wht.png" alt="Linked In - {{person[1].first_name}} {{person[1].last_name}}"/>
+    <div class="caption col-xs-7 col-sm-12">
+      <div class="row">
+        <div class="col-xs-12">
+            <h4><a href="/{{person[1].profile_page}}">{{person[1].first_name}} {{person[1].last_name}}</a><br>
+            <strong>{{person[1].role}}</strong></h4>
+        </div>
+        <div class="col-xs-12">
+          <a href="mailto:{{person[1].email}}">
+            <img src="/images/simon_web/icon_mail_wht.png" width="30" alt="Email {{person[1].first_name}} {{person[1].last_name}}"/>
           </a>
-        {% endif %}
-        {% if {{person[1].profile_page}} %}
-          <a href="/{{person[1].profile_page}}">
-            <img src="/images/simon_web/icon_blog_wht.png" alt="SARD Blog - {{person[1].first_name}} {{person[1].last_name}}"/>
-          </a>
-        {% endif %}              
-      </p>
+          {% if {{person[1].linked_in}} %}
+            <a href="{{person[1].linked_in}}">
+              <img src="/images/simon_web/icon_linkedin_wht.png" width="30" alt="Linked In - {{person[1].first_name}} {{person[1].last_name}}"/>
+            </a>
+          {% endif %}
+          {% if {{person[1].profile_page}} %}
+            <a href="/{{person[1].profile_page}}">
+              <img src="/images/simon_web/icon_blog_wht.png" width="30" alt="SARD Blog - {{person[1].first_name}} {{person[1].last_name}}"/>
+            </a>
+          {% endif %}
+        </div>
+      </div>
     </div>
   </div>
 </div>
