@@ -296,7 +296,7 @@ module.exports = function (grunt) {
                         '<%= config.dist %>/scripts/{,**/}*.{js,htc}',
                         '<%= config.dist %>/styles/{,**/}*.css',
                         '<%= config.dist %>/images/{,**/}*.*',
-                        '<%= config.dist %>/styles/fonts/{,**/}*.*',
+                        // '<%= config.dist %>/styles/fonts/{,**/}*.*',
                         '<%= config.dist %>/*.ico',
                         '!joint_venture_with_oxleas.gif',
                         '!sard-jv-email-logo.gif',
