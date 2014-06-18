@@ -393,6 +393,12 @@ module.exports = function (grunt) {
                 }, {
                     src: 'bower_components/video.js/dist/video-js/video-js.swf',
                     dest: '<%= config.dist %>/swfs/video-js.swf'
+                }, {
+                    expand: true,
+                    dot: true,
+                    cwd: 'bower_components/video.js/dist/video-js',
+                    src: 'font/{,**/}*.*',
+                    dest: '<%= config.dist %>/styles/'
                 }]
             },
             styles: {
