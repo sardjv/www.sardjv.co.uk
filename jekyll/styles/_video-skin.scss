@@ -1,6 +1,17 @@
+section.video-container {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background: $gray-darker;
+  .col-xs-12 {padding: 0px;}
+}
+
+#home-video{
+  background: $gray-darker;
+}
+
 .sard-video-skin, .sard-video-skin:hover {
   .vjs-big-play-button {
-    background: none;
-    font-size: 8em;
   }
 }

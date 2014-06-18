@@ -218,3 +218,6 @@ ul .list-group-item{list-style:none}
 .glyphicon-wrench{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#xe136;')}
 .glyphicon-zoom-in{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#xe015;')}
 .glyphicon-zoom-out{zoom:expression(this.runtimeStyle['zoom']='1',this.innerHTML='&#xe016;')}
+
+
+.video-container {display:none;}
