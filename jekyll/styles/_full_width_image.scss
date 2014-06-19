@@ -26,12 +26,12 @@
 }
 #transmitter.full-width-image {
   background-image: url(../images/apr_14_shoot/transmitter.jpg);
-  background-position: left bottom;
+  background-position: center bottom;
 }
 #aerial.full-width-image {background-image: url(../images/video_stills/aerial.jpg);}
 #dinosaur-neck {
   background-image: url(../images/apr_14_shoot/dinosaur_neck.jpg);
-  background-position: right 40%;
+  background-position: center 40%;
 }
 #code-testing {
   background-image: url(../images/video_stills/code_testing.jpg);
@@ -48,7 +48,11 @@
 }
 #t-rex.full-width-image { 
   background-image: url(../images/apr_14_shoot/t_rex.jpg);
-  background-position: center bottom;
+  background-position: center 50%;
+}
+#sphinx.full-width-image { 
+  background-image: url(../images/apr_14_shoot/sphinx.jpg);
+  background-position: center 50%;
 }
 #timer.full-width-image { background-image: url(../images/video_stills/timer.jpg); }
 #dig-chewing-pen.full-width-image { background-image: url(../images/video_stills/dig.jpg); }
