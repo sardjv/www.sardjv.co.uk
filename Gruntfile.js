@@ -388,7 +388,8 @@ module.exports = function (grunt) {
                         'js/boxsizing.htc',
                         'joint_venture_with_oxleas.gif',
                         'sard-jv-email-logo.gif',
-                        'sard-transactional-email.png'
+                        'sard-transactional-email.png',
+                        'atom.xml'
                     ]
                 }, {
                     src: 'bower_components/video.js/dist/video-js/video-js.swf',

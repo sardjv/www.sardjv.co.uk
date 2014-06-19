@@ -17,7 +17,7 @@ why_how_what:
     <div class="row">
       <div class="hidden-xs col-sm-4">
         {% if page.image %}
-          <img class="img-responsive img-thumbnail" src="/images/{{page.image}}">
+          <img class="img-responsive img-thumbnail" src="/images/{{page.image}}"/>
         {% endif %}
       </div>
       <div class="col-xs-12 col-sm-8">
@@ -30,7 +30,7 @@ why_how_what:
           <a href="/{{author.profile_page}}">
             {{ author.first_name }} {{ author.last_name }}
           </a>
-          on {{ page.date | date: "%b %-d, %Y" }}<br>
+          on {{ page.date | date: "%b %-d, %Y" }}<br/>
           Tags: 
           {% for tag in page.tags %}
             <a href="/tags.html#{{tag}}">{{tag}}</a>

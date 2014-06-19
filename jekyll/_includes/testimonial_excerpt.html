@@ -3,15 +3,15 @@
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 
 <div class="col-xs-12 col-sm-6 col-md-4 testimonial testimonial-excerpt">
-  <p class="text-center"><img class="img-responsive logo" src="/images/{{post.logo}}"></p>
+  <p class="text-center"><img class="img-responsive logo" src="/images/{{post.logo}}"/></p>
   <blockquote>
-  <img class="open-quote" width="20" src="/images/construction/quote_open_orange08.png">
+  <img class="open-quote" width="20" src="/images/construction/quote_open_orange08.png"/>
     {{ post.excerpt}}
-  <img class="close-quote" width="20" src="/images/construction/quote_close_orange08.png">
+  <img class="close-quote" width="20" src="/images/construction/quote_close_orange08.png"/>
   <footer>
     <p class="text-left">
-        {{ post.testifier }}<br>
-        {{ post.role }}<br>
+        {{ post.testifier }}<br/>
+        {{ post.role }}<br/>
         <a href="{{ post.url }}"<b><cite title="{{ post.organisation }}">{{ post.organisation }}</cite></b></a>
     </p>
   </footer>
