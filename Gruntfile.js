@@ -389,7 +389,8 @@ module.exports = function (grunt) {
                         'joint_venture_with_oxleas.gif',
                         'sard-jv-email-logo.gif',
                         'sard-transactional-email.png',
-                        'atom.xml'
+                        'atom.xml',
+                        'feed.xml'
                     ]
                 }, {
                     src: 'bower_components/video.js/dist/video-js/video-js.swf',
