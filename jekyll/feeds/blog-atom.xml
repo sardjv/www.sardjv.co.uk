@@ -14,7 +14,7 @@ layout: nil
     <email>info@sardjv.co.uk</email>
   </author>
 
-  {% for post in site.posts %}
+  {% for post in site.categories.blog %}
     {% assign author = site.data.people[post.author] %}
     <entry>
       <id>http://www.sardjv.co.uk{{ post.id }}</id>
@@ -27,6 +27,7 @@ layout: nil
         <uri>http://www.sardjv.co.uk/{{author.profile_page}}</uri>
       </author>
       <content type="html">{{ post.content | xml_escape }}</content>
+      <content type="image/jpg" src="http://www.sardjv.co.uk/images/{{post.image}}" />
     </entry>
   {% endfor %}
  

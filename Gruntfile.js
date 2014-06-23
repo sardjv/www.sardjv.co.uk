@@ -321,7 +321,7 @@ module.exports = function (grunt) {
             options: {
                 assetsDirs: ['<%= config.dist %>', '<%= config.dist %>/images']
             },
-            html: ['<%= config.dist %>/{,**/}*.html'],
+            html: ['<%= config.dist %>/{,**/}*.{html,xml}'],
             css: ['<%= config.dist %>/styles/{,**/}*.css']
         },
 
@@ -389,8 +389,7 @@ module.exports = function (grunt) {
                         'joint_venture_with_oxleas.gif',
                         'sard-jv-email-logo.gif',
                         'sard-transactional-email.png',
-                        'atom.xml',
-                        'feed.xml'
+                        'feeds/{,**/}*.xml'
                     ]
                 }, {
                     src: 'bower_components/video.js/dist/video-js/video-js.swf',

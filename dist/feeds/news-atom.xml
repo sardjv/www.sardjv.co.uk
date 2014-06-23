@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+  <title>SARD JV Limited</title>
+  <link href="http://www.sardjv.co.uk/"/>
+  <link type="application/atom+xml" rel="self" href="http://www.sardjv.co.uk/atom.xml"/>
+  <updated>2014-06-23T21:12:35+01:00</updated>
+  <id>http://www.sardjv.co.uk/</id>
+  <author>
+    <name>SARD JV Limited</name>
+    <email>info@sardjv.co.uk</email>
+  </author>
+
+  
+    
+    <entry>
+      <id>http://www.sardjv.co.uk/news/2014/06/05/mind-in-croydon</id>
+      <link type="text/html" rel="alternate" href="http://www.sardjv.co.uk/news/2014/06/05/mind-in-croydon.html"/>
+      <title>SARD launches new partnership with Mind in Croydon</title>
+      <published>2014-06-05T00:00:00+01:00</published>
+      <updated>2014-06-05T00:00:00+01:00</updated>
+      <author>
+        <name>Philip Bottle</name>
+        <uri>http://www.sardjv.co.uk/people/philip.html</uri>
+      </author>
+      <content type="html">&lt;p&gt;We are delighted to be working with Mind in Croydon to raise funds for people and their families living with mental health issues in our local area.&lt;/p&gt;
+
+&lt;p&gt;We will be holding our Stand Up to Stigma event before the end of the year, a night of comedy in aid of this fantastic charity. More details to follow soon.&lt;/p&gt;
+
+&lt;p&gt;On 26 October Kevin, Phil, Sophie and Barbara from the SARD team will be taking part in the Great South Run, with all sponsorship raised also being donated to Mind in Croydon. The team can be sponsored online at www.justgiving.com/runningsard.&lt;/p&gt;
+
+&lt;p&gt;Mind in Croydon is a very active charity that works with people with mental health problems and their families in Croydon. It aims to increase understanding of the difficulties faced by those with mental health problems. Its various projects help to relieve social isolation, enable people to acquire skills for independent life and promote positive mental health.&lt;/p&gt;
+
+&lt;p&gt;More information can be be found on their website www.mindincroydon.org.uk.&lt;/p&gt;
+
+&lt;p&gt;Registered Charity number 1073880.&lt;/p&gt;
+</content>
+      <content type="image/jpg" src="http://www.sardjv.co.uk/images/news/19bde1be.mind_in_croydon.jpg" />
+    </entry>
+  
+    
+    <entry>
+      <id>http://www.sardjv.co.uk/news/2014/06/05/appraisal-for-all</id>
+      <link type="text/html" rel="alternate" href="http://www.sardjv.co.uk/news/2014/06/05/appraisal-for-all.html"/>
+      <title>In Development - SARD announces development of Appraisal for all system</title>
+      <published>2014-06-05T00:00:00+01:00</published>
+      <updated>2014-06-05T00:00:00+01:00</updated>
+      <author>
+        <name>Philip Bottle</name>
+        <uri>http://www.sardjv.co.uk/people/philip.html</uri>
+      </author>
+      <content type="html">&lt;p&gt;SARD are pleased to announce that it is further developing the capability of its platform to extend the system in order to cover the appraisal process for all staff. It is a logical step as we already know our revalidation and appraisal system helps thousands of doctors and we felt that our system could further support other colleagues within the NHS. &lt;/p&gt;
+
+&lt;p&gt;Project plans have been drawn up and development is about to start. We are very excited about what we can produce and more importantly how this can help organisations to run, record and report on appraisals for all staff.&lt;/p&gt;
+</content>
+      <content type="image/jpg" src="http://www.sardjv.co.uk/images/news/0947e14d.scrum_timer.jpg" />
+    </entry>
+  
+    
+    <entry>
+      <id>http://www.sardjv.co.uk/news/2014/05/28/sussex-communities-joins-sard</id>
+      <link type="text/html" rel="alternate" href="http://www.sardjv.co.uk/news/2014/05/28/sussex-communities-joins-sard.html"/>
+      <title>Sussex Communities joins SARD</title>
+      <published>2014-05-28T00:00:00+01:00</published>
+      <updated>2014-05-28T00:00:00+01:00</updated>
+      <author>
+        <name>Kevin Monk</name>
+        <uri>http://www.sardjv.co.uk/people/kevin.html</uri>
+      </author>
+      <content type="html">&lt;p&gt;We are proud to announce that Sussex Community NHS Foundation Trust has just recently signed up to use the SARD Revalidation and Appraisal system. Implementation is underway and we are looking forward to this new partnership.&lt;/p&gt;
+</content>
+      <content type="image/jpg" src="http://www.sardjv.co.uk/images/news/07633dad.sussex_community_website.jpg" />
+    </entry>
+  
+ 
+</feed>
