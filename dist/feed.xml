@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>Dat site title tho</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
-    <link></link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <title>SARD JV Limited</title>
+    <description>Appraisal and revalidation management software for doctors and nurses. A joint venture between Oxleas NHS Foundation Trust and Mango Swiss Limited.</description>
+    <link>http://www.sardjv.co.uk</link>
+    <atom:link href="http://www.sardjv.co.uk/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>SARD launches new partnership with Mind in Croydon</title>
@@ -21,8 +21,8 @@
 &lt;p&gt;Registered Charity number 1073880.&lt;/p&gt;
 </description>
         <pubDate>Thu, 05 Jun 2014 00:00:00 +0100</pubDate>
-        <link>/news/2014/06/05/mind-in-croydon.html</link>
-        <guid isPermaLink="true">/news/2014/06/05/mind-in-croydon.html</guid>
+        <link>http://www.sardjv.co.uk/news/2014/06/05/mind-in-croydon.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/news/2014/06/05/mind-in-croydon.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/news/19bde1be.mind_in_croydon.jpg" medium="image" width="75" height="75"/>
       </item>
     
@@ -33,8 +33,8 @@
 &lt;p&gt;Project plans have been drawn up and development is about to start. We are very excited about what we can produce and more importantly how this can help organisations to run, record and report on appraisals for all staff.&lt;/p&gt;
 </description>
         <pubDate>Thu, 05 Jun 2014 00:00:00 +0100</pubDate>
-        <link>/news/2014/06/05/appraisal-for-all.html</link>
-        <guid isPermaLink="true">/news/2014/06/05/appraisal-for-all.html</guid>
+        <link>http://www.sardjv.co.uk/news/2014/06/05/appraisal-for-all.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/news/2014/06/05/appraisal-for-all.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/news/0947e14d.scrum_timer.jpg" medium="image" width="75" height="75"/>
       </item>
     
@@ -43,8 +43,8 @@
         <description>&lt;p&gt;We are proud to announce that Sussex Community NHS Foundation Trust has just recently signed up to use the SARD Revalidation and Appraisal system. Implementation is underway and we are looking forward to this new partnership.&lt;/p&gt;
 </description>
         <pubDate>Wed, 28 May 2014 00:00:00 +0100</pubDate>
-        <link>/news/2014/05/28/sussex-communities-joins-sard.html</link>
-        <guid isPermaLink="true">/news/2014/05/28/sussex-communities-joins-sard.html</guid>
+        <link>http://www.sardjv.co.uk/news/2014/05/28/sussex-communities-joins-sard.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/news/2014/05/28/sussex-communities-joins-sard.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/news/07633dad.sussex_community_website.jpg" medium="image" width="75" height="75"/>
       </item>
     
@@ -57,8 +57,8 @@
 &lt;p&gt;The other big news we have is the future and what we are filling it with, exciting new developments, all focused on the same principles, simplicity and effectiveness. We will be focusing on new areas surrounding Appraisal for all staff as well as Nurse Revalidation. So although I am loving this project and its challenges I can’t wait to start on the next one and to see where that takes us.&lt;/p&gt;
 </description>
         <pubDate>Wed, 11 Jun 2014 00:00:00 +0100</pubDate>
-        <link>/blog/philip/2014/06/11/this-week.html</link>
-        <guid isPermaLink="true">/blog/philip/2014/06/11/this-week.html</guid>
+        <link>http://www.sardjv.co.uk/blog/philip/2014/06/11/this-week.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/philip/2014/06/11/this-week.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/blog/philip/405898cf.website_screen_shot.jpg" medium="image" width="75" height="75"/>
       </item>
     
@@ -71,8 +71,8 @@
 &lt;p&gt;Was hoping to get an MSF form to see it from the patient side. Maybe next time.&lt;/p&gt;
 </description>
         <pubDate>Sat, 07 Jun 2014 00:00:00 +0100</pubDate>
-        <link>/blog/francesca/2014/06/07/customer-service-in-our-sleep.html</link>
-        <guid isPermaLink="true">/blog/francesca/2014/06/07/customer-service-in-our-sleep.html</guid>
+        <link>http://www.sardjv.co.uk/blog/francesca/2014/06/07/customer-service-in-our-sleep.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/francesca/2014/06/07/customer-service-in-our-sleep.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/blog/francesca/e74bcff2.kings-standard-general.jpg" medium="image" width="75" height="75"/>
       </item>
     
@@ -92,8 +92,8 @@
 
 </description>
         <pubDate>Fri, 06 Jun 2014 00:00:00 +0100</pubDate>
-        <link>/blog/sophie/2014/06/06/silicon-triangle.html</link>
-        <guid isPermaLink="true">/blog/sophie/2014/06/06/silicon-triangle.html</guid>
+        <link>http://www.sardjv.co.uk/blog/sophie/2014/06/06/silicon-triangle.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/sophie/2014/06/06/silicon-triangle.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/blog/sophie/145394ea.silicon-triangle.jpg" medium="image" width="75" height="75"/>
       </item>
     
@@ -113,8 +113,8 @@ Then after a few months out of this primordial soup of ignorance crawled a man w
 &lt;p&gt;If you just keep asking questions you eventually start knowing things, which is initially disconcerting but ultimately feels good, like gradually getting into a too hot bath. Now when I type into a password box and it replaces letters with little circles, I don’t assume it is witchcraft. I am slowly becoming one of them.&lt;/p&gt;
 </description>
         <pubDate>Tue, 03 Jun 2014 00:00:00 +0100</pubDate>
-        <link>/blog/nicholas/2014/06/03/i-luddite.html</link>
-        <guid isPermaLink="true">/blog/nicholas/2014/06/03/i-luddite.html</guid>
+        <link>http://www.sardjv.co.uk/blog/nicholas/2014/06/03/i-luddite.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/nicholas/2014/06/03/i-luddite.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/blog/nicholas/e5bfcd47.i-luddite.jpg" medium="image" width="75" height="75"/>
       </item>
     
@@ -128,8 +128,8 @@ Then after a few months out of this primordial soup of ignorance crawled a man w
 
 </description>
         <pubDate>Fri, 23 May 2014 00:00:00 +0100</pubDate>
-        <link>/blog/francesca/2014/05/23/back-to-work.html</link>
-        <guid isPermaLink="true">/blog/francesca/2014/05/23/back-to-work.html</guid>
+        <link>http://www.sardjv.co.uk/blog/francesca/2014/05/23/back-to-work.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/francesca/2014/05/23/back-to-work.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/blog/francesca/06a23ee0.portugal.jpg" medium="image" width="75" height="75"/>
       </item>
     
@@ -155,8 +155,8 @@ Then after a few months out of this primordial soup of ignorance crawled a man w
 &lt;p&gt;On the whole the conference was very useful, and we are glad that we atended. We are very excited about our development work and hope to be able to show you all the fruits of our labour in the near future. If you are interested in finding out more then please do not hesitate to contact us.&lt;/p&gt;
 </description>
         <pubDate>Thu, 22 May 2014 00:00:00 +0100</pubDate>
-        <link>/blog/philip/2014/05/22/nurse-appraisal-conference.html</link>
-        <guid isPermaLink="true">/blog/philip/2014/05/22/nurse-appraisal-conference.html</guid>
+        <link>http://www.sardjv.co.uk/blog/philip/2014/05/22/nurse-appraisal-conference.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/philip/2014/05/22/nurse-appraisal-conference.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/blog/philip/8e13e131.nurse_appraisal_conference.jpg" medium="image" width="75" height="75"/>
       </item>
     
