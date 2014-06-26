@@ -8,6 +8,7 @@ tags:
   - testimonial
   - customer-service
 author: francesca
+excerpt: I had some time off this month for an operation and was fortunate enough to be treated in the day surgery unit of Princess Royal University Hospital, now run by Kings College Hospital NHS FT. When my anaesthetist and her assistant asked me what I did, I don't think they were expecting to be asked if they liked their appraisal software!
 ---
 
 I had some time off this month for an operation and was fortunate enough to be treated in the day surgery unit of Princess Royal University Hospital, now run by Kings College Hospital NHS FT. When my anaesthetist and her assistant asked me what I did, I don't think they were expecting to be asked if they liked their appraisal software!

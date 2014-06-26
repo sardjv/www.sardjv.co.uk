@@ -9,6 +9,7 @@ tags:
   - mental-health-awareness
   - nurse-revalidation
 author: francesca
+excerpt: Today is my first day back in the office after a week in Portugal with my family. Getting back into the swing of things can be a challenge but today I was really keen to get back and getting cracking on setting up our charity events in aid of Mind in Croydon.
 ---
 
 Today is my first day back in the office after a week in Portugal with my family. Getting back into the swing of things can be a challenge but today I was really keen to get back and getting cracking on setting up our charity events in aid of Mind in Croydon.

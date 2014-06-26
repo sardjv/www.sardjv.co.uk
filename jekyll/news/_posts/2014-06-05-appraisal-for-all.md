@@ -12,6 +12,7 @@ tags:
   - appraisal
   
 author: philip
+excerpt: SARD are pleased to announce that it is further developing the capability of its platform to extend the system in order to cover the appraisal process for all staff. It is a logical step as we already know our revalidation and appraisal system helps thousands of doctors and we felt that our system could further support other colleagues within the NHS. 
 ---
 
 SARD are pleased to announce that it is further developing the capability of its platform to extend the system in order to cover the appraisal process for all staff. It is a logical step as we already know our revalidation and appraisal system helps thousands of doctors and we felt that our system could further support other colleagues within the NHS. 

@@ -16,6 +16,7 @@ layout: none
         <link>{{ post.url | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
         <media:content url="{{ site.url }}/images/{{post.image}}" medium="image" width="150" height="150"/>
+        <author>{{ site.data.people[post.author].email }}</author>
       </item>
     {% endfor %}
     
@@ -27,6 +28,7 @@ layout: none
         <link>{{ post.url | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.url }}</guid>
         <media:content url="{{ site.url }}/images/{{post.image}}" medium="image" width="150" height="150"/>
+        <author>{{ site.data.people[post.author].email }}</author>
       </item>
     {% endfor %}
   </channel>

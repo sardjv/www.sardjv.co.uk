@@ -11,6 +11,7 @@ tags:
   - great-south-run
   
 author: philip
+excerpt: We are delighted to be working with Mind in Croydon to raise funds for people and their families living with mental health issues in our local area. We will be holding our Stand Up to Stigma event before the end of the year, a night of comedy in aid of this fantastic charity. More details to follow soon.
 ---
 
 We are delighted to be working with Mind in Croydon to raise funds for people and their families living with mental health issues in our local area.
