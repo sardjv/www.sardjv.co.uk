@@ -142,24 +142,27 @@ barbara:
   image400x: people/barbara400x.jpg
   profile_page: people/barbara.html
   bio: |
-    <p>I have been working on SARD from the very first day of development, 
-    so you could say that the system is like a child to me. I was present 
-    at the first requirement gathering exercise and I hope I bring a wealth 
-    of experience to the team having worked on two previous Mango Swiss 
-    products (also deployed within NHS Trusts).</p>
+    <p>Hi, I&#39;m Barbara and I&#39;m a senior developer at SARD JV.</p>
     
-    <p>I graduated with a degree in Computer Science in 1997. Since I 
-    graduated I have built up extensive knowledge and experience including 
-    working on on the C++ Java API for the Symbian Operating System for mobile 
-    phones and for the PSion range of personal organisers before joining 
-    Mango Swiss. What I love is that all of the experience of how things work 
-    well has been applied to the SARD range of systems.</p>
+    <p>I have been working in software engineering for over 15 years 
+    and I hope that my experience brings a lot of value to what we are 
+    doing. Our small team is great to work with and you can see that 
+    everyone here really cares about the products that we build.</p>
     
-    <p>There is nothing I love more that problem solving and a thorough 
-    attention to detail which I dare say makes me a natural born programmer 
-    and it's starting to show in the next generation as my 8 year old son 
-    Joshua has started writing his first Ruby code. Such a proud mum.</p>
-
+    <p>I have been here right from the start, joining after a short 
+    career break to have children. I have helped to build the system 
+    from the bottom up. I think it’s essential to have a solid understanding 
+    of the whole code and it means that together with the rest of the team 
+    I can quickly appraise and react to new client requirements. In fact, 
+    in my opinion, that responsiveness is what sets us apart from 
+    our competitors.</p>
+    
+    <p>I typically work from home on the Isle of Wight, which is a beautiful 
+    place to live, especially if you enjoy the great outdoors. If I’m not 
+    coding or managing the family then you will probably find me out running 
+    along the local beach.</p>
+    
+    
 francesca:
   first_name: Francesca
   last_name: Wilson
