@@ -169,7 +169,20 @@ alex:
   image400x: people/alex400x.jpg
   profile_page: people/alex.html
   bio: |
-    <p>TBC</p>
+    <p>Hi there, I’m Alex and I’m a software developer at SARD JV.</p>
+    	
+    <p>I love working at SARD - it allows me to develop my skills in a
+    great environment where we all work to make people’s jobs a bit easier.
+    Part of what I value as a developer is the ability to talk to the people 
+    who use what I build, and this is something that SARD is very good at. 
+    The customer service ethic here is the best I’ve ever been involved with, 
+    and it is very exciting to be able to receive a request and build a solution 
+    in a very short time-frame.</p>
+    <p>For my background, I studied Modern History at University and then moved 
+    into IT, building reporting systems and working in software project management. 
+    I have spent time living and working in South Africa and Scotland. In my spare 
+    time I enjoy running, yoga and vegetarian cooking, as well as learning to be a 
+    better developer!</p>
 
 francesca:
   first_name: Francesca
