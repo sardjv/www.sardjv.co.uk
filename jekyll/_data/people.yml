@@ -159,6 +159,17 @@ barbara:
     attention to detail which I dare say makes me a natural born programmer 
     and it's starting to show in the next generation as my 8 year old son 
     Joshua has started writing his first Ruby code. Such a proud mum.</p>
+    
+    
+alex:
+  first_name: Alex
+  last_name: Rudall
+  email: alex@sardjv.co.uk
+  role: Software Developer
+  image400x: people/alex400x.jpg
+  profile_page: people/alex.html
+  bio: |
+    <p>TBC</p>
 
 francesca:
   first_name: Francesca
