@@ -131,9 +131,6 @@ nicholas:
     for many years, including participating in the Edinburgh and 
     Brighton Fringes Festivals.</p>
 
-
-
-
 barbara:
   first_name: Barbara
   last_name: White
@@ -163,6 +160,17 @@ barbara:
     along the local beach.</p>
     
     
+    
+alex:
+  first_name: Alex
+  last_name: Rudall
+  email: alex@sardjv.co.uk
+  role: Software Developer
+  image400x: people/alex400x.jpg
+  profile_page: people/alex.html
+  bio: |
+    <p>TBC</p>
+
 francesca:
   first_name: Francesca
   last_name: Wilson
