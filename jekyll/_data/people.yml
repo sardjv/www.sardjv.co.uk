@@ -302,4 +302,25 @@ jonathan:
     <p>I founded Haven Ventures in the UK in 2002, and we now operate the same model 
     of collaborative business development, investment and turnaround services in 
     the UK and six countries in Latin America and more recently Africa.</p>
-  
+
+ify:
+  first_name: Ify
+  last_name: Okocha
+  email: 
+  role: Medical Director
+  image400x: people/ify400x.jpg
+  profile_page: people/ify.html
+  telephone: 
+  bio: |
+    <p>bio goes here</p>
+    
+buki:
+  first_name: Buki
+  last_name: Ogunde
+  email: 
+  role: 
+  image400x: people/buki400x.jpg
+  profile_page: people/ify.html
+  telephone: 
+  bio: |
+    <p>bio goes here</p>
