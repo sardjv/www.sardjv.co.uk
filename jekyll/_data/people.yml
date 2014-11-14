@@ -306,21 +306,21 @@ jonathan:
 ify:
   first_name: Ify
   last_name: Okocha
-  email: 
-  role: Medical Director
+  email: ify.okocha@oxleas.nhs.uk
+  role: Medical Director Oxleas NHS FT
   image400x: people/ify400x.jpg
   profile_page: people/ify.html
   telephone: 
   bio: |
-    <p>bio goes here</p>
-    
+    <p></p>
+
 buki:
   first_name: Buki
   last_name: Ogunde
-  email: 
-  role: 
+  email: buki.ogunde@oxleas.nhs.uk
+  role:
   image400x: people/buki400x.jpg
-  profile_page: people/ify.html
+  profile_page: people/buki.html
   telephone: 
   bio: |
-    <p>bio goes here</p>
+    <p></p>
