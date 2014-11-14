@@ -303,6 +303,21 @@ jonathan:
     of collaborative business development, investment and turnaround services in 
     the UK and six countries in Latin America and more recently Africa.</p>
 
+alice:
+  first_name: Alice
+  last_name: Roche
+  email: alice@sardjv.co.uk
+  role: Secretarial Assistant
+  image400x: people/alice400x.jpg
+  profile_page: people/alice.html
+  telephone: 
+  bio: |
+    <p>Hello, I am Alice, and I started working at SARD in April 2014. I am the baby of the group, at only 19.</p>
+    
+    <p>My role in the office, is to input the Multi Source Feedback (MSF) into the system. I mainly deal with the Patient feedback forms, and occasionally colleague feedback forms. I also am on the Live Chat support, so I often answer questions and help people that are using our system.</p>
+    
+    <p>I feel very lucky to be a part of SARD JV. It’s a wonderful company to work for, and I’m constantly acquiring new skills and knowledge each day. I studied Theatre at Brit School of Performing Arts and graduated this year, and I like to think my creativity does contribute to this team. I’m very excited about working for SARD for longer, and being part of the continuing growth and success of the company in the future.</p>
+
 ify:
   first_name: Ify
   last_name: Okocha
