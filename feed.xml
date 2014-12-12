@@ -6,26 +6,6 @@
     <link>http://www.sardjv.co.uk</link>
     <atom:link href="http://www.sardjv.co.uk/feed.xml" rel="self" type="application/rss+xml" />
     
-      <item>
-        <title>SARD launches new partnership with Mind in Croydon</title>
-        <description>We are delighted to be working with Mind in Croydon to raise funds for people and their families living with mental health issues in our local area. We will be holding our Stand Up to Stigma event before the end of the year, a night of comedy in aid of this fantastic charity. More details to follow soon.</description>
-        <pubDate>Thu, 05 Jun 2014 00:00:00 +0100</pubDate>
-        <link>http://www.sardjv.co.uk/news/2014/06/05/mind-in-croydon.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/news/2014/06/05/mind-in-croydon.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/news/19bde1be.mind_in_croydon.jpg" medium="image" width="150" height="150"/>
-        <author>philip@sardjv.co.uk</author>
-      </item>
-    
-      <item>
-        <title>In Development - SARD announces development of Appraisal for all system</title>
-        <description>SARD are pleased to announce that it is further developing the capability of its platform to extend the system in order to cover the appraisal process for all staff. It is a logical step as we already know our revalidation and appraisal system helps thousands of doctors and we felt that our system could further support other colleagues within the NHS.</description>
-        <pubDate>Thu, 05 Jun 2014 00:00:00 +0100</pubDate>
-        <link>http://www.sardjv.co.uk/news/2014/06/05/appraisal-for-all.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/news/2014/06/05/appraisal-for-all.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/news/0947e14d.scrum_timer.jpg" medium="image" width="150" height="150"/>
-        <author>philip@sardjv.co.uk</author>
-      </item>
-    
     
     
       <item>
@@ -119,13 +99,13 @@
       </item>
     
       <item>
-        <title>i-Luddite</title>
-        <description>If you just keep asking questions you eventually start knowing things, which is initially disconcerting but ultimately feels good, like gradually getting into a too hot bath. Now when I type into a password box and it replaces letters with little circles, I don’t assume it is witchcraft. I am slowly becoming one of them.</description>
-        <pubDate>Tue, 03 Jun 2014 00:00:00 +0100</pubDate>
-        <link>http://www.sardjv.co.uk/blog/nicholas/2014/06/03/i-luddite.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/nicholas/2014/06/03/i-luddite.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/nicholas/e5bfcd47.i-luddite.jpg" medium="image" width="150" height="150"/>
-        <author>nicholas@sardjv.co.uk</author>
+        <title>SARD launches new partnership with Mind in Croydon</title>
+        <description>We are delighted to be working with Mind in Croydon to raise funds for people and their families living with mental health issues in our local area. We will be holding our Stand Up to Stigma event before the end of the year, a night of comedy in aid of this fantastic charity. More details to follow soon.</description>
+        <pubDate>Thu, 05 Jun 2014 00:00:00 +0100</pubDate>
+        <link>http://www.sardjv.co.uk/blog/philip/2014/06/05/mind-in-croydon.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/philip/2014/06/05/mind-in-croydon.html</guid>
+        <media:content url="http://www.sardjv.co.uk/images/blog/philip/19bde1be.mind_in_croydon.jpg" medium="image" width="150" height="150"/>
+        <author>philip@sardjv.co.uk</author>
       </item>
     
   </channel>
