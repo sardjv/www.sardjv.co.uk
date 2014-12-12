@@ -29,6 +29,16 @@
     
     
       <item>
+        <title>Slow Is Fast</title>
+        <description>When I was at university I wrote essays. I wanted to be able to write them more quickly so I learned to touch-type, using the awesome typeonline site. My favourite part was the speed test - I found it addictive. My tendency was always to try and go as quickly as I could because that was what I wanted to achieve, but I also wanted 100% accuracy, so I would correct any mistakes I made as I went along.</description>
+        <pubDate>Fri, 12 Dec 2014 00:00:00 +0000</pubDate>
+        <link>http://www.sardjv.co.uk/blog/alex/2014/12/12/slow-is-fast.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/alex/2014/12/12/slow-is-fast.html</guid>
+        <media:content url="http://www.sardjv.co.uk/images/blog/alex/26cf1e28.tortoise.jpg" medium="image" width="150" height="150"/>
+        <author>alex@sardjv.co.uk</author>
+      </item>
+    
+      <item>
         <title>The Golden Circle</title>
         <description>Many companies can explain to you &#39;what&#39; they do; for us it is simple, we build software systems. Companies can also, importantly, tell you &#39;how&#39; they do it; again for us, we work with our clients and partners to create solutions that really meet the needs of the organisations using them. But what really sets a company apart is &#39;why&#39; they do it, and this for many is not an easy area to explain.</description>
         <pubDate>Fri, 28 Nov 2014 00:00:00 +0000</pubDate>
@@ -116,16 +126,6 @@
         <guid isPermaLink="true">http://www.sardjv.co.uk/blog/nicholas/2014/06/03/i-luddite.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/blog/nicholas/e5bfcd47.i-luddite.jpg" medium="image" width="150" height="150"/>
         <author>nicholas@sardjv.co.uk</author>
-      </item>
-    
-      <item>
-        <title>Back to work</title>
-        <description>Today is my first day back in the office after a week in Portugal with my family. Getting back into the swing of things can be a challenge but today I was really keen to get back and getting cracking on setting up our charity events in aid of Mind in Croydon.</description>
-        <pubDate>Fri, 23 May 2014 00:00:00 +0100</pubDate>
-        <link>http://www.sardjv.co.uk/blog/francesca/2014/05/23/back-to-work.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/francesca/2014/05/23/back-to-work.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/francesca/06a23ee0.portugal.jpg" medium="image" width="150" height="150"/>
-        <author>francesca@sardjv.co.uk</author>
       </item>
     
   </channel>
