@@ -1,9 +1,10 @@
 ---
-layout: news_item
-title:  In Development - SARD announces development of Appraisal for all system
-nav_title:  Appraisal for all
-image: news/scrum_timer.jpg
+layout: blog
+title: In Development - SARD announces development of Appraisal for all system
+nav_title: Appraisal for all
+image: blog/philip/scrum_timer.jpg
 tags:
+  - news
   - development
   - nurse-appraisal
   - doctor-appraisal
