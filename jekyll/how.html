@@ -70,49 +70,6 @@ why_how_what: 'how'
   </div>
 </section>
 
-<section id="news" class="top-divider blue-on-white">
-  <div class="container">
-    <h1>News</h1>
-    <div class="row">
-      {% for post in site.categories.news %}
-        {% include news_excerpt.html %}
-        {% assign remainder = forloop.index | modulo:3 %}
-        {% if remainder == 0 %}
-          <div style="clear:both;" class="visible-md visible-lg">&nbsp;</div>
-        {% endif %}
-        {% assign remainder2 = forloop.index | modulo:2 %}
-        {% if remainder2 == 0 %}
-          <div style="clear:both;" class="visible-sm">&nbsp;</div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-{% include full_width_image.html image_id="transmitter" image_height="150" %}
-
-<section id="events" class="top-divider blue-on-white">
-  <div class="container">
-    <h1>Events</h1>
-    <div class="row">
-      {% for post in site.categories.events %}
-        {% include events_excerpt.html %}
-        {% assign remainder = forloop.index | modulo:3 %}
-        {% if remainder == 0 %}
-          <div style="clear:both;" class="visible-md visible-lg">&nbsp;</div>
-        {% endif %}
-        {% assign remainder2 = forloop.index | modulo:2 %}
-        {% if remainder2 == 0 %}
-          <div style="clear:both;" class="visible-sm">&nbsp;</div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
-{% include full_width_image.html image_id="dinosaur-neck" image_height="150" %}
-
-
 <section id="blogs" class="top-divider blue-on-white">
   <div class="container">
     <h1>Blogs</h1>
@@ -131,5 +88,3 @@ why_how_what: 'how'
     </div>
   </div>
 </section>
-
-
