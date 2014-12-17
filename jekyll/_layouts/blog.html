@@ -75,7 +75,9 @@ why_how_what:
         <h4>Authors</h4>
         <ul>
         {% for person in site.data.people %}
-        <li><a href="/{{person[1].profile_page}}">{{person[1].first_name}} {{person[1].last_name}}</a></li>
+          {% if person[1].current_employee %}
+            <li><a href="/{{person[1].profile_page}}">{{person[1].first_name}} {{person[1].last_name}}</a></li>
+          {% endif %}
         {% endfor %}
         </ul>
       </div>
