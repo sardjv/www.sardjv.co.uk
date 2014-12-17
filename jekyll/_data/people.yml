@@ -1,6 +1,7 @@
 kevin:
   first_name: Kevin
   last_name: Monk
+  current_employee: true
   email: kevin@sardjv.co.uk
   role: Managing Director
   image400x: people/kevin400x.jpg
@@ -22,6 +23,7 @@ kevin:
 philip:
   first_name: Philip
   last_name: Bottle
+  current_employee: true
   email: philip@sardjv.co.uk
   role: Sales Director
   image400x: people/phil400x.jpg
@@ -60,6 +62,7 @@ philip:
 sophie:
   first_name: Sophie
   last_name: Buijsen
+  current_employee: true
   email: sophie@sardjv.co.uk
   role: Account Manager
   image400x: people/sophie400x.jpg
@@ -96,6 +99,7 @@ sophie:
 nicholas:
   first_name: Nicholas
   last_name: Cooke
+  current_employee: false
   email: nicholas@sardjv.co.uk
   role: Account Manager
   image400x: people/dig400x.jpg
@@ -134,6 +138,7 @@ nicholas:
 barbara:
   first_name: Barbara
   last_name: White
+  current_employee: true
   email: barbara@sardjv.co.uk
   role: Lead Developer
   image400x: people/barbara400x.jpg
@@ -164,6 +169,7 @@ barbara:
 alex:
   first_name: Alex
   last_name: Rudall
+  current_employee: true
   email: alex@sardjv.co.uk
   role: Software Developer
   image400x: people/alex400x.jpg
@@ -187,6 +193,7 @@ alex:
 francesca:
   first_name: Francesca
   last_name: Wilson
+  current_employee: true
   email: francesca@sardjv.co.uk
   role: Research and Events
   image400x: people/francesca400x.jpg
@@ -219,6 +226,7 @@ francesca:
 naomi:
   first_name: Naomi
   last_name: Liddle
+  current_employee: true
   email: naomi@sardjv.co.uk
   role: Office Manager
   image400x: people/naomi400x.jpg
@@ -249,6 +257,7 @@ naomi:
 ben:
   first_name: Ben
   last_name: Travis
+  current_employee: true
   email: ben.travis@oxleas.nhs.uk
   role: Board Director
   image400x: people/ben400x.jpg
@@ -272,6 +281,7 @@ ben:
 jonathan:
   first_name: Jonathan
   last_name: Wood
+  current_employee: true
   email: jonathan@sardjv.co.uk
   role: Business Advisor
   image400x: people/jonathan400x.jpg
@@ -306,6 +316,7 @@ jonathan:
 alice:
   first_name: Alice
   last_name: Roche
+  current_employee: true
   email: alice@sardjv.co.uk
   role: Secretarial Assistant
   image400x: people/alice400x.jpg
@@ -321,6 +332,7 @@ alice:
 ify:
   first_name: Ify
   last_name: Okocha
+  current_employee: true
   email: ify.okocha@oxleas.nhs.uk
   role: Medical Director Oxleas NHS FT
   image400x: people/ify400x.jpg
@@ -344,6 +356,7 @@ ify:
 buki:
   first_name: Buki
   last_name: Ogunde
+  current_employee: true
   email: buki.ogunde@oxleas.nhs.uk
   role: Head of Medical Staffing Oxleas
   image400x: people/buki400x.jpg
