@@ -79,7 +79,7 @@ module.exports = function (grunt) {
         watch: {
             
             jekyll: {
-                files: ['<%= config.jekyll %>/{,*/}*.{html,md,scss,css}'],
+                files: ['<%= config.jekyll %>/{,**/}*.{html,md,scss,css}'],
                 tasks: ['jekyll:dist', 'wiredep']
             },
             // bower: {
