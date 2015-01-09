@@ -113,7 +113,9 @@ why_how_what: 'why'
     
     <div class="row">
       {% for person in site.data.people %}
-        {% include person_excerpt.html %}
+        {% if person[1].current_employee %}
+          {% include person_excerpt.html %}
+        {% endif %}
       {% endfor %}
     </div>
   </div>

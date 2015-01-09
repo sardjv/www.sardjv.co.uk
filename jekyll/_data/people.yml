@@ -1,6 +1,7 @@
 kevin:
   first_name: Kevin
   last_name: Monk
+  current_employee: true
   email: kevin@sardjv.co.uk
   role: Managing Director
   image400x: people/kevin400x.jpg
@@ -22,6 +23,7 @@ kevin:
 philip:
   first_name: Philip
   last_name: Bottle
+  current_employee: true
   email: philip@sardjv.co.uk
   role: Sales Director
   image400x: people/phil400x.jpg
@@ -60,6 +62,7 @@ philip:
 sophie:
   first_name: Sophie
   last_name: Buijsen
+  current_employee: true
   email: sophie@sardjv.co.uk
   role: Account Manager
   image400x: people/sophie400x.jpg
@@ -96,6 +99,7 @@ sophie:
 nicholas:
   first_name: Nicholas
   last_name: Cooke
+  current_employee: false
   email: nicholas@sardjv.co.uk
   role: Account Manager
   image400x: people/dig400x.jpg
@@ -134,6 +138,7 @@ nicholas:
 barbara:
   first_name: Barbara
   last_name: White
+  current_employee: true
   email: barbara@sardjv.co.uk
   role: Lead Developer
   image400x: people/barbara400x.jpg
@@ -164,6 +169,7 @@ barbara:
 alex:
   first_name: Alex
   last_name: Rudall
+  current_employee: true
   email: alex@sardjv.co.uk
   role: Software Developer
   image400x: people/alex400x.jpg
@@ -187,6 +193,7 @@ alex:
 francesca:
   first_name: Francesca
   last_name: Wilson
+  current_employee: true
   email: francesca@sardjv.co.uk
   role: Research and Events
   image400x: people/francesca400x.jpg
@@ -219,6 +226,7 @@ francesca:
 naomi:
   first_name: Naomi
   last_name: Liddle
+  current_employee: true
   email: naomi@sardjv.co.uk
   role: Office Manager
   image400x: people/naomi400x.jpg
@@ -249,6 +257,7 @@ naomi:
 ben:
   first_name: Ben
   last_name: Travis
+  current_employee: true
   email: ben.travis@oxleas.nhs.uk
   role: Board Director
   image400x: people/ben400x.jpg
@@ -272,6 +281,7 @@ ben:
 jonathan:
   first_name: Jonathan
   last_name: Wood
+  current_employee: true
   email: jonathan@sardjv.co.uk
   role: Business Advisor
   image400x: people/jonathan400x.jpg
@@ -302,4 +312,59 @@ jonathan:
     <p>I founded Haven Ventures in the UK in 2002, and we now operate the same model 
     of collaborative business development, investment and turnaround services in 
     the UK and six countries in Latin America and more recently Africa.</p>
-  
+
+alice:
+  first_name: Alice
+  last_name: Roche
+  current_employee: true
+  email: alice@sardjv.co.uk
+  role: Secretarial Assistant
+  image400x: people/alice400x.jpg
+  profile_page: people/alice.html
+  telephone: 
+  bio: |
+    <p>Hello, I am Alice, and I started working at SARD in April 2014. I am the baby of the group, at only 19.</p>
+    
+    <p>My role in the office, is to input the Multi Source Feedback (MSF) into the system. I mainly deal with the Patient feedback forms, and occasionally colleague feedback forms. I also am on the Live Chat support, so I often answer questions and help people that are using our system.</p>
+    
+    <p>I feel very lucky to be a part of SARD JV. It’s a wonderful company to work for, and I’m constantly acquiring new skills and knowledge each day. I studied Theatre at Brit School of Performing Arts and graduated this year, and I like to think my creativity does contribute to this team. I’m very excited about working for SARD for longer, and being part of the continuing growth and success of the company in the future.</p>
+
+ify:
+  first_name: Ify
+  last_name: Okocha
+  current_employee: true
+  email: ify.okocha@oxleas.nhs.uk
+  role: Medical Director Oxleas NHS FT
+  image400x: people/ify400x.jpg
+  profile_page: people/ify.html
+  telephone: 
+  bio: |
+    <p>I am the Medical Director and Responsible Officer for Oxleas NHS Foundation Trust as well as a member of the General Medical Council (GMC) Responsible Officer Reference Group that acts as a sounding board to the GMC on how to implement and further develop Revalidation of a quarter of a million doctors in the UK following the Responsible Officer Regulation of 2010. </p> 
+    
+    <p> Five years ago I led the development of the Oxleas NHS Foundation Trust Strengthened Appraisal and Revalidation Database or SARD as it is familiarly known.  Since SARD JV became a commercial business I have played an integral role in the continued development of the system.</p>
+    
+    <p> I qualified as a Medical Doctor in 1985, completing my training on the Guy’s and St Thomas’ regional psychiatric rotation and obtained my Membership of the Royal College of Psychiatrists (MRCPsych) diploma in 1992. I completed my doctorate (Ph.D) and post doctorate research at King’s College Hospital & Institute of Psychiatry and obtained my Doctor of Philosophy (Ph.D) degree in 1996 and in the same year was appointed consultant psychiatrist/senior lecturer at Greenwich District Hospital and Guy’s & St Thomas’ London. 
+    
+    <p>I was elected Fellow of the Royal College of Psychiatrists (FRCPsych) in 2007 for my contributions to the field of Psychiatry through clinical practice, teaching, education and research. In 2014, I was elected an international Fellow of the American Psychiatric Association.</p> 
+    
+    <p>I have received commendations and won national awards for innovative and high quality care delivered within my multidisciplinary clinical team and these include National Association of Psychiatric Intensive Care Units team of the year award; Care Services Improvement Partnership ‘Positive Practice’ award; commendation by Hospital Doctors Award committee; and award of the British Association for Medical Managers.</p> 
+    
+    <p>I was the first ever recipient of the distinguished award of The Medical Leader of the year (2009) by the Royal College of Psychiatrists “in recognition of an outstanding contribution to mental health” and I am on the ‘Roll of Honour’ of the Royal College of Psychiatrist.</p> 
+    
+    <p>I have been listed as one of “100 most influential black people in Britain” by Powerful Media for four consecutive years. One of my proudest moments was when I was a guest of Her Majesty the Queen at the Diamond Jubilee Celebrations at St Paul’s Cathedral and the City of London Corporation reception at the Guildhall. </p>
+
+buki:
+  first_name: Buki
+  last_name: Ogunde
+  current_employee: true
+  email: buki.ogunde@oxleas.nhs.uk
+  role: Head of Medical Staffing Oxleas
+  image400x: people/buki400x.jpg
+  profile_page: people/buki.html
+  telephone: 
+  bio: |
+    <p>I am a management consultant and project manager, and I have worked in the NHS for 14 years gaining experience in a number of different areas including HR, Resourcing, Learning & Development and Medical Education during which time I have led on a number of national and local initiatives. I have a strong belief in personal development which led me to attain MCIPD and Tap Certificates as well as being a Prince 2 Practitioner.</p>
+    
+    <p>Presently, I am working as the Head of Medical Staffing, responsible for leading on revalidation and looking after the operational and developmental needs of the medical workforce in Oxleas NHS Foundation Trust.</p>
+    
+    <p>Four years ago I was an integral part of the team that designed and developed the Oxleas revalidation system - SARD - in conjunction with Mango Swiss Ltd, this product is now available commercially through SARD JV. I was involved in the initial concepts of revalidation long before they became a national process and utilised my intimate knowledge in this area to shape the process behind the system as well as the flexibility required for both Oxleas and other health care organisations.</p>

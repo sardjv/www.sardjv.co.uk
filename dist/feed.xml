@@ -6,27 +6,67 @@
     <link>http://www.sardjv.co.uk</link>
     <atom:link href="http://www.sardjv.co.uk/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    
       <item>
-        <title>SARD launches new partnership with Mind in Croydon</title>
-        <description>We are delighted to be working with Mind in Croydon to raise funds for people and their families living with mental health issues in our local area. We will be holding our Stand Up to Stigma event before the end of the year, a night of comedy in aid of this fantastic charity. More details to follow soon.</description>
-        <pubDate>Thu, 05 Jun 2014 00:00:00 +0100</pubDate>
-        <link>http://www.sardjv.co.uk/news/2014/06/05/mind-in-croydon.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/news/2014/06/05/mind-in-croydon.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/news/19bde1be.mind_in_croydon.jpg" medium="image" width="150" height="150"/>
+        <title>Sharing interests with Zombies</title>
+        <description>Zombies and I share a common interest... Brains!! Your brain is your most valuable asset. In this blog post I discuss why we should use abstractions and black box technology even if it’s sub-optimal. Optimise for your brain first, the computer second. Will power is limited so leave your brain resting or working on the things that really matter.</description>
+        <pubDate>Fri, 09 Jan 2015 00:00:00 +0000</pubDate>
+        <link>http://www.sardjv.co.uk/blog/kevin/2015/01/09/optimise-for-your-brain-first.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/kevin/2015/01/09/optimise-for-your-brain-first.html</guid>
+        <media:content url="http://www.sardjv.co.uk/images/blog/kevin/ea8518e8.zombie_lunch_bag.jpg" medium="image" width="150" height="150"/>
+        <author>kevin@sardjv.co.uk</author>
+      </item>
+    
+      <item>
+        <title>Christmas and New Year Support</title>
+        <description>SARD JV chat, telephone and email support will be closed for the holidays on Christmas Eve, Christmas Day, Boxing Day and New Year&#39;s Day.</description>
+        <pubDate>Mon, 15 Dec 2014 00:00:00 +0000</pubDate>
+        <link>http://www.sardjv.co.uk/blog/alex/2014/12/15/christmas-support.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/alex/2014/12/15/christmas-support.html</guid>
+        <media:content url="http://www.sardjv.co.uk/images/blog/alex/68dcee35.christmas.png" medium="image" width="150" height="150"/>
+        <author>alex@sardjv.co.uk</author>
+      </item>
+    
+      <item>
+        <title>Slow Is Fast</title>
+        <description>When I was at university I wrote essays. I wanted to be able to write them more quickly so I learned to touch-type, using the awesome typeonline site. My favourite part was the speed test - I found it addictive. My tendency was always to try and go as quickly as I could because that was what I wanted to achieve, but I also wanted 100% accuracy, so I would correct any mistakes I made as I went along.</description>
+        <pubDate>Fri, 12 Dec 2014 00:00:00 +0000</pubDate>
+        <link>http://www.sardjv.co.uk/blog/alex/2014/12/12/slow-is-fast.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/alex/2014/12/12/slow-is-fast.html</guid>
+        <media:content url="http://www.sardjv.co.uk/images/blog/alex/26cf1e28.tortoise.jpg" medium="image" width="150" height="150"/>
+        <author>alex@sardjv.co.uk</author>
+      </item>
+    
+      <item>
+        <title>The Golden Circle</title>
+        <description>Many companies can explain to you &#39;what&#39; they do; for us it is simple, we build software systems. Companies can also, importantly, tell you &#39;how&#39; they do it; again for us, we work with our clients and partners to create solutions that really meet the needs of the organisations using them. But what really sets a company apart is &#39;why&#39; they do it, and this for many is not an easy area to explain.</description>
+        <pubDate>Fri, 28 Nov 2014 00:00:00 +0000</pubDate>
+        <link>http://www.sardjv.co.uk/blog/philip/2014/11/28/the-golden-circle.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/philip/2014/11/28/the-golden-circle.html</guid>
+        <media:content url="http://www.sardjv.co.uk/images/blog/philip/97201d25.the_golden_circle.jpg" medium="image" width="150" height="150"/>
         <author>philip@sardjv.co.uk</author>
       </item>
     
       <item>
-        <title>In Development - SARD announces development of Appraisal for all system</title>
-        <description>SARD are pleased to announce that it is further developing the capability of its platform to extend the system in order to cover the appraisal process for all staff. It is a logical step as we already know our revalidation and appraisal system helps thousands of doctors and we felt that our system could further support other colleagues within the NHS.</description>
-        <pubDate>Thu, 05 Jun 2014 00:00:00 +0100</pubDate>
-        <link>http://www.sardjv.co.uk/news/2014/06/05/appraisal-for-all.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/news/2014/06/05/appraisal-for-all.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/news/0947e14d.scrum_timer.jpg" medium="image" width="150" height="150"/>
-        <author>philip@sardjv.co.uk</author>
+        <title>Understanding Our Users</title>
+        <description>Our mission at SARD JV is to develop solutions that really help our users, so understanding our users is central to what we do. As a way of boosting this, last Thursday we held the inaugural SARD User Group Event in our new office. It was a day of discussion and feedback from some of our key users, and also an opportunity for us to present some new features and products that we are currently developing.</description>
+        <pubDate>Fri, 24 Oct 2014 00:00:00 +0100</pubDate>
+        <link>http://www.sardjv.co.uk/blog/alex/2014/10/24/sard-user-group.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/alex/2014/10/24/sard-user-group.html</guid>
+        <media:content url="http://www.sardjv.co.uk/images/blog/alex/307e1a60.user-group-2014.jpg" medium="image" width="150" height="150"/>
+        <author>alex@sardjv.co.uk</author>
       </item>
     
-    
+      <item>
+        <title>Running SARD</title>
+        <description>This weekend Team SARD will be running the Great South Run in aid of Mind in Croydon. As our company is part owned by a mental health trust, we wanted to do something to raise awareness of mental health issues as well as give back to our community. We found out that the mental health charity Mind is a franchise charity and our local branch, Croydon, is in charge of both a charity shop that tries to integrate service users as well as provide services for those in need. We therefore felt strongly that Mind would be the best charity for us to support by giving back to the community and raising awareness of mental health.</description>
+        <pubDate>Fri, 24 Oct 2014 00:00:00 +0100</pubDate>
+        <link>http://www.sardjv.co.uk/blog/sophie/2014/10/24/running-sard.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/sophie/2014/10/24/running-sard.html</guid>
+        <media:content url="http://www.sardjv.co.uk/images/blog/sophie/9e9633a2.MIND-logo-400x400.jpg" medium="image" width="150" height="150"/>
+        <author>sophie@sardjv.co.uk</author>
+      </item>
     
       <item>
         <title>The Dichotomy of Appraisals</title>
@@ -66,46 +106,6 @@
         <guid isPermaLink="true">http://www.sardjv.co.uk/blog/francesca/2014/06/07/customer-service-in-our-sleep.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/blog/francesca/e74bcff2.kings-standard-general.jpg" medium="image" width="150" height="150"/>
         <author>francesca@sardjv.co.uk</author>
-      </item>
-    
-      <item>
-        <title>Silicon Triangle</title>
-        <description>In the summer of 2013 Kevin and I discussed the fact that we often ran into small technical problems and we realised that there must be a wealth of technical resource in our area. Crystal Palace is historically linked to the principles of advancing through science and technology and bringing all new innovation together in one place. Kevin, as you may expect, has a keen interest in all types of technology, and I have a passion for most things science (even the bad bits are usually fascinating). From this grew the idea of the Silicon Triangle.</description>
-        <pubDate>Fri, 06 Jun 2014 00:00:00 +0100</pubDate>
-        <link>http://www.sardjv.co.uk/blog/sophie/2014/06/06/silicon-triangle.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/sophie/2014/06/06/silicon-triangle.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/sophie/145394ea.silicon-triangle.jpg" medium="image" width="150" height="150"/>
-        <author>sophie@sardjv.co.uk</author>
-      </item>
-    
-      <item>
-        <title>i-Luddite</title>
-        <description>If you just keep asking questions you eventually start knowing things, which is initially disconcerting but ultimately feels good, like gradually getting into a too hot bath. Now when I type into a password box and it replaces letters with little circles, I don’t assume it is witchcraft. I am slowly becoming one of them.</description>
-        <pubDate>Tue, 03 Jun 2014 00:00:00 +0100</pubDate>
-        <link>http://www.sardjv.co.uk/blog/nicholas/2014/06/03/i-luddite.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/nicholas/2014/06/03/i-luddite.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/nicholas/e5bfcd47.i-luddite.jpg" medium="image" width="150" height="150"/>
-        <author>nicholas@sardjv.co.uk</author>
-      </item>
-    
-      <item>
-        <title>Back to work</title>
-        <description>Today is my first day back in the office after a week in Portugal with my family. Getting back into the swing of things can be a challenge but today I was really keen to get back and getting cracking on setting up our charity events in aid of Mind in Croydon.</description>
-        <pubDate>Fri, 23 May 2014 00:00:00 +0100</pubDate>
-        <link>http://www.sardjv.co.uk/blog/francesca/2014/05/23/back-to-work.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/francesca/2014/05/23/back-to-work.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/francesca/06a23ee0.portugal.jpg" medium="image" width="150" height="150"/>
-        <author>francesca@sardjv.co.uk</author>
-      </item>
-    
-      <item>
-        <title>Nurse Appraisal Conference</title>
-        <description>We recently attended the &#39;Nursing Appraisal and Revalidation&#39; conference in London, which was a very useful and insightful event. Having a background plunged into the inner depths of medical revalidation and as a company looking to expand our systems to fulfill future requirements, this conference could not have come at a better time. I think there was a little nervousness about readiness, both from our persepctive and from those who will have to undertake this process. However this conference managed to highlight some important anxiety busters. Firstly, although things are moving quickly, no final decisions have been made, which is useful for us as we want to make sure we are part of the process and develop solutions that meet the actual need and not the percieved one. Secondly, it was clear that it was a well thought out process and the NMC were trying to ensure that Nurse revalidation met the requirements of nurses and was not just a carbon copy of revalidation for doctors.</description>
-        <pubDate>Thu, 22 May 2014 00:00:00 +0100</pubDate>
-        <link>http://www.sardjv.co.uk/blog/philip/2014/05/22/nurse-appraisal-conference.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/philip/2014/05/22/nurse-appraisal-conference.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/philip/8e13e131.nurse_appraisal_conference.jpg" medium="image" width="150" height="150"/>
-        <author>philip@sardjv.co.uk</author>
       </item>
     
   </channel>

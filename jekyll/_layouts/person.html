@@ -39,6 +39,14 @@ layout: default
       {% if site.categories[page.person].size > 0 %}
         {% for post in site.categories[page.person] %}
           {% include blog_excerpt.html %}
+          {% assign remainder = forloop.index | modulo:3 %}
+          {% if remainder == 0 %}
+            <div style="clear:both;" class="visible-md visible-lg">&nbsp;</div>
+          {% endif %}
+          {% assign remainder2 = forloop.index | modulo:2 %}
+          {% if remainder2 == 0 %}
+            <div style="clear:both;" class="visible-sm">&nbsp;</div>
+          {% endif %}
         {% endfor %}
       {% else %}
         <div class="col-xs-12">
@@ -52,7 +60,9 @@ layout: default
         <h2>More of the team</h2>
         <ul>
         {% for person in site.data.people %}
-        <li><a href="/{{person[1].profile_page}}">{{person[1].first_name}} {{person[1].last_name}}</a></li>
+          {% if person[1].current_employee %}
+            <li><a href="/{{person[1].profile_page}}">{{person[1].first_name}} {{person[1].last_name}}</a></li>
+          {% endif %}
         {% endfor %}
         </ul>
       </div>
