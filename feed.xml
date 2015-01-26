@@ -9,16 +9,6 @@
     
     
       <item>
-        <title>Sharing interests with Zombies</title>
-        <description>Zombies and I share a common interest... Brains!! Your brain is your most valuable asset. In this blog post I discuss why we should use abstractions and black box technology even if it’s sub-optimal. Optimise for your brain first, the computer second. Will power is limited so leave your brain resting or working on the things that really matter.</description>
-        <pubDate>Fri, 09 Jan 2015 00:00:00 +0000</pubDate>
-        <link>http://www.sardjv.co.uk/blog/kevin/2015/01/09/optimise-for-your-brain-first.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/kevin/2015/01/09/optimise-for-your-brain-first.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/kevin/ea8518e8.zombie_lunch_bag.jpg" medium="image" width="150" height="150"/>
-        <author>kevin@sardjv.co.uk</author>
-      </item>
-    
-      <item>
         <title>Christmas and New Year Support</title>
         <description>SARD JV chat, telephone and email support will be closed for the holidays on Christmas Eve, Christmas Day, Boxing Day and New Year&#39;s Day.</description>
         <pubDate>Mon, 15 Dec 2014 00:00:00 +0000</pubDate>
@@ -106,6 +96,16 @@
         <guid isPermaLink="true">http://www.sardjv.co.uk/blog/francesca/2014/06/07/customer-service-in-our-sleep.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/blog/francesca/e74bcff2.kings-standard-general.jpg" medium="image" width="150" height="150"/>
         <author>francesca@sardjv.co.uk</author>
+      </item>
+    
+      <item>
+        <title>Silicon Triangle</title>
+        <description>In the summer of 2013 Kevin and I discussed the fact that we often ran into small technical problems and we realised that there must be a wealth of technical resource in our area. Crystal Palace is historically linked to the principles of advancing through science and technology and bringing all new innovation together in one place. Kevin, as you may expect, has a keen interest in all types of technology, and I have a passion for most things science (even the bad bits are usually fascinating). From this grew the idea of the Silicon Triangle.</description>
+        <pubDate>Fri, 06 Jun 2014 00:00:00 +0100</pubDate>
+        <link>http://www.sardjv.co.uk/blog/sophie/2014/06/06/silicon-triangle.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/sophie/2014/06/06/silicon-triangle.html</guid>
+        <media:content url="http://www.sardjv.co.uk/images/blog/sophie/145394ea.silicon-triangle.jpg" medium="image" width="150" height="150"/>
+        <author>sophie@sardjv.co.uk</author>
       </item>
     
   </channel>
