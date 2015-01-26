@@ -1,6 +1,7 @@
 ---
 layout: blog
 title:  Sharing interests with Zombies
+published: false
 nav_title: Zombies and Me
 image: blog/kevin/zombie_lunch_bag.jpg
 tags:
