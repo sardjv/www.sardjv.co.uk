@@ -9,6 +9,16 @@
     
     
       <item>
+        <title>Test-Driven Development for the Non-Programmer</title>
+        <description>At SARD we practice Test Driven Development. If you are a software developer, you probably know what this is; if you are not, you almost certainly do not. But perhaps you should know, because it is an important idea that is becoming more and more relevant to all our lives. It has been said that TDD is as significant to software development as</description>
+        <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
+        <link>http://www.sardjv.co.uk/blog/alex/2015/01/30/test-driven-development.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/alex/2015/01/30/test-driven-development.html</guid>
+        <media:content url="http://www.sardjv.co.uk/images/blog/alex/307e1a60.user-group-2014.jpg" medium="image" width="150" height="150"/>
+        <author>alex@sardjv.co.uk</author>
+      </item>
+    
+      <item>
         <title>Christmas and New Year Support</title>
         <description>SARD JV chat, telephone and email support will be closed for the holidays on Christmas Eve, Christmas Day, Boxing Day and New Year&#39;s Day.</description>
         <pubDate>Mon, 15 Dec 2014 00:00:00 +0000</pubDate>
@@ -96,16 +106,6 @@
         <guid isPermaLink="true">http://www.sardjv.co.uk/blog/francesca/2014/06/07/customer-service-in-our-sleep.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/blog/francesca/e74bcff2.kings-standard-general.jpg" medium="image" width="150" height="150"/>
         <author>francesca@sardjv.co.uk</author>
-      </item>
-    
-      <item>
-        <title>Silicon Triangle</title>
-        <description>In the summer of 2013 Kevin and I discussed the fact that we often ran into small technical problems and we realised that there must be a wealth of technical resource in our area. Crystal Palace is historically linked to the principles of advancing through science and technology and bringing all new innovation together in one place. Kevin, as you may expect, has a keen interest in all types of technology, and I have a passion for most things science (even the bad bits are usually fascinating). From this grew the idea of the Silicon Triangle.</description>
-        <pubDate>Fri, 06 Jun 2014 00:00:00 +0100</pubDate>
-        <link>http://www.sardjv.co.uk/blog/sophie/2014/06/06/silicon-triangle.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/sophie/2014/06/06/silicon-triangle.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/sophie/145394ea.silicon-triangle.jpg" medium="image" width="150" height="150"/>
-        <author>sophie@sardjv.co.uk</author>
       </item>
     
   </channel>
