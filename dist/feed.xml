@@ -9,6 +9,16 @@
     
     
       <item>
+        <title>Great South Run</title>
+        <description>It seems like only yesterday that I crossed the finish line for the Great South Run as part of the SARD JV team. But time flies and it’s now been several months since October 26th. We’ve rounded up our donations and we’re proud to announce we raised £923.43 for Mind in Croydon!</description>
+        <pubDate>Fri, 06 Mar 2015 00:00:00 +0000</pubDate>
+        <link>http://www.sardjv.co.uk/blog/sophie/2015/03/06/great-south-un.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/sophie/2015/03/06/great-south-un.html</guid>
+        <media:content url="http://www.sardjv.co.uk/images/blog/sophie/770f8f32.GSRfinish.jpg" medium="image" width="150" height="150"/>
+        <author>sophie@sardjv.co.uk</author>
+      </item>
+    
+      <item>
         <title>Test-Driven Development for the Non-Programmer</title>
         <description>At SARD we practice Test Driven Development. If you are a software developer, you probably know what this is; if you are not, you almost certainly do not. But perhaps you should know, because it is an important idea that is becoming more and more relevant to all our lives. It has been said that TDD is as significant to software development as</description>
         <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
@@ -96,16 +106,6 @@
         <guid isPermaLink="true">http://www.sardjv.co.uk/blog/philip/2014/06/11/this-week.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/blog/philip/405898cf.website_screen_shot.jpg" medium="image" width="150" height="150"/>
         <author>philip@sardjv.co.uk</author>
-      </item>
-    
-      <item>
-        <title>Customer service in our sleep</title>
-        <description>I had some time off this month for an operation and was fortunate enough to be treated in the day surgery unit of Princess Royal University Hospital, now run by Kings College Hospital NHS FT. When my anaesthetist and her assistant asked me what I did, I don&#39;t think they were expecting to be asked if they liked their appraisal software!</description>
-        <pubDate>Sat, 07 Jun 2014 00:00:00 +0100</pubDate>
-        <link>http://www.sardjv.co.uk/blog/francesca/2014/06/07/customer-service-in-our-sleep.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/francesca/2014/06/07/customer-service-in-our-sleep.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/francesca/e74bcff2.kings-standard-general.jpg" medium="image" width="150" height="150"/>
-        <author>francesca@sardjv.co.uk</author>
       </item>
     
   </channel>
