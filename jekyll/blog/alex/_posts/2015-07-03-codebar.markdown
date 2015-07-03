@@ -1,0 +1,33 @@
+---
+layout: blog
+title:  Codebar
+nav_title: Codebar
+image: blog/alex/margaret_hamilton.gif
+
+tags:
+  - development
+  - technology
+  - diversity
+  - learning
+  - community
+author: alex
+excerpt: At SARD we practice Test Driven Development. If you are a software developer, you probably know what this is; if you are not, you almost certainly do not. But perhaps you should know, because it is an important idea that is becoming more and more relevant to all our lives. It has been said that TDD is as significant to software development as
+---
+
+![Ada Lovelace's first program](/images/blog/alex/lovelace_first_program.jpg)
+
+This is the world's first computer program, written by [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace) in 1842.
+
+![Margaret Hamilton with stack of code as tall as she is](/images/blog/alex/margaret_hamilton.gif)
+
+And this is [Margaret Hamilton](https://en.wikipedia.org/wiki/Margaret_Hamilton_(scientist)) standing next to a printout of the actual Apollo Guidance Computer source code. Her programming directly prevented an abort of the Apollo 11 Moon landing and she would go on to become director of software programming for Apollo and Skylab. And yet:
+
+> In 1984, 37.1% of Computer Science degrees were awarded to women; the percentage dropped to 29.9% in 1989-1990, and 26.7% in 1997-1998. Figures from the Computing Research Association Taulbee Survey indicate that fewer than 12% of Computer Science bachelor's degrees were awarded to women at U.S. PhD-granting institutions in 2010-11.
+
+There are many reasons for this situation (see the rest of the [excellent wikipedia article](https://en.wikipedia.org/wiki/Women_in_computing)), but the impact is damaging. Higher salary positions in the 'new economy' tend to demand advanced computer skills as a basic minimum for entry; meanwhile groups of people from similar backgrounds tend to experience groupthink. At the same time, while teaching yourself to code is certainly possible, it is a major time and resource investment and studying alone without feedback or encouragement can be lonely and frustrating.
+
+One organisation trying to do something about all this is [Codebar](http://codebar.io/). It's a great initiative that offers free programming workshops to people from underrepresented backgrounds. Professional developers volunteer an evening a fortnight to act as coaches. I first heard about it at the [Bath Ruby Conference](http://2015.bathruby.org/) and have been a coach for the past 4 months. It's a lot of fun to be able to join someone for a few hours, find out what they know and what they want to do, and (hopefully!) to provide some insight or encouragement or help them move forward with their project. As a coach it's really good for me too, 'teaching is the best way to learn' and nothing reveals the actual depth of your knowledge quite like a beginner asking 'but why?' a few times. 
+
+There is a Codebar event in London at least once a week. Tech startups sponsor the events and donate food, drink and office space - locations I've had the opportunity to coach at include [Pivotal Labs](http://pivotallabs.com/), [Pact](https://www.pactcoffee.com/), [Makers Academy](http://makersacademy.com/) and [Twitter](https://twitter.com/). Codebar has groups in Central, West and South London, Brighton, Cambridge and Birmingham, as well as one in New York and one in Brazil. If you're interested in getting involved, either as a student or a coach, I can highly recommend it as a fun way to learn a new skill and give back to the community. You just have to be quick on the draw when they send out the invites as workshops fill up very quickly! [http://codebar.io](http://codebar.io/)
+
+![Alex with two students](/images/blog/alex/codebar.jpg)
