@@ -11,7 +11,8 @@ tags:
   - learning
   - community
 author: alex
-excerpt: At SARD we practice Test Driven Development. If you are a software developer, you probably know what this is; if you are not, you almost certainly do not. But perhaps you should know, because it is an important idea that is becoming more and more relevant to all our lives. It has been said that TDD is as significant to software development as
+excerpt: This is the world's first computer program, written by Ada Lovelace in 1842. And this is Margaret Hamilton standing next to a printout of the actual Apollo Guidance Computer source code. Her programming directly prevented an abort of the Apollo 11 Moon landing...
+
 ---
 
 ![Ada Lovelace's first program](/images/blog/alex/lovelace_first_program.jpg)
