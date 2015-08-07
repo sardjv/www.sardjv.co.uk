@@ -1,7 +1,7 @@
 ---
 layout: blog
 title:  Customer Service without a Script
-nav_title:  Customer Service without a Script
+nav_title:  Customer Serivce without a Script
 image: blog/sophie/chat-window.jpg
   
 tags:
