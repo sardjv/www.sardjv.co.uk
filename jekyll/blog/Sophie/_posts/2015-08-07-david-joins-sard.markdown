@@ -12,7 +12,7 @@ tags:
 author: sophie
 excerpt: This week we welcomed a new member to the SARD team! David will be in our offices full-time to answer queries that come in through our chat system. 
 ---
-![Can I help you?](/images/blog/sophie/david-photo-square.jpg)
+![David Clements](/images/blog/sophie/david-photo-square.jpg)
 This week we welcomed a new member to the SARD team! David will be in our offices full-time to answer queries that come in through our chat system. 
 
 From David:
@@ -23,6 +23,7 @@ Before joining SARD JV i worked as a sales assistant for 6 years. I feel custome
 I studied Theatre at Brit School of Performing Art and enjoy all aspects of the theatre. I’m a member of a local theatre and, in my spare time enjoy reading and building lego."
 
 We're very pleased to have David on board and will be working with him over the next few weeks to make sure he is ready to answer all your queries.
+
 So next time you see David's photo pop up on the Live Chat system, feel free to introduce yourself and say hello! 
 
 
