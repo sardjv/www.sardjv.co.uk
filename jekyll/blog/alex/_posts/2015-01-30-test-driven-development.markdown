@@ -2,7 +2,7 @@
 layout: blog
 title:  Test-Driven Development for the Non-Programmer
 nav_title: Test-Driven Development
-image: blog/alex/user-group-2014.jpg
+image: blog/sard_logo.png
 
 tags:
   - software
@@ -29,7 +29,7 @@ We will also need to test if there is a banana inside the box. This little test 
 
 ![Test](/images/blog/alex/tdd3.png)
 
-In natural english, it translates to 
+In natural english, it translates to
 
 *If $bananas is equal to 1, print out the first line of green text; otherwise, print out the second line of green text*
 
@@ -57,11 +57,11 @@ Once again, we run the test:
 
 ![Run again](/images/blog/alex/tdd9.png)
 
-Hurrah! The test passed and our specification has been met! As a nice side-effect, we also have the code we originally wanted: a box with a banana in it. We can now invoice our customer, and even run the test to prove that the banana exists. 
+Hurrah! The test passed and our specification has been met! As a nice side-effect, we also have the code we originally wanted: a box with a banana in it. We can now invoice our customer, and even run the test to prove that the banana exists.
 
 You may have noticed that this took longer than simply putting a banana in the box would have. We also wrote 6 lines of code, instead of just 1. That is part of the cost of testing. But there is a huge benefit to offset that cost: TDD means that if anything changes in our codebase in the future, we have only to run this test to be confident that there is still a banana in the box, even if we forget that there should be.
 
-When you are doing more complicated things, testing can also help force you to be clear about what you really want, right from the start. There can be a temptation to just start building things, rather than doing the hard but necessary thinking-work of deciding precisely what outcome you want. Testing first forces your hand.  
+When you are doing more complicated things, testing can also help force you to be clear about what you really want, right from the start. There can be a temptation to just start building things, rather than doing the hard but necessary thinking-work of deciding precisely what outcome you want. Testing first forces your hand.
 
 **BONUS LEVEL**
 

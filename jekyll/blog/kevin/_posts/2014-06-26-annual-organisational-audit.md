@@ -2,7 +2,7 @@
 layout: blog
 title:  Annual Organisational Audit and the QIT
 nav_title: AOA and QIT Reports
-image: blog/kevin/nhs_logo.jpg
+image: blog/sard_logo.png
 tags:
   - annual-organisational-audit
   - revalidation
@@ -23,4 +23,4 @@ Despite these difficulties, we consider it a huge benefit to our client administ
 
 This is very much a 'work in progress' until we have a clearer requirement but clients should expect to be able to retrieve the relevant data with much more ease going forward. It's aligned with our wider aim of bringing SARD inline with the Single Appraisal Policy outlined for the 24 Area Teams in Primary Care.
 
-As always, we welcome your feedback and input. 
+As always, we welcome your feedback and input.

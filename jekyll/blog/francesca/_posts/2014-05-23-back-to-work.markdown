@@ -2,8 +2,8 @@
 layout: blog
 title:  Back to work
 nav_title:  Back to work
-image: blog/francesca/portugal.jpg
-  
+image: blog/sard_logo.png
+
 tags:
   - charity
   - mental-health-awareness

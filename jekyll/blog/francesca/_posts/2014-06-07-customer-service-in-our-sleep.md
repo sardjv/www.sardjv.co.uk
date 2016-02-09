@@ -2,8 +2,8 @@
 layout: blog
 title: Customer service in our sleep
 nav_title:  Hazy Testimonial
-image: blog/francesca/kings-standard-general.jpg
-  
+image: blog/sard_logo.png
+
 tags:
   - testimonial
   - customer-service

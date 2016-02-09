@@ -2,7 +2,7 @@
 layout: blog
 title: Turning off the targeting computer
 nav_title: Turning off the targeting computer
-image: blog/kevin/targeting_computer.jpg
+image: blog/sard_logo.png
 tags:
   - coding
   - philosophy

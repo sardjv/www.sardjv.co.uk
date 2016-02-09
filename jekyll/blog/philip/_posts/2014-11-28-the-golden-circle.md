@@ -2,7 +2,7 @@
 layout: blog
 title:  The Golden Circle
 nav_title: The Golden Circle
-image: blog/philip/the_golden_circle.jpg
+image: blog/sard_logo.png
 tags:
   - business models
 author: philip
@@ -12,8 +12,6 @@ excerpt: Many companies can explain to you 'what' they do; for us it is simple, 
 \"Why are you writing a blog about the golden circle, how is it relevant and what is it?\" I hear you ask. Well the reason why I wanted to blog about this subject is that it echoes our beliefs as a business and a group, reflects how we operate on a day-to-day basis and the concepts can be identified in what we strive to achieve. I hope by reading this you will draw some clear familiarities between the golden circle and SARD JV.
 
 The concept itself comes from leadership expert Simon Sinek; it is a simple yet very powerful model for how to run a business. It is not always widely adopted because different organisations have different approaches but I certainly feel it is something that can enhance the offering of a company. Why it exists, how it approaches projects and tasks and ultimately what it can offer you.
-
-![The Golden Circle](/images/blog/philip/sinek_golden_circle.jpg)
 
 \(If you are familiar with our website these terms may ring some bells!\)
 

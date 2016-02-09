@@ -2,14 +2,14 @@
 layout: blog
 title:  Slow Is Fast
 nav_title: Slow Is Fast
-image: blog/alex/tortoise.jpg
+image: blog/sard_logo.png
 
 tags:
   - software
   - technology
   - project-management
 author: alex
-excerpt: When I was at university I wrote essays. I wanted to be able to write them more quickly so I learned to touch-type, using the awesome typeonline site. My favourite part was the speed test - I found it addictive. My tendency was always to try and go as quickly as I could because that was what I wanted to achieve, but I also wanted 100% accuracy, so I would correct any mistakes I made as I went along. 
+excerpt: When I was at university I wrote essays. I wanted to be able to write them more quickly so I learned to touch-type, using the awesome typeonline site. My favourite part was the speed test - I found it addictive. My tendency was always to try and go as quickly as I could because that was what I wanted to achieve, but I also wanted 100% accuracy, so I would correct any mistakes I made as I went along.
 ---
 When I was at university I wrote essays. I wanted to be able to write them more quickly so I learned to touch-type, using [the awesome 'type online' site](http://www.typeonline.co.uk/). My favourite part was the [speed test](http://www.typeonline.co.uk/typingspeed.php) - I found it addictive. My tendency was always to try and go as quickly as I could because that was what I wanted to achieve; but I also wanted 100% accuracy, so I would correct any mistakes I made as I went along.
 
