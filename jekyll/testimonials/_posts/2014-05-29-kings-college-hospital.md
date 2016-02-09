@@ -6,7 +6,7 @@ testifier: Ludovic Dogbe
 role: Job Planning & Revalidation Manager
 order: 2
 logo: testimonials/kings.jpg
-testifier-image: testimonials/kings-arch.png
+testifier-image: testimonials/sard_logo.png
 author: kevin
 ---
 

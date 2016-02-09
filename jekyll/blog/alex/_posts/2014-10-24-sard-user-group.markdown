@@ -2,7 +2,7 @@
 layout: blog
 title:  Understanding Our Users
 nav_title: Understanding Our Users
-image: blog/alex/user-group-2014.jpg
+image: blog/sard_logo.png
 
 tags:
   - user-group
@@ -13,7 +13,7 @@ author: alex
 excerpt: Our mission at SARD JV is to develop solutions that really help our users, so understanding our users is central to what we do. As a way of boosting this, last Thursday we held the inaugural SARD User Group Event in our new office. It was a day of discussion and feedback from some of our key users, and also an opportunity for us to present some new features and products that we are currently developing.
 ---
 
-Our mission at SARD JV is to develop solutions that really help our users, so understanding our users is central to what we do. As a way of boosting this, last Thursday we held the inaugural SARD User Group Event in our new office. It was a day of discussion and feedback from some of our key users, and also an opportunity for us to present some new features and products that we are currently developing. A big thank you to those who attended; we had representatives from many of our clients from a wide variety of job roles and trusts. It was a really worthwhile and enjoyable day and something we want to repeat annually. 
+Our mission at SARD JV is to develop solutions that really help our users, so understanding our users is central to what we do. As a way of boosting this, last Thursday we held the inaugural SARD User Group Event in our new office. It was a day of discussion and feedback from some of our key users, and also an opportunity for us to present some new features and products that we are currently developing. A big thank you to those who attended; we had representatives from many of our clients from a wide variety of job roles and trusts. It was a really worthwhile and enjoyable day and something we want to repeat annually.
 
 The idea was to get the group together and stimulate discussion between trusts, in order to pin down some common needs or themes, as well as for the whole team here (including [account](http://www.sardjv.co.uk/people/nicholas.html) [managers](http://www.sardjv.co.uk/people/sophie.html), [software developers](http://www.sardjv.co.uk/people/barbara.html), [office manager](http://www.sardjv.co.uk/people/naomi.html), [research and events](http://www.sardjv.co.uk/people/francesca.html), [business advisor](http://www.sardjv.co.uk/people/jonathan.html) and [board director](http://www.sardjv.co.uk/people/ben.html)) to get the chance to interact with some of our key users.
 
