@@ -2,7 +2,7 @@
 # Predefined Global Variables
 layout: default
 #permalink: /year/month/day/title.html
-published: true 
+published: true
 categories:
   - static
 tags:
@@ -22,11 +22,11 @@ why_how_what: 'why'
     <div class="row">
       <div class="col-xs-12">
         <h1>Our Philosophy</h1>
-        <p class="lead">We believe in creating a work environment where we optimise the happiness of both our clients and team. We do this by undertaking meaningful work, with real integrity and only engage in developing solutions that we truly believe in. The core values that we hold close in life are reflected in everything we do at&nbsp;work.</p> 
+        <p class="lead">We believe in creating a work environment where we optimise the happiness of both our clients and team. We do this by undertaking meaningful work, with real integrity and only engage in developing solutions that we truly believe in. The core values that we hold close in life are reflected in everything we do at&nbsp;work.</p>
         <h1>About Us</h1>
-        <p class="lead">Our revalidation and appraisal solutions are underpinned by two immovable pillars, Great Technology and Great Customer Service. We have developed a suite of solutions that cover all of the aspects of Medical Revalidation, 360, Job Planning, Educator's Appraisal, eLeave, Nurse Revalidation and Appraisal for All. </p>    
+        <p class="lead">Our revalidation and appraisal solutions are underpinned by two immovable pillars, Great Technology and Great Customer Service. We have developed a suite of solutions that cover all of the aspects of Medical Revalidation, 360, Job Planning, Educator's Appraisal, eLeave, Nurse Revalidation and Appraisal for All. </p>
       </div>
-    </div> 
+    </div>
   </div>
 </section>
 
@@ -46,7 +46,7 @@ why_how_what: 'why'
          <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
         </video>
         <script type="text/javascript">
-          
+
           videojs('home-video', {'height':'auto', 'width':'auto'}).ready(function(){
                 var myPlayer = this;    // Store the video object
                 var aspectRatio = 9/16; // Make up an aspect ratio
@@ -67,7 +67,7 @@ why_how_what: 'why'
                 myPlayer.on("stop", function(){
                     $('#navbar2').show();
                 });
-          
+
                 myPlayer.on("pause", function(){
                     $('#navbar2').show();
                 });
@@ -84,7 +84,7 @@ why_how_what: 'why'
       <div class="col-xs-12">
         <h1>Our Clients</h1>
         <p>Making our clients happy is at the forefront of everything we do. Alongside producing the best systems, client happiness is our number one focus. But don't just take our word for it, ask the people that matter: </p>
-        <h2><a href="/testimonials.html">Testimonials</a></h2>  
+        <h2><a href="/testimonials.html">Testimonials</a></h2>
       </div>
       {% assign testimonials = site.categories.testimonials | sort: 'order' %}
       {% for post in testimonials %}
@@ -109,10 +109,10 @@ why_how_what: 'why'
     <div class="row">
       <div class="col-xs-12">
         <h1>Our Team</h1>
-        <p>At SARD JV we know our most important assets are the people we work with. It is not just about having highly skilled and gifted team members (which we are happy to say we have), but more about surrounding ourselves with individuals who share our attitudes and values and want to achieve the same high standards and goals. Our people are the foundation of our business.</p>
+        <p>At SARD we know our most important assets are the people we work with. It is not just about having highly skilled and gifted team members (which we are happy to say we have), but more about surrounding ourselves with individuals who share our attitudes and values and want to achieve the same high standards and goals. Our people are the foundation of our business.</p>
       </div>
     </div>
-    
+
     <div class="row">
       {% for person in site.data.people %}
         {% if person[1].current_employee %}
