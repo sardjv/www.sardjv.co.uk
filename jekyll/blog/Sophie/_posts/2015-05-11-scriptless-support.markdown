@@ -1,8 +1,8 @@
 ---
 layout: blog
 title:  Customer Service without a Script
-nav_title:  Customer Serivce without a Script
-image: blog/sophie/chat-window.png
+nav_title:  Customer Service without a Script
+image: blog/sophie/chat-window.jpg
 
 tags:
   - customer support
@@ -11,7 +11,7 @@ tags:
 author: sophie
 excerpt: If you’re on this page you may have seen a little window pop up to ask you if there’s anything we can help you with. If you’re a user of the SARD system you know that on the other end of that window are my colleagues and I, ready to help you if you need us to.
 ---
-![Can I help you?](/images/blog/sophie/chat-window.png)
+![Can I help you?](/images/blog/sophie/chat-window.jpg)
 If you’re on this page you may have seen a little window pop up to ask you if there’s anything we can help you with. If you’re a user of the SARD system you know that on the other end of that window are my colleagues and I, ready to help you if you need us to.
 
 It is interesting to be on the other end of that chat window. I’ve manned our live chat system for over 2.5 years now and responses range from people being overjoyed that there is a quick way to contact us, to people being genuinely freaked out that you can chat with a real person on an appraisal system. I have responded both ways to online interactions. I remember when I was 9 years old my dad brought home our first computer. My sister and I spent hours on end on chat rooms (to the chagrin of my parents who paid for the dial-up costs). It was exciting to type in a line of text and see it appear in the general conversation that was happening. Due to screen names and the nature of chat rooms, it was easy to forget that the other names on the screen belonged human beings. I remember the occasions where someone would contact us via direct message instead and we’d both jump out of our seats screaming and close down the window immediately. It was terrifying to be reminded that the people on the other end were real human beings.
