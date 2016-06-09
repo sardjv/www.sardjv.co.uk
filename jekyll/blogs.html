@@ -1,7 +1,7 @@
 ---
 # Predefined Global Variables
 layout: default
-published: true 
+published: true
 categories:
   - static
 tags:
@@ -19,7 +19,7 @@ why_how_what:
   <div class="container">
     <h1>Blogs</h1>
     <div class="row">
-      {% for post in site.categories.blog %}
+      {% for post in site.categories.blog limit:6 %}
         {% include blog_excerpt.html %}
         {% assign remainder = forloop.index | modulo:3 %}
         {% if remainder == 0 %}
