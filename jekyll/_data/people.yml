@@ -6,7 +6,7 @@ kevin:
   role: Managing Director
   image400x: people/kevin400x.jpg
   profile_page: people/kevin.html
-  telephone: 020 8670 5461
+  telephone:
   mobile: 07736 066 408
   bio: |
     <p>Kevin is both managing director of SARD JV and Mango Swiss;
@@ -28,7 +28,7 @@ philip:
   role: Sales Director
   image400x: people/phil400x.jpg
   profile_page: people/philip.html
-  telephone: 020 8670 5461
+  telephone:
   bio: |
     <p>Throughout my working career, both in the NHS and outside of it,
      it has always been a passion of mine to make things better, tobe
@@ -67,7 +67,7 @@ sophie:
   role: Account Manager
   image400x: people/sophie400x.jpg
   profile_page: people/sophie.html
-  telephone: 020 8670 5461
+  telephone:
   bio: |
     <p>Hello! I'm Sophie and I am one of the account managers at
     SARD.  In fact, I was the very first account manager SARD ever had.
@@ -104,7 +104,7 @@ nicholas:
   role: Account Manager
   image400x: people/dig400x.jpg
   profile_page: people/nicholas.html
-  telephone: 020 8670 5461
+  telephone:
   bio: |
     <p>I am an account manager for SARD JV which gives me hands on
     experience with people using the system every day, whether this
@@ -198,7 +198,7 @@ francesca:
   role: Marketing
   image400x: people/francesca400x.jpg
   profile_page: people/francesca.html
-  telephone: 020 8670 5461
+  telephone:
   bio: |
     <p>I first started working with SARD in the earliest days when Kevin
     asked me to come along to a meeting to input into early research and
@@ -223,7 +223,7 @@ naomi:
   role: Office Manager
   image400x: people/naomi400x.jpg
   profile_page: people/naomi.html
-  telephone: 020 8670 5461
+  telephone:
   bio: |
     <p>I'm Naomi and I'm the Office Manager at SARD.</p>
 
@@ -250,7 +250,6 @@ naomi:
 
     <p>Like many of the team here, I have a creative side and I exercise this
     in my local theatre company and in front of my trusty sewing machine.</p>
-
 
 ben:
   first_name: Ben
@@ -284,7 +283,7 @@ jonathan:
   role: Business Advisor
   image400x: people/jonathan400x.jpg
   profile_page: people/jonathan.html
-  telephone: 020 8670 5461
+  telephone:
   bio: |
     <p>I make a living from working with startup and early-stage businesses, so I
     have to choose who I work with very carefully. I chose to engage with SARD JV

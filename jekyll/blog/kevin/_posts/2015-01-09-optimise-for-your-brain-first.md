@@ -44,5 +44,5 @@ Until you’re running a multi-million server farm then ALWAYS optimise for your
 
 SIDE NOTE: I think this is why good user interface is becoming increasingly important. The 1st rule of good user interface is “Don’t make me think.” For a while our system didn’t have a paperclip icon on the attachment button. We found this out through our unique and successful in-system chat feature. We put it right and the problem went away. Bad user interface throws a spanner into your Brain’s engine. That's expensive. Don't get in the way of the brains!! Mmmmmm brains.
 
-If you’d like to find out more about how SARD JV can abstract away your tech pain, leaving you to do the things you love then please feel free to give us a call on 020 8771 4153 or email us at <info@sardjv.co.uk>.
+If you’d like to find out more about how SARD JV can abstract away your tech pain, leaving you to do the things you love then please feel free to give us a call on {{ site.data.contact_details.telephone.office }} or email us at <info@sardjv.co.uk>.
 
