@@ -62,7 +62,7 @@ philip:
 sophie:
   first_name: Sophie
   last_name: Buijsen
-  current_employee: true
+  current_employee: false
   email: sophie@sardjv.co.uk
   role: Account Manager
   image400x: people/sophie400x.jpg
