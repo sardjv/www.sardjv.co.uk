@@ -113,12 +113,12 @@ naomi:
   last_name: Liddle
   current_employee: true
   email: naomi@sardjv.co.uk
-  role: Office Manager
-  image400x: people/naomi400x.jpg
+  role: Operations Manager
+  image400x: people/naominew400x.jpg
   profile_page: people/naomi.html
   telephone:
   bio: |
-    <p>I'm Naomi and I'm the Office Manager at SARD.</p>
+    <p>I'm Naomi and I'm the Operations Manager at SARD.</p>
 
     <p>As well as keeping an eye on the accounts, I also look after
       HR and office management here at our base in Crystal
@@ -217,7 +217,7 @@ barbara:
   current_employee: true
   email: barbara@sardjv.co.uk
   role: Lead Developer
-  image400x: people/barbara400x.jpg
+  image400x: people/barbaranew400x.jpg
   profile_page: people/barbara.html
   bio: |
     <p>Hi, I&#39;m Barbara and I&#39;m a senior developer at SARD.</p>
@@ -247,8 +247,8 @@ alex:
   last_name: Rudall
   current_employee: true
   email: alex@sardjv.co.uk
-  role: Software Developer
-  image400x: people/alex400x.jpg
+  role: Product Lead
+  image400x: people/alexnew400x.jpg
   profile_page: people/alex.html
   bio: |
     <p>Hi there, I’m Alex and I’m a software developer at SARD.</p>
