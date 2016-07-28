@@ -1,8 +1,8 @@
-kevin:
+medical_revalidation:
   name: Medical Revalidation
   current_product: true
   image400x: products/medrv_icon.png
-  profile_page: people/kevin.html
+  product_page: products/medical_revalidation.html
   bio: |
     <p>Kevin is both managing director of SARD JV and Mango Swiss;
     the software company responsible for building the SARD system.

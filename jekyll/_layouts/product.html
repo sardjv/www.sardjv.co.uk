@@ -1,0 +1,39 @@
+---
+# Predefined Global Variables
+layout: default
+---
+{% assign product = site.data.products[page.product] %}
+{% assign lvl = page.url | append:'X' | split:'/' | size %}
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+
+{% include full_width_image.html image_id="london_skyline" image_height="250" %}
+
+<section class="top-divider blue-on-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <p><img src="/images/{{product.image400x}}" class="img-thumbnail"/></p>
+      </div>
+      <div class="col-xs-12 col-sm-8">
+        <h1>{{product.name}}</h1>
+        <p>{{product.description}}</p>
+      </div>
+    </div>
+    <hr>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h2>Solutions</h2>
+        <ul>
+        {% for product in site.data.products %}
+          {% if product[1].current_product %}
+            <li><a href="/{{product[1].product_page}}">{{product[1].name}}</a></li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
