@@ -1,7 +1,7 @@
 kevin:
-  name: medical revalidation
+  name: Medical Revalidation
   current_product: true
-  image400x: people/kevin400x.jpg
+  image400x: products/medrv_icon.png
   profile_page: people/kevin.html
   bio: |
     <p>Kevin is both managing director of SARD JV and Mango Swiss;
