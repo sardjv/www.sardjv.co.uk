@@ -1,13 +1,8 @@
 kevin:
-  first_name: medical revalidation
-  last_name: Monk
+  name: medical revalidation
   current_product: true
-  email: kevin@sardjv.co.uk
-  role: Managing Director
   image400x: people/kevin400x.jpg
   profile_page: people/kevin.html
-  telephone:
-  mobile: 07736 066 408
   bio: |
     <p>Kevin is both managing director of SARD JV and Mango Swiss;
     the software company responsible for building the SARD system.
