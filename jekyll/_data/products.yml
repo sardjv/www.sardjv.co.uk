@@ -1,5 +1,5 @@
 medical_revalidation:
-  name: SARD Medical Revalidation
+  name_image: products/medrv_inline.png
   current_product: true
   image400x: products/medrv_icon.png
   product_page: products/medical_revalidation.html
@@ -16,7 +16,7 @@ medical_revalidation:
     existed, and has never looked back.</p>
 
 360:
-  name: "SARD 360"
+  name_image: products/360_inline.png
   current_product: true
   image400x: products/360_icon.png
   product_page: products/360.html
@@ -33,24 +33,24 @@ medical_revalidation:
     existed, and has never looked back.</p>
 
 jobplanning:
-    name: "SARD Job Planning"
-    current_product: true
-    image400x: products/jobplanning_icon.png
-    product_page: products/jobplanning.html
-    description: |
-      <p>Kevin is both managing director of SARD JV and Mango Swiss;
-      the software company responsible for building the SARD system.
-      Prior to forming Mango Swiss in 2007, he was Technical Director
-      for an international sports animation company.</p>
+  name_image: products/jobplanning_inline.png
+  current_product: true
+  image400x: products/jobplanning_icon.png
+  product_page: products/jobplanning.html
+  description: |
+    <p>Kevin is both managing director of SARD JV and Mango Swiss;
+    the software company responsible for building the SARD system.
+    Prior to forming Mango Swiss in 2007, he was Technical Director
+    for an international sports animation company.</p>
 
-      <p>Having graduated as an electronic engineer in 2001, he started
-      his career as a principal engineer at the Defense Science and
-      Technology Laboratories before moving into private industry.
-      He built his first website at the age of 14, before Google even
-      existed, and has never looked back.</p>
+    <p>Having graduated as an electronic engineer in 2001, he started
+    his career as a principal engineer at the Defense Science and
+    Technology Laboratories before moving into private industry.
+    He built his first website at the age of 14, before Google even
+    existed, and has never looked back.</p>
 
 eleave:
-  name: "SARD eLeave"
+  name_image: products/eleave_inline.png
   current_product: true
   image400x: products/eleave_icon.png
   product_page: products/eleave.html
@@ -67,7 +67,7 @@ eleave:
     existed, and has never looked back.</p>
 
 nurse_revalidation:
-  name: "SARD Nurse Revalidation"
+  name_image: products/nurserv_inline.png
   current_product: true
   image400x: products/nurserv_icon.png
   product_page: products/nurse_revalidation.html
@@ -85,7 +85,7 @@ nurse_revalidation:
 
 
 appraisal_for_all:
-  name: "SARD Appraisal for All"
+  name_image: products/appforall_inline.png
   current_product: true
   image400x: products/appforall_icon.png
   product_page: products/appraisal_for_all.html

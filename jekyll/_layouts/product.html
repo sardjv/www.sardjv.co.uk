@@ -15,7 +15,7 @@ layout: default
         <p><img src="/images/{{product.image400x}}" class="img-thumbnail"/></p>
       </div>
       <div class="col-xs-12 col-sm-8">
-        <h1>{{product.name}}</h1>
+        <img src="/images/{{product.name_image}}" class="img-responsive" alt="product logo"/>
         <p>{{product.description}}</p>
       </div>
     </div>
@@ -24,10 +24,10 @@ layout: default
     <div class="row">
       <div class="col-xs-12">
         <h2>Solutions</h2>
-        <ul>
+
         {% for product in site.data.products %}
           {% if product[1].current_product %}
-            <li><a href="/{{product[1].product_page}}">{{product[1].name}}</a></li>
+            <a href="/{{product[1].product_page}}"><img src="/images/{{product[1].name_image}}" class="img-responsive" alt="product logo"/></a>
           {% endif %}
         {% endfor %}
         </ul>
