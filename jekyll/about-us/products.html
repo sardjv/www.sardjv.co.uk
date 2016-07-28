@@ -23,9 +23,9 @@ why_how_what:
       </div>
     </div>
     <div class="row">
-      {% for person in site.data.people %}
-        {% if person[1].current_employee == true %}
-          {% include person_excerpt.html %}
+      {% for product in site.data.products %}
+        {% if product[1].current_product == true %}
+          {% include product_excerpt.html %}
         {% endif %}
       {% endfor %}
     </div>
