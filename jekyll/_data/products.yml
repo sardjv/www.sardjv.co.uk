@@ -3,7 +3,24 @@ medical_revalidation:
   current_product: true
   image400x: products/medrv_icon.png
   product_page: products/medical_revalidation.html
-  bio: |
+  description: |
+    <p>Kevin is both managing director of SARD JV and Mango Swiss;
+    the software company responsible for building the SARD system.
+    Prior to forming Mango Swiss in 2007, he was Technical Director
+    for an international sports animation company.</p>
+
+    <p>Having graduated as an electronic engineer in 2001, he started
+    his career as a principal engineer at the Defense Science and
+    Technology Laboratories before moving into private industry.
+    He built his first website at the age of 14, before Google even
+    existed, and has never looked back.</p>
+
+360:
+  name: "360"
+  current_product: true
+  image400x: products/360_icon.png
+  product_page: products/360.html
+  description: |
     <p>Kevin is both managing director of SARD JV and Mango Swiss;
     the software company responsible for building the SARD system.
     Prior to forming Mango Swiss in 2007, he was Technical Director
