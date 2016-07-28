@@ -12,7 +12,7 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-4">
-        <p><img src="/images/{{product.image400x}}" class="img-thumbnail"/></p>
+        <p><img src="/images/{{product.image400x}}" class="img-thumbnail product-image"/></p>
       </div>
       <div class="col-xs-12 col-sm-8">
         <img src="/images/{{product.name_image}}" class="img-responsive" alt="product logo"/>
@@ -24,10 +24,9 @@ layout: default
     <div class="row">
       <div class="col-xs-12">
         <h2>Solutions</h2>
-
         {% for product in site.data.products %}
           {% if product[1].current_product %}
-            <a href="/{{product[1].product_page}}"><img src="/images/{{product[1].name_image}}" class="img-responsive" alt="product logo"/></a>
+            <a href="/{{product[1].product_page}}"><img src="/images/{{product[1].name_image}}" class="img-responsive product-inline" alt="product logo"/></a>
           {% endif %}
         {% endfor %}
         </ul>
