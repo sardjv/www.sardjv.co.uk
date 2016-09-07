@@ -1,0 +1,16 @@
+<section id="our-philosophy" class="top-divider purple-on-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Our Solutions</h1>
+      </div>
+    </div>
+    <div class="row">
+      {% for product in site.data.products %}
+        {% if product[1].current_product == true %}
+          {% include product_excerpt.html %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

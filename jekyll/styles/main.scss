@@ -33,7 +33,7 @@ body {
 .marketing,
 .footer {
     padding-left: 15px;
-    padding-right: 15px;   
+    padding-right: 15px;
 }
 
 #top {position: absolute; top: 0px;}
@@ -130,5 +130,6 @@ section {
 @import "how";
 @import "what";
 @import "video-skin";
+@import "product";
 
 .blog-post img {width: 100%;}

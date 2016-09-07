@@ -76,9 +76,9 @@
 //$sard-pink:             #e02b88 !default;
 //$sard-purple:           #8b277f !default;
 
-// Blogs 
+// Blogs
 .blog {
-  
+
 }
 
 .blog-excerpt {
@@ -112,7 +112,7 @@
 
   .row-portrait {
     margin: 0px;
-    @media (max-width: 768px) { background: #201d18; border-radius: 20px 10px 10px 20px; }
+    @media (max-width: 768px) { border-radius: 20px 10px 10px 20px; }
   }
   .portrait {
     padding:0px;
@@ -134,5 +134,3 @@
     p.bio-links img {display: inline-block; width:20px; height: 20px;}
   }
 }
-
-
