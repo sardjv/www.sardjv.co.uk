@@ -2,7 +2,7 @@
 layout: blog
 title:  The Dichotomy of Appraisals
 nav_title: The Dichotomy of Appraisals
-image: blog/sard_logo.png
+
 tags:
   - appraisal
   - performance management

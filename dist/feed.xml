@@ -14,7 +14,7 @@
         <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
         <link>http://www.sardjv.co.uk/blog/kevin/2015/12/03/turning-off-the-targeting-computer.html</link>
         <guid isPermaLink="true">http://www.sardjv.co.uk/blog/kevin/2015/12/03/turning-off-the-targeting-computer.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/b88278e3.sard_logo.png" medium="image" width="150" height="150"/>
+        <media:content url="http://www.sardjv.co.uk/images/" medium="image" width="150" height="150"/>
         <author>kevin@sardjv.co.uk</author>
       </item>
     
@@ -34,18 +34,8 @@
         <pubDate>Wed, 02 Sep 2015 00:00:00 +0100</pubDate>
         <link>http://www.sardjv.co.uk/blog/naomi/2015/09/02/lights-camera-action.html</link>
         <guid isPermaLink="true">http://www.sardjv.co.uk/blog/naomi/2015/09/02/lights-camera-action.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/b88278e3.sard_logo.png" medium="image" width="150" height="150"/>
+        <media:content url="http://www.sardjv.co.uk/images/" medium="image" width="150" height="150"/>
         <author>naomi@sardjv.co.uk</author>
-      </item>
-    
-      <item>
-        <title>Welcome to David Clements our new Customer Support Assistant</title>
-        <description>This week we welcomed a new member to the SARD team! David will be in our offices full-time to answer queries that come in through our chat system.</description>
-        <pubDate>Fri, 07 Aug 2015 00:00:00 +0100</pubDate>
-        <link>http://www.sardjv.co.uk/blog/sophie/2015/08/07/david-joins-sard.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/sophie/2015/08/07/david-joins-sard.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/b88278e3.sard_logo.png" medium="image" width="150" height="150"/>
-        <author>sophie@sardjv.co.uk</author>
       </item>
     
       <item>
@@ -54,7 +44,7 @@
         <pubDate>Fri, 03 Jul 2015 00:00:00 +0100</pubDate>
         <link>http://www.sardjv.co.uk/blog/alex/2015/07/03/codebar.html</link>
         <guid isPermaLink="true">http://www.sardjv.co.uk/blog/alex/2015/07/03/codebar.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/b88278e3.sard_logo.png" medium="image" width="150" height="150"/>
+        <media:content url="http://www.sardjv.co.uk/images/" medium="image" width="150" height="150"/>
         <author>alex@sardjv.co.uk</author>
       </item>
     
@@ -94,18 +84,28 @@
         <pubDate>Fri, 30 Jan 2015 00:00:00 +0000</pubDate>
         <link>http://www.sardjv.co.uk/blog/alex/2015/01/30/test-driven-development.html</link>
         <guid isPermaLink="true">http://www.sardjv.co.uk/blog/alex/2015/01/30/test-driven-development.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/b88278e3.sard_logo.png" medium="image" width="150" height="150"/>
+        <media:content url="http://www.sardjv.co.uk/images/" medium="image" width="150" height="150"/>
         <author>alex@sardjv.co.uk</author>
       </item>
     
       <item>
-        <title>Christmas and New Year Support</title>
-        <description>SARD JV chat, telephone and email support will be closed for the holidays on Christmas Eve, Christmas Day, Boxing Day and New Year&#39;s Day.</description>
-        <pubDate>Mon, 15 Dec 2014 00:00:00 +0000</pubDate>
-        <link>http://www.sardjv.co.uk/blog/alex/2014/12/15/christmas-support.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/alex/2014/12/15/christmas-support.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/b88278e3.sard_logo.png" medium="image" width="150" height="150"/>
+        <title>Slow Is Fast</title>
+        <description>When I was at university I wrote essays. I wanted to be able to write them more quickly so I learned to touch-type, using the awesome typeonline site. My favourite part was the speed test - I found it addictive. My tendency was always to try and go as quickly as I could because that was what I wanted to achieve, but I also wanted 100% accuracy, so I would correct any mistakes I made as I went along.</description>
+        <pubDate>Fri, 12 Dec 2014 00:00:00 +0000</pubDate>
+        <link>http://www.sardjv.co.uk/blog/alex/2014/12/12/slow-is-fast.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/alex/2014/12/12/slow-is-fast.html</guid>
+        <media:content url="http://www.sardjv.co.uk/images/" medium="image" width="150" height="150"/>
         <author>alex@sardjv.co.uk</author>
+      </item>
+    
+      <item>
+        <title>The Golden Circle</title>
+        <description>Many companies can explain to you &#39;what&#39; they do; for us it is simple, we build software systems. Companies can also, importantly, tell you &#39;how&#39; they do it; again for us, we work with our clients and partners to create solutions that really meet the needs of the organisations using them. But what really sets a company apart is &#39;why&#39; they do it, and this for many is not an easy area to explain.</description>
+        <pubDate>Fri, 28 Nov 2014 00:00:00 +0000</pubDate>
+        <link>http://www.sardjv.co.uk/blog/philip/2014/11/28/the-golden-circle.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/philip/2014/11/28/the-golden-circle.html</guid>
+        <media:content url="http://www.sardjv.co.uk/images/" medium="image" width="150" height="150"/>
+        <author>philip@sardjv.co.uk</author>
       </item>
     
   </channel>

@@ -2,7 +2,7 @@
 layout: blog
 title:  The Golden Circle
 nav_title: The Golden Circle
-image: blog/sard_logo.png
+
 tags:
   - business models
 author: philip

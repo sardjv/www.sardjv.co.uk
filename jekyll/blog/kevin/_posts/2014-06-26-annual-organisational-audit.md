@@ -2,7 +2,7 @@
 layout: blog
 title:  Annual Organisational Audit and the QIT
 nav_title: AOA and QIT Reports
-image: blog/sard_logo.png
+
 tags:
   - annual-organisational-audit
   - revalidation

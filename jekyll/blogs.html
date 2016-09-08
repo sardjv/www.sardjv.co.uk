@@ -18,19 +18,18 @@ why_how_what:
 <section id="blogs" class="top-divider blue-on-white">
   <div class="container">
     <h1>Blogs</h1>
-    <div class="row">
-      {% for post in site.categories.blog limit:6 %}
+    <div class="row grid">
+      <div class="grid-sizer col-xs-12 col-sm-6 col-md-4"></div>
+      {% for post in site.categories.blog limit:9 %}
         {% include blog_excerpt.html %}
-        {% assign remainder = forloop.index | modulo:3 %}
-        {% if remainder == 0 %}
-          <div style="clear:both;" class="visible-md visible-lg">&nbsp;</div>
-        {% endif %}
-        {% assign remainder2 = forloop.index | modulo:2 %}
-        {% if remainder2 == 0 %}
-          <div style="clear:both;" class="visible-sm">&nbsp;</div>
-        {% endif %}
       {% endfor %}
     </div>
+    <h2>Previous blog posts</h2>
+    <ul>
+      {% for post in site.categories.blog offset:9 %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
   </div>
 </section>
 

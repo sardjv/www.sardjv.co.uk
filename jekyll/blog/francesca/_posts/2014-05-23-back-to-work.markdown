@@ -2,7 +2,7 @@
 layout: blog
 title:  Back to work
 nav_title:  Back to work
-image: blog/sard_logo.png
+
 
 tags:
   - charity

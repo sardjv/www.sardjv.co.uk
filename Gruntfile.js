@@ -36,7 +36,7 @@ module.exports = function (grunt) {
                 // you run `grunt wiredep`
                 src: [
                     '<%= config.app %>/**/*.html',
-                    
+
                   // 'app/**/*.html',   // .html support...
                   // 'app/styles/main.scss',  // .scss & .sass support...
                   // 'app/config.yml'         // and .yml & .yaml support out of the box!
@@ -77,9 +77,9 @@ module.exports = function (grunt) {
 
         // Watches files for changes and runs tasks based on the changed files
         watch: {
-            
+
             jekyll: {
-                files: ['<%= config.jekyll %>/{,**/}*.{html,md,scss,css}'],
+                files: ['<%= config.jekyll %>/{,**/}*.{html,md,scss,css,markdown}'],
                 tasks: ['jekyll:dist', 'wiredep']
             },
             // bower: {

@@ -2,7 +2,7 @@
 layout: blog
 title:  The Great South Run for Mind in Croydon
 nav_title:  The Great South Run
-image: blog/sard_logo.png
+
 tags:
   - event
   - charity

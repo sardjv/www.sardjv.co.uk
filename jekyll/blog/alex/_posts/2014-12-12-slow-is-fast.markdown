@@ -2,7 +2,6 @@
 layout: blog
 title:  Slow Is Fast
 nav_title: Slow Is Fast
-image: blog/sard_logo.png
 
 tags:
   - software

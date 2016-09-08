@@ -2,7 +2,7 @@
 layout: blog
 title:  Lights, Cameras, Action!
 nav_title:  Lights, Cameras, Action!
-image: blog/sard_logo.png
+
 
 tags:
   -

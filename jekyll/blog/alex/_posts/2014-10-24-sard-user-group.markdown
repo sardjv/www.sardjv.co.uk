@@ -2,7 +2,6 @@
 layout: blog
 title:  Understanding Our Users
 nav_title: Understanding Our Users
-image: blog/sard_logo.png
 
 tags:
   - user-group

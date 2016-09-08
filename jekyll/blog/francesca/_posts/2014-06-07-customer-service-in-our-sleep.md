@@ -2,7 +2,7 @@
 layout: blog
 title: Customer service in our sleep
 nav_title:  Hazy Testimonial
-image: blog/sard_logo.png
+
 
 tags:
   - testimonial

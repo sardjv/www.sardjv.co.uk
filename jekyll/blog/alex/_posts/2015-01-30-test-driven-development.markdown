@@ -2,7 +2,7 @@
 layout: blog
 title:  Test-Driven Development for the Non-Programmer
 nav_title: Test-Driven Development
-image: blog/sard_logo.png
+
 
 tags:
   - software

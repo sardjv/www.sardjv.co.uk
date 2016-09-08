@@ -3,7 +3,7 @@ layout: blog
 title:  Sharing interests with Zombies
 published: false
 nav_title: Zombies and Me
-image: blog/sard_logo.png
+
 tags:
   - life-hacks
   - brains

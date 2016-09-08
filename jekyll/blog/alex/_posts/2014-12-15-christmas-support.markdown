@@ -2,7 +2,7 @@
 layout: blog
 title:  Christmas and New Year Support
 nav_title: Christmas and New Year Support
-image: blog/sard_logo.png
+published: false
 
 tags:
   - software

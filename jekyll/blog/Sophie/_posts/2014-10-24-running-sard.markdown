@@ -2,7 +2,7 @@
 layout: blog
 title:  Running SARD
 nav_title:  Running SARD
-image: blog/sard_logo.png
+
 
 tags:
   - great-south-run

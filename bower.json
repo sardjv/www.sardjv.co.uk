@@ -3,11 +3,25 @@
   "private": true,
   "dependencies": {
     "bootstrap-sass-official": "~3.1.0",
-    "modernizr": "~2.6.2",
-    "jquery": "~1.11.0",
     "html5shiv": "~3.7.2",
+    "isotope": "~3.0.1",
+    "jquery": "~1.11.0",
+    "modernizr": "~2.6.2",
     "respond": "~1.4.2",
     "video.js": "https://github.com/videojs/video.js.git#~4.5.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "overrides": {
+    "isotope": {
+          "main": "dist/isotope.pkgd.min.js",
+          "dependencies": null
+        },
+    "outlayer": {
+      "main": [
+        "item.js",
+        "outlayer.js"
+      ]
+    }
+  }
+
 }

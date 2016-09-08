@@ -2,8 +2,8 @@
 layout: blog
 title:  Welcome to David Clements our new Customer Support Assistant
 nav_title:  Welcome to David our new Customer Support Assistant
-image: blog/sard_logo.png
 
+published: false
 tags:
   - customer support
   - online communication
