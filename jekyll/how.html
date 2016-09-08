@@ -77,14 +77,6 @@ why_how_what: 'how'
       <div class="grid-sizer col-xs-12 col-sm-6 col-md-4"></div>
       {% for post in site.categories.blog %}
         {% include blog_excerpt.html %}
-        {% assign remainder = forloop.index | modulo:3 %}
-        {% if remainder == 0 %}
-          <div style="clear:both;" class="visible-md visible-lg">&nbsp;</div>
-        {% endif %}
-        {% assign remainder2 = forloop.index | modulo:2 %}
-        {% if remainder2 == 0 %}
-          <div style="clear:both;" class="visible-sm">&nbsp;</div>
-        {% endif %}
       {% endfor %}
     </div>
   </div>

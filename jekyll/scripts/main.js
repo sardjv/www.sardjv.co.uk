@@ -12,15 +12,15 @@ $(document).ready(function(){
     });
 
     var $grid = $('.grid').isotope({
-      itemSelector: '.grid-item',
-      masonry: {
-          columnWidth: '.grid-sizer',
-          percentPosition: true
-      }
+        itemSelector: '.grid-item',
+        masonry: {
+            columnWidth: '.grid-sizer',
+            percentPosition: true
+        }
     });
 
     $grid.imagesLoaded().progress( function() {
-      $grid.isotope('layout');
+        $grid.isotope('layout');
     });
 
 });

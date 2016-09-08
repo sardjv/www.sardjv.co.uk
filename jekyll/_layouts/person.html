@@ -31,22 +31,13 @@ layout: default
       </div>
     </div>
     <hr>
-    
-    <div class="row">
-      <div class="col-xs-12">
-        <h2>Blog posts for {{person.first_name}}</h2>
-      </div>
+
+    <h2>Blog posts for {{person.first_name}}</h2>
+    <div class="row grid">
+      <div class="grid-sizer col-xs-12 col-sm-6 col-md-4"></div>
       {% if site.categories[page.person].size > 0 %}
         {% for post in site.categories[page.person] %}
           {% include blog_excerpt.html %}
-          {% assign remainder = forloop.index | modulo:3 %}
-          {% if remainder == 0 %}
-            <div style="clear:both;" class="visible-md visible-lg">&nbsp;</div>
-          {% endif %}
-          {% assign remainder2 = forloop.index | modulo:2 %}
-          {% if remainder2 == 0 %}
-            <div style="clear:both;" class="visible-sm">&nbsp;</div>
-          {% endif %}
         {% endfor %}
       {% else %}
         <div class="col-xs-12">
@@ -67,8 +58,8 @@ layout: default
         </ul>
       </div>
     </div>
-    
-    
+
+
 
   </div>
 </section>
