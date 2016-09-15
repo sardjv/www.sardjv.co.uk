@@ -241,7 +241,6 @@ barbara:
     along the local beach.</p>
 
 
-
 alex:
   first_name: Alex
   last_name: Rudall
@@ -265,6 +264,19 @@ alex:
     I have spent time living and working in South Africa and Scotland. In my spare
     time I enjoy running, yoga and vegetarian cooking, as well as learning to be a
     better developer!</p>
+
+jade:
+  first_name: Jade
+  last_name: Dickinson
+  current_employee: true
+  email: jade@sardjv.co.uk
+  role: Software Developer
+  image400x: people/jade400x.jpg
+  profile_page: people/jade.html
+  telephone:
+  bio: |
+    <p>Hi there, I'm Jade and I'm the newest Software Developer at SARD, having joined in September 2016. More about me to follow. </p>
+
 
 francesca:
   first_name: Francesca
