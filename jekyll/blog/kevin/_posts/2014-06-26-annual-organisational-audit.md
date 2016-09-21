@@ -12,15 +12,15 @@ tags:
   - orsa
   - organisational-readiness-self-assessment
 author: kevin
-excerpt: Responsible Officers and revalidation administrators will be aware that the ORSA document is in the process of being replaced by the Annual Organisational Audit (Annex B) and Quarterly Information Template (Annex C). At SARD we're endeavouring to ease the process of completing both Annex B and Annex C so that the numbers required are available at the touch of a button.
+excerpt: Revalidation professionals will be aware of Annual Organisational Audits and Quarterly Information Templates. Designated bodies use them to feed data back to NHS England. SARD eases the process by generating AOAs and QITs at the touch of a button.
 ---
 
-Responsible Officers and revalidation administrators will be aware that the ORSA document is in the process of being replaced by the Annual Organisational Audit (Annex B) and Quarterly Information Template (Annex C). At SARD we're endeavouring to ease the process of completing both Annex B and Annex C so that the numbers required are available at the touch of a button.
+Revalidation professionals will be aware of Annual Organisational Audits and Quarterly Information Templates. Designated bodies use them to feed data back to NHS England. SARD eases the process by generating AOAs and QITs at the touch of a button.
 
-The presentation of the data can be tricky because the data asked for is, in some places, contradictory and open to interpretation. For example, the deadline for the Quarterly Information Template requests data within the 15 month period that a doctor **could** conduct their appraisal and be compliant. That means that doctors may be listed as non-compliant and yet still be within the 15 month period. Other areas for improvement are the cases where a doctor may not appear in the data due to the scoped manner in which it is requested.
+The presentation of the data can be tricky. The data asked for is, in some places, contradictory and open to interpretation. The QIT deadline requests data within the 15 month appraisal compliance period. A designated body could mark a doctor as 'late' even though they still have 3 months.
 
-Despite these difficulties, we consider it a huge benefit to our client administrators and ROs (and also to NHS England) if we provide the data for 10'000 doctors in a uniform manner with clear notes on how those figures were arrived at so that they are defensible.
+Despite these difficulties, It's a huge benefit to our client administrators and ROs. We can provide the data to NHS England for 10'000+ doctors in a uniform manner. The calculations are defensible and auditable because they come with clear notes.
 
-This is very much a 'work in progress' until we have a clearer requirement but clients should expect to be able to retrieve the relevant data with much more ease going forward. It's aligned with our wider aim of bringing SARD inline with the Single Appraisal Policy outlined for the 24 Area Teams in Primary Care.
+This is 'work in progress' until we have clearer rules. But clients should expect to be able to retrieve the relevant data with much more ease going forward. It's aligned with our wider aim of integrating NHS England's Single Appraisal Policy.
 
 As always, we welcome your feedback and input.
