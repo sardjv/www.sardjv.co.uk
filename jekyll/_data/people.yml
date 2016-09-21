@@ -302,7 +302,7 @@ francesca:
     <p>I first started working with SARD in the earliest days when Kevin
     asked me to come along to a meeting to input into early research and
     marketing plans. I loved the atmosphere and the customer service ethos
-    of the company and started working as permanent member of the team shortly afterwards.</p>
+    of the company and started working as permanent member of the team shortly               afterwards.</p>
 
     <p>I have worked in HR and candidate research within both the public
     and private sectors and prior to joining SARD spent four years as a
@@ -313,6 +313,19 @@ francesca:
     providing clients with the best possible customer service.</p>
 
     <p>I am very proud to be part of SARD and excited about our future direction.</p>
+
+colin:
+    first_name: Colin
+    last_name: Fox
+    current_employee: true
+    email: colin@sardjv.co.uk
+    role: Sales and Marketing Advisor
+    image400x: people/colin400x.jpg
+    profile_page: people/colin.html
+    telephone:
+    bio: |
+      <p>I have worked with SARD since January 2016, advising on sales and                       marketing. More about me to follow. </p>
+
 
 ben:
   first_name: Ben
