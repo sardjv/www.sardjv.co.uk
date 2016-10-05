@@ -1,7 +1,7 @@
 ---
 layout: testimonial
 title: Guy's and St Thomas'
-organisation: Guys and St Thomas' NHS Foundation Trust
+organisation: Guy's and St Thomas' NHS Foundation Trust
 testifier: Dr Kate Langford
 role: Deputy Medical Director
 logo: testimonials/guys.jpg
