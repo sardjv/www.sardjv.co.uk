@@ -5,11 +5,11 @@ medical_revalidation:
   product_page: products/medical_revalidation.html
   description: |
     <p>SARD Medical Revalidation covers all aspects of the appraisal and
-    revalidation process to full GMC requirements, including evidence portfolio
-    creation, online MAG form, Educator’s Appraisal functionality and powerful
-    real-time reporting capabilities. Simple to use and highly configurable
-    to meet your organisation’s unique requirements, with built-in live chat
-    support for doctors.</p>
+    revalidation process to full GMC requirements, including evidence
+    portfolio creation, online MAG form, Educator’s Appraisal functionality
+    and powerful real-time reporting capabilities. Simple to use and highly
+    configurable to meet your organisation’s unique requirements, with
+    built-in live chat support for doctors.</p>
     <h3>Features</h3>
     <ul>
     <li>Configurable Evidence Portfolio</li>
@@ -18,7 +18,7 @@ medical_revalidation:
     <li>Advanced administration and user management system</li>
     <li>Advanced search and real-time reporting functionality</li>
     <li>Individual, Appraiser and Responsible Officer dashboards</li>
-    <li>Import MAG forms automatically for quick start</li>
+    <li>Import MAG forms automatically</li>
     <li>Educator’s Appraisal module</li>
     <li>Complete audit trail</li>
     <li>Fully configurable automatic reminder system</li>
@@ -27,11 +27,11 @@ medical_revalidation:
     <ul>
     <li>Access all medical revalidation information via a single,
     powerful interface</li>
-    <li>Simple and intuitive, immediate increase in user engagement</li>
+    <li>Simple, intuitive design promotes user engagement</li>
     <li>System access from multiple devices</li>
     <li>Major administrative savings over existing data capture methods</li>
     <li>Flexible to the unique requirements of each organisation</li>
-    <li>Familiar MAG form-style interface to 'ease in' new users</li>
+    <li>MAG form based interface</li>
     <li>Designed by an NHS trust and software specialists</li>
     <li>Improve compliance and engagement rates via powerful
     reporting features</li>
@@ -64,7 +64,7 @@ medical_revalidation:
     </ul>
     <h3>Advantages</h3>
     <ul>
-    <li>Simple and intuitive - immediate increase in user engagement</li>
+    <li>Simple, intuitive design promotes user engagement</li>
     <li>Improve compliance and engagement rates via comprehensive
     reporting features</li>
     <li>System access from multiple devices</li>
@@ -101,11 +101,11 @@ jobplanning:
     <li>Full audit trail</li>
     </ul>
     <h3>Advantages</h3>
-    <li>Simple and intuitive. Immediately increase user engagement</li>
+    <li>Simple, intuitive design promotes user engagement</li>
     <li>Rapid, easy data entry of all types of work</li>
     <li>Major administrative savings over existing data capture methods</li>
     <li>Access all job planning information via a single powerful interface</li>
-    <li>Accurately and completely reflect users' working schedules</li>
+    <li>Accurately and completely reflect users’ working schedules</li>
     <li>System access from multiple devices</li>
     <li>Provides accurate information for capacity planning</li>
     <li>Designed in collaboration with major NHS trusts</li>
@@ -119,10 +119,10 @@ eleave:
   image400x: products/eleave_icon.png
   product_page: products/eleave.html
   description: |
-    <p>SARD eLeave is an easy to use leave tracking and authorising
-    system designed to fit seamlessly with other SARD products now and
-    in the future. An elegantly intuitive way to submit and manage leave
-    requests and to support accurate capacity planning.</p>
+    <p>SARD eLeave is an easy to use leave tracking and authorising system,
+    designed to fit seamlessly with other SARD products, now and in the
+    future. An elegantly intuitive way to submit and manage leave requests
+    and to support accurate capacity planning.</p>
     <h3>Features</h3>
     <ul>
     <li>Annual leave allowance tracker/calculation</li>
@@ -146,10 +146,11 @@ eleave:
     <li>Limit support requests</li>
     <li>Access all leave information via a single powerful interface</li>
     <li>Flexible to unique trust requirements</li>
-    <li>Accurately reflects users' leave</li>
+    <li>Accurately and completely reflects users’ leave</li>
     <li>Accessible from multiple browsers</li>
     <li>Plan leave based on availability to ensure coverage</li>
-    <li>Developed in collaboration with major NHS trust, so it solves the problems you      have</li>
+    <li>Developed in collaboration with a major NHS trust, so it solves the
+    problems you have</li>
     <li>Unrivalled SARD customer service support via live chat, telephone and email</li>
     </ul>
 
@@ -164,10 +165,10 @@ nurse_revalidation:
     CPD, Practice Related Feedback, Reflection and Discussion, Health
     and Character, Professional Indemnity Arrangements and Third Party
     Confirmation. Designed for nurses and administrators who value speed,
-    simplicity, auditing and compliance.</p>
+    simplicity, auditing and compliance</p>
     <h3>Features</h3>
     <ul>
-    <li>Fast and intuitive interface built on the latest User Interface technology</li>
+    <li>Fast and intuitive. Built on the latest user interface technology</li>
     <li>Access all nurse revalidation data via a single dashboard</li>
     <li>Powerful custom compliance reporting</li>
     <li>Secure 24/7/365 web access from anywhere</li>
@@ -176,14 +177,13 @@ nurse_revalidation:
     <li>Complete audit trail</li>
     <li>Intuitive structured workflow for user and confirmer</li>
     <li>Highly configurable and flexible to your unique requirements</li>
-    <li>CSV user importation</li>
+    <li>Rapid user import via CSV</li>
     </ul>
     <h3>Advantages</h3>
     <ul>
     <li>Quick and simple to use, user-driven, administration-light approach</li>
     <li>Clear and intuitive. Immediately increase user engagement</li>
-    <li>Improve compliance and engagement rates via powerful,
-    straightforward reporting features</li>
+    <li>Improve compliance and engagement rates via powerful, straightforward reporting       features</li>
     <li>Rapid and easy implementation</li>
     <li>System access from multiple devices</li>
     <li>Major administrative savings over traditional data capture methods</li>
@@ -191,7 +191,7 @@ nurse_revalidation:
     <li>Designed by software experts in collaboration with NHS trusts</li>
     <li>Best-in-class SARD user and technical support</li>
     <li>Advanced permissions system to allow full access control
-    and customisation</li>
+      and customisation</li>
     </ul>
 
 
@@ -203,21 +203,20 @@ appraisal_for_all:
   description: |
     <p>SARD Appraisal for All is designed to meet the appraisal needs of all staff,
     within the healthcare sector and beyond. Our system covers all aspects of
-    the process, including appraisal questions, objectives, ratings and CPD.
+    the process, including appraisal questions, objectives, ratings, and CPD.
     Its powerful core flexibility means it can reflect your unique appraisal and
     compliance requirements.</p>
     <h3>Features</h3>
     <ul>
-    <li>Fast, simple, intuitive interface built on the latest User
-    Interface technology</li>
+    <li>Fast and intuitive. Built on the latest user interface technology</li>
     <li>Highly configurable to reflect existing appraisal forms and processes</li>
     <li>Advanced search and real-time reporting functionality</li>
     <li>Comprehensive administration and user management system</li>
     <li>Secure 24/7/365 web access from anywhere</li>
     <li>Individual dashboards to plot progression</li>
-    <li>Fully configurable guidance to reflect organisational requirements</li>
+    <li>Fully customisable guidance to reflect organisational requirements</li>
     <li>CSV user importation</li>
-    <li>Custom policies and policy reports</li>
+    <li>Custom policies and reports</li>
     <li>Complete audit trail</li>
     </ul>
     <h3>Advantages</h3>
