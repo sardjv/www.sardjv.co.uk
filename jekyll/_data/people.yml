@@ -29,6 +29,7 @@ philip:
   image400x: people/phil400x.jpg
   profile_page: people/philip.html
   telephone:
+  mobile: 07894 128377
   bio: |
     <p>Throughout my working career, both in the NHS and outside of it,
      it has always been a passion of mine to make things better, to be
@@ -105,6 +106,7 @@ rob:
   image400x: people/rob400x.jpg
   profile_page: people/rob.html
   telephone:
+  mobile: 07741 609174
   bio: |
     <p>Customer service is a great passion of mine. Throughout my working life, I've          always strived to make certain that my organisation provides the best service to         clients. For me, this means friendly, approachable and knowledgeable staff who           consistently seek feedback to meet customer needs. I believe that everyone at SARD       shares these values.</p>
 
