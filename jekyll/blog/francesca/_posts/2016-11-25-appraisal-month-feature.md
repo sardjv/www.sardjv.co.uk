@@ -63,7 +63,7 @@ Compliance windows can be set to match any organisation’s specific appraisal r
 
 ###Users remain linked to their fixed appraisal month, regardless of when an appraisal is physically completed
 Previously, when an appraisal was complete, SARD automatically set the next appraisal as due for completion one year later.
-If users completed their appraisals consistently late, or of one was missed, then there was a risk of having an insufficient number completed within a revalidation period.
+If users completed their appraisals consistently late, or if one was missed, then there was a risk of having an insufficient number completed within a revalidation period.
 
 <i><b>Example - Dr Quinn</b></i>
 <p>Dr Quinn’s appraisal month is April. Her appraisal for 2016 is due for completion before 30 April 2016.</P>
