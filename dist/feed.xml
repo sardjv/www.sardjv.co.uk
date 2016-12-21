@@ -9,6 +9,16 @@
     
     
       <item>
+        <title>New SARD User Guides</title>
+        <description>We are updating our support materials to ensure that are as helpful and look as good as possible. The latest to receive a makeover are our User Guides.</description>
+        <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
+        <link>http://www.sardjv.co.uk/blog/francesca/2016/12/21/new-sard-user-guides.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/francesca/2016/12/21/new-sard-user-guides.html</guid>
+        <media:content url="http://www.sardjv.co.uk/images/" medium="image" width="150" height="150"/>
+        <author>francesca@sardjv.co.uk</author>
+      </item>
+    
+      <item>
         <title>Christmas and New Year Opening Hours</title>
         <description>During the upcoming holiday period SARD’s live user and technical support will be available on all official working days.</description>
         <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
@@ -95,16 +105,6 @@
         <link>http://www.sardjv.co.uk/blog/alex/2015/07/03/codebar.html</link>
         <guid isPermaLink="true">http://www.sardjv.co.uk/blog/alex/2015/07/03/codebar.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/" medium="image" width="150" height="150"/>
-        <author>alex@sardjv.co.uk</author>
-      </item>
-    
-      <item>
-        <title>Automatic Reminders</title>
-        <description>Today we completed development on a new feature for SARD - an automated email system to manage reminders for doctors about their upcoming appraisal. This feature will further improve compliance rates and will also make the appraisal process a little more straightforward for our doctors and administrators. Reminders will take the form of a simple email, containing a link to create an appraisal or access their current one.</description>
-        <pubDate>Fri, 29 May 2015 00:00:00 +0100</pubDate>
-        <link>http://www.sardjv.co.uk/blog/alex/2015/05/29/automatic-reminders.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/alex/2015/05/29/automatic-reminders.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/alex/e215bcc1.reminders.png" medium="image" width="150" height="150"/>
         <author>alex@sardjv.co.uk</author>
       </item>
     
