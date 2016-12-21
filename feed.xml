@@ -9,6 +9,16 @@
     
     
       <item>
+        <title>Christmas and New Year Opening Hours</title>
+        <description>During the upcoming holiday period SARD’s live user and technical support will be available on all official working days.</description>
+        <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
+        <link>http://www.sardjv.co.uk/blog/francesca/2016/12/21/christmas-opening-hours-2016.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/francesca/2016/12/21/christmas-opening-hours-2016.html</guid>
+        <media:content url="http://www.sardjv.co.uk/images/" medium="image" width="150" height="150"/>
+        <author>francesca@sardjv.co.uk</author>
+      </item>
+    
+      <item>
         <title>SARD launches new Appraisal Month Functionality</title>
         <description>We have added Appraisal Month functionality to SARD Medical Revalidation, making the recording and tracking of appraisal compliance more efficient for all users.</description>
         <pubDate>Fri, 25 Nov 2016 00:00:00 +0000</pubDate>
@@ -96,16 +106,6 @@
         <guid isPermaLink="true">http://www.sardjv.co.uk/blog/alex/2015/05/29/automatic-reminders.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/blog/alex/e215bcc1.reminders.png" medium="image" width="150" height="150"/>
         <author>alex@sardjv.co.uk</author>
-      </item>
-    
-      <item>
-        <title>Customer Service without a Script</title>
-        <description>If you’re on this page you may have seen a little window pop up to ask you if there’s anything we can help you with. If you’re a user of the SARD system you know that on the other end of that window are my colleagues and I, ready to help you if you need us to.</description>
-        <pubDate>Mon, 11 May 2015 00:00:00 +0100</pubDate>
-        <link>http://www.sardjv.co.uk/blog/sophie/2015/05/11/scriptless-support.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/sophie/2015/05/11/scriptless-support.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/sophie/7c863f66.chat-window.jpg" medium="image" width="150" height="150"/>
-        <author>sophie@sardjv.co.uk</author>
       </item>
     
   </channel>
