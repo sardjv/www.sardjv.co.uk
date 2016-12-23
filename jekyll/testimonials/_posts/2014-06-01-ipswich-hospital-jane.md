@@ -5,7 +5,7 @@ testifier: Jane Clarke
 role: Appraisal & Revalidation Manager
 logo: testimonials/ipswich.jpg
 testifier-image: testimonials/sard_logo.png
-order: 1
+order: 7
 
 author: kevin
 ---
