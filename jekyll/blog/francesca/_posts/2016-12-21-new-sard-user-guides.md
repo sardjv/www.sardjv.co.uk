@@ -9,10 +9,10 @@ tags:
   - support
 
 author: francesca
-excerpt: We are updating our support materials to ensure that are as helpful and look as good as possible. The latest to receive a makeover are our User Guides.
+excerpt: We are updating our support materials to ensure that they are as helpful and look as good as possible. The latest to receive a makeover are our User Guides.
 
 ---
-We are updating our support materials to ensure that are as helpful and look as good as possible. The latest to receive a makeover are our User Guides.
+We are updating our support materials to ensure that they are as helpful and look as good as possible. The latest to receive a makeover are our User Guides.
 
 You can access new guides for SARD Medical Revalidation, Job Planning and eLeave directly from the system. We can also send print versions on request. An updated guide for SARD 360 will be available very soon.
 
