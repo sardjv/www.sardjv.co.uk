@@ -15,4 +15,3 @@ permalinks: pretty
 include:
   - '.htaccess'
   - '_*.scss'
-  - '_pdfs'
