@@ -218,11 +218,21 @@ alice:
   profile_page: people/alice.html
   telephone:
   bio: |
-    <p>Hello, I am Alice, and I started working at SARD in April 2014.</p>
+    <p>Hi, my name is Alice. I&#39;m the youngest of the SARD team at just 21.
+    I have worked here for three years in April 2017.</p>
 
-    <p>My role in the office, is to input the Multi Source Feedback (MSF) into the system. I mainly deal with the Patient Feedback forms, and occasionally Colleague Feedback forms. I also am on the Live Chat support, so I often answer questions and help people that are using our system.</p>
+    <p>I work as the Customer Service Support Agent. I work on the Live chat
+    support Monday - Friday 9-5, I answer any emails and calls that come through
+    also. I also manually input the MSF (patient feedback) into the system.</p>
 
-    <p>I feel very lucky to be a part of SARD. It’s a wonderful company to work for, and I’m constantly acquiring new skills and knowledge each day. I studied Theatre at Brit School of Performing Arts and I like to think my creativity does contribute to this team. I’m very excited about working for SARD for longer, and being part of the continuing growth and success of the company in the future.</p>
+    <p>I feel very lucky to be a part of SARD. It&#39;s a wonderful company to work for,
+    and I&#39;m constantly acquiring new skills and knowledge each day. I love the ethos
+    and philosophy behind this company, and the way I get along so well with my colleagues.</p>
+
+    <p>I studied Theatre at Brit School of Performing Arts and I like to think my people skills,
+    enthusiasm and creativity does contribute to this team. I&#39;m very excited
+    about working for SARD for longer, and being part of the continuing growth
+    and success of the company in the future.</p>
 
 barbara:
   first_name: Barbara
@@ -242,14 +252,14 @@ barbara:
 
     <p>I have been here right from the start, joining after a short
     career break to have children. I have helped to build the system
-    from the bottom up. I think it’s essential to have a solid understanding
+    from the bottom up. I think it&#39;s essential to have a solid understanding
     of the whole code and it means that together with the rest of the team
     I can quickly appraise and react to new client requirements. In fact,
     in my opinion, that responsiveness is what sets us apart from
     our competitors.</p>
 
     <p>I typically work from home on the Isle of Wight, which is a beautiful
-    place to live, especially if you enjoy the great outdoors. If I’m not
+    place to live, especially if you enjoy the great outdoors. If I&#39;m not
     coding or managing the family then you will probably find me out running
     along the local beach.</p>
 
