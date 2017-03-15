@@ -9,6 +9,16 @@
     
     
       <item>
+        <title>Real Human Relations</title>
+        <description>When thinking what topic to write about for this month&#39;s blog post, I thought it’d make sense to write about my job in customer service support for SARD. I’ll write a little about that, but also focusing on the importance of human relations within the work place and also with our clients and end users.</description>
+        <pubDate>Sat, 18 Mar 2017 00:00:00 +0000</pubDate>
+        <link>http://www.sardjv.co.uk/blog/alice/2017/03/18/real-human-relations.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/alice/2017/03/18/real-human-relations.html</guid>
+        <media:content url="http://www.sardjv.co.uk/images/" medium="image" width="150" height="150"/>
+        <author>alice@sardjv.co.uk</author>
+      </item>
+    
+      <item>
         <title>New SARD User Guides</title>
         <description>We are updating our support materials to ensure that they are as helpful and look as good as possible. The latest to receive a makeover are our User Guides.</description>
         <pubDate>Wed, 21 Dec 2016 00:00:00 +0000</pubDate>
@@ -96,16 +106,6 @@
         <guid isPermaLink="true">http://www.sardjv.co.uk/blog/naomi/2015/09/02/lights-camera-action.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/" medium="image" width="150" height="150"/>
         <author>naomi@sardjv.co.uk</author>
-      </item>
-    
-      <item>
-        <title>Codebar</title>
-        <description>This is the world&#39;s first computer program, written by Ada Lovelace in 1842. And this is Margaret Hamilton standing next to a printout of the actual Apollo Guidance Computer source code. Her programming directly prevented an abort of the Apollo 11 Moon landing...</description>
-        <pubDate>Fri, 03 Jul 2015 00:00:00 +0100</pubDate>
-        <link>http://www.sardjv.co.uk/blog/alex/2015/07/03/codebar.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/alex/2015/07/03/codebar.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/" medium="image" width="150" height="150"/>
-        <author>alex@sardjv.co.uk</author>
       </item>
     
   </channel>
