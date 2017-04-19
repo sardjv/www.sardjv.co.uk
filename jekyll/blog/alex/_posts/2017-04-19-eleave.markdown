@@ -1,0 +1,66 @@
+---
+layout: blog
+title: SARD eLeave
+nav_title: SARD eLeave
+image: blog/alex/eleave.png
+
+tags:
+  - development
+  - technology
+  - leave
+  - holiday
+  - planning
+  - scheduling
+  - rostering
+author: alex
+excerpt: Over the last year, in collaboration with Guy's and St. Thomas NHS Trust, we have developed a leave and holiday tracking and planning system to make it easy and fast for doctors to plan, book and approve leave.
+
+---
+
+Over the last year, in collaboration with Guy's and St. Thomas NHS Trust, we have developed a leave and holiday tracking and planning system to make it easy and fast for doctors to plan, book and approve leave.
+
+![eLeave Product](/images/blog/alex/eleave.png)
+
+SARD eLeave is an easy to use leave tracking and authorising system, designed to fit seamlessly with other SARD products, now and in the future. An elegantly intuitive way to submit and manage leave requests and to support accurate capacity planning.
+
+### Features
+
+* Annual leave allowance tracker/calculation
+* Request annual leave/study leave
+* Covers any leave type including paternity/maternity, sick and compassionate leave
+* Request/report/log custom leave
+* Full auditing capability
+* Simple and elegant - fully colour coded, user friendly calendar
+* Manager acceptance/rejection of requests
+* Manager overview of leave booked
+* Email notifications
+* Highlight leave overlap/clashes
+* Full reporting capability of leave taken
+
+### Advantages
+
+* Ability to interact with SARD Job Planning
+* Save time - easy data entry and overview of leave requests
+* Simple, intuitive design promotes user engagement
+* Limit support requests
+* Access all leave information via a single powerful interface
+* Flexible to unique trust requirements
+* Accurately and completely reflects users’ leave
+* Accessible from multiple browsers
+* Plan leave based on availability to ensure coverage
+* Developed in collaboration with a major NHS trust, so it solves the problems you have
+* Unrivalled SARD customer service support via live chat, telephone and email
+
+Included are multiple different ways to view your leave and your department's leave:
+
+![eLeave Year List](/images/blog/alex/eleave_year_list.png)
+
+Allowances and carry-over are automatically calculated and approvers and administrators can adjust them on a per-user basis:
+
+![eLeave Allowances](/images/blog/alex/eleave_allowances.png)
+
+Approvers can view overlapping job plan activities:
+
+![eLeave Approval](/images/blog/alex/eleave_approval.png)
+
+You can read more about eLeave functionality in the user guide [here](http://www.sardjv.co.uk/pdfs/eleave.pdf). If you're interested in trialling the system please get in touch via 0208 771 4153, [info@sardjv.co.uk](mailto:info@sardjv.co.uk) or the live chat button below!
