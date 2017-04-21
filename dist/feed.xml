@@ -9,12 +9,22 @@
     
     
       <item>
+        <title>Job Plan Templates</title>
+        <description>We have added the capability for administrators to create template job plans, which can be used by doctors as a starting point for their job plan.</description>
+        <pubDate>Fri, 21 Apr 2017 00:00:00 +0100</pubDate>
+        <link>http://www.sardjv.co.uk/blog/jade/2017/04/21/job-plan-templates.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/jade/2017/04/21/job-plan-templates.html</guid>
+        <media:content url="http://www.sardjv.co.uk/images/" medium="image" width="150" height="150"/>
+        <author>jade@sardjv.co.uk</author>
+      </item>
+    
+      <item>
         <title>SARD eLeave</title>
         <description>Over the last year, in collaboration with Guy&#39;s and St. Thomas NHS Trust, we have developed a leave and holiday tracking and planning system to make it easy and fast for doctors to plan, book and approve leave.</description>
         <pubDate>Wed, 19 Apr 2017 00:00:00 +0100</pubDate>
         <link>http://www.sardjv.co.uk/blog/alex/2017/04/19/eleave.html</link>
         <guid isPermaLink="true">http://www.sardjv.co.uk/blog/alex/2017/04/19/eleave.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/alex/eea2494f.eleave.png" medium="image" width="150" height="150"/>
+        <media:content url="http://www.sardjv.co.uk/images/blog/alex/ab2732e1.eleave.png" medium="image" width="150" height="150"/>
         <author>alex@sardjv.co.uk</author>
       </item>
     
@@ -96,16 +106,6 @@
         <guid isPermaLink="true">http://www.sardjv.co.uk/blog/kevin/2015/12/03/turning-off-the-targeting-computer.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/" medium="image" width="150" height="150"/>
         <author>kevin@sardjv.co.uk</author>
-      </item>
-    
-      <item>
-        <title>SARD Nurse and Midwife Revalidation</title>
-        <description>On Friday the NMC made their final decision - all midwives and nurses in the UK will need to be revalidated on a regular basis. In response SARD JV is excited to announce the completion of the SARD Nurse and Midwife Revalidation system...</description>
-        <pubDate>Fri, 09 Oct 2015 00:00:00 +0100</pubDate>
-        <link>http://www.sardjv.co.uk/blog/alex/2015/10/09/nurse-revalidation.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/alex/2015/10/09/nurse-revalidation.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/alex/7cc22aa4.nurse_revalidation.png" medium="image" width="150" height="150"/>
-        <author>alex@sardjv.co.uk</author>
       </item>
     
   </channel>
