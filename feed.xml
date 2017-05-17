@@ -9,6 +9,16 @@
     
     
       <item>
+        <title>How to protect the NHS from hacking, forever and completely</title>
+        <description>This is possible, cheap and simple. You&#39;ll need no prior technology knowledge and I&#39;ll explain by example. You&#39;ll have safe data and operational resilience if you follow this simple principle - separate your data from your tools.</description>
+        <pubDate>Tue, 16 May 2017 00:00:00 +0100</pubDate>
+        <link>http://www.sardjv.co.uk/blog/kevin/2017/05/16/wanna-cry.html</link>
+        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/kevin/2017/05/16/wanna-cry.html</guid>
+        <media:content url="http://www.sardjv.co.uk/images/" medium="image" width="150" height="150"/>
+        <author>kevin@sardjv.co.uk</author>
+      </item>
+    
+      <item>
         <title>Job Plan Templates</title>
         <description>We have added the capability for administrators to create template job plans, which can be used by doctors as a starting point for their job plan.</description>
         <pubDate>Fri, 21 Apr 2017 00:00:00 +0100</pubDate>
@@ -24,7 +34,7 @@
         <pubDate>Wed, 19 Apr 2017 00:00:00 +0100</pubDate>
         <link>http://www.sardjv.co.uk/blog/alex/2017/04/19/eleave.html</link>
         <guid isPermaLink="true">http://www.sardjv.co.uk/blog/alex/2017/04/19/eleave.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/blog/alex/ab2732e1.eleave.png" medium="image" width="150" height="150"/>
+        <media:content url="http://www.sardjv.co.uk/images/blog/alex/eea2494f.eleave.png" medium="image" width="150" height="150"/>
         <author>alex@sardjv.co.uk</author>
       </item>
     
@@ -94,16 +104,6 @@
         <pubDate>Thu, 08 Sep 2016 00:00:00 +0100</pubDate>
         <link>http://www.sardjv.co.uk/blog/kevin/2016/09/08/great-customer-service-begets-great-everything.html</link>
         <guid isPermaLink="true">http://www.sardjv.co.uk/blog/kevin/2016/09/08/great-customer-service-begets-great-everything.html</guid>
-        <media:content url="http://www.sardjv.co.uk/images/" medium="image" width="150" height="150"/>
-        <author>kevin@sardjv.co.uk</author>
-      </item>
-    
-      <item>
-        <title>Turning off the targeting computer</title>
-        <description>When Apollo 11 took the first men to the moon, NASA intended that a computer would guide the landing. The site selection team had picked a smooth patch of ground. But the guidance system was taking the Lunar Module into a field of boulders the size of a football pitch. So, in the last 500ft, Neil Armstrong turned off the ‘targeting computer’. He took manual control, landed, and the rest is history. Later Apollo landings switched off the computer at final descent.</description>
-        <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
-        <link>http://www.sardjv.co.uk/blog/kevin/2015/12/03/turning-off-the-targeting-computer.html</link>
-        <guid isPermaLink="true">http://www.sardjv.co.uk/blog/kevin/2015/12/03/turning-off-the-targeting-computer.html</guid>
         <media:content url="http://www.sardjv.co.uk/images/" medium="image" width="150" height="150"/>
         <author>kevin@sardjv.co.uk</author>
       </item>
