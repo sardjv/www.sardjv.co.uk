@@ -329,7 +329,7 @@ francesca:
 colin:
     first_name: Colin
     last_name: Fox
-    current_employee: true
+    current_employee: false
     email: colin@sardjv.co.uk
     role: Sales and Marketing Advisor
     image400x: people/colin400x.jpg
