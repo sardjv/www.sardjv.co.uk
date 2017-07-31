@@ -6,9 +6,10 @@ tags:
   - deadlines
   - time-management
   - software-development
+comments: true
 
 author: kevin
-excerpt: 
+excerpt: We have a rule that we don't give deadlines for software changes. This may sound evasive and non-commital but we don't believe it serves us or our clients to attempt the impossible. We're not alone in thinking this way many software companies have a similar no-deadlines policy.
 ---
 
 We have a rule that we don't give deadlines for software changes. This may sound evasive and non-commital but we don't believe it serves us or our clients to attempt the impossible. [We're not alone](https://enterprisepathtoagility.com/deadlines-do-not-give-you-any-predictability-3cbe6308fff5) in [thinking this way](http://blog.hut8labs.com/no-deadlines-for-you.html), [many software companies have a similar no-deadlines policy](https://www.hochmanconsultants.com/no-deadlines-for-web-development/).
