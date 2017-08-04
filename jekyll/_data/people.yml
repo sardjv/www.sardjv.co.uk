@@ -221,12 +221,28 @@ alice:
 
     <p>I feel very lucky to be a part of SARD. It&#39;s a wonderful company to work for,
     and I&#39;m constantly acquiring new skills and knowledge each day. I love the ethos
-    and philosophy behind this company, and the way I get along so well with my colleagues.</p>
+    and philosophy behind this company, and the way I get along so well with my              colleagues.</p>
 
-    <p>I studied Theatre at Brit School of Performing Arts and I like to think my people skills,
+    <p>I studied Theatre at Brit School of Performing Arts and I like to think my people     skills,
     enthusiasm and creativity does contribute to this team. I&#39;m very excited
     about working for SARD for longer, and being part of the continuing growth
     and success of the company in the future.</p>
+
+daniel:
+  first_name: Daniel
+  last_name:
+  current_employee: true
+  email: daniel@sardjv.co.uk
+  role: Customer Support
+  image400x: people/daniel400x.jpg
+  profile_page: people/daniel.html
+  telephone:
+  bio: |
+    <p>Hi, I’m Daniel and I’m part of the customer support team here at SARD.</p>
+
+    <p>I have a five year plus work history in customer service and enjoy problem             solving to help create a smooth revalidation process for service users.</p>
+
+    <p>The team are very supportive at SARD and are customer care focused with the            aim to please all our service users.</p>
 
 barbara:
   first_name: Barbara
