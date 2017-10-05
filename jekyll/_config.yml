@@ -15,3 +15,5 @@ permalinks: pretty
 include:
   - '.htaccess'
   - '_*.scss'
+sass:
+    sass_dir: _sass

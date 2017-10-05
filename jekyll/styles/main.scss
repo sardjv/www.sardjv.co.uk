@@ -1,10 +1,10 @@
+---
+---
+
 $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
 
 @import 'variables';
-
-// bower:scss
-@import "../../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
-// endbower
+@import "bootstrap";
 
 //@import "startup/common-files/less/mixins.less";
 //@import "startup/ui-kit/ui-kit-content/less/content-23.less";

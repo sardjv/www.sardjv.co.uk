@@ -7,36 +7,19 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <link rel="shortcut icon" href="/favicon.ico">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css /styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css(.tmp) /styles/main.css -->
-    <link rel="stylesheet" href="/styles/main.css">    
-    <!-- endbuild -->
-    <!-- build:js /scripts/vendor/modernizr.js -->
-    <script src="{{ relative }}bower_components/modernizr/modernizr.js"></script>
-    <!-- endbuild -->
-    
-    <!-- build:css /styles/bootstrap-ie7.css -->
-      <!--[if lt IE 8]>
-        <link rel="stylesheet" href="/styles/bootstrap-ie7.css">
-      <![endif]-->
-    <!-- endbuild -->
-    
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- build:js /scripts/vendor/iefixes.js -->
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/video-js.min.css">
+    <script src="/scripts/jquery.min.js"></script>
+    <script src="/scripts/bootstrap.min.js"></script>
+    <script src="/scripts/isotope.pkgd.min.js"></script>
+    <script src="/scripts/imagesloaded.pkgd.min.js"></script>
+
     <!--[if lt IE 9]>
-      <script src="{{ relative }}../bower_components/html5shiv/dist/html5shiv.js"></script>
-      <script src="{{ relative }}../bower_components/respond/dest/respond.src.js"></script>
+    <script src="/scripts/html5shiv.min.js"></script>
+    <script src="/scripts/respond.min.js"></script>
+    <script src="/scripts/respond.matchmedia.addListener.min.js"></script>
+    <script src="/scripts/videojs-ie8.min.js"></script>
     <![endif]-->
-    <!-- endbuild -->
-    
-    <!-- build:js /scripts/vendor.js -->
-    <!-- bower:js -->
-    <!-- endbower -->
-    <!-- endbuild -->
 
     <script>
         (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -50,9 +33,10 @@
     <!-- build:js({app,.tmp}) /scripts/main.js -->
     <script src="/scripts/main.js"></script>
     <!-- endbuild -->
+    <script src="/scripts/video.min.js"></script>
 
     <script>
-      videojs.options.flash.swf = "/swfs/video-js.swf"
+      videojs.options.flash.swf = "/scripts/swfs/video-js.swf"
     </script>
 </head>
 
