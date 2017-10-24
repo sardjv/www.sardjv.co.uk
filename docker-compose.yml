@@ -6,5 +6,5 @@ services:
       - "4000:4000"
     volumes:
       - ".:/usr/src/app"
-    command: "jekyll serve -s ./jekyll -d ./dist --watch --force_polling -H 0.0.0.0 -P 4000"
+    command: "jekyll serve -s ./jekyll -d ./dist --watch -H 0.0.0.0 -P 4000"
 
