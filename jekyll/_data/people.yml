@@ -240,9 +240,9 @@ daniel:
   bio: |
     <p>Hi, I’m Daniel and I’m part of the customer support team here at SARD.</p>
 
-    <p>I have a five years plus work history in customer service and enjoy problem             solving to help create a smooth revalidation process for our users.</p>
+    <p>I have a five years plus work history in customer service and enjoy problem solving to help create a smooth revalidation process for our users.</p>
 
-    <p>The team are very supportive at SARD and are customer care focused with the            aim to please everyone who uses our products.</p>
+    <p>The team are very supportive at SARD and are customer care focused with the aim to please everyone who uses our products.</p>
 
 barbara:
   first_name: Barbara
@@ -311,6 +311,19 @@ lucie:
 
     <p>More about me to follow. </p>
 
+matt:
+  first_name: Matt
+  last_name: 
+  current_employee: false
+  email: matt@sardjv.co.uk
+  role: Software Developer
+  image400x: people/matt400x.jpg
+  profile_page: people/matt.html
+  bio: |
+    <p>Hi there, I’m Matt and I joined SARD as a software developer in October 2017.</p>
+
+    <p>More about me to follow. </p>
+
 jade:
   first_name: Jade
   last_name: Dickinson
@@ -359,9 +372,9 @@ simon:
   profile_page: people/simon.html
   telephone:
   bio: |
-    <p>II am freelance graphic designer and chair wrestler, specialising in brand &           identity, brochure & book design, magazines, illustration and website design.</p>
+    <p>II am freelance graphic designer and chair wrestler, specialising in brand & identity, brochure & book design, magazines, illustration and website design.</p>
 
-    <p>I have worked with SARD since 2011 from the initial designs of the Medical           Revalidation product, through to the development of SARD Nurse Revalidation and more     recently on a full rebrand including the product logo designs you will see on this       website. I am currently working with the team to improve the User Interface of main      SARD system and am looking forward to this going live in the very near future.</p>
+    <p>I have worked with SARD since 2011 from the initial designs of the Medical Revalidation product, through to the development of SARD Nurse Revalidation and more     recently on a full rebrand including the product logo designs you will see on this       website. I am currently working with the team to improve the User Interface of main      SARD system and am looking forward to this going live in the very near future.</p>
 
 colin:
     first_name: Colin
