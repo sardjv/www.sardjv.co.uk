@@ -17,7 +17,7 @@ excerpt: One of our key principles is agility - we use constant feedback to driv
 
 ![eRostering Prototype](/images/blog/alex/erostering_shifts_wider.png)
 
-One of our key principles is agility - we use constant feedback to drive our development so that we can focus on what actually matters to our clients. We worked closely with Oxleas to build Appraisal, and GSTT to build our eLeave system. They would be the key influences on the project, helping us make decisions according to what was most important to them. They have the advantage of an application which has been built with their specific needs in mind, and we were able to build something that provably worked and added value in the real world, which we could then provide to other trusts.
+One of our key principles is agility - we use constant feedback to drive our development so that we can focus on what actually matters to our clients. We worked closely with Oxleas to build Appraisal, and GSTT to build our eLeave system. They were the key influencers on the project, helping us make decisions according to what was most important to them. They have the advantage of an application which has been built with their specific needs in mind, and we were able to build something that provably worked and added value in the real world, which we could then provide to other trusts.
 
 One area which seems to be still ‘unsolved’ in the NHS is rostering. For example, [in 2015-16 the NHS spent £51 per taxpayer on locums to cover roster gaps](https://improvement.nhs.uk/resources/reducing-reliance-medical-locums-practical-guide-medical-directors/).
 
