@@ -194,6 +194,15 @@ nurse_revalidation:
       and customisation</li>
     </ul>
 
+erostering:
+  name_image: products/erostering_inline.png
+  current_product: true
+  image400x: products/erostering_icon.png
+  product_page: products/erostering.html
+  description: |
+    <p>Our eRostering product is in development and we are currently working with our clients to refine it. 
+    Please contact us to discuss if you would like more information.</p>
+    
 
 appraisal_for_all:
   name_image: products/appforall_inline.png
