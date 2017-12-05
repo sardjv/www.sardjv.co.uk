@@ -59,44 +59,6 @@ philip:
     bestsellers list.
     </p>
 
-
-sophie:
-  first_name: Sophie
-  last_name: Buijsen
-  current_employee: false
-  email: sophie@sardjv.co.uk
-  role: Account Manager
-  image400x: people/sophie400x.jpg
-  profile_page: people/sophie.html
-  telephone:
-  bio: |
-    <p>Hello! I'm Sophie and I am one of the account managers at
-    SARD.  In fact, I was the very first account manager SARD ever had.
-    When I joined the company in November 2012, SARD
-    was on the verge of growth and it was very exciting. I was
-    there when the first big contracts came in, when it became
-    clear that SARD was not just a small player in a big field,
-    but could actually make a difference.</p>
-
-    <p>For me the way SARD is different than anywhere I've
-    ever worked before is that our customer service is not just
-    a meaningless slogan. No one in this company reads from
-    scripts or waves away queries. We are all invested in our
-    solutions and we're all invested in making sure that our
-    clients and end users like our systems as much as we do.</p>
-
-    <p>Before I came to SARD I completed an MSc in Science
-    Communication, which is an interest I still hold dear. Which
-    is why Kevin and I run a monthly science and technology meet-up
-    in Crystal Palace, called the Silicon Triangle, where we get
-    together with like minded people and talk about the projects
-    we are working on. Listening to the enthusiasm of others is
-    always inspiring and often helps us innovate our solutions as well.</p>
-
-    <p>Besides this I write science stories on sciphie.wordpress.com
-    and am the sub-editor of the zine ‘You've Got Mail'
-    (http://gotmailzine.wordpress.com/)</p>
-
 rob:
   first_name: Rob
   last_name: Green
@@ -143,45 +105,6 @@ naomi:
 
     <p>Like many of the team here, I have a creative side and I exercise this
     in my local theatre company and in front of my trusty sewing machine.</p>
-
-nicholas:
-  first_name: Nicholas
-  last_name: Cooke
-  current_employee: false
-  email: nicholas@sardjv.co.uk
-  role: Account Manager
-  image400x: people/dig400x.jpg
-  profile_page: people/nicholas.html
-  telephone:
-  bio: |
-    <p>I am an account manager for SARD JV which gives me hands on
-    experience with people using the system every day, whether this
-    is improving and streamlining our system to the specific needs
-    of a client or problem solving on our online chat feature.</p>
-    <p>As we are a relatively small company it means that we all
-    feel a very personal stake in the companies activities, whether
-    that is dealing with clients, testing systems or organizing
-    charity events.</p>
-
-    <p>Because we are very open as a company it means as employees
-    we can each tailor our work according to our own strengths
-    and what we most enjoy.</p>
-
-    <p>Having studied at both Sussex University and University of
-    East London, I spent 6 years working in the world of Optics
-    in various different ways. This has instilled an interest in
-    the ways different institutions and industries can collaborate
-    and find mutual goals.</p>
-
-    <p>I feel we are in an interesting position being a joint venture
-    with an NHS trust, we are both part of the NHS framework but have
-    the freedom to really get to the core of problems and provide
-    innovative and fresh solutions.</p>
-
-    <p>In my time away from work I run a storytelling night in
-    Crystal Palace, I have been involved in writing and performing
-    for many years, including participating in the Edinburgh and
-    Brighton Fringes Festivals.</p>
 
 cheyne:
   first_name: Cheyne
@@ -314,27 +237,16 @@ lucie:
 matt:
   first_name: Matt
   last_name: 
-  current_employee: false
+  current_employee: true
   email: matt@sardjv.co.uk
   role: Software Developer
-  image400x: people/matt400x.jpg
+  image400x: people/matt400x.jpeg
   profile_page: people/matt.html
   bio: |
-    <p>Hi there, I’m Matt and I joined SARD as a software developer in October 2017.</p>
+    <p>Hi there, I'm Matt and I joined SARD as an IT consultant in October 2017. My primary role will be upgrading the infrastructure and maintaining resilience and performance.
+    This is vital in supporting a good product. </p>
 
-    <p>More about me to follow. </p>
-
-jade:
-  first_name: Jade
-  last_name: Dickinson
-  current_employee: false
-  email: jade@sardjv.co.uk
-  role: Software Developer
-  image400x: people/jade400x.jpg
-  profile_page: people/jade.html
-  telephone:
-  bio: |
-    <p>Hi there, I'm Jade and I'm a Software Developer at SARD, having joined in September 2016. More about me to follow. </p>
+    <p>I am amazed how welcome I have been made to feel. I am pleased to be part of a very special team.</p>
 
 
 francesca:
@@ -375,23 +287,6 @@ simon:
     <p>II am freelance graphic designer and chair wrestler, specialising in brand & identity, brochure & book design, magazines, illustration and website design.</p>
 
     <p>I have worked with SARD since 2011 from the initial designs of the Medical Revalidation product, through to the development of SARD Nurse Revalidation and more     recently on a full rebrand including the product logo designs you will see on this       website. I am currently working with the team to improve the User Interface of main      SARD system and am looking forward to this going live in the very near future.</p>
-
-colin:
-    first_name: Colin
-    last_name: Fox
-    current_employee: false
-    email: colin@sardjv.co.uk
-    role: Sales and Marketing Advisor
-    image400x: people/colin400x.jpg
-    profile_page: people/colin.html
-    telephone:
-    bio: |
-      <p>Colin is a highly effective and successful business leader with an                    exceptionally strong sales background.  He has comprehensive management                  experience and a track record of success gained in diverse environments.</p>
-
-      <p>A senior manager and hands-on problem solver, he quickly identifies key issues        and creates and implements effective plans to deliver excellent results in the           UK, Europe, the Middle-East and Asia. </p>
-
-      <p>Now mainly focussed on helping small and medium size enterprises to develop and       grow their business, Colin is working with SARD to refine our sales and marketing        strategies.</p>
-
 
 ben:
   first_name: Ben
@@ -491,3 +386,110 @@ buki:
     <p>Presently, I am working as the Head of Medical Staffing, responsible for leading on revalidation and looking after the operational and developmental needs of the medical workforce in Oxleas NHS Foundation Trust.</p>
 
     <p>Four years ago I was an integral part of the team that designed and developed the Oxleas revalidation system - SARD - in conjunction with Mango Swiss Ltd, this product is now available commercially through SARD JV. I was involved in the initial concepts of revalidation long before they became a national process and utilised my intimate knowledge in this area to shape the process behind the system as well as the flexibility required for both Oxleas and other health care organisations.</p>
+
+jade:
+  first_name: Jade
+  last_name: Dickinson
+  current_employee: false
+  email: jade@sardjv.co.uk
+  role: Software Developer
+  image400x: people/jade400x.jpg
+  profile_page: people/jade.html
+  telephone:
+  bio: |
+    <p>Hi there, I'm Jade and I'm a Software Developer at SARD, having joined in September 2016. More about me to follow. </p>
+
+sophie:
+  first_name: Sophie
+  last_name: Buijsen
+  current_employee: false
+  email: sophie@sardjv.co.uk
+  role: Account Manager
+  image400x: people/sophie400x.jpg
+  profile_page: people/sophie.html
+  telephone:
+  bio: |
+    <p>Hello! I'm Sophie and I am one of the account managers at
+    SARD.  In fact, I was the very first account manager SARD ever had.
+    When I joined the company in November 2012, SARD
+    was on the verge of growth and it was very exciting. I was
+    there when the first big contracts came in, when it became
+    clear that SARD was not just a small player in a big field,
+    but could actually make a difference.</p>
+
+    <p>For me the way SARD is different than anywhere I've
+    ever worked before is that our customer service is not just
+    a meaningless slogan. No one in this company reads from
+    scripts or waves away queries. We are all invested in our
+    solutions and we're all invested in making sure that our
+    clients and end users like our systems as much as we do.</p>
+
+    <p>Before I came to SARD I completed an MSc in Science
+    Communication, which is an interest I still hold dear. Which
+    is why Kevin and I run a monthly science and technology meet-up
+    in Crystal Palace, called the Silicon Triangle, where we get
+    together with like minded people and talk about the projects
+    we are working on. Listening to the enthusiasm of others is
+    always inspiring and often helps us innovate our solutions as well.</p>
+
+    <p>Besides this I write science stories on sciphie.wordpress.com
+    and am the sub-editor of the zine ‘You've Got Mail'
+    (http://gotmailzine.wordpress.com/)</p>
+
+
+nicholas:
+  first_name: Nicholas
+  last_name: Cooke
+  current_employee: false
+  email: nicholas@sardjv.co.uk
+  role: Account Manager
+  image400x: people/dig400x.jpg
+  profile_page: people/nicholas.html
+  telephone:
+  bio: |
+    <p>I am an account manager for SARD JV which gives me hands on
+    experience with people using the system every day, whether this
+    is improving and streamlining our system to the specific needs
+    of a client or problem solving on our online chat feature.</p>
+    <p>As we are a relatively small company it means that we all
+    feel a very personal stake in the companies activities, whether
+    that is dealing with clients, testing systems or organizing
+    charity events.</p>
+
+    <p>Because we are very open as a company it means as employees
+    we can each tailor our work according to our own strengths
+    and what we most enjoy.</p>
+
+    <p>Having studied at both Sussex University and University of
+    East London, I spent 6 years working in the world of Optics
+    in various different ways. This has instilled an interest in
+    the ways different institutions and industries can collaborate
+    and find mutual goals.</p>
+
+    <p>I feel we are in an interesting position being a joint venture
+    with an NHS trust, we are both part of the NHS framework but have
+    the freedom to really get to the core of problems and provide
+    innovative and fresh solutions.</p>
+
+    <p>In my time away from work I run a storytelling night in
+    Crystal Palace, I have been involved in writing and performing
+    for many years, including participating in the Edinburgh and
+    Brighton Fringes Festivals.</p>
+
+  colin:
+    first_name: Colin
+    last_name: Fox
+    current_employee: false
+    email: colin@sardjv.co.uk
+    role: Sales and Marketing Advisor
+    image400x: people/colin400x.jpg
+    profile_page: people/colin.html
+    telephone:
+    bio: |
+      <p>Colin is a highly effective and successful business leader with an                    exceptionally strong sales background.  He has comprehensive management                  experience and a track record of success gained in diverse environments.</p>
+
+      <p>A senior manager and hands-on problem solver, he quickly identifies key issues        and creates and implements effective plans to deliver excellent results in the           UK, Europe, the Middle-East and Asia. </p>
+
+      <p>Now mainly focussed on helping small and medium size enterprises to develop and       grow their business, Colin is working with SARD to refine our sales and marketing        strategies.</p>
+
+
