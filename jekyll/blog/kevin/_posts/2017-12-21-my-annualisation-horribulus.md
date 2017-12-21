@@ -47,7 +47,7 @@ Our resident genius, [Alex](/people/alex.html), has been refining [eLeave](/blog
 In Operations and Customer Service, [Naomi](/people/naomi.html) has been getting us ready for another ISO27001 audit and preparing us for [the imminent EU GDPR regulations](/blog/naomi/2017/11/21/get-ready-for-gdpr.html). 
 [Alice](/people/alice.html), [Daniel](/people/daniel.html) and [Cheyne](/people/cheyne.html) have been serving our ~ 18159 doctors with their 44546 appraisals, 994654 eDocuments and 203651 MSF survey responses.
 
-I may be a bit biased as she's my wife but [Francesca](/people/francesca.html) has been doing a sterling job in publicising all that hard work above, getting us SARD branded mugs, and generally making sure people here about us.
+I may be a bit biased as she's my wife but [Francesca](/people/francesca.html) has been doing a sterling job in publicising all that hard work above, getting us SARD branded mugs, and generally making sure people hear about us.
 
 I'd praise [Rob](/people/rob.html) too but to be frank, we're all sick of our clients telling us how good he is.
 
