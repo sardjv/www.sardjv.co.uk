@@ -23,3 +23,12 @@ Our next major choice was to go with installation on bare metal or packaging the
 
 We believe that DigitalOcean combined with Docker will provide the perfect platform to allow for resilience, performance and future expansion.
 
+<div class='row'>
+  <div class='col-sm-6 thumbnail' style='border: 0px; padding: 20px;'>
+    <img src='/images/blog/matt/DO_Logo_Vertical_Blue.png'/>
+  </div>
+  <div class='col-sm-6 thumbnail' style='border: 0px; padding: 20px;'>
+    <img src='/images/blog/matt/mono_vertical_large.png' />
+  </div>
+</div>
+
