@@ -230,9 +230,16 @@ lucie:
   image400x: people/lucie400x.jpg
   profile_page: people/lucie.html
   bio: |
-    <p>Hi there, I’m Lucie and I joined SARD as a software developer in September 2017.</p>
-
-    <p>More about me to follow. </p>
+    <p>Hi I am Lucie, and I joined SARD as a software developer
+    in September 2017.</p>
+    <p> While studying English Literature & Drama at the University of Kent I (naturally) became interested in coding
+    after seeing my housemate’s cool projects on his Computer Science 
+    course.</p>
+    <p>I love the creativity and logic in software development – the paradoxical blend of soft and hard skills. 
+    After a brief foray in secondary school teaching, I decided to study a Master’s 
+    degree in Computer Science to hone the skills which previously had just been a hobby. </p>
+    <p>After getting to know Kevin and Francesca early in 2017 when we were all cast in a ridiculous farce at the Lindley Players in Whitstable, 
+    I am now thrilled to be part of the SARD family!</p>
 
 matt:
   first_name: Matt
