@@ -28,6 +28,7 @@ We hope that achieving the ISO 27001 standard will help to assure our existing a
 ## About the British Assessment Bureau
 
 The British Assessment Bureau’s reputation was established in 1969 as a specialist in certification scheme management. In 1997, the Secretary of State for Trade and Industry approved the use of the word ‘British’ in their title, in recognition of their pre-eminent status.
+
 Today, they certify organisations to recognised standards, including ISO 9001 (quality management), ISO 14001 (environmental management), ISO 27001 (information security management) and OHSAS 18001 (occupational health and safety management). They also design and manage bespoke assessment schemes. Such schemes are based on the establishment of standards, which can be developed to be recognised company-wide, industry-wide, nationally, or internationally.
 
 
