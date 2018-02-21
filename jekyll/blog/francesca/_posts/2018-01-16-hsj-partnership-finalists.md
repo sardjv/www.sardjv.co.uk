@@ -21,7 +21,7 @@ It is fantastic that the value partnerships like SARD bring to the NHS is being 
 
 A full list of shortlisted candidates can be found <a href="https://partnership.hsj.co.uk/2018-shortlist">here</a>.
 
-The winners will be announced on Thursday 8th March at the Royal College of Physicians. We're looking forward to it already!
+The winners will be announced on Thursday 8th March at Banking Hall in the City of London. We're looking forward to it already!
 
 
 
