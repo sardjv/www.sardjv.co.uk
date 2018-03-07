@@ -193,31 +193,6 @@ barbara:
     coding or managing the family then you will probably find me out running
     along the local beach.</p>
 
-
-alex:
-  first_name: Alex
-  last_name: Rudall
-  current_employee: true
-  email: alex@sardjv.co.uk
-  role: Product Lead
-  image400x: people/alexnew400x.jpg
-  profile_page: people/alex.html
-  bio: |
-    <p>Hi there, I’m Alex and I’m a software developer at SARD.</p>
-
-    <p>I love working at SARD - it allows me to develop my skills in a
-    great environment where we all work to make people’s jobs a bit easier.
-    Part of what I value as a developer is the ability to talk to the people
-    who use what I build, and this is something that SARD is very good at.
-    The customer service ethic here is the best I’ve ever been involved with,
-    and it is very exciting to be able to receive a request and build a solution
-    in a very short time-frame.</p>
-    <p>For my background, I studied Modern History at University and then moved
-    into IT, building reporting systems and working in software project management.
-    I have spent time living and working in South Africa and Scotland. In my spare
-    time I enjoy running, yoga and vegetarian cooking, as well as learning to be a
-    better developer!</p>
-
 lucie:
   first_name: Lucie
   last_name: Nash
@@ -496,4 +471,26 @@ nicholas:
 
       <p>Now mainly focussed on helping small and medium size enterprises to develop and       grow their business, Colin is working with SARD to refine our sales and marketing        strategies.</p>
 
+alex:
+  first_name: Alex
+  last_name: Rudall
+  current_employee: false
+  email: alex@sardjv.co.uk
+  role: Product Lead
+  image400x: people/alexnew400x.jpg
+  profile_page: people/alex.html
+  bio: |
+    <p>Hi there, I’m Alex and I’m a software developer at SARD.</p>
 
+    <p>I love working at SARD - it allows me to develop my skills in a
+    great environment where we all work to make people’s jobs a bit easier.
+    Part of what I value as a developer is the ability to talk to the people
+    who use what I build, and this is something that SARD is very good at.
+    The customer service ethic here is the best I’ve ever been involved with,
+    and it is very exciting to be able to receive a request and build a solution
+    in a very short time-frame.</p>
+    <p>For my background, I studied Modern History at University and then moved
+    into IT, building reporting systems and working in software project management.
+    I have spent time living and working in South Africa and Scotland. In my spare
+    time I enjoy running, yoga and vegetarian cooking, as well as learning to be a
+    better developer!</p>
