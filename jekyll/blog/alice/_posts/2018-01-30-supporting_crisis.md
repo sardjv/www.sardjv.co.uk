@@ -8,7 +8,7 @@ tags:
   - SARD team
 
 author: alice
-excerpt: Tuesday 10th October was World Mental Health Day, and this year marked a special landmark anniversary. First held in 1992, it was the 25th year of dedicating a day to raising awareness of mental health issues, and to fighting the stigmas surrounding it.
+excerpt: For 2018, the team at SARD have decided to choose a charity to focus on fundraising for throughout the year.
 
 ---
 
