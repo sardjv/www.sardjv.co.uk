@@ -2,6 +2,7 @@
 layout: blog
 title: Vitality London 10000 in aid of Crisis
 nav_title:  Vitality 10000
+image: blog/alice/sard-sharing.png
 tags:
   - charity of the year
   - fundraising
@@ -18,6 +19,11 @@ On 28th May myself, Cheyne, Kevin, Francesca and Alex (who has now left SARD but
 
 If you are in London on what we hope will be a beautiful, sunny Bank Holiday please give us a wave as we pass. For anyone that would like to support us, we can be sponsored as a group via our <a href="https://www.justgiving.com/company/sardjv">Justgiving page.</a>
 
+<div class='row'>
+  <div class='col-sm-4 thumbnail' style='border: 0px'>
+    <img src='/images/blog/alice/sard-sharing.png'/>
+  </div>
+</div>
 
 
 
