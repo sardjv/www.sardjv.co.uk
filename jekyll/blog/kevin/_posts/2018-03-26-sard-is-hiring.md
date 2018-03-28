@@ -17,6 +17,6 @@ This post is full-time, however a job share would be considered.
 
 If you know of anyone who might be suitable then please pass it on. We can offer a good salary and a lovely team.  
 
-For more information please contact me directly on 07736 066408 or <a href="mailto:kevin@sardjv.co.uk">kevin@sardjv.co.uk</a>, <a href="mailto:alice@sardjv.co.uk">alice@sardjv.co.uk</a> or <a href="mailto:naomi@sardjv.co.uk">naomi@sardjv.co.uk</a>
+For more information please contact John Adams on 07881 623119 or <a href="mailto:john@careerz.co.uk">john@careerz.co.uk</a>.
 
 <img src= "/images/blog/kevin/recruitment.jpg" >
