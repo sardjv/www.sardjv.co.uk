@@ -145,24 +145,7 @@ cheyne:
     <p>The team and working environment here is great and everyone is supportive and cares about what they do.</p>
 
     <p>In my spare time I enjoy reading comic books, watching films and socialising with friends as well as being an electronic music             production hobbyist.</p>
-
-
-
-daniel:
-  first_name: Daniel
-  last_name:
-  current_employee: true
-  email: daniel@sardjv.co.uk
-  role: Customer Support
-  image400x: people/daniel400x.jpg
-  profile_page: people/daniel.html
-  telephone:
-  bio: |
-    <p>Hi, I’m Daniel and I’m part of the customer support team here at SARD.</p>
-
-    <p>I have a five years plus work history in customer service and enjoy problem solving to help create a smooth revalidation process for our users.</p>
-
-    <p>The team are very supportive at SARD and are customer care focused with the aim to please everyone who uses our products.</p>
+     very supportive at SARD and are customer care focused with the aim to please everyone who uses our products.</p>
 
 barbara:
   first_name: Barbara
@@ -494,3 +477,19 @@ ben:
 
     <p>I joined the NHS in 2005, having previously worked at Arthur Andersen
     and Heineken; and started at Oxleas in 2011.</p>
+
+  daniel:
+  first_name: Daniel
+  last_name:
+  current_employee: false
+  email: daniel@sardjv.co.uk
+  role: Customer Support
+  image400x: people/daniel400x.jpg
+  profile_page: people/daniel.html
+  telephone:
+  bio: |
+    <p>Hi, I’m Daniel and I’m part of the customer support team here at SARD.</p>
+
+    <p>I have a five years plus work history in customer service and enjoy problem solving to help create a smooth revalidation process for our users.</p>
+
+    <p>The team are
