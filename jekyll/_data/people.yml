@@ -147,6 +147,36 @@ cheyne:
     <p>In my spare time I enjoy reading comic books, watching films and socialising with friends as well as being an electronic music             production hobbyist.</p>
      very supportive at SARD and are customer care focused with the aim to please everyone who uses our products.</p>
 
+phoebe:
+  first_name: Phoebe
+  last_name: Marsden
+  current_employee: true
+  email: phoebe@sardjv.co.uk
+  role: Customer Support
+  image400x: people/phoebe400x.jpg
+  profile_page: people/phoebe.html
+  telephone:
+  bio: |
+    <p>Hi, I’m Phoebe and I’m part of the customer support team here at SARD. More about me to follow.</p>
+
+christy:
+  first_name: Christy
+  last_name: Hinchliffe
+  current_employee: true
+  email: christy@sardjv.co.uk
+  role: Customer Support
+  image400x: people/christy400x.jpg
+  profile_page: people/christy.html
+  telephone:
+  bio: |
+    <p>Hi, I’m Christy, and I have provided Customer Support at SARD since May 2018.</p>
+
+    <p>During my study of Drama at the University of Kent, I have held several customer service roles, ranging from retail and culinary to business and health. </p>
+
+    <p>I’d definitely consider myself a “people-person” and always wish to provide high-quality assistance and service to anyone who wishes it. </p>
+
+    <p>I’ve known Kevin and Francesca for several years now and I’ve been made to feel part of the family from my first day.</p>
+
 barbara:
   first_name: Barbara
   last_name: White
@@ -156,7 +186,7 @@ barbara:
   image400x: people/barbaranew400x.jpg
   profile_page: people/barbara.html
   bio: |
-    <p>Hi, I&#39;m Barbara and I&#39;m a senior developer at SARD.</p>
+    <p>Hi, I'm Barbara and I'm a senior developer at SARD.</p>
 
     <p>I have been working in software engineering for over 15 years
     and I hope that my experience brings a lot of value to what we are
@@ -165,14 +195,14 @@ barbara:
 
     <p>I have been here right from the start, joining after a short
     career break to have children. I have helped to build the system
-    from the bottom up. I think it&#39;s essential to have a solid understanding
+    from the bottom up. I think it's essential to have a solid understanding
     of the whole code and it means that together with the rest of the team
     I can quickly appraise and react to new client requirements. In fact,
     in my opinion, that responsiveness is what sets us apart from
     our competitors.</p>
 
     <p>I typically work from home on the Isle of Wight, which is a beautiful
-    place to live, especially if you enjoy the great outdoors. If I&#39;m not
+    place to live, especially if you enjoy the great outdoors. If I'm not
     coding or managing the family then you will probably find me out running
     along the local beach.</p>
 
