@@ -13,9 +13,9 @@ excerpt: Over May we have welxomed two new members to the SARD Customer Support 
 
 We are busier than ever in SARD Customer Support as more and more users come online each month, so we were very pleased to welcome not one but two new members to our dedicated team in May.
 
-<a href="www.sardjv.co.uk/people/phoebe.html">Phoebe</a> joins us from a retail background and has wowed us all with how quickly she has got up to speed with everything SARD.
+<a href="/people/phoebe.html">Phoebe</a> joins us from a retail background and has wowed us all with how quickly she has got up to speed with everything SARD.
 
-<a href="www.sardjv.co.uk/people/christy.html">Christy</a> has wide ranging customer support experience from food and retail to health and has already made himself unpopular by beating us all every time in our weekly news quiz!
+<a href="/people/christy.html">Christy</a> has wide ranging customer support experience from food and retail to health and has already made himself unpopular by beating us all every time in our weekly news quiz!
 
 Both are now up and running on Live Chat and look forward to speaking with you soon.
 
