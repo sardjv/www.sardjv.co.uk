@@ -355,6 +355,18 @@ buki:
 
     <p>Four years ago I was an integral part of the team that designed and developed the Oxleas revalidation system - SARD - in conjunction with Mango Swiss Ltd, this product is now available commercially through SARD JV. I was involved in the initial concepts of revalidation long before they became a national process and utilised my intimate knowledge in this area to shape the process behind the system as well as the flexibility required for both Oxleas and other health care organisations.</p>
 
+fig:
+  first_name: Fig
+  last_name: 
+  current_employee: true
+  email: francesca@sardjv.co.uk
+  role: Office Dog
+  image400x: people/fig400x.jpg
+  profile_page: people/fig.html
+  telephone:
+  bio: 
+      <p> Fig joined SARD in 2018 and splits his time between our Canterbury and Crystal Palace Offices.</p>
+
 jade:
   first_name: Jade
   last_name: Dickinson
