@@ -240,17 +240,6 @@ matt:
 
     <p>I am amazed how welcome I have been made to feel. I am pleased to be part of a very special team.</p>
 
-vahdet:
-  first_name: Vahdet
-  last_name: Pervan
-  current_employee: true
-  email: vinnie@sardjv.co.uk
-  role: Software Developer
-  image400x: people/vahdet400x.jpg
-  profile_page: people/vahdet.html
-  bio: |
-    <p>Hi there, I'm Vahdet and I joined SARD in July 2018 focussing on the development of eRostering. More about me to follow. </p>
-
 
 francesca:
   first_name: Francesca
@@ -546,3 +535,15 @@ ben:
     <p>I have a five years plus work history in customer service and enjoy problem solving to help create a smooth revalidation process for our users.</p>
 
     <p>The team are
+
+vahdet:
+  first_name: Vahdet
+  last_name: Pervan
+  current_employee: false
+  email: vinnie@sardjv.co.uk
+  role: Software Developer
+  image400x: people/vahdet400x.jpg
+  profile_page: people/vahdet.html
+  bio: |
+    <p>Hi there, I'm Vahdet and I joined SARD in July 2018 focussing on the development of eRostering. More about me to follow. </p>
+
