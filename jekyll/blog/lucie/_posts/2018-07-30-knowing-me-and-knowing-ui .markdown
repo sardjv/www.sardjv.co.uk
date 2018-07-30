@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: Knowing me and knowing UI
+title: Knowing me, Knowing UI
 nav_title:  SARD UI Update
 image: blog/lucie/picture6.png
 tags:
