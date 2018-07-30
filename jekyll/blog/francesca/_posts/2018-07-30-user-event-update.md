@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: SARD User Event - date and venue confirmed
-nav_title:  User Event
+nav_title:  User Event update
 
 tags:
   - event
@@ -9,7 +9,7 @@ tags:
   - users
 
 author: francesca
-excerpt: Happy Birthday to the NHS at 70!
+excerpt: The SARD User event will take place on Friday 19th October at the RCP London.
 
 ---
 
