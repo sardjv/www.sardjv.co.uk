@@ -177,6 +177,18 @@ christy:
 
     <p>I’ve known Kevin and Francesca for several years now and I’ve been made to feel part of the family from my first day.</p>
 
+megan:
+  first_name: Megan
+  last_name: Holmes
+  current_employee: true
+  email: megan@sardjv.co.uk
+  role: Customer Support
+  image400x: people/megan400x.jpg
+  profile_page: people/megan.html
+  telephone:
+  bio: |
+    <p>Hi, I’m Megan and I’m part of the customer support team here at SARD. More about me to follow.</p>
+
 barbara:
   first_name: Barbara
   last_name: White
