@@ -18,10 +18,10 @@ layout: default
             <dt>Email:</dt><dd><a href="mailto:{{person.email}}">{{person.email}}</a></dd>
           {% endif %}
           {% if person.telephone %}
-            <dt>Telephone:</dt><dd>{{person.telephone}}</dd>
+            <dt>Telephone:</dt><dd><a href="tel:{{person.telephone}}">{{person.telephone}}</a></dd>
           {% endif %}
           {% if person.mobile %}
-            <dt>Mobile:</dt><dd>{{person.mobile}}</dd>
+            <dt>Mobile:</dt><dd><a href="tel:{{person.mobile}}">{{person.mobile}}</a></dd>
           {% endif %}
         </dl>
       </div>
