@@ -84,7 +84,7 @@ naomi:
   role: Operations Manager
   image400x: people/naominew400x.jpg
   profile_page: people/naomi.html
-  telephone:
+  telephone: 020 3519 2066
   bio: |
     <p>I'm Naomi and I'm the Operations Manager at SARD.</p>
 
@@ -114,7 +114,7 @@ alice:
   role: Customer Support Manager
   image400x: people/alice400x.jpg
   profile_page: people/alice.html
-  telephone:
+  telephone: 020 3519 2062
   bio: |
 
     <p>Hi, my name is Alice. I am the Customer Support Manager at SARD, overlooking our support team and I have worked here for four years.</p>
@@ -135,7 +135,7 @@ cheyne:
   role: Customer Support
   image400x: people/cheyne400x.jpg
   profile_page: people/cheyne.html
-  telephone:
+  telephone: 020 3519 2063
   bio: |
     <p>Hi, I’m Cheyne and I’m part of the customer support team here at SARD.</p>
 
@@ -155,7 +155,7 @@ phoebe:
   role: Customer Support
   image400x: people/phoebe400x.jpg
   profile_page: people/phoebe.html
-  telephone:
+  telephone: 020 3519 2064
   bio: |
     <p>Hi, I’m Phoebe and I’m part of the customer support team here at SARD. More about me to follow.</p>
 
@@ -167,7 +167,7 @@ christy:
   role: Customer Support
   image400x: people/christy400x.jpg
   profile_page: people/christy.html
-  telephone:
+  telephone: 01227 811 746
   bio: |
     <p>Hi, I’m Christy, and I have provided Customer Support at SARD since May 2018.</p>
 
