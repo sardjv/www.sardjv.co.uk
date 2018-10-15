@@ -32,7 +32,7 @@ First some information on how the appraisal due date is calculated on SARD.
 <li>If the doctor is exempt for an appraisal year, their due date will be in their appraisal month of the following appraisal year. For example if they are exempt for the 16/17 appraisal year, their due date will be 31 Jan 2018.</li>
 <li>If the doctor has an extension, their due date will be the extension due date. For example if they are due on 31 Jan 2017, but have been granted a 2 month postponement, they will be due on 31 March 2018.</li>
 <li>If the doctor has no complete appraisals, exemptions or extensions but does have a start date, their due date will be in the appraisal month of the appraisal year in which they started. For example if they started in Dec 2017, their due date would be 31 Jan 2018.</li>
-<li>If the doctor has no complete appraisals, exemptions, extensions or start date, then their due date will be in their next appraisal month. NB This is not a good position to be in as the due date will always be in their upcoming appraisal month. Any doctor in this situation will have compliance unknown, so they are easy to find on the Admin, Appraisals, Appraisal Compliance page.</li>
+<li>If the doctor has no complete appraisals, exemptions, extensions or start date, then their due date will be in their next appraisal month. N.B. This is not a good position to be in as the due date will always be in their upcoming appraisal month. Any doctor in this situation will have compliance unknown, so they are easy to find on the Admin, Appraisals, Appraisal Compliance page.</li>
 </ul>
 
 
@@ -53,12 +53,12 @@ Dr Carroll now has a due date of 28 February 2018.
 
 <img src='/images/blog/barbara/appraisal_month_faq/late_after.png' class="img-responsive img-thumbnail"/>
 
-To reduce the number of doctors that have a late appraisal that takes place in the following appraisal year, we recommend the number of doctors with an appraisal month of March are kept to a minimum. 
+To reduce the number of doctors that have a late appraisal that takes place in the following appraisal year, we recommend the number of doctors with an appraisal month of March are kept to a minimum.
 
-<a href="https://www.sardjv.co.uk/blog/barbara/2017/11/09/bespoke-appraisal-reminders.html" target="_blank">Bespoke appraisal reminders</a> can be setup to encourage doctors to complete their appraisals on time. 
+<a href="https://www.sardjv.co.uk/blog/barbara/2017/11/09/bespoke-appraisal-reminders.html" target="_blank">Bespoke appraisal reminders</a> can be setup to encourage doctors to complete their appraisals on time.
 
-It’s also worth keeping a closer eye on doctors that do have a  March appraisal month. The Admin, Appraisals, Appraisal Months page can be useful for this. 
-From this page you can click on any month and get compliance data for doctors that have that appraisal month.  
+It’s also worth keeping a closer eye on doctors that do have a  March appraisal month. The Admin, Appraisals, Appraisal Months page can be useful for this.
+From this page you can click on any month and get compliance data for doctors that have that appraisal month.
 
 <img src='/images/blog/barbara/appraisal_month_faq/appraisal_month_march.png' class="img-responsive img-thumbnail"/>
 
@@ -79,12 +79,12 @@ when it comes to allocating appraisals to appraisal years. Unfortunately they do
 
 <img src='/images/blog/barbara/appraisal_month_faq/add_exemption.png' class="img-responsive img-thumbnail"/>
 
-His due date will now be 30 April 2017. NB the category for the 16/17 appraisal year will be a category 2 (approved missed or postponed appraisal).
+His due date will now be 30 April 2017. N.B. the category for the 16/17 appraisal year will be a category 2 (approved missed or postponed appraisal).
 
 <img src='/images/blog/barbara/appraisal_month_faq/early_after.png' class="img-responsive img-thumbnail"/>
 
-To reduce the number of doctors that have an early appraisal, we recommend the number of doctors with an appraisal month of April is kept to a minimum. 
-Also, each trust can set the content for the <a href="https://www.sardjv.co.uk/blog/barbara/2017/11/09/bespoke-appraisal-reminders.html" target="_blank">bespoke appraisal reminders</a> so they can specify that appraisals should take place within their allocated appraisal month and not before. 
+To reduce the number of doctors that have an early appraisal, we recommend the number of doctors with an appraisal month of April is kept to a minimum.
+Also, each trust can set the content for the <a href="https://www.sardjv.co.uk/blog/barbara/2017/11/09/bespoke-appraisal-reminders.html" target="_blank">bespoke appraisal reminders</a> so they can specify that appraisals should take place within their allocated appraisal month and not before.
 
 
 <h3>What to do when a doctor starts after their appraisal month due date.</h3>
@@ -97,7 +97,7 @@ To manage new starters there is an Admin, Appraisals, New Starters page which li
 
 <img src='/images/blog/barbara/appraisal_month_faq/new_starters_page.png' class="img-responsive img-thumbnail"/>
 
-NB Dummy data was used in all of the above images.
+N.B. Dummy data was used in all of the above images.
 
 If you have any questions or feedback on the above, please get in touch via 0208 771 4153, info@sardjv.co.uk or the live chat button below.
 
