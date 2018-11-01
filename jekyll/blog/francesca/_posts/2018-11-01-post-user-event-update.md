@@ -9,7 +9,7 @@ tags:
   - users
 
 author: francesca
-excerpt: 
+excerpt: Thank you to everyone who came along to the SARD User Event on 19th October.
 
 ---
 <p>On Friday 19th October we were delighted to welcome SARD users from across the UK to our annual user event at the Royal College of Physicians London.
