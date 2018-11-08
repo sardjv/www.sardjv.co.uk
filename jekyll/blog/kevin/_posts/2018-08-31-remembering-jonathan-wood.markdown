@@ -2,7 +2,7 @@
 layout: blog
 title: Remembering Jonathan Wood
 nav_title: Remembering Jonathan Wood
-image: blog/kevin/canterbury-innovation-centre.jpg
+image:
 author: kevin
 excerpt: It saddens me to report the death of our Chairman, Jonathan Wood. He was fighting a 2 year battle with cancer. Our thoughts are with his wife Linda and their two children, William and Arthur.
 ---
