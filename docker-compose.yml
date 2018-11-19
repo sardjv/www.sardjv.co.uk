@@ -1,7 +1,7 @@
 version: '3'
 services:
   jekyll:
-    image: 'starefossen/github-pages'
+    image: 'sardjv/github-pages'
     ports:
       - "4000:4000"
     volumes:
