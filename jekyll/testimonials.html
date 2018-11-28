@@ -26,6 +26,52 @@ why_how_what:
   </div>
 </section>
 
+<section class="video-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <video
+          id="home-video"
+          class="video-js vjs-big-play-centered sard-video-skin vjs-default-skin"
+          controls preload="auto"
+          data-setup='{"example_option":true}'>
+         <source src="https://s3-eu-west-1.amazonaws.com/sardjv-www/videos/testimonial_2018/Nicky+Sullivan+testimonial+THIRD+CUT.mp4" type='video/mp4' />
+         <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+        </video>
+        <script type="text/javascript">
+
+          videojs('home-video', {height: '100', width: '100'}).ready(function(){
+                var myPlayer = this;    // Store the video object
+                var aspectRatio = 9/16; // Make up an aspect ratio
+                function resizeVideoJS(){
+                    // Get the parent element's actual width
+                    var width = document.getElementById(myPlayer.id()).parentElement.offsetWidth;
+                    // Set width to fill parent element, Set height
+                    myPlayer.width(width);
+                    myPlayer.height( width * aspectRatio );
+                }
+
+                resizeVideoJS(); // Initialize the function
+                $(window).resize(resizeVideoJS); // Call the function on resize
+
+                myPlayer.on("play", function(){
+                    $('#navbar2').hide();
+                });
+
+                myPlayer.on("stop", function(){
+                    $('#navbar2').show();
+                });
+
+                myPlayer.on("pause", function(){
+                    $('#navbar2').show();
+                });
+            });
+        </script>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="testimonials" class="orange-on-white">
   <div class="container">
     <div class="row">
