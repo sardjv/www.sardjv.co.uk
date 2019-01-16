@@ -2,7 +2,7 @@
 layout: testimonial
 organisation: Nottingham University Hospitals NHS Trust
 testifier: Dr Carol Roberts
-role: Chair, NUH Medical Appraisal and Revalidation Advisory Group
+role: Deputy Medical Director
 logo: testimonials/nuh.jpg
 testifier-image: testimonials/sard_logo.png
 order: 1
