@@ -70,11 +70,28 @@ rob:
   telephone:
   mobile: 07741 609174
   bio: |
-    <p>Customer service is a great passion of mine. Throughout my working life, I've always strived to make certain that my organisation provides the best service to         clients. For me, this means friendly, approachable and knowledgeable staff who           consistently seek feedback to meet customer needs. I believe that everyone at SARD       shares these values.</p>
+    <p>Customer service is a great passion of mine. Throughout my working life, I've always strived to make certain that my organisation provides the best service to clients. For me, this means friendly, approachable and knowledgeable staff who           consistently seek feedback to meet customer needs. I believe that everyone at SARD       shares these values.</p>
 
-    <p>My background is in retail banking, managing relationships for both private and corporate customers. I hope that I can use my skills to ensure SARD's products are       providing the best results for our customers.</p>
+    <p>My background is in retail banking, managing relationships for both private and corporate customers. I hope that I can use my skills to ensure SARD's products are providing the best results for our customers.</p>
 
-    <p>Outside of work,  you'll find me playing cricket somewhere in the Kent countryside, following my beloved Arsenal FC, or supporting my children in their         footballing and cheerleading endeavors. I'm also a history graduate with a keen          interest in modern history and revisionism.</p>
+    <p>Outside of work,  you'll find me playing cricket somewhere in the Kent countryside, following my beloved Arsenal FC, or supporting my children in their footballing and cheerleading endeavors. I'm also a history graduate with a keen          interest in modern history and revisionism.</p>
+
+vicki:
+  first_name: Vicki
+  last_name: Harden
+  current_employee: true
+  email: vicki@sardjv.co.uk
+  role: Team PA
+  image400x: people/vicki400x.jpeg
+  profile_page: people/vicki.html
+  telephone: 01227 811 746
+
+  bio: |
+    <p>Hi, my name is Vicki. I am Team PA to Kevin, Phil and Rob Green.</p>
+
+    <p>I joined the SARD team in February 2019, and I am very proud to be a part time working mum!</p>
+
+    <p>I am known for my organisational skills, and take great pride in being able to help people with whatever they may need.</p>
 
 naomi:
   first_name: Naomi
