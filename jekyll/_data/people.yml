@@ -271,6 +271,29 @@ matt:
 
     <p>I am amazed how welcome I have been made to feel. I am pleased to be part of a very special team.</p>
 
+robl:
+  first_name: Rob
+  last_name: Lacey
+  current_employee: true
+  email: rob.lacey@sardjv.co.uk
+  role: Software Developer
+  image400x: people/robl400x.jpg
+  profile_page: people/robl.html
+  bio: |
+    <p>Hi, I'm Rob and I joined SARD in March 2019 as a Senior Developer.</p>
+
+    <p>I was introduced to programming rather by accident at an early age, 
+    I found books at the library on how to create Text-Based Adventures and was glued the screen of my Amstrad CPC 6128 (the on with the Disk Drive), 
+    I taught my neighbour in his late 60s how to use LocoScript on the Amstrad PCW to speed up his letter writing, 
+    and managed to add programs to our Primary School computer system that I really shouldn't have been able to. BASIC was/is cool.</p>
+
+    <p>I spent much of my teens obsessing over horribly noisy music, playing guitar in bands and having silly hair. 
+    But eventually I rediscovered computers, programming, the internet in my early 20s and through the support and encouragement of key figures in my life, I've adopted a learn by doing approach to work and achieving goals. 
+    That has followed me through my career from Hostmaster, NOC Engineer, Third-Line Support and later Developer.</p>
+
+    <p>I'm incredibly pleased to have found such a rich supportive Team at SARD and looking forward to making my mark.</p>
+
+    <p>I still have silly hair, and now a set of drumsticks on my desk.</p>
 
 francesca:
   first_name: Francesca
@@ -296,6 +319,24 @@ francesca:
     providing clients with the best possible customer service.</p>
 
     <p>I am very proud to be part of SARD and excited about our future direction.</p>
+
+jan:
+  first_name: Jan
+  last_name: Eastwood
+  current_employee: true
+  email: jan@sardjv.co.uk
+  role: Business Development
+  image400x: people/jan400x.jpg
+  profile_page: people/jan.html
+  telephone:
+  bio: |
+   <p>What makes it so special working here at SARD within Business Development is that everyone, across all teams, carries a relentless appetite to develop innovative, leading edge answers to serve our customers. 
+    The importance of the team's work to future proof shows in how far the products have come even since 2016 when I joined SARD.</p>
+
+    <p>It is an absolute pleasure to be able to work amongst these clever colleagues and help add to this bank of feedback from the conversations I have each day, 
+    knowing that the teams here will act on it to help the NHS.</p>
+
+
 
 simon:
   first_name: Simon
