@@ -133,3 +133,10 @@ section {
 @import "product";
 
 .blog-post img {width: 100%;}
+
+.blog-post {
+  .screenshot{
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
