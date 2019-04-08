@@ -21,14 +21,14 @@ In the meantime, if you have any further questions or feedback from the day, par
   <div class='col-sm-6 thumbnail'>
     <img src='/images/blog/francesca/user_event2.jpg'/>
   </div>
-  <div class='col-sm-6 thumbnail'>
+<div class='col-sm-6 thumbnail'>
     <img src='/images/blog/francesca/user_event1.jpg'/>
   </div>
 
-  <div class='col-sm-6 thumbnail'>
+<div class='col-sm-6 thumbnail'>
     <img src='/images/blog/francesca/user_event_3.jpg'/>
   </div>
-  <div class='col-sm-6 thumbnail'>
+<div class='col-sm-6 thumbnail'>
     <img src='/images/blog/francesca/user_event_5.jpg'/>
   </div>
 </div>
