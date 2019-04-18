@@ -89,20 +89,22 @@ And more specifically, having the time displayed on the front when it's locked.
 
 That's a phone. Imagine trying to write a specification / invitation to tender, for an appraisal, job planning, or e-Rostering system?
 
-Our equivalent of the CLOCK - and our MOST USED FEATURE - by a similar 90% margin - is Customer and Technical Support Access. Despite this, it's not uncommon for us to see an ITT or specification that *doesn't even mention it!* Let alone give it a significant score. 
+Our equivalent of the CLOCK, and our MOST USED FEATURE (by a similar 90% margin) is Customer and Technical Support Access. Despite this, it's not uncommon for us to see an ITT or specification that *doesn't even mention it!* Let alone give it a significant score. 
 
 I think we can all agree that writing detailed specifications is very hard. So what's the answer?
 
-I suggest that we consider [articuling our problems; not the solutions](/blog/kevin/2016/09/12/dont-bring-me-solutions.html)
+I suggest that we consider [articulating our problems, not the solutions](/blog/kevin/2016/09/12/dont-bring-me-solutions.html)
 
 Software development has been this way for some while. We've moved away from [Big Design Up Front](https://en.wikipedia.org/wiki/Big_Design_Up_Front) and [The Waterfall Model](https://en.wikipedia.org/wiki/Waterfall_model) to [Agile Software Development](https://en.wikipedia.org/wiki/Agile_software_development) that put an emphasis on broader aspirations with detail being left until the point of implementation.
 
 Procurement practices and specification writers would be well advised to take a closer look at the user requirements capture process. In future, I'd like to see technical specification that look more akin to the ['Card, Conversation, Confirmation' paradigm in Agile methodologies](https://www.agilealliance.org/glossary/three-cs)
 
-There's [an excellent book on this subject](https://www.amazon.co.uk/User-Stories-Applied-Development-Addison-Wesley/dp/0321205685); as my dog eared copy will testify. It's primarily written for a technical reader but I think many of the chapters would be useful to a non-technical reader trying to understand specification design.
+There's [an excellent book on this subject](https://www.amazon.co.uk/User-Stories-Applied-Development-Addison-Wesley/dp/0321205685), as my dog eared copy will testify. It's primarily written for a technical reader but I think many of the chapters would be useful to a non-technical reader trying to understand specification design.
 
-<div class='col-xs-12 col-sm-9 thumbnail col-md-6'>
-  <img src='/images/blog/kevin/spex/user_stories_applied.jpg'/>
+<div class='row'>
+  <div class='col-xs-12 col-sm-9 thumbnail col-md-6'>
+    <img src='/images/blog/kevin/spex/user_stories_applied.jpg'/>
+  </div>
 </div>
 
 Or it could be that I'm just an eternal rebel who hates to be pinned down on detail? You decide.
