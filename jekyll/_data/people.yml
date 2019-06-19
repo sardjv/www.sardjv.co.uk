@@ -128,7 +128,7 @@ alice:
   last_name: Roche
   current_employee: true
   email: alice@sardjv.co.uk
-  role: Customer Support Manager
+  role: Customer Support and Account Manager
   image400x: people/alice400x.jpg
   profile_page: people/alice.html
   telephone: 020 3519 2062
@@ -199,7 +199,7 @@ megan:
   last_name: Holmes
   current_employee: true
   email: megan@sardjv.co.uk
-  role: Customer Support
+  role: Customer Support Team Leader
   image400x: people/megan400x.jpg
   profile_page: people/megan.html
   telephone:
