@@ -213,19 +213,18 @@ barbara:
   last_name: White
   current_employee: true
   email: barbara@sardjv.co.uk
-  role: Lead Developer
+  role: Chief Technology Officer
   image400x: people/barbaranew400x.jpg
   profile_page: people/barbara.html
   bio: |
-    <p>Hi, I'm Barbara and I'm a senior developer at SARD.</p>
+    <p>Hi, I'm Barbara and I am Chief Technology Officer at SARD.</p>
 
-    <p>I have been working in software engineering for over 15 years
+    <p>I have been working in software engineering for over 20 years
     and I hope that my experience brings a lot of value to what we are
     doing. Our small team is great to work with and you can see that
     everyone here really cares about the products that we build.</p>
 
-    <p>I have been here right from the start, joining after a short
-    career break to have children. I have helped to build the system
+    <p>I have been here right from the start and been part of building the system
     from the bottom up. I think it's essential to have a solid understanding
     of the whole code and it means that together with the rest of the team
     I can quickly appraise and react to new client requirements. In fact,
