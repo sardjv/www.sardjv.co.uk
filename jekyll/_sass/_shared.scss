@@ -121,17 +121,22 @@
     padding:0px;
     img {
       border-radius: 10px 10px 0px 0px;
-      @media (max-width: 768px) { border-radius: 10px 0px 0px 10px; }
+      @media (max-width: 767px) { 
+        border-radius: 10px 0px 0px 10px; 
+        height: 184px;
+      }
     }
   }
 
   .row-caption {margin: 0px;}
   .caption {
     border-radius: 0px 0px 10px 10px;
-    @media (max-width: 768px) { border-radius: 0px 10px 10px 0px; }
+    @media (max-width: 767px) { border-radius: 0px 10px 10px 0px; }
     background: #201d18;
-    height: 130px;
-//      @media screen and (min-width: 768px) {height: 180px;}
+    min-height: 130px;
+      @media (max-width: 767px) {
+        height: 184px;
+      }
     color: white;
     p.bio-links {position: absolute; bottom: 15px; left:15px; margin: 0px;}
     p.bio-links img {display: inline-block; width:20px; height: 20px;}
