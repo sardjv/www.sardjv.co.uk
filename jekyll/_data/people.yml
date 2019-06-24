@@ -3,7 +3,7 @@ kevin:
   last_name: Monk
   current_employee: true
   email: kevin@sardjv.co.uk
-  role: Managing Director
+  role: Managing Director and Co-founder
   image400x: people/kevin400x.jpg
   profile_page: people/kevin.html
   telephone:
@@ -20,12 +20,28 @@ kevin:
     He built his first website at the age of 14, before Google even
     existed, and has never looked back.</p>
 
+vicki:
+  first_name: Vicki
+  last_name: Harden
+  current_employee: true
+  email: vicki@sardjv.co.uk
+  role: Team PA and Charity Champion
+  image400x: people/vicki400x.jpg
+  profile_page: people/vicki.html
+  telephone: 01227 811 746
+  bio: |
+    <p>Hi, my name is Vicki. I am Team PA to Kevin, Phil and Rob Green.</p>
+
+    <p>I joined the SARD team in February 2019, and I am very proud to be a part time working mum!</p>
+
+    <p>I am known for my organisational skills, and take great pride in being able to help people with whatever they may need.</p>
+
 philip:
   first_name: Philip
   last_name: Bottle
   current_employee: true
   email: philip@sardjv.co.uk
-  role: Sales Director
+  role: Sales Director an Co-founder
   image400x: people/phil400x.jpg
   profile_page: people/philip.html
   telephone:
@@ -59,39 +75,30 @@ philip:
     bestsellers list.
     </p>
 
-rob:
-  first_name: Rob
-  last_name: Green
+francesca:
+  first_name: Francesca
+  last_name: Monk
   current_employee: true
-  email: rob@sardjv.co.uk
-  role: Account Manager
-  image400x: people/rob400x.jpg
-  profile_page: people/rob.html
+  email: francesca@sardjv.co.uk
+  role: Marketing Director and Co-founder
+  image400x: people/francescanew400x.jpg
+  profile_page: people/francesca.html
   telephone:
-  mobile: 07741 609174
   bio: |
-    <p>Customer service is a great passion of mine. Throughout my working life, I've always strived to make certain that my organisation provides the best service to clients. For me, this means friendly, approachable and knowledgeable staff who           consistently seek feedback to meet customer needs. I believe that everyone at SARD       shares these values.</p>
+    <p>I first started working with SARD in the earliest days when Kevin
+    asked me to come along to a meeting to input into early research and
+    marketing plans. I loved the atmosphere and the customer service ethos
+    of the company and started working as permanent member of the team shortly afterwards.</p>
 
-    <p>My background is in retail banking, managing relationships for both private and corporate customers. I hope that I can use my skills to ensure SARD's products are providing the best results for our customers.</p>
+    <p>I have worked in HR and candidate research within both the public
+    and private sectors and prior to joining SARD spent four years as a
+    fundraising manager for the NSPCC, supporting their National Development
+    Board, delivering gala fundraising events and working with major corporate
+    partners. These varied experiences have helped provide a good
+    understanding how large organisations work and the vital importance of
+    providing clients with the best possible customer service.</p>
 
-    <p>Outside of work,  you'll find me playing cricket somewhere in the Kent countryside, following my beloved Arsenal FC, or supporting my children in their footballing and cheerleading endeavors. I'm also a history graduate with a keen          interest in modern history and revisionism.</p>
-
-vicki:
-  first_name: Vicki
-  last_name: Harden
-  current_employee: true
-  email: vicki@sardjv.co.uk
-  role: Team PA and Charity Champion
-  image400x: people/vicki400x.jpg
-  profile_page: people/vicki.html
-  telephone: 01227 811 746
-
-  bio: |
-    <p>Hi, my name is Vicki. I am Team PA to Kevin, Phil and Rob Green.</p>
-
-    <p>I joined the SARD team in February 2019, and I am very proud to be a part time working mum!</p>
-
-    <p>I am known for my organisational skills, and take great pride in being able to help people with whatever they may need.</p>
+    <p>I am very proud to be part of SARD and excited about our future direction.</p>
 
 naomi:
   first_name: Naomi
@@ -123,6 +130,23 @@ naomi:
     <p>Like many of the team here, I have a creative side and I exercise this
     in my local theatre company and in front of my trusty sewing machine.</p>
 
+rob:
+  first_name: Rob
+  last_name: Green
+  current_employee: true
+  email: rob@sardjv.co.uk
+  role: Account Manager
+  image400x: people/rob400x.jpg
+  profile_page: people/rob.html
+  telephone:
+  mobile: 07741 609174
+  bio: |
+    <p>Customer service is a great passion of mine. Throughout my working life, I've always strived to make certain that my organisation provides the best service to clients. For me, this means friendly, approachable and knowledgeable staff who           consistently seek feedback to meet customer needs. I believe that everyone at SARD       shares these values.</p>
+
+    <p>My background is in retail banking, managing relationships for both private and corporate customers. I hope that I can use my skills to ensure SARD's products are providing the best results for our customers.</p>
+
+    <p>Outside of work,  you'll find me playing cricket somewhere in the Kent countryside, following my beloved Arsenal FC, or supporting my children in their footballing and cheerleading endeavors. I'm also a history graduate with a keen          interest in modern history and revisionism.</p>
+
 alice:
   first_name: Alice
   last_name: Roche
@@ -142,6 +166,36 @@ alice:
     <p> My favourite part of the job is the relationships I have built with our clients, I pride myself on being someone that they rely on and talk to regularly when they need help in things being done efficiently and to an excellent standard.  I love being on the road and meeting clients, putting faces to names and also being the Manager of a fantastic support team, who are trained monthly by myself on our systems and products.</p>
 
     <p> I've been at SARD for a long time now and love watching our company expand. I am very excited about working for SARD for longer, and being part of the continuing growth and success of the company in the future.</p>
+
+jan:
+  first_name: Jan
+  last_name: Eastwood
+  current_employee: true
+  email: jan@sardjv.co.uk
+  role: Business Development
+  image400x: people/jan400x.jpg
+  profile_page: people/jan.html
+  telephone:
+  bio: |
+   <p>What makes it so special working here at SARD within Business Development is that everyone, across all teams, carries a relentless appetite to develop innovative, leading edge answers to serve our customers. 
+    The importance of the team's work to future proof shows in how far the products have come even since 2016 when I joined SARD.</p>
+
+    <p>It is an absolute pleasure to be able to work amongst these clever colleagues and help add to this bank of feedback from the conversations I have each day, 
+    knowing that the teams here will act on it to help the NHS.</p>
+
+megan:
+  first_name: Megan
+  last_name: Holmes
+  current_employee: true
+  email: megan@sardjv.co.uk
+  role: Customer Support Team Leader
+  image400x: people/megan400x.jpg
+  profile_page: people/megan.html
+  telephone:
+  bio: |
+    <p>Hi there! I’m Megan and I joined the SARD team in September 2018. Despite only being here for a short time I have been amazed at how supportive and welcoming all the team are.</p>
+    <p>I love working with people and solving problems and they are elements I look for in my workplace. Having worked for Samsung for 2 years I discovered a love for technology as well.</p>
+    <p>Working as part of the Customer Support Team at SARD is a happy marriage of all the elements I love in a job as well as knowing the work we do helps such a large number of people!</p>
 
 cheyne:
   first_name: Cheyne
@@ -198,20 +252,6 @@ christy:
     <p>I’d definitely consider myself a “people-person” and always wish to provide high-quality assistance and service to anyone who wishes it. </p>
 
     <p>I’ve known Kevin and Francesca for several years now and I’ve been made to feel part of the family from my first day.</p>
-
-megan:
-  first_name: Megan
-  last_name: Holmes
-  current_employee: true
-  email: megan@sardjv.co.uk
-  role: Customer Support Team Leader
-  image400x: people/megan400x.jpg
-  profile_page: people/megan.html
-  telephone:
-  bio: |
-    <p>Hi there! I’m Megan and I joined the SARD team in September 2018. Despite only being here for a short time I have been amazed at how supportive and welcoming all the team are.</p>
-    <p>I love working with people and solving problems and they are elements I look for in my workplace. Having worked for Samsung for 2 years I discovered a love for technology as well.</p>
-    <p>Working as part of the Customer Support Team at SARD is a happy marriage of all the elements I love in a job as well as knowing the work we do helps such a large number of people!</p>
 
 barbara:
   first_name: Barbara
@@ -299,49 +339,6 @@ robl:
 
     <p>I still have silly hair, and now a set of drumsticks on my desk.</p>
 
-francesca:
-  first_name: Francesca
-  last_name: Monk
-  current_employee: true
-  email: francesca@sardjv.co.uk
-  role: Marketing Director
-  image400x: people/francescanew400x.jpg
-  profile_page: people/francesca.html
-  telephone:
-  bio: |
-    <p>I first started working with SARD in the earliest days when Kevin
-    asked me to come along to a meeting to input into early research and
-    marketing plans. I loved the atmosphere and the customer service ethos
-    of the company and started working as permanent member of the team shortly afterwards.</p>
-
-    <p>I have worked in HR and candidate research within both the public
-    and private sectors and prior to joining SARD spent four years as a
-    fundraising manager for the NSPCC, supporting their National Development
-    Board, delivering gala fundraising events and working with major corporate
-    partners. These varied experiences have helped provide a good
-    understanding how large organisations work and the vital importance of
-    providing clients with the best possible customer service.</p>
-
-    <p>I am very proud to be part of SARD and excited about our future direction.</p>
-
-jan:
-  first_name: Jan
-  last_name: Eastwood
-  current_employee: true
-  email: jan@sardjv.co.uk
-  role: Business Development
-  image400x: people/jan400x.jpg
-  profile_page: people/jan.html
-  telephone:
-  bio: |
-   <p>What makes it so special working here at SARD within Business Development is that everyone, across all teams, carries a relentless appetite to develop innovative, leading edge answers to serve our customers. 
-    The importance of the team's work to future proof shows in how far the products have come even since 2016 when I joined SARD.</p>
-
-    <p>It is an absolute pleasure to be able to work amongst these clever colleagues and help add to this bank of feedback from the conversations I have each day, 
-    knowing that the teams here will act on it to help the NHS.</p>
-
-
-
 simon:
   first_name: Simon
   last_name: Sharville
@@ -382,41 +379,6 @@ ify:
     <p>I was the first ever recipient of the distinguished award of The Medical Leader of the year (2009) by the Royal College of Psychiatrists “in recognition of an outstanding contribution to mental health” and I am on the ‘Roll of Honour’ of the Royal College of Psychiatrist.</p>
 
     <p>I have been listed as one of “100 most influential black people in Britain” by Powerful Media for four consecutive years. One of my proudest moments was when I was a guest of Her Majesty the Queen at the Diamond Jubilee Celebrations at St Paul’s Cathedral and the City of London Corporation reception at the Guildhall. </p>
-
-jonathan:
-  first_name: Jonathan
-  last_name: Wood
-  current_employee: false
-  email: jonathan@sardjv.co.uk
-  role: Business Advisor
-  image400x: people/jonathan400x.jpg
-  profile_page: people/jonathan.html
-  telephone:
-  bio: |
-    <p>I make a living from working with startup and early-stage businesses, so I
-    have to choose who I work with very carefully. I chose to engage with SARD JV
-    because I saw in its founder, Kevin Monk, a genuine passion and commitment to
-    build a sustainable business for the long-term, and in its co-founder, Oxleas
-    NHS Foundation Trust, then his client, a willingness to think outside the box
-    in how to achieve their goals. We negotiated a joint-venture agreement, and
-    have moved through the tricky start-up phase into a fully self-sustaining and
-    rewarding business for all involved, in which the personal qualities which
-    first attracted me are now firmly rooted in the culture of the company: SARD JV
-    is caring, forward-looking, responsive and adaptive.</p>
-
-    <p>With 30 years experience, spread equally over public and private sectors,
-    I'm the gray-hair in the team, and help balance the perspectives of the
-    stakeholders, maximise alignment of interests and avoid the common pitfalls in
-    a growth-oriented business. Starting out as an academic theoretical chemist,
-    my earlier career has moved through: systems programming, software development,
-    intelligence and security services interests in technology, technology research
-    & development programmes, government contracting, the introduction of digital
-    television, digital convergence and regulation, and business development,
-    finance, venture capital investment, turnaround and exit (M&amp;A/Flotation).</p>
-
-    <p>I founded Haven Ventures in the UK in 2002, and we now operate the same model
-    of collaborative business development, investment and turnaround services in
-    the UK and six countries in Latin America and more recently Africa.</p>
 
 buki:
   first_name: Buki
@@ -625,4 +587,40 @@ vahdet:
   profile_page: people/vahdet.html
   bio: |
     <p>Hi there, I'm Vahdet and I joined SARD in July 2018 focussing on the development of eRostering. More about me to follow. </p>
+
+
+jonathan:
+  first_name: Jonathan
+  last_name: Wood
+  current_employee: false
+  email: jonathan@sardjv.co.uk
+  role: Business Advisor
+  image400x: people/jonathan400x.jpg
+  profile_page: people/jonathan.html
+  telephone:
+  bio: |
+    <p>I make a living from working with startup and early-stage businesses, so I
+    have to choose who I work with very carefully. I chose to engage with SARD JV
+    because I saw in its founder, Kevin Monk, a genuine passion and commitment to
+    build a sustainable business for the long-term, and in its co-founder, Oxleas
+    NHS Foundation Trust, then his client, a willingness to think outside the box
+    in how to achieve their goals. We negotiated a joint-venture agreement, and
+    have moved through the tricky start-up phase into a fully self-sustaining and
+    rewarding business for all involved, in which the personal qualities which
+    first attracted me are now firmly rooted in the culture of the company: SARD JV
+    is caring, forward-looking, responsive and adaptive.</p>
+
+    <p>With 30 years experience, spread equally over public and private sectors,
+    I'm the gray-hair in the team, and help balance the perspectives of the
+    stakeholders, maximise alignment of interests and avoid the common pitfalls in
+    a growth-oriented business. Starting out as an academic theoretical chemist,
+    my earlier career has moved through: systems programming, software development,
+    intelligence and security services interests in technology, technology research
+    & development programmes, government contracting, the introduction of digital
+    television, digital convergence and regulation, and business development,
+    finance, venture capital investment, turnaround and exit (M&amp;A/Flotation).</p>
+
+    <p>I founded Haven Ventures in the UK in 2002, and we now operate the same model
+    of collaborative business development, investment and turnaround services in
+    the UK and six countries in Latin America and more recently Africa.</p>
 
