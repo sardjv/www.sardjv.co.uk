@@ -346,15 +346,18 @@ simon:
   first_name: Simon
   last_name: Sharville
   current_employee: true
-  email: design@simonsharville.co.uk
-  role: Design Consultant
+  email: simon@sardjv.co.uk
+  role: Design
   image400x: people/simon400x.jpg
   profile_page: people/simon.html
   telephone:
   bio: |
-    <p>I am freelance graphic designer and chair wrestler, specialising in brand & identity, brochure & book design, magazines, illustration and website design.</p>
+    <p>I am a graphic designer specialising in brand & identity, typography, print and website design. 
+    I have a long background in visual communication and have worked in design agencies of all sizes in both London and Hamburg.</p>
 
-    <p>I have worked with SARD since 2011 from the initial designs of the Medical Revalidation product, through to the development of SARD Nurse Revalidation and more     recently on a full rebrand including the product logo designs you will see on this       website. I am currently working with the team to improve the User Interface of main      SARD system and am looking forward to this going live in the very near future.</p>
+    <p>My work for SARD is to build and update the UI design of the various systems and generally manage and oversee the visual language of the company.</p>
+
+    <p>In my spare time, I have been known to get entangled in my own chair.</p>
 
 ify:
   first_name: Ify
