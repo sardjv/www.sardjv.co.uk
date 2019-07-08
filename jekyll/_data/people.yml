@@ -57,7 +57,7 @@ philip:
     projects, which I find both relaxing and rewarding. Who knows one
     day you may get to read some of my work when they are on the
     bestsellers list.
-    </p>
+    </p>  
 
 rob:
   first_name: Rob
@@ -287,6 +287,47 @@ robl:
 
     <p>I still have silly hair, and now a set of drumsticks on my desk.</p>
 
+ash:
+  first_name: Ash
+  last_name: Barton
+  current_employee: true
+  email: ash@sardjv.co.uk
+  role: Software Developer
+  image400x: people/ash400x.jpg
+  profile_page: people/ash.html
+  bio: |
+    <p>Hi, I’m Ash and I am a student software developer on my industrial placement from the University of Kent.</p>
+
+    <p>I came into the company with a background in the NHS from both the admin side, and also from previously being a student nurse, so getting to utilise my technical knowledge with my healthcare experience has meant the placement at the company could not be more ideal.</p>
+
+    <p>It has been a pleasure joining SARD and everyone could not have made me feel more welcome and at home.</p>
+
+pedro:
+  first_name: Pedro
+  last_name: Roque
+  current_employee: true
+  email: pedro@sardjv.co.uk
+  role: Software Developer
+  image400x: people/pedro400x.jpg
+  profile_page: people/pedro.html
+  bio: |
+    <p>Hi, I’m Pedro and I am a junior software developer on my industrial placement from the University of Kent. More about me to follow.</p>
+
+jordan:
+  first_name: Jordan
+  last_name: Montford Robinson
+  current_employee: true
+  email: jordan@sardjv.co.uk
+  role: Software Developer
+  image400x: people/jordan400x.jpg
+  profile_page: people/jordan.html
+  bio: |
+    <p>Hello and welcome to my page! I’m Jordan, SARD’s friendliest intern. I joined the SARD family in the summer of 2019.</p>
+
+    <p>Some of my duties here are to review; program and document all the wizardry magic that keep the SARD applications running.</p> 
+
+    <p>Ever since I arrived I have truly felt welcomed by this supportive team. It did not take me too long to figure out how lucky I am to be working for this amazing company.</p>     
+
 francesca:
   first_name: Francesca
   last_name: Monk
@@ -310,7 +351,7 @@ francesca:
     understanding how large organisations work and the vital importance of
     providing clients with the best possible customer service.</p>
 
-    <p>I am very proud to be part of SARD and excited about our future direction.</p>
+    <p>I am very proud to be part of SARD and excited about our future direction.</p>  
 
 jan:
   first_name: Jan
