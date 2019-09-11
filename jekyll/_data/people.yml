@@ -412,6 +412,21 @@ ify:
 
     <p>I have been listed as one of “100 most influential black people in Britain” by Powerful Media for four consecutive years. One of my proudest moments was when I was a guest of Her Majesty the Queen at the Diamond Jubilee Celebrations at St Paul’s Cathedral and the City of London Corporation reception at the Guildhall. </p>
 
+jazz:
+  first_name: Jazz
+  last_name: Thind
+  current_employee: true
+  email: 
+  role: Board Director
+  image400x: people/jazz400x.jpg
+  profile_page: people/jazz.html
+  telephone:
+  bio: |
+    <p>Jazz is Finance Director at Oxleas NHS Foundation Trust. She is a qualified accountant (ACCA) and joined the NHS in 1993 in a junior finance role. 
+    Since then, she has taken up a number of NHS roles across both management and financial accounting functions.</p>
+    <p>Most of these roles have been within provider organisations (Oxleas in particular) but Jazz did spend four years in a PCT (CCG now) leading the finance team. 
+    Post graduation and prior to joining the NHS, Jazz worked at HMRC in VAT Registration.</p>
+
 jonathan:
   first_name: Jonathan
   last_name: Wood
