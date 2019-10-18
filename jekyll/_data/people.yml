@@ -57,7 +57,7 @@ philip:
     projects, which I find both relaxing and rewarding. Who knows one
     day you may get to read some of my work when they are on the
     bestsellers list.
-    </p>  
+    </p>
 
 rob:
   first_name: Rob
@@ -151,7 +151,7 @@ cheyne:
 
 phoebe:
   first_name: Phoebe
-  last_name: Marsden
+  last_name:
   current_employee: true
   email: phoebe@sardjv.co.uk
   role: Customer Support and Charity Champion
@@ -161,7 +161,7 @@ phoebe:
   bio: |
     <p>Hi, I’m a member of the customer support team, on hand to answer any queries on how best to use the site, and help with any difficulties our users may be having.</p>
 
-    <p>I am also one of the Charity Champions for SARD, representing our company, and organising fundraising for our chosen cause of the year which is currently to  support the opening of the new Kent and Medway Medical School. Please see our blog page to see how you can get involved!</p> 
+    <p>I am also one of the Charity Champions for SARD, representing our company, and organising fundraising for our chosen cause of the year which is currently to  support the opening of the new Kent and Medway Medical School. Please see our blog page to see how you can get involved!</p>
 
     <p>I came to SARD with experience working in customer service, ready to take the skills I had learned from these roles and transfer them to online support; with a want to strengthen and broaden my computer skills and explore a new form of customer support.</p>
 
@@ -196,7 +196,7 @@ megan:
   telephone:  020 3519 2065
   bio: |
     <p>Hi there! I’m Megan and I joined the SARD team in September 2018. Since working here I have been amazed at how supportive and welcoming all the team are. It really is like being part of a family!</p>
-  
+
     <p>I love working with people and helping to solve their problems- SARD is a happy marriage of all these elements as well as knowing the work we do helps so many people. </p>
 
 
@@ -274,13 +274,13 @@ robl:
   bio: |
     <p>Hi, I'm Rob and I joined SARD in March 2019 as a Senior Developer.</p>
 
-    <p>I was introduced to programming rather by accident at an early age, 
-    I found books at the library on how to create Text-Based Adventures and was glued the screen of my Amstrad CPC 6128 (the one with the Disk Drive), 
-    I taught my neighbour in his late 60s how to use LocoScript on the Amstrad PCW to speed up his letter writing, 
+    <p>I was introduced to programming rather by accident at an early age,
+    I found books at the library on how to create Text-Based Adventures and was glued the screen of my Amstrad CPC 6128 (the one with the Disk Drive),
+    I taught my neighbour in his late 60s how to use LocoScript on the Amstrad PCW to speed up his letter writing,
     and managed to add programs to our Primary School computer system that I really shouldn't have been able to. BASIC was/is cool.</p>
 
-    <p>I spent much of my teens obsessing over horribly noisy music, playing guitar in bands and having silly hair. 
-    But eventually I rediscovered computers, programming, the internet in my early 20s and through the support and encouragement of key figures in my life, I've adopted a learn by doing approach to work and achieving goals. 
+    <p>I spent much of my teens obsessing over horribly noisy music, playing guitar in bands and having silly hair.
+    But eventually I rediscovered computers, programming, the internet in my early 20s and through the support and encouragement of key figures in my life, I've adopted a learn by doing approach to work and achieving goals.
     That has followed me through my career from Hostmaster, NOC Engineer, Third-Line Support and later Developer.</p>
 
     <p>I'm incredibly pleased to have found such a rich supportive Team at SARD and looking forward to making my mark.</p>
@@ -324,9 +324,9 @@ jordan:
   bio: |
     <p>Hello and welcome to my page! I’m Jordan, SARD’s friendliest former intern turned permanent developer! I joined the SARD family in the summer of 2019.</p>
 
-    <p>Some of my duties here are to review; program and document all the wizardry magic that keeps the SARD applications running.</p> 
+    <p>Some of my duties here are to review; program and document all the wizardry magic that keeps the SARD applications running.</p>
 
-    <p>Ever since I arrived I have truly felt welcomed by this supportive team. It did not take me too long to figure out how lucky I am to be working for this amazing company.</p>     
+    <p>Ever since I arrived I have truly felt welcomed by this supportive team. It did not take me too long to figure out how lucky I am to be working for this amazing company.</p>
 
 francesca:
   first_name: Francesca
@@ -351,7 +351,7 @@ francesca:
     understanding how large organisations work and the vital importance of
     providing clients with the best possible customer service.</p>
 
-    <p>I am very proud to be part of SARD and excited about our future direction.</p>  
+    <p>I am very proud to be part of SARD and excited about our future direction.</p>
 
 jan:
   first_name: Jan
@@ -363,10 +363,10 @@ jan:
   profile_page: people/jan.html
   telephone: 07555 580962
   bio: |
-   <p>What makes it so special working here at SARD within Business Development is that everyone, across all teams, carries a relentless appetite to develop innovative, leading edge answers to serve our customers. 
+   <p>What makes it so special working here at SARD within Business Development is that everyone, across all teams, carries a relentless appetite to develop innovative, leading edge answers to serve our customers.
     The importance of the team's work to future proof shows in how far the products have come even since 2016 when I joined SARD.</p>
 
-    <p>It is an absolute pleasure to be able to work amongst these clever colleagues and help add to this bank of feedback from the conversations I have each day, 
+    <p>It is an absolute pleasure to be able to work amongst these clever colleagues and help add to this bank of feedback from the conversations I have each day,
     knowing that the teams here will act on it to help the NHS.</p>
 
 
@@ -381,7 +381,7 @@ simon:
   profile_page: people/simon.html
   telephone:
   bio: |
-    <p>I am a graphic designer specialising in brand & identity, typography, print and website design. 
+    <p>I am a graphic designer specialising in brand & identity, typography, print and website design.
     I have a long background in visual communication and have worked in design agencies of all sizes in both London and Hamburg.</p>
 
     <p>My work for SARD is to build and update the UI design of the various systems and generally manage and oversee the visual language of the company.</p>
@@ -416,15 +416,15 @@ jazz:
   first_name: Jazz
   last_name: Thind
   current_employee: true
-  email: 
+  email:
   role: Board Director
   image400x: people/jazz400x.jpg
   profile_page: people/jazz.html
   telephone:
   bio: |
-    <p>Jazz is Finance Director at Oxleas NHS Foundation Trust. She is a qualified accountant (ACCA) and joined the NHS in 1993 in a junior finance role. 
+    <p>Jazz is Finance Director at Oxleas NHS Foundation Trust. She is a qualified accountant (ACCA) and joined the NHS in 1993 in a junior finance role.
     Since then, she has taken up a number of NHS roles across both management and financial accounting functions.</p>
-    <p>Most of these roles have been within provider organisations (Oxleas in particular) but Jazz did spend four years in a PCT (CCG now) leading the finance team. 
+    <p>Most of these roles have been within provider organisations (Oxleas in particular) but Jazz did spend four years in a PCT (CCG now) leading the finance team.
     Post graduation and prior to joining the NHS, Jazz worked at HMRC in VAT Registration.</p>
 
 jonathan:
