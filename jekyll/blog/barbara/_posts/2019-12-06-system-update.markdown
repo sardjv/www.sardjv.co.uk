@@ -172,8 +172,8 @@ data set they’d like to use in their MSF Reports,
 this can be MSF data from all SARD acute trusts, all SARD mental health trusts, or just their own trust.
 
 It's possible for certain specialities to have their own benchmarking data set, for example those who may have
-different requirements when collecting patient feedback data. This is initially available for Pathologists and
-Anaesthetists.
+different requirements when collecting patient feedback data. This is initially available for paediatricians and
+anaesthetists.
 
 
 <h3>New eLeave Booked Report</h3>
