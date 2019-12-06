@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: System Update
-nav_title:  System Update
+nav_title: System Update January 19
 tags:
   - development
   - technology
@@ -114,4 +114,3 @@ It's also worth taking a look at the Textile help when you create or edit a cont
 
 
 We hope these features will prove useful.
-

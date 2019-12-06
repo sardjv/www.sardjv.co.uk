@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: System Update
-nav_title:  System Update
+nav_title: System Update July 19
 tags:
   - development
   - technology

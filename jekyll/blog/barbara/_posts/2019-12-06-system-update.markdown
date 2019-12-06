@@ -1,14 +1,14 @@
 ---
 layout: blog
 title: System Update
-nav_title:  System Update
+nav_title: System Update December 19
 tags:
   - development
   - technology
   - system-updates
 
 author: barbara
-excerpt: It's been a busy start to the year for the tech team here at SARD. Here are a few of the changes we've made in Q1 of 2019.
+excerpt: There has been a lot going on since the last system update in July. Here is a summary of the more significant changes...
 
 ---
 
@@ -83,7 +83,7 @@ feedback forms.
 
 <div class='row'>
   <div class='col-sm-8 thumbnail' style='border: none; padding: 3px; margin-left: 15px;'>
-    <img src='/images/blog/barbara/system_update_q4_19/notification.png' class="img-responsive img-thumbnail screenshot"/>
+    <img src='/images/blog/barbara/system_update_q4_19/pf_notification.png' class="img-responsive img-thumbnail screenshot"/>
   </div>
 </div>
 
@@ -92,8 +92,8 @@ feedback forms.
 The admin user cards were added to reduce the amount of clicking needed when looking for information about a given user.
 The user card will be displayed after searching for a user. The first column has their personal information, product details
 and organisational structure details (such as directorate, specialty etc).
-The second column has important dates and their rag status.
-The third column are quick links to the user's most recent recommendation, appraisal, job plan etc.
+The second column has important dates and their RAG status.
+The third column shows quick links to the user's most recent recommendation, appraisal, job plan etc.
 And the forth column contains links to pages that show their full list of appraisals, MSFs etc.
 You can still get to the admin user page by clicking on the eye icon in the bottom right of the user card, this contains
 any additional user information that isn't on the cards.
@@ -206,20 +206,20 @@ difficulties they have when using SARD and any areas for improvement.
 
 Here are some of the changes we have made in response (and there are still some to be done, we will be working through them over the new few months):
 
-When an appraisal is moved from the complete state back to the submitted state we now use the word ‘reopened’ rather than ‘rejected’ in notifications.
+- When an appraisal is moved from the complete state back to the submitted state we now use the word ‘reopened’ rather than ‘rejected’ in notifications.
 
-On the admin, Job Planning, Job Plan Signatories page the links to move through the pages are now at the top and the bottom of the page.
+- On the admin, Job Planning, Job Plan Signatories page the links to move through the pages are now at the top and the bottom of the page.
 
-The blank columns have been removed from the Advanced Job Plan Report CSV to make it easier to work with in Excel.
+- The blank columns have been removed from the Advanced Job Plan Report CSV to make it easier to work with in Excel.
 
-We’ve added the appraiser email address to admin, Medical Revalidation, Appraiser Management, Appraisers CSV export.
+- We’ve added the appraiser email address to admin, Medical Revalidation, Appraiser Management, Appraisers CSV export.
 
-There is an Export to CSV option on both the admin, All Users, Medics and Non Medics pages (these can be accessed via the sidebar).
+- There is an Export to CSV option on both the admin, All Users, Medics and Non Medics pages (these can be accessed via the sidebar).
 
-A reference number is generated and displayed after inputting colleague feedback from paper forms.
+- A reference number is generated and displayed after inputting colleague feedback from paper forms.
 
-Admins can now delete Directorates, Locations, Teams, Site Names, Specialties, Position Titles and ESR Roles.
+- Admins can now delete Directorates, Locations, Teams, Site Names, Specialties, Position Titles and ESR Roles.
 
-The eLeave approver transfers page has also been updated so that approvees can be duplicated onto another approver without them being removed from the original approver.
+- The eLeave approver transfers page has also been updated so that approvees can be duplicated onto another approver without them being removed from the original approver.
 
-The Admin, eLeave, Approver Management, Export Leave Approvers/ Coordinators To CSV now also includes the names of all approvees of each approver to reflect the Approver Management Page.
+- The Admin, eLeave, Approver Management, Export Leave Approvers/ Coordinators To CSV now also includes the names of all approvees of each approver to reflect the Approver Management Page.
