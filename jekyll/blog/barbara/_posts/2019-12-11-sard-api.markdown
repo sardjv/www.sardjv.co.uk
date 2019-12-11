@@ -1,0 +1,36 @@
+---
+layout: blog
+title: Development of the SARD API
+nav_title: SARD API
+tags:
+  - development
+  - technology
+  - system-updates
+
+author: barbara
+excerpt: Different organisations and systems within the NHS need data to flow between them in a seamless way
+
+---
+
+Ensuring interoperability has become a key focus of
+<a href="https://www.england.nhs.uk/digitaltechnology/connecteddigitalsystems/interoperability/open-api/" target="_blank"> <i>NHS England recently.</i></a>
+
+Different organisations and systems within the NHS need data to flow between them in a seamless way. At SARD we are
+developing an Application Programming Interface (API) that will provide access to our medical revalidation, job plan and
+eLeave data to *authorised* persons.
+
+An API acts as a common interface for different software systems to connect and exchange data. We are using the
+<a href="https://en.wikipedia.org/wiki/OpenAPI_Specification" target="_blank"> <i>Open API Specification</i></a>
+as the basis for our programming interface. This can produce an API that is useful for both humans and software systems.
+Humans use the specification as a source of API documentation, examples and as a way to try out and understand the capabilities of the API.
+Software systems can use the specification to pull and push data to and from SARD.
+
+Version 1 of the API is now available to view
+<a href="https://demo.sardjv.co.uk/api-docs/index.html" target="_blank"> <i>here.</i></a>
+
+To try it out you will need to get your personal access token. Instructions for this can be found on the SARD site under
+API Access in the user menu. N.B. this is only available for admin user accounts at the moment.
+
+
+
+Please get in touch if you are interested in our API development work and if there are any further endpoints that would be useful.
