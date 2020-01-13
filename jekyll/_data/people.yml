@@ -109,6 +109,20 @@ naomi:
 
     <p>Like many of the team here, I love to exercise my creative side and can usually be found either in front of a sewing machine or on/backstage at my local theatre group.</p>
 
+megan:
+  first_name: Megan
+  last_name: Holmes
+  current_employee: true
+  email: megan@sardjv.co.uk
+  role: Customer Support Manager
+  image400x: people/megan400x.jpg
+  profile_page: people/megan.html
+  telephone:  020 3519 2065
+  bio: |
+    <p>Hi there! I’m Megan and I joined the SARD team in September 2018. Since working here I have been amazed at how supportive and welcoming all the team are. It really is like being part of a family!</p>
+
+    <p>I love working with people and helping to solve their problems- SARD is a happy marriage of all these elements as well as knowing the work we do helps so many people. </p>
+
 cheyne:
   first_name: Cheyne
   last_name: Pearson
@@ -164,22 +178,6 @@ christy:
     <p>I’d definitely consider myself a “people-person” and always wish to provide high-quality assistance and service to anyone who wishes it. </p>
 
     <p>I’ve known Kevin and Francesca for several years now and I’ve been made to feel part of the family from my first day.</p>
-
-megan:
-  first_name: Megan
-  last_name: Holmes
-  current_employee: true
-  email: megan@sardjv.co.uk
-  role: Customer Support Team Leader
-  image400x: people/megan400x.jpg
-  profile_page: people/megan.html
-  telephone:  020 3519 2065
-  bio: |
-    <p>Hi there! I’m Megan and I joined the SARD team in September 2018. Since working here I have been amazed at how supportive and welcoming all the team are. It really is like being part of a family!</p>
-
-    <p>I love working with people and helping to solve their problems- SARD is a happy marriage of all these elements as well as knowing the work we do helps so many people. </p>
-
-
 
 barbara:
   first_name: Barbara
