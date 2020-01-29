@@ -424,7 +424,7 @@ jonathan:
   first_name: Jonathan
   last_name: Wood
   current_employee: false
-  email: 
+  email:
   role: Business Advisor
   image400x: people/jonathan400x.jpg
   profile_page: people/jonathan.html
@@ -482,14 +482,13 @@ fig:
   telephone:
   bio:
       <p> Fig joined SARD in 2018 and splits his time between our Canterbury and Crystal Palace Offices.</p>
-
-      <p> He also runs the SARD <a href="https://twitter.com/SARDJV">Twitter account.</a> 
+      <p> He also runs the SARD <a href="https://twitter.com/SARDJV">Twitter account.</a> </p>
 
 jade:
   first_name: Jade
   last_name: Dickinson
   current_employee: false
-  email: 
+  email:
   role: Software Developer
   image400x: people/jade400x.jpg
   profile_page: people/jade.html
@@ -501,7 +500,7 @@ sophie:
   first_name: Sophie
   last_name: Buijsen
   current_employee: false
-  email: 
+  email:
   role: Account Manager
   image400x: people/sophie400x.jpg
   profile_page: people/sophie.html
@@ -539,7 +538,7 @@ nicholas:
   first_name: Nicholas
   last_name: Cooke
   current_employee: false
-  email: 
+  email:
   role: Account Manager
   image400x: people/dig400x.jpg
   profile_page: people/nicholas.html
@@ -578,7 +577,7 @@ nicholas:
     first_name: Colin
     last_name: Fox
     current_employee: false
-    email: 
+    email:
     role: Sales and Marketing Advisor
     image400x: people/colin400x.jpg
     profile_page: people/colin.html
@@ -594,7 +593,7 @@ alex:
   first_name: Alex
   last_name: Rudall
   current_employee: false
-  email: 
+  email:
   role: Product Lead
   image400x: people/alexnew400x.jpg
   profile_page: people/alex.html
@@ -618,7 +617,7 @@ ben:
   first_name: Ben
   last_name: Travis
   current_employee: false
-  email: 
+  email:
   role: Board Director
   image400x: people/ben400x.jpg
   profile_page: people/ben.html
@@ -642,7 +641,7 @@ daniel:
   first_name: Daniel
   last_name:
   current_employee: false
-  email: 
+  email:
   role: Customer Support
   image400x: people/daniel400x.jpg
   profile_page: people/daniel.html
@@ -658,7 +657,7 @@ vahdet:
   first_name: Vahdet
   last_name: Pervan
   current_employee: false
-  email: 
+  email:
   role: Software Developer
   image400x: people/vahdet400x.jpg
   profile_page: people/vahdet.html
@@ -669,7 +668,7 @@ alice:
   first_name: Alice
   last_name: Roche
   current_employee: false
-  email: 
+  email:
   role: Customer Support and Account Manager
   image400x: people/alice400x.jpg
   profile_page: people/alice.html
