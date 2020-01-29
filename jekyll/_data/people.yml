@@ -265,6 +265,21 @@ robl:
 
     <p>I still have silly hair, and now a set of drumsticks on my desk.</p>
 
+artur:
+  first_name: Artur
+  last_name: Szwed
+  current_employee: true
+  email: artur@sardjv.co.uk
+  role: Software Developer
+  image400x: people/artur400x.jpg
+  profile_page: people/artur.html
+  bio: |
+    <p>Hi, I'm Artur, I live in Kraków (Poland) and I joined SARD in October 2019 as Ruby on Rails senior developer.</p>
+
+    <p>I started my programming journey on an Amiga 500 computer. Then, going through various languages like Assembler, Java, C or PHP, I discovered, around 8 years ago, Ruby and Ruby on Rails.</p>
+
+    <p>I spend my free time doing cross-fit training. I also enjoy learning foreign languages - at the moment it's Spanish, which definitely may help in some travel, which I like a lot too.   
+
 ash:
   first_name: Ash
   last_name: Barton
