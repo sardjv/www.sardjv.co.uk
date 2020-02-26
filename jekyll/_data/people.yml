@@ -142,6 +142,23 @@ cheyne:
 
     <p>In my spare time I enjoy reading comic books, watching films and socialising with friends as well as being a stop motion animation hobbyist.</p>
 
+christy:
+  first_name: Christy
+  last_name: Hinchliffe
+  current_employee: true
+  email: christy@sardjv.co.uk
+  role: Customer Support
+  image400x: people/christy400x.jpg
+  profile_page: people/christy.html
+  telephone: 01227 811 746
+  bio: |
+    <p>Hi, I’m Christy, and I have provided Customer Support at SARD since May 2018.</p>
+
+    <p>During my study of Drama at the University of Kent, I have held several customer service roles, ranging from retail and culinary to business and health. </p>
+
+    <p>I’d definitely consider myself a “people-person” and always wish to provide high-quality assistance and service to anyone who wishes it. </p>
+
+    <p>I’ve known Kevin and Francesca for several years now and I’ve been made to feel part of the family from my first day.</p>
 
 phoebe:
   first_name: Phoebe
@@ -161,23 +178,23 @@ phoebe:
 
     <p>I have been very fortunate to work with the close-knit and dedicated team here at SARD; I have learned even more than I expected to during my first year here. </p>
 
-christy:
-  first_name: Christy
-  last_name: Hinchliffe
+joe:
+  first_name: Joe
+  last_name:
   current_employee: true
-  email: christy@sardjv.co.uk
+  email: joe@sardjv.co.uk
   role: Customer Support
-  image400x: people/christy400x.jpg
-  profile_page: people/christy.html
-  telephone: 01227 811 746
+  image400x: people/joe400x.jpg
+  profile_page: people/joe.html
+  telephone:
   bio: |
-    <p>Hi, I’m Christy, and I have provided Customer Support at SARD since May 2018.</p>
+    <p>Hello, my name is Joe and I am part of the customer support team at SARD.</p>
 
-    <p>During my study of Drama at the University of Kent, I have held several customer service roles, ranging from retail and culinary to business and health. </p>
+    <p>Recently moving back to London after completing my studies at UEA, SARD gives me the opportunity to integrate skills I have learnt from both my professional and educational life.</p>
 
-    <p>I’d definitely consider myself a “people-person” and always wish to provide high-quality assistance and service to anyone who wishes it. </p>
+    <p>I thrive on solving problems as proficiently and thoroughly as possible, building a solid knowledge base in order to help customers through any issue.</p>
 
-    <p>I’ve known Kevin and Francesca for several years now and I’ve been made to feel part of the family from my first day.</p>
+    <p>Outside of work I enjoy performing stand-up comedy, music production and films.</p>
 
 barbara:
   first_name: Barbara
@@ -278,7 +295,7 @@ artur:
 
     <p>I started my programming journey on an Amiga 500 computer. Then, going through various languages like Assembler, Java, C or PHP, I discovered, around 8 years ago, Ruby and Ruby on Rails.</p>
 
-    <p>I spend my free time doing cross-fit training. I also enjoy learning foreign languages - at the moment it's Spanish, which definitely may help in some travel, which I like a lot too.   
+    <p>I spend my free time doing cross-fit training. I also enjoy learning foreign languages - at the moment it's Spanish, which definitely may help in some travel, which I like a lot too.
 
 ash:
   first_name: Ash
