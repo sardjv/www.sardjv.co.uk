@@ -178,6 +178,22 @@ phoebe:
 
     <p>I have been very fortunate to work with the close-knit and dedicated team here at SARD; I have learned even more than I expected to during my first year here. </p>
 
+tristan:
+  first_name: Tristan
+  last_name:
+  current_employee: true
+  email: tristan@sardjv.co.uk
+  role: Customer Support
+  image400x: people/tristan400x.jpg
+  profile_page: people/tristan.html
+  telephone:
+  bio: |
+    <p> Hello there, I’m Tristan and I’m a member of the Customer Support team at SARD.</p>
+
+    <p>Having completed my degree in Anthropology at Goldsmiths, I’ve always worked in front-facing customer service roles and SARD provided an ideal way to transfer those skills to an office environment. It’s been a pleasure to join such an agreeable, forward-thinking work environment and I’m excited to continue honing my skills.</p>
+
+    <p>When not at work, you’ll find me cooking, trying to grow veg in my garden or come summer, playing cricket. </p>
+
 joe:
   first_name: Joe
   last_name:
