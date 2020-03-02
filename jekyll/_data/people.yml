@@ -58,24 +58,7 @@ philip:
     day you may get to read some of my work when they are on the
     bestsellers list.
     </p>
-
-rob:
-  first_name: Rob
-  last_name: Green
-  current_employee: true
-  email: rob@sardjv.co.uk
-  role: Account Manager
-  image400x: people/rob400x.jpg
-  profile_page: people/rob.html
-  telephone:
-  mobile: 07741 609174
-  bio: |
-    <p>Customer service is a great passion of mine. Throughout my working life, I've always strived to make certain that my organisation provides the best service to clients. For me, this means friendly, approachable and knowledgeable staff who           consistently seek feedback to meet customer needs. I believe that everyone at SARD       shares these values.</p>
-
-    <p>My background is in retail banking, managing relationships for both private and corporate customers. I hope that I can use my skills to ensure SARD's products are providing the best results for our customers.</p>
-
-    <p>Outside of work,  you'll find me playing cricket somewhere in the Kent countryside, following my beloved Arsenal FC, or supporting my children in their footballing and cheerleading endeavors. I'm also a history graduate with a keen          interest in modern history and revisionism.</p>
-
+    
 vicki:
   first_name: Vicki
   last_name: Harden
@@ -716,3 +699,20 @@ alice:
     <p> My favourite part of the job is the relationships I have built with our clients, I pride myself on being someone that they rely on and talk to regularly when they need help in things being done efficiently and to an excellent standard.  I love being on the road and meeting clients, putting faces to names and also being the Manager of a fantastic support team, who are trained monthly by myself on our systems and products.</p>
 
     <p> I've been at SARD for a long time now and love watching our company expand. I am very excited about working for SARD for longer, and being part of the continuing growth and success of the company in the future.</p>
+
+rob:
+  first_name: Rob
+  last_name: Green
+  current_employee: false
+  email: rob@sardjv.co.uk
+  role: Account Manager
+  image400x: people/rob400x.jpg
+  profile_page: people/rob.html
+  telephone:
+  mobile: 07741 609174
+  bio: |
+    <p>Customer service is a great passion of mine. Throughout my working life, I've always strived to make certain that my organisation provides the best service to clients. For me, this means friendly, approachable and knowledgeable staff who           consistently seek feedback to meet customer needs. I believe that everyone at SARD       shares these values.</p>
+
+    <p>My background is in retail banking, managing relationships for both private and corporate customers. I hope that I can use my skills to ensure SARD's products are providing the best results for our customers.</p>
+
+    <p>Outside of work,  you'll find me playing cricket somewhere in the Kent countryside, following my beloved Arsenal FC, or supporting my children in their footballing and cheerleading endeavors. I'm also a history graduate with a keen          interest in modern history and revisionism.</p>
