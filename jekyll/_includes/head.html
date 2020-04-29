@@ -13,7 +13,15 @@
     <script src="/scripts/bootstrap.min.js"></script>
     <script src="/scripts/isotope.pkgd.min.js"></script>
     <script src="/scripts/imagesloaded.pkgd.min.js"></script>
-
+    <meta name="title" content="{{ page.title }}" />
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta name="twitter:title" content="{{ page.title }}" />
+    <meta name="description" content="{{ page.excerpt }}" />
+    <meta property="og:description" content="{{ page.excerpt }}" />
+    <meta name="twitter:description" content="{{ page.excerpt }}" />
+    <meta property="og:image" content="{{site.url}}{{ page.image }}" />
+    <meta name="twitter:image:src" content="{{site.url}}{{ page.image }}" />
+    <meta name="keywords" content="{{ page.keywords }}" />
     <!--[if lt IE 9]>
     <script src="/scripts/html5shiv.min.js"></script>
     <script src="/scripts/respond.min.js"></script>
@@ -39,4 +47,3 @@
       videojs.options.flash.swf = "/scripts/swfs/video-js.swf"
     </script>
 </head>
-

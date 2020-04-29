@@ -11,7 +11,7 @@ excerpt: Jel
 
 ---
 
-SARD embarked on an often requested feature to provide eRostering in mid-2019. Working closely with a trust, we have started fleshing out the simplest implementation of *rostering*. Taking existing live rostering data we (the Rostering Team; [Pedro](/people/pedro.html), Artur and [myself](/people/robl)) have been able to produce a prototype application with an aim to develop it into a full-featured platform that will compliment our current SARD offerings.
+SARD embarked on an often requested feature to provide eRostering in mid-2019. Working closely with a trust, we have started fleshing out the simplest implementation of *rostering*. Taking existing live rostering data we (the Rostering Team; [Pedro](/people/pedro.html), [Artur](/people/artur) and [myself](/people/robl)) have been able to produce a prototype application with an aim to develop it into a full-featured platform that will compliment our current SARD offerings.
 
 ![eRostering login](/images/blog/robl/rostering/login.png)
 
