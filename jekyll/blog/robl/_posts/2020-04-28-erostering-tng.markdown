@@ -6,7 +6,7 @@ tags:
   - development
   - technology
 author: robl
-image: /images/blog/robl/rostering/allshifts.png
+image: blog/robl/rostering/allshifts.png
 excerpt: Plenty can happen in just a few months, times like these certainly prove that. Back in January we went live with our first iteration of eRostering with our flagship trust.
 
 ---
