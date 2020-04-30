@@ -2,7 +2,7 @@
 layout: blog
 title: Vitality London 10000 in aid of Crisis
 nav_title:  Vitality 10000
-image: blog/alice/sard-sharing.png
+image: /images/blog/alice/sard-sharing.png
 tags:
   - charity of the year
   - fundraising

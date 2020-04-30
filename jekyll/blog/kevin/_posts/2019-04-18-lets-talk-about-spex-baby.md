@@ -2,7 +2,7 @@
 layout: blog
 title: Let's Talk About Spex, Baby
 nav_title: Let's Talk About Spex, Baby
-image: blog/kevin/food_oregano_pepper_971077.jpg
+image: /images/blog/kevin/food_oregano_pepper_971077.jpg
 author: kevin
 excerpt: Let's talk about spex, baby. Let's talk about all the good things; and the bad things, that may be. 
 ---

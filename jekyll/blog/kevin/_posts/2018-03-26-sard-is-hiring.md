@@ -2,7 +2,7 @@
 layout: blog
 title: Work at SARD
 nav_title: We're Hiring!
-image: blog/kevin/recruitment.jpg
+image: /images/blog/kevin/recruitment.jpg
 tags:
   - recruitment
   - customer support

@@ -2,7 +2,7 @@
 layout: blog
 title: The Lake of Discontent
 nav_title:  The Lake of Discontent
-image: blog/francesca/lake_of_discontent.jpg
+image: /images/blog/francesca/lake_of_discontent.jpg
 tags:
   - customer-service
   - support

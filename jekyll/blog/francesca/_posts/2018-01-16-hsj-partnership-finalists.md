@@ -2,7 +2,7 @@
 layout: blog
 title: Finalists!
 nav_title:  Finalists!
-image: blog/francesca/hsj_shortlist.jpg
+image: /images/blog/francesca/hsj_shortlist.jpg
 tags:
   - awards
   - partnership

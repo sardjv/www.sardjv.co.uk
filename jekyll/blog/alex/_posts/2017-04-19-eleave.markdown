@@ -2,7 +2,7 @@
 layout: blog
 title: SARD eLeave
 nav_title: SARD eLeave
-image: blog/alex/eleave.png
+image: /images/blog/alex/eleave.png
 
 tags:
   - development

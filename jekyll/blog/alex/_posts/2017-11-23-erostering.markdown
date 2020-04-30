@@ -2,7 +2,7 @@
 layout: blog
 title: SARD eRostering
 nav_title: SARD eRostering
-image: blog/alex/erostering_shifts_wider.png
+image: /images/blog/alex/erostering_shifts_wider.png
 
 tags:
   - development

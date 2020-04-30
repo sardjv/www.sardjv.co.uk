@@ -2,7 +2,7 @@
 layout: blog
 title: Job Plan Improvements
 nav_title: Job Plan Improvements
-image: blog/alex/jp_share_button.png
+image: /images/blog/alex/jp_share_button.png
 
 tags:
   - development

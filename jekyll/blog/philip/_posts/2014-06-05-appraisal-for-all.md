@@ -2,7 +2,7 @@
 layout: blog
 title: In Development - SARD announces development of Appraisal for all system
 nav_title: Appraisal for all
-image: blog/philip/scrum_timer.jpg
+image: /images/blog/philip/scrum_timer.jpg
 tags:
   - news
   - development

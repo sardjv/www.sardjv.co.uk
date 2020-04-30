@@ -19,8 +19,10 @@
     <meta name="description" content="{{ page.excerpt }}" />
     <meta property="og:description" content="{{ page.excerpt }}" />
     <meta name="twitter:description" content="{{ page.excerpt }}" />
-    <meta property="og:image" content="{{site.url}}{{ page.image }}" />
-    <meta name="twitter:image:src" content="{{site.url}}{{ page.image }}" />
+    {% if page.image %}
+    <meta property="og:image" content="https://www.sardjv.co.uk{{ page.image }}" />
+    <meta name="twitter:image:src" content="https://www.sardjv.co.uk{{ page.image }}" />
+    {% endif %}
     <meta name="keywords" content="{{ page.keywords }}" />
     <!--[if lt IE 9]>
     <script src="/scripts/html5shiv.min.js"></script>

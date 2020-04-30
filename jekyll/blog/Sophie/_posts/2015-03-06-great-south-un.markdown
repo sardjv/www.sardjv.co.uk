@@ -2,7 +2,7 @@
 layout: blog
 title:  Great South Run	
 nav_title:  Great South Run
-image: blog/sophie/GSRfinish.jpg
+image: /images/blog/sophie/GSRfinish.jpg
   
 tags:
   - great-south-run

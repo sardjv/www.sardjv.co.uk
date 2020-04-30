@@ -2,7 +2,7 @@
 layout: blog
 title:  Nurse Appraisal Conference
 nav_title:  Nurse Appraisal
-image: blog/philip/nurse_appraisal_conference.jpg
+image: /images/blog/philip/nurse_appraisal_conference.jpg
 tags:
   - nurse-appraisal
 author: philip

@@ -2,7 +2,7 @@
 layout: blog
 title: Appraiser Training Evidence
 nav_title: Appraiser Training Evidence
-image: blog/lucie/picture14.jpg
+image: /images/blog/lucie/picture14.jpg
 tags:
   - appraisal
   - system-updates

@@ -2,7 +2,7 @@
 layout: blog
 title: SARD User Event - postponed until March 2021
 nav_title:  User Event - new date
-image: blog/francesca/user_event2.jpg
+image: /images/blog/francesca/user_event2.jpg
 
 tags:
   - customer service

@@ -2,7 +2,7 @@
 layout: blog
 title:  Automatic Reminders
 nav_title: Automatic Reminders
-image: blog/alex/reminders.png
+image: /images/blog/alex/reminders.png
 
 tags:
   - software

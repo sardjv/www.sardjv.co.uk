@@ -2,7 +2,7 @@
 layout: blog
 title: Happy Birthday Mum!
 nav_title:  NHS 70
-image: blog/francesca/nhs_70.jpg
+image: /images/blog/francesca/nhs_70.jpg
 
 tags:
   - nhs

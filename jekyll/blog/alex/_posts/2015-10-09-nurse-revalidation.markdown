@@ -2,7 +2,7 @@
 layout: blog
 title: SARD Nurse and Midwife Revalidation
 nav_title: Nurse and Midwife Revalidation
-image: blog/alex/nurse_revalidation.png
+image: /images/blog/alex/nurse_revalidation.png
 
 tags:
   - development

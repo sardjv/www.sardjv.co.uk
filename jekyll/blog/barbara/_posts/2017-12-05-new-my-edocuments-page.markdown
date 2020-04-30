@@ -2,7 +2,7 @@
 layout: blog
 title: New My eDocuments Page
 nav_title:  New My eDocuments Page
-image: blog/barbara/new_my_edocuments_page.png
+image: /images/blog/barbara/new_my_edocuments_page.png
 tags:
   - development
   - technology

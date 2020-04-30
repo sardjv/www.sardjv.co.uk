@@ -2,7 +2,7 @@
 layout: blog
 title:  Welcome to David Clements our new Customer Support Assistant
 nav_title:  Welcome to David our new Customer Support Assistant
-image: blog/sophie/david-photo-square.jpg
+image: /images/blog/sophie/david-photo-square.jpg
   
 tags:
   - customer support

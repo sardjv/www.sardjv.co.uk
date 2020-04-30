@@ -2,7 +2,7 @@
 layout: blog
 title: Knowing me, Knowing UI
 nav_title:  SARD UI Update
-image: blog/lucie/picture6.png
+image: /images/blog/lucie/picture6.png
 tags:
   - user-interface
   - user-experience

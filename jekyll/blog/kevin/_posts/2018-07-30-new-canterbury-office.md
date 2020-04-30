@@ -2,7 +2,7 @@
 layout: blog
 title: New Canterbury Office
 nav_title: Canterbury Office
-image: blog/kevin/canterbury-innovation-centre.jpg
+image: /images/blog/kevin/canterbury-innovation-centre.jpg
 
 tags:
   - office
