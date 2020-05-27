@@ -1,0 +1,21 @@
+---
+layout: blog
+title: SARD API User Guide
+nav_title: SARD API User Guide
+
+tags:
+- development
+- technology
+author: jordan
+image: /images/blog/jordan/api_user_guide/logo.png
+excerpt: As we continue to build our efficient and robust API, we have decided to take the time to write an API User Guide document.
+
+---
+
+As we continue to build our efficient and robust API, we have decided to take the time to write an API User Guide document.
+This document should give you a quick and easy understanding of the mechanics of making requests to our API.
+Included is an explanation of the necessary headers needed as well as how request bodies and responses are formatted.
+
+The User Guide can be found [here](https://sardjv.s3-eu-west-1.amazonaws.com/user_guides/SARD-User-Guide-API.pdf).
+
+If you want to discover what endpoints are currently available, please check out our API documentation [here](https://demo.sardjv.co.uk/api-docs/index.html).
