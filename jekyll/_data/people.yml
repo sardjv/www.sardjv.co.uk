@@ -58,7 +58,7 @@ philip:
     day you may get to read some of my work when they are on the
     bestsellers list.
     </p>
-    
+
 vicki:
   first_name: Vicki
   last_name: Harden
@@ -142,24 +142,6 @@ christy:
     <p>I’d definitely consider myself a “people-person” and always wish to provide high-quality assistance and service to anyone who wishes it. </p>
 
     <p>I’ve known Kevin and Francesca for several years now and I’ve been made to feel part of the family from my first day.</p>
-
-phoebe:
-  first_name: Phoebe
-  last_name:
-  current_employee: true
-  email: phoebe@sardjv.co.uk
-  role: Customer Support and Charity Champion
-  image400x: people/phoebe400x.jpg
-  profile_page: people/phoebe.html
-  telephone: 020 3519 2064
-  bio: |
-    <p>Hi, I’m a member of the customer support team, on hand to answer any queries on how best to use the site, and help with any difficulties our users may be having.</p>
-
-    <p>I am also one of the Charity Champions for SARD, representing our company, and organising fundraising for our chosen cause of the year which is currently to  support the opening of the new Kent and Medway Medical School. Please see our blog page to see how you can get involved!</p>
-
-    <p>I came to SARD with experience working in customer service, ready to take the skills I had learned from these roles and transfer them to online support; with a want to strengthen and broaden my computer skills and explore a new form of customer support.</p>
-
-    <p>I have been very fortunate to work with the close-knit and dedicated team here at SARD; I have learned even more than I expected to during my first year here. </p>
 
 tristan:
   first_name: Tristan
